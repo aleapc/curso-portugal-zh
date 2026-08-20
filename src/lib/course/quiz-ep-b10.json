@@ -1,0 +1,96 @@
+{
+  "id": "q-b10",
+  "nivel": "basico",
+  "titulo": "小测验 — 你已经能读的那些词",
+  "subtitulo": "一个开启搜索的开场词，以及四个意思不是你以为的招牌",
+  "introAudioKey": "pt-b10-q-i",
+  "introPt": "一名旅行者穿过 Chiado，什么都读，不做任何假设。",
+  "cenario": "里斯本，一个周二早上，步行。",
+  "dialogo": [
+    {
+      "audioKey": "pt-b10-q01",
+      "voz": "target_pt_f",
+      "es": "Desculpe, procuro uma farmácia.",
+      "pt": "打扰一下，我在找药店。",
+      "tts": "Desculpe, procuro uma farmácia."
+    },
+    {
+      "audioKey": "pt-b10-q02",
+      "voz": "target_pt_m",
+      "es": "Há uma ali, à esquerda.",
+      "pt": "那边就有一家，在左边。",
+      "tts": "Há uma ali, à esquerda."
+    },
+    {
+      "audioKey": "pt-b10-q03",
+      "voz": "target_pt_f",
+      "es": "E o multibanco? Onde é a saída?",
+      "pt": "取款机呢？出口在哪里？",
+      "tts": "E o multibanco? Onde é a saída?"
+    },
+    {
+      "audioKey": "pt-b10-q04",
+      "voz": "target_pt_m",
+      "es": "Ao fundo. Empurre a porta.",
+      "pt": "在尽头。推门。",
+      "tts": "Ao fundo. Empurre a porta."
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "门上写 puxe。你的手该怎么做？",
+      "opcoes": [
+        "推，很明显",
+        "拉",
+        "等，是自动门",
+        "侧滑"
+      ],
+      "correta": 1,
+      "explica": "Puxe 是拉，empurre 是推——对英语眼睛来说方向反了。门口是唯一一个搞错立刻被围观的地方。"
+    },
+    {
+      "pergunta": "你看到门口漆着 oficina。里面是什么？",
+      "opcoes": [
+        "有办公桌的办公室",
+        "工作坊——那种把车升在举升机上的",
+        "药店",
+        "市政机关"
+      ],
+      "correta": 1,
+      "explica": "Oficina 是工具意义上的工作场所，在街上通常指修车行。带着西班牙语来的人预期的是相反的意思，那种相似就是整个陷阱。"
+    },
+    {
+      "pergunta": "Procuro 和 onde é 或 tem 有什么不同用途？",
+      "opcoes": [
+        "它是 onde é 的正式版",
+        "当你不知道东西在哪里、或附近有没有时，用它开启搜索",
+        "只用于人，不用于地点",
+        "问价格"
+      ],
+      "correta": 1,
+      "explica": "Onde é 问你知道存在的地方，tem 问这个柜台是不是有这样东西，procuro 邀请对方跟你一起想。"
+    },
+    {
+      "pergunta": "商店门口写 encerrado ao domingo。这告诉你葡萄牙什么？",
+      "opcoes": [
+        "星期日闭店是全国规则",
+        "只是那家店周日休息，别的都不代表",
+        "该店营业执照被吊销",
+        "只有超市可以开"
+      ],
+      "correta": 1,
+      "explica": "零售、服务和餐饮的营业时间自 1996 年起自由，无需事先授权；市政可局部限制。没有全国性的星期日闭店。"
+    },
+    {
+      "pergunta": "酒店表格问 apelido。栏里填什么？",
+      "opcoes": [
+        "昵称",
+        "护照上的姓",
+        "中间名",
+        "酒店名"
+      ],
+      "correta": 1,
+      "explica": "在葡萄牙，apelido 是姓。在葡语世界其他地方它是昵称——所以这个栏最容易让人填错。"
+    }
+  ]
+}

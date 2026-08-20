@@ -1,0 +1,402 @@
+{
+  "id": "b08",
+  "nivel": "basico",
+  "numero": 8,
+  "parte": "B08",
+  "titulo": "Onde é——答案能装进你脑子里的问题",
+  "subtitulo": "对城市里每个地方一个开场,那个地方带着它的小词到达。",
+  "cena": "下午中间的 Baixa 街角:你知道你想要的东西的名字,完全不知道它在哪个方向。",
+  "moldura": "ganha",
+  "frasePiso": "Onde é,加上带冠词的地方。你从不在 o 和 a 之间选,因为你从不遇到单独站的词。",
+  "moldes": [
+    "ONDE-E"
+  ],
+  "clique": {
+    "contagem": [
+      "糕点店柜台",
+      "街角报亭",
+      "地铁入口",
+      "酒店大堂"
+    ],
+    "desconto": "没人给柜台、报亭、车站和大堂发不同的问题。你保持两个词,只改变后面的地方。",
+    "piso": "下次你站在街上,脑子里有一个名字,不知哪个方向,你不会打开地图。你会用四个词问,理解答案。"
+  },
+  "fatosDatados": [
+    {
+      "id": "pt-b08-reducao",
+      "afirmacao": "欧洲葡萄牙语大量缩减非重读元音:在连贯语流中,非重读元音要么被中央化,要么被完全省略,非重读位置的辅音和元音可能失去浊音。已发表的例子是决定性的——desistiu,纸上三个音节,实现为一个带复杂音节起始的单音节。非重读的 e 不是英语意义上的 schwa:它不对应于 schwa 相关的中央中位品质。",
+      "fonte": "Madalena Cruz-Ferreira, «Portuguese (European)», Handbook of the IPA (IPA/Cambridge UP, 1999; = JIPA 25, 1995), verificado verbatim: «In connected speech, unstressed vowels are either centralized or altogether omitted»; desistiu /dɨziʃˈtiu/ → [dzʃˈtiu], «a potentially trisyllabic word is reduced to a monosyllable with a complex onset»; o /ɨ/ «is often represented as [ə] but does not correspond to the mid central quality associated with schwa». ⚠ O ⟨R⟩ fica sem afirmação: a fonte usa /ʀ/ e não discute variação, e a literatura secundária não foi lida em bruto. ⚠ «PE é stress-timed» é atalho contestado (Frota & Vigário, Probus 13/2, 2001).",
+      "ano": 1999,
+      "revisarAte": "2028-08-05",
+      "evidencia": "FATO",
+      "risco": "baixo",
+      "audioKeys": [
+        "pt-b08-n05",
+        "pt-b08-n06"
+      ]
+    },
+    {
+      "id": "pt-b08-tratamento",
+      "afirmacao": "欧洲葡萄牙语中的礼貌形式是根本没有主语代词的第三人称。关于称呼形式的已发表工作记录,单数「你」代词在多数情况下不可接受,尤其在有社会地位或年龄差异的地方,在接近标准的变体中几乎不可接受,一般被视为粗鲁或至少不礼貌。同一著作命名零代词为避免不恰当使用该代词产生的误解的方式。复数 vocês 是另一回事,普通。",
+      "fonte": "Isabel Margarida Duarte, «Formas de tratamento em português: entre léxico e discurso», Matraga 18(28), 2011, pp. 84-101 (Repositório Aberto da U. Porto, PDF verificado), verbatim: «você» é «inaceitável na maior parte dos casos, sobretudo sempre que exista dissimetria social ou de idade»; «Nas variedades mais próximas da norma, o «você» é quase inadmissível, geralmente sentido como grosseiro ou, pelo menos, pouco cortês»; o pronome nulo Ø «permite evitar os mal-entendidos decorrentes de um uso inapropriado de você». ⚠ Marques & Duarte (Revista da APL 5, 2019) registam «grande instabilidade» e «uma relativa variação diatópica»; Lopes & Mota (2019) é amostra de 34 pessoas só em Lisboa e não foi verificada verbatim.",
+      "ano": 2011,
+      "revisarAte": "2028-08-05",
+      "evidencia": "FATO",
+      "risco": "baixo",
+      "audioKeys": [
+        "pt-b08-n08"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "pt-b08-n01",
+      "gesto": 1,
+      "bloco": "aquecimento",
+      "tom": "ganha",
+      "pt": "你知道那个地方的名字。你不知道它在哪个方向,标志在拐角。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "pt-b08-n02",
+      "bloco": "molde",
+      "tom": "ganha",
+      "pt": "这是「积木」:onde é,然后是那个地方。哪里是——然后是你要去的任何地方。"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_pt_f",
+      "audioKey": "pt-b08-t01",
+      "es": "Onde é a casa de banho?",
+      "pinyin": "OND eh a KA-za d' BA-nyu",
+      "pt": "厕所在哪里?",
+      "tts": "Onde é a casa de banho?"
+    },
+    {
+      "consulta": [
+        "chegar/entrar"
+      ],
+      "tipo": "responde",
+      "voz": "target_pt_f",
+      "molde": "ONDE-E",
+      "encaixe": "a casa de banho",
+      "tom": "ganha",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "pt-b08-p01",
+      "promptPt": "你在糕点店柜台前拿着咖啡站了二十分钟,后面有一扇门。现在开口。",
+      "audioKey": "pt-b08-t01",
+      "es": "Onde é a casa de banho?",
+      "pinyin": "OND eh a KA-za d' BA-nyu",
+      "pt": "厕所在哪里?",
+      "tts": "Onde é a casa de banho?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "pt-b08-n03",
+      "bloco": "corpo",
+      "tom": "ganha",
+      "pt": "地方带着小词到达:a casa de banho、a estação、o multibanco。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "pt-b08-n04",
+      "tom": "ganha",
+      "pt": "你从不在 o 和 a 之间选,因为你从不遇到单独站的词。"
+    },
+    {
+      "consulta": [
+        "transporte/qual-trem",
+        "chegar/balcao"
+      ],
+      "tipo": "responde",
+      "voz": "target_pt_f",
+      "molde": "ONDE-E",
+      "encaixe": "a estação",
+      "tom": "ganha",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "pt-b08-p02",
+      "promptPt": "火车半小时后出发,你在 Baixa 的某个地方,街角报亭的女士抬起头。现在开口。",
+      "audioKey": "pt-b08-t02",
+      "es": "Onde é a estação?",
+      "pinyin": "OND eh a sh-ta-SOWNG",
+      "pt": "车站在哪里?",
+      "tts": "Onde é a estação?"
+    },
+    {
+      "consulta": [
+        "transporte/plataforma"
+      ],
+      "tipo": "responde",
+      "voz": "target_pt_f",
+      "molde": "ONDE-E",
+      "encaixe": "a paragem",
+      "tom": "ganha",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "pt-b08-p03",
+      "promptPt": "你要的号码沿这条街跑,你在两个方向都看不到候车亭。现在开口。",
+      "audioKey": "pt-b08-t03",
+      "es": "Onde é a paragem?",
+      "pinyin": "OND eh a pa-RA-zheng",
+      "pt": "公交车站在哪里?",
+      "tts": "Onde é a paragem?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_pt_m",
+      "audioKey": "pt-b08-r01",
+      "es": "É logo ali, na esquina.",
+      "pinyin": "eh LO-gu a-LEE, na sh-KEE-na",
+      "pt": "就在那里,在拐角。",
+      "tts": "É logo ali, na esquina.",
+      "receptivo": true,
+      "acao": "Logo ali 意思是近到不用再查就能走过去。找拐角,不找标志。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "pt-b08-n05",
+      "tom": "ganha",
+      "pt": "现在听。纸上,desistiu 有三个音节。快速说出来是一个。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "pt-b08-n06",
+      "tom": "ganha",
+      "pt": "非重读元音被推到中央或丢弃。你在猎捕没人说的音节。"
+    },
+    {
+      "consulta": [
+        "chegar/sair"
+      ],
+      "tipo": "responde",
+      "voz": "target_pt_f",
+      "molde": "DESCULPE",
+      "encaixe": "onde é a saída",
+      "tom": "ganha",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "pt-b08-p04",
+      "promptPt": "地铁入口下有四条隧道,一个穿 Carris 夹克的男人从你身边走过。先问候词。现在开口。",
+      "audioKey": "pt-b08-t04",
+      "es": "Desculpe, onde é a saída?",
+      "pinyin": "d'sh-KOOLP, OND eh a sa-EE-da",
+      "pt": "对不起,出口在哪里?",
+      "tts": "Desculpe, onde é a saída?"
+    },
+    {
+      "consulta": [
+        "quarto/pedir"
+      ],
+      "tipo": "responde",
+      "voz": "target_pt_f",
+      "molde": "ONDE-E",
+      "encaixe": "o elevador",
+      "tom": "ganha",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "pt-b08-p05",
+      "promptPt": "四楼,两个包,酒店大堂是没有明显门的小房间迷宫。现在开口。",
+      "audioKey": "pt-b08-t05",
+      "es": "Onde é o elevador?",
+      "pinyin": "OND eh u ee-l'-va-DOR",
+      "pt": "电梯在哪里?",
+      "tts": "Onde é o elevador?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_pt_m",
+      "audioKey": "pt-b08-r02",
+      "es": "Suba as escadas e vire à esquerda.",
+      "pinyin": "SOO-ba ash sh-KA-dash ee VEE-r' ah sh-KER-da",
+      "pt": "上楼梯,向左转。",
+      "tts": "Suba as escadas e vire à esquerda.",
+      "receptivo": true,
+      "acao": "一口气两条指令。做第一条,在顶部停,再决定第二条前看看。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "pt-b08-n07",
+      "bloco": "capsula",
+      "tom": "ganha",
+      "pt": "所以要一个短答案。指,然后用 é longe 确认。左、右、直、两条街。"
+    },
+    {
+      "consulta": [
+        "pagar/dinheiro"
+      ],
+      "tipo": "responde",
+      "voz": "target_pt_f",
+      "molde": "ONDE-E",
+      "encaixe": "o multibanco",
+      "tom": "ganha",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "pt-b08-p06",
+      "promptPt": "你刚走进的地方要现金,你口袋里有 11 欧元。问门口的男人。现在开口。",
+      "audioKey": "pt-b08-t06",
+      "es": "Onde é o multibanco?",
+      "pinyin": "OND eh u mool-tee-BANG-ku",
+      "pt": "取款机在哪里?",
+      "tts": "Onde é o multibanco?"
+    },
+    {
+      "consulta": [
+        "saude/algo-para"
+      ],
+      "tipo": "responde",
+      "voz": "target_pt_f",
+      "molde": "ONDE-E",
+      "encaixe": "a farmácia",
+      "tom": "ganha",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "pt-b08-p07",
+      "promptPt": "你的头从午餐后越来越糟,街角报亭卖报纸,不卖药。现在开口。",
+      "audioKey": "pt-b08-t07",
+      "es": "Onde é a farmácia?",
+      "pinyin": "OND eh a f'r-MA-see-a",
+      "pt": "药店在哪里?",
+      "tts": "Onde é a farmácia?"
+    },
+    {
+      "consulta": [
+        "chegar/balcao",
+        "transporte/placas"
+      ],
+      "tipo": "responde",
+      "voz": "target_pt_f",
+      "molde": "TEM",
+      "encaixe": "um mapa",
+      "tom": "ganha",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "pt-b08-p08",
+      "promptPt": "回到糕点店柜台,手机 4% 电,纸能在没电时存活。现在开口。",
+      "audioKey": "pt-b08-t08",
+      "es": "Tem um mapa?",
+      "pinyin": "TENG oong MA-pa",
+      "pt": "有地图吗?",
+      "tts": "Tem um mapa?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "pt-b08-n08",
+      "tom": "ganha",
+      "pt": "说的时候里面没有「你」这个词。第三人称,没有点名,落地成礼貌。"
+    },
+    {
+      "consulta": [
+        "chegar/balcao"
+      ],
+      "tipo": "responde",
+      "voz": "target_pt_f",
+      "tom": "ganha",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "pt-b08-p09",
+      "promptPt": "他指向一条街,开始描述其余。在他继续前把它切成「是」或「不是」。现在开口。",
+      "audioKey": "pt-b08-t09",
+      "es": "É longe daqui?",
+      "pinyin": "eh LONG-zh' da-KEE",
+      "pt": "离这里远吗?",
+      "tts": "É longe daqui?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_pt_m",
+      "audioKey": "pt-b08-r03",
+      "es": "Não, são cinco minutos a pé.",
+      "pinyin": "nowng, sowng SEENG-ku mee-NOO-tush a PEH",
+      "pt": "不,步行五分钟。",
+      "tts": "Não, são cinco minutos a pé.",
+      "receptivo": true,
+      "acao": "A pé 是步行。走过去,把票留在口袋里,以后跳得更远时用。"
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_pt_f",
+      "audioKey": "pt-b08-s01",
+      "es": "Onde é a paragem? Onde é o elevador? Onde é a farmácia?",
+      "pinyin": "OND eh a pa-RA-zheng. OND eh u ee-l'-va-DOR. OND eh a f'r-MA-see-a",
+      "pt": "跟读同两个词穿过三个毫无共同点的地方。",
+      "tts": "Onde é a paragem? Onde é o elevador? Onde é a farmácia?",
+      "molde": "ONDE-E"
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_en_us_f",
+      "audioKey": "pt-b08-n09",
+      "bloco": "recap",
+      "tom": "ganha",
+      "pt": "B08 完成。Onde é,加上带冠词的地方,在四个不同的门。"
+    }
+  ],
+  "aprofundar": {
+    "titulo": "两个词,以及城市里的每扇门",
+    "secoes": [
+      {
+        "titulo": "Onde é 加地方",
+        "corpo": "保持 onde é,后面放街上的人能指的任何地方。开场永不变,不带代词;你声音在末尾上升是整个问题。你也会听到同样功能的 onde fica,两者都在使用。本课程给一种形式并重复,因为两种形式之间有细微差别是你在人行道上不需要的决定。",
+        "exemplos": [
+          {
+            "es": "Onde é a estação?",
+            "pt": "车站在哪里?"
+          },
+          {
+            "es": "Onde é o multibanco?",
+            "pt": "取款机在哪里?"
+          }
+        ]
+      },
+      {
+        "titulo": "地方作为一块到达",
+        "corpo": "葡萄牙语名词是阳性或阴性,性别住在前面的小词里。那是一个真实的系统,不要求你在压力下学。这部分里每个地方都已装配好到达——a casa de banho、a estação、a paragem、o elevador、o multibanco、a farmácia——就像你学电话号码的方式。你从不看到裸名词,所以从来没有可搞错的选择。"
+      },
+      {
+        "titulo": "为什么回答听起来比词短",
+        "corpo": "这就是让人们说字母被吃掉的东西。在连贯语流中,这里非重读元音要么被推到中央性,要么完全丢弃,周围的辅音可能失去浊音。已发表的例子是 desistiu:纸上三个音节,说一个音节,前面堆着一堆辅音。什么都没被吞——你在搜索从未发出的音节。听重读的那个,让其余的走。"
+      },
+      {
+        "titulo": "问一个有短答案的问题",
+        "corpo": "在你才学三天的语言里一长串方向不是信息,是噪音。所以把问题瞄准你能行动的东西:指,问 onde é,然后用 é longe daqui 收窄。左、右、直走、步行五分钟、两站——那些你能记住,如果失去线索,同两个词对下一个人再管用。"
+      },
+      {
+        "titulo": "Largo、Praça、Cais——街标上的词",
+        "corpo": "地名带着自己的词汇,值得读而不是产出。Largo 和 Praça 都是开放广场,Rua 是街道,Travessa 是短横街,Calçada 是陡的石板街,Cais 是码头边。如果你带着西班牙语到达,注意葡萄牙语的 largo 意思是宽,不是长——一个小陷阱,一族跨越边境看起来完全相同但不同的词的一员。那一族后面自己有一部分。"
+      }
+    ]
+  },
+  "slot": "B08",
+  "permissao": "你被允许问一个你不会听懂完整答案的问题,然后把答案切到你能带走的东西。指、问 onde é,然后跟 é longe daqui——「是」、「不是」或一只手就是完整结果。你也被允许在城市每扇门使用完全一样的两个词,你被允许只带方向而不带细节走。",
+  "permissaoAudioKey": "pt-b08-n07",
+  "espelho": "任何在家街上被拦下问路的人以同样方式给方向:前半有用,其余是他们个人会走的路线。切短不是粗鲁,是本地问路人也会做的。",
+  "fichasCulturais": [
+    {
+      "sinal": "你想礼貌,所以伸手用意思是「你」的词,交流温度下降。",
+      "suaLeitura": "葡萄牙语一定有礼貌的「你」词,像邻近语言,用它是礼貌之举。",
+      "oQueEAli": "关于欧洲葡萄牙语称呼的已发表工作记录,单数「你」代词在多数情况下不可接受,尤其有任何年龄或地位差异时,在接近标准的变体中几乎不可接受,一般被视为粗鲁。同一著作命名的清爽出路是零代词:第三人称,根本没有主语。Onde é、tem、pode、queria——礼貌已经在动词里。",
+      "oQueVoceFaz": "说句子时里面没有代词。如果需要点名那个人,o senhor 和 a senhora 是安全的名词形式。",
+      "oQueMelhora": "你得到礼貌语域而没什么可选,语言中最贵的一个词永远不从你嘴里出来。",
+      "ondeNaoVale": "复数 vocês 完全可接受,你会不断听到——难点只在单数。经验图景也不稳定:文献报告地区和社会群体之间相当变化,唯一可用的可接受性测试涵盖里斯本 34 人,未完整阅读。这是给访客的规则,不是对任何人在家怎么说话的判决。",
+      "evidencia": "FATO",
+      "audioKeys": [
+        "pt-b08-n08"
+      ]
+    },
+    {
+      "sinal": "你读标志上的词,听某人说,两者似乎不是同一个词。",
+      "suaLeitura": "他们说得马虎,或者对初学者来说太快,字母被吞了。",
+      "oQueEAli": "它是系统性的,在参考语音文献中有描述:在连贯语流中,非重读元音要么被中央化,要么完全丢弃,非重读辅音和元音可能失去浊音。教科书例子是 desistiu,可能三个音节,实现为一个前面有复杂簇的单音节。非重读的 e 是特定的中央元音,来源仔细说它不是英语使用者想的 schwa。",
+      "oQueVoceFaz": "停止把你听到的与拼写匹配。找重读音节,把它当作词的形状,接受其余的可能不在那里。",
+      "oQueMelhora": "语音停止听起来快,开始听起来压缩,那是你能学会听的东西。你自己的词也改善,因为你停止给每个书面元音同等分量。",
+      "ondeNaoVale": "这描述连贯语流,不是仔细语流:有人为你重复词会把元音放回,这就是 pode repetir 管用的原因。它没说任何人来自哪个地区,本课程对国家不同部分 r 如何发音完全不作声明,因为能解决它的来源没读原文。",
+      "evidencia": "FATO",
+      "audioKeys": [
+        "pt-b08-n05",
+        "pt-b08-n06"
+      ]
+    }
+  ]
+}

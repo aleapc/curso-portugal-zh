@@ -1,0 +1,109 @@
+{
+  "id": "q-b04",
+  "nivel": "basico",
+  "titulo": "小测验 — 在自家餐桌上先解决的四件事",
+  "subtitulo": "起飞前的那通电话，以及会过期的四个项目",
+  "introAudioKey": "pt-b04-q-i",
+  "introPt": "起飞前十天，给里斯本一家民宿打的四分钟电话。",
+  "cenario": "起飞前十天，你自家的餐桌。",
+  "dialogo": [
+    {
+      "audioKey": "pt-b04-q01",
+      "voz": "target_pt_m",
+      "es": "Pensão do Bairro, boa tarde.",
+      "pt": "Pensão do Bairro，下午好。",
+      "tts": "Pensão do Bairro, boa tarde."
+    },
+    {
+      "audioKey": "pt-b04-q02",
+      "voz": "target_pt_f",
+      "es": "Boa tarde. Tenho uma reserva para dia doze. Qual é a morada, se faz favor?",
+      "pt": "下午好。我预订了 12 号。请问地址是什么？",
+      "tts": "Boa tarde. Tenho uma reserva para dia doze. Qual é a morada, se faz favor?"
+    },
+    {
+      "audioKey": "pt-b04-q03",
+      "voz": "target_pt_m",
+      "es": "É na Rua dos Remédios, número quarenta e dois.",
+      "pt": "在 Rua dos Remédios，42 号。",
+      "tts": "É na Rua dos Remédios, número quarenta e dois."
+    },
+    {
+      "audioKey": "pt-b04-q04",
+      "voz": "target_pt_f",
+      "es": "Chego às onze da noite. A receção está aberta a essa hora?",
+      "pt": "我晚上十一点到。那个时间前台开着吗？",
+      "tts": "Chego às onze da noite. A receção está aberta a essa hora?"
+    },
+    {
+      "audioKey": "pt-b04-q05",
+      "voz": "target_pt_m",
+      "es": "Está sim, há sempre alguém. E aceitamos cartão e dinheiro.",
+      "pt": "开着，是的——一直有人。我们收卡也收现金。",
+      "tts": "Está sim, há sempre alguém. E aceitamos cartão e dinheiro."
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "你想知道民宿所在的街道。表格、司机和店主用的是哪个词？",
+      "opcoes": ["Endereço", "Direção", "Morada", "Local"],
+      "correta": 2,
+      "explica": "Morada 是葡萄牙用来指街道地址的词。每份表格会问的是它，司机复述给你的也是它。"
+    },
+    {
+      "pergunta": "在 chego às onze 里，às 的 s 发生了什么？",
+      "opcoes": [
+        "完全消失",
+        "变成 z，因为后面跟着元音",
+        "变成英语里那种硬 s",
+        "重叠"
+      ],
+      "correta": 1,
+      "explica": "词尾的 s 通常发 sh；元音前浊化成 z，浊辅音前变成轻的 zh。就这一个习惯，解释了书面语和口语之间大量的差距。"
+    },
+    {
+      "pergunta": "在里斯本你觉得不舒服。去医院之前先拨 808 24 24 24 实际会改变什么？",
+      "opcoes": [
+        "什么都不改——它只是信息热线",
+        "为你预约一个私人诊所",
+        "由该线路转介，你可免除急诊挂号费",
+        "它可以替代旅行保险"
+      ],
+      "correta": 2,
+      "explica": "国家系统的使用费在 2022 年几乎全部取消，主要保留在未经转介的急诊。由 SNS 24 或救护车服务转到急诊的患者，就诊本身以及就诊中所做的检查均免费。"
+    },
+    {
+      "pergunta": "欧洲医保卡——EHIC 或 GHIC——在葡萄牙实际能给你什么？",
+      "opcoes": [
+        "任何接待游客的诊所",
+        "SNS 的国家医疗服务，与本地人同价",
+        "私人医疗，公立作为兜底",
+        "与旅行保险相同的保障"
+      ],
+      "correta": 1,
+      "explica": "它覆盖医学上必需的国家医疗服务，按居民条件收费，包括原有慢性病、怀孕和分娩。私人诊所里它一分钱都不管，它也不是旅行保险——遣返和私人治疗都不在范围内。"
+    },
+    {
+      "pergunta": "一家咖啡馆柜台上摆着 POS 机，还贴着 五欧元起 的告示。这合法吗？",
+      "opcoes": [
+        "不合法——有 POS 机就必须使用",
+        "只有超过十欧元时可以",
+        "合法——这里没有普遍接受卡的义务，事先声明最低消费是合法的",
+        "只在旅游区可以"
+      ],
+      "correta": 2,
+      "explica": "最清楚的证据是：2020 年 3 月出台过一份特别法令，禁止有 POS 机的商家拒收卡，六月就到期了。带点硬币，这个问题就不会出现。"
+    },
+    {
+      "pergunta": "你计划 2026 年 5 月初在阿尔加维过一周海滩假期。什么值得先查？",
+      "opcoes": [
+        "水温",
+        "游泳季日期——只有在这段时间沙滩上才有救生员",
+        "沙滩是否是私人的",
+        "旗子颜色是否和家乡一样"
+      ],
+      "correta": 1,
+      "explica": "游泳季每年由部长令确定。2026 年 Albufeira 从 5 月 15 日到 10 月 15 日，阿尔加维大部分其他市镇是 6 月 1 日到 9 月 30 日，所以 5 月上旬可能同时是温暖、空旷且无人看守的。"
+    }
+  ]
+}

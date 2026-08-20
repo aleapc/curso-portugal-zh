@@ -1,0 +1,403 @@
+{
+  "id": "a04",
+  "nivel": "avancado",
+  "numero": 32,
+  "parte": "A04",
+  "slot": "A04",
+  "titulo": "别人递给你的那场争论",
+  "subtitulo": "一份自 2009 年起生效、此后一直被挑战的正字法协定,一段仍在国家最高层被辩论的殖民史,以及一场大多带着感情的城市互相调侃 —— 一句话就可以婉拒这三样,而不必让这个夜晚提前结束",
+  "cena": "晚上九点,盘子已经撤走,有人刚把他对正字法协定的看法完整地说了出来,整桌人都转过头等你下判决。",
+  "moldura": "ganha",
+  "frasePiso": "一句话婉拒判决,一个问题把话筒还回去。这两样合在一起,比你可能带来的任何观点都值钱。",
+  "moldes": [],
+  "fatosDatados": [
+    {
+      "id": "pt-a04-acordo",
+      "afirmacao": "《正字法协定》于 1990 年 12 月 16 日签署,自 2009 年 5 月 13 日起在葡萄牙国内法秩序中生效,并由部长会议第 8/2011 号决议强制施行 —— 从 2011-12 学年起适用于教育系统,从 2012 年 1 月 1 日起适用于国家机关。它一直有争议:一项要求中止或废止该协定的公民立法倡议在 2019 年提交了两万多份签名。日期和法律工具是事实;这份协定是好、是有正当性、能不能撤回,则是两边都有人持有的立场,本课程不持任何一方。",
+      "fonte": "Acordo Ortográfico assinado em 16.12.1990; vigência na ordem interna desde 13.05.2009; RCM n.º 8/2011 (sistema educativo em 2011-12, Estado desde 01.01.2012); iniciativa legislativa de cidadãos pela suspensão/revogação com mais de 20 mil assinaturas entregues em 2019 — ⚠️ noticiada pela imprensa, REGISTO PARLAMENTAR PRIMÁRIO NÃO VERIFICADO",
+      "ano": 2019,
+      "revisarAte": "2029-08-05",
+      "evidencia": "FATO",
+      "risco": "medio",
+      "audioKeys": [
+        "pt-a04-n02",
+        "pt-a04-n03",
+        "pt-a04-n04"
+      ]
+    },
+    {
+      "id": "pt-a04-colonial",
+      "afirmacao": "殖民战争从 1961 年打到 1974 年;1974 年 4 月 25 日终结了政权,之后几个独立日期依次为:几内亚比绍于 1974 年 9 月 10 日获承认,莫桑比克于 1975 年 6 月 25 日,佛得角于 1975 年 7 月 5 日,圣多美和普林西比于 1975 年 7 月 12 日,安哥拉于 1975 年 11 月 11 日,东帝汶于 1975 年 11 月 28 日。里斯本拟建的『发现博物馆』2017 至 2018 年间被提出,引来学界的一封反对公开信,最终从未建成。2024 年 4 月 24 日,共和国总统承认了殖民时代与奴隶制罪行方面的责任,并提及赔偿,政治反应分化。本课程采取的立场:无 —— 只记录辩论存在,且已两极化。",
+      "fonte": "Guerra Colonial 1961–1974; 25 de abril de 1974; independências: Guiné-Bissau 10.09.1974, Moçambique 25.06.1975, Cabo Verde 05.07.1975, São Tomé e Príncipe 12.07.1975, Angola 11.11.1975, Timor-Leste 28.11.1975; projeto do «Museu das Descobertas» (2017-2018) com carta aberta de académicos, nunca concretizado; declaração do Presidente da República em 24.04.2024, com reações políticas divergentes",
+      "ano": 2024,
+      "revisarAte": "2029-08-05",
+      "evidencia": "FATO",
+      "risco": "medio",
+      "audioKeys": [
+        "pt-a04-n06",
+        "pt-a04-n07",
+        "pt-a04-n08",
+        "pt-a04-n09"
+      ]
+    },
+    {
+      "id": "pt-a04-brasil",
+      "afirmacao": "2024 年 12 月 31 日,葡萄牙境内共有 1.543.697 名外籍居民,其中 484.596 人是巴西人 —— 占 31,4%,遥遥领先地是最大的单一群体。关于学校里巴西口音和词汇的公开辩论有据可查,至少可以追溯到 2021 年 11 月《Diário de Notícias》的一篇报道,该报道后来被一篇同行评审文章分析过。任何机构性来源都没有量化过所谓歧视的规模,因此这里不给出这方面的度量。对一位访客而言,可执行的规则比上面这些都要窄:这不是可以拿来闲聊的中性话题,一位客人对此的看法,对桌上任何一个人都不值分文。",
+      "fonte": "AIMA, «Relatório de Migrações e Asilo 2024» (publicado em 2025): 1.543.697 estrangeiros residentes a 31.12.2024, dos quais 484.596 brasileiros (31,4%); debate documentado em peça do Diário de Notícias de novembro de 2021, analisada em Toledo & Faria, «Todas as Letras», 2023. ⚠️ Item 16 da lista «O que NÃO entra no curso»: a DIMENSÃO de eventual discriminação não está quantificada por fonte institucional e não é afirmada.",
+      "ano": 2024,
+      "revisarAte": "2027-08-05",
+      "evidencia": "FATO",
+      "risco": "medio",
+      "audioKeys": [
+        "pt-a04-n10"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "pt-a04-n01",
+      "gesto": 3,
+      "bloco": "aquecimento",
+      "tom": "ganha",
+      "pt": "这里在跑三场争论,而你至少会隔着一张桌子接到其中一场。三场里,没有一场是你的。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "pt-a04-n02",
+      "bloco": "corpo",
+      "pt": "第一场是关于拼写。1990 年签的协定,2009 年起在国内法秩序中生效。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "pt-a04-n03",
+      "pt": "2011 年推到学校,第二年 1 月推到国家机关。从那之后一直被挑战。"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_pt_m",
+      "audioKey": "pt-a04-r01",
+      "es": "Eu escrevo à antiga. Não mudo por decreto nenhum.",
+      "pinyin": "ew 'sh-KREH-voo ah ang-TEE-guh. nowng MOO-doo poor d'KREH-too n'NYOONG",
+      "pt": "👂『我按老写法写。哪条法令都改不了我。』—— 一个立场,带着情绪,当着你的面说出来。",
+      "tts": "Eu escrevo à antiga. Não mudo por decreto nenhum.",
+      "receptivo": true,
+      "acao": "接住那份兴趣,别下判决。那句话里没有任何一处是在向你要认同。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "pt-a04-n04",
+      "pt": "2019 年有一项要求中止协定的公民倡议提交了两万多份签名。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "pt-a04-n05",
+      "pt": "哪边有理是一个立场,而这个立场不属于你可以持有的那种。你能做的是问他们这件事让他们的生活变了什么。"
+    },
+    {
+      "consulta": [
+        "simpatia/puxar-conversa"
+      ],
+      "tipo": "responde",
+      "voz": "target_pt_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "pt-a04-p01",
+      "promptPt": "整桌人静下来,转向你,要你替一件比你年纪还大的事下个判决。老实回答。现在说。",
+      "audioKey": "pt-a04-t01",
+      "es": "Não sei o suficiente para julgar.",
+      "pinyin": "nowng SAY oo soo-fee-see-ENT' puh-ruh zhool-GAR",
+      "pt": "我了解得不够,没法下判断。",
+      "tts": "Não sei o suficiente para julgar."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_pt_f",
+      "audioKey": "pt-a04-r02",
+      "es": "Uns escrevem assim, outros assim. Cada um faz como quer.",
+      "pinyin": "oonz 'sh-KREH-veng uh-SEENG, OH-troosh uh-SEENG. KAH-duh oong fash KOH-moo KEHR",
+      "pt": "👂『有的人这么写,有的人那么写。各人按自己的来。』—— 你在招牌上、菜单上会看到两种。",
+      "tts": "Uns escrevem assim, outros assim. Cada um faz como quer.",
+      "receptivo": true,
+      "acao": "两种拼写都当作有意义的东西读下来,谁的都不要去纠正。你的词典在那张桌子上不算证据。"
+    },
+    {
+      "consulta": [
+        "simpatia/puxar-conversa"
+      ],
+      "tipo": "responde",
+      "voz": "target_pt_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "pt-a04-p02",
+      "promptPt": "他给了你一个强势的观点,然后就停了。别去对峙,把话筒放回他手里。现在说。",
+      "audioKey": "pt-a04-t02",
+      "es": "E o que é que acha?",
+      "pinyin": "ee oo k'EH k' AH-shuh",
+      "pt": "那您怎么看?",
+      "tts": "E o que é que acha?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "pt-a04-n06",
+      "bloco": "corpo",
+      "pt": "第二场是殖民史,而且是活的 —— 在国家最高层,不只是研讨室里。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "pt-a04-n07",
+      "pt": "战争从 1961 打到 1974。之后是六场独立,最后一场在 1975 年 11 月。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "pt-a04-n08",
+      "pt": "2024 年 4 月,总统承认了那个时代的罪行的责任。政治反应分化。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "pt-a04-n09",
+      "pt": "里斯本拟建的一座博物馆招来了学界一封公开信,最终从未建成。这就是温度。"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_pt_m",
+      "audioKey": "pt-a04-r03",
+      "es": "Isso é história antiga. E ainda se discute todos os anos.",
+      "pinyin": "EE-soo EH 'sh-TAW-ryuh ang-TEE-guh. ee uh-EEN-duh s' d'sh-KOOT' TOH-dooz ooz AH-noosh",
+      "pt": "👂『那都是老历史了。可年年还在讨论。』—— 两半话同时都是真的。",
+      "tts": "Isso é história antiga. E ainda se discute todos os anos.",
+      "receptivo": true,
+      "acao": "把这个矛盾原样接住,不要去调和它。『既老又还活着』就是准确的描述,它不需要任何观点。"
+    },
+    {
+      "consulta": [
+        "simpatia/puxar-conversa"
+      ],
+      "tipo": "responde",
+      "voz": "target_pt_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "pt-a04-p03",
+      "promptPt": "你不小心踩到了一件事,房间里的温度动了一下。把这一点老实说出来。现在说。",
+      "audioKey": "pt-a04-t03",
+      "es": "Não sabia que era um assunto sensível.",
+      "pinyin": "nowng suh-BEE-uh k' EH-ruh oong uh-SOON-too seng-SEE-vel",
+      "pt": "我不知道这是个敏感话题。",
+      "tts": "Não sabia que era um assunto sensível."
+    },
+    {
+      "consulta": [
+        "simpatia/puxar-conversa",
+        "reparo/ingles"
+      ],
+      "tipo": "responde",
+      "voz": "target_pt_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "pt-a04-p04",
+      "promptPt": "有人想知道你在这个国家最古老的争吵里站哪边。说出你在这里实际的身份。现在说。",
+      "audioKey": "pt-a04-t04",
+      "es": "Estou cá só de visita.",
+      "pinyin": "shTOH kah saw d' v'ZEE-tuh",
+      "pt": "我只是来这里做客的。",
+      "tts": "Estou cá só de visita."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "pt-a04-n10",
+      "pt": "第三个话题,是语言意义上『隔壁那个国家』—— 在这上头,一位客人的意见分文不值。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "pt-a04-n11",
+      "bloco": "capsula",
+      "pt": "然后是那些轻的话题,它们全天都在跑。这座城对那座城,首都对其他所有地方。"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_pt_m",
+      "audioKey": "pt-a04-r04",
+      "es": "Ó pá, em Lisboa não sabem fazer isto.",
+      "pinyin": "aw PAH, eng leezh-BOH-uh nowng SAH-beng fuh-ZEHR EESH-too",
+      "pt": "👂『哎哟,里斯本人根本不会做这个。』—— 这是一场家里的争吵,专门为你的娱乐开场。",
+      "tts": "Ó pá, em Lisboa não sabem fazer isto.",
+      "receptivo": true,
+      "acao": "享受它,别参与打分。附和一句,这次旅行剩下的日子里,那另一座城就跟你没关系了。"
+    },
+    {
+      "consulta": [
+        "simpatia/puxar-conversa"
+      ],
+      "tipo": "responde",
+      "voz": "target_pt_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "pt-a04-p05",
+      "promptPt": "他们还是笑着追问你,手里举着杯子。选一把你真想坐的椅子。现在说。",
+      "audioKey": "pt-a04-t05",
+      "es": "Prefiro ouvir.",
+      "pinyin": "pr'FEE-roo oh-VEER",
+      "pt": "我更想听。",
+      "tts": "Prefiro ouvir."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_pt_f",
+      "audioKey": "pt-a04-r05",
+      "es": "Deixa lá o rapaz. Nem nós concordamos uns com os outros.",
+      "pinyin": "DAY-shuh lah oo rr'PASH. neng NAWSH kong-koor-DAH-moosh oongsh kong ooz OH-troosh",
+      "pt": "👂『放过这小伙子吧,我们自己人也从来对不上号。』—— 你的『不下判决』被读成尊重,而不是逃避。",
+      "tts": "Deixa lá o rapaz. Nem nós concordamos uns com os outros.",
+      "receptivo": true,
+      "acao": "原地不动。夜晚绕着你继续走,你还在里面。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "pt-a04-n12",
+      "bloco": "permissao",
+      "pt": "说『你了解得不够』不是打太极。在一个国家待了一周之后,这就是恰好是真话。"
+    },
+    {
+      "consulta": [
+        "simpatia/puxar-conversa"
+      ],
+      "tipo": "responde",
+      "voz": "target_pt_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "pt-a04-p06",
+      "promptPt": "把这个夜晚,从你没立场的国家级争吵里,搬到窗外那条街上。现在说。",
+      "audioKey": "pt-a04-t06",
+      "es": "O que é que mudou aqui nos últimos anos?",
+      "pinyin": "oo k'EH k' moo-DOH uh-KEE nooz OOL-tee-moosh AH-noosh",
+      "pt": "这几年这里变了什么?",
+      "tts": "O que é que mudou aqui nos últimos anos?"
+    },
+    {
+      "consulta": [
+        "simpatia/puxar-conversa",
+        "mesa/comida"
+      ],
+      "tipo": "responde",
+      "voz": "target_pt_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "pt-a04-p07",
+      "promptPt": "正在吵着的四个人对这一段海岸的了解比任何指南都多。把这场争吵转成你能用的东西。现在说。",
+      "audioKey": "pt-a04-t07",
+      "es": "E onde é que se come melhor?",
+      "pinyin": "ee OND' EH k' s' KOH-m' m'LYOR",
+      "pt": "那哪里吃得最好?",
+      "tts": "E onde é que se come melhor?",
+      "tom": "ganha"
+    },
+    {
+      "consulta": [
+        "simpatia/agradecer",
+        "simpatia/puxar-conversa"
+      ],
+      "tipo": "responde",
+      "voz": "target_pt_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "pt-a04-p08",
+      "promptPt": "争论自己燃尽了,两边都还在笑。用一句真话把它收起来。现在说。",
+      "audioKey": "pt-a04-t08",
+      "es": "Foi bom ouvir os dois lados.",
+      "pinyin": "foy BONG oh-VEER oosh DOYSH LAH-doosh",
+      "pt": "能听到两边的说法真好。",
+      "tts": "Foi bom ouvir os dois lados.",
+      "tom": "ganha"
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_pt_f",
+      "audioKey": "pt-a04-s01",
+      "es": "Não sei o suficiente para julgar. Prefiro ouvir. E o que é que acha?",
+      "pinyin": "nowng SAY oo soo-fee-see-ENT' puh-ruh zhool-GAR · pr'FEE-roo oh-VEER · ee oo k'EH k' AH-shuh",
+      "pt": "跟读这三句 —— 婉拒下判决,让整场晚会继续跑下去。",
+      "tts": "Não sei o suficiente para julgar. Prefiro ouvir. E o que é que acha?"
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_en_us_f",
+      "audioKey": "pt-a04-n13",
+      "bloco": "recap",
+      "tom": "ganha",
+      "pt": "A04 完成。一句话婉拒、一个问题开局,三场争论原封不动留在原地。"
+    }
+  ],
+  "aprofundar": {
+    "titulo": "三场争论、它们的日期,以及能让你留在桌上的那两句话",
+    "secoes": [
+      {
+        "titulo": "正字法协定,以及为什么两种版本都还在街上",
+        "corpo": "《正字法协定》于 1990 年 12 月 16 日签署,1990 年协定于 2009 年 5 月 13 日进入葡萄牙国内法秩序,并由部长会议第 8/2011 号决议强制施行:从 2011-12 学年起适用于教育系统,从 2012 年 1 月 1 日起适用于国家机关。它一直被挑战:一项要求中止或废止的公民立法倡议在 2019 年提交了两万多份签名 —— 这个数字来自媒体报道,本课程没有对照议会正式记录核对。对读者而言,实际后果朴素而略带错位:你会在同一天里的招牌、菜单、相隔一年印刷的书里遇到两种拼写,而没有哪一种是别人希望你去纠正的错误。这份协定当初是不是个好主意,是一个立场,由在这件事里有立场的人在争论。你没有立场,而这话四个词就能说完。",
+        "exemplos": [
+          {
+            "es": "Não sei o suficiente para julgar.",
+            "pt": "我了解得不够,没法下判断"
+          },
+          {
+            "es": "E o que é que acha?",
+            "pt": "那您怎么看?"
+          }
+        ]
+      },
+      {
+        "titulo": "殖民史,以及它的日期",
+        "corpo": "可以明确讲的是时间线。殖民战争从 1961 年打到 1974 年。1974 年 4 月 25 日终结了政权。之后是几场独立,依次为:几内亚比绍 1974 年 9 月 10 日获承认,莫桑比克 1975 年 6 月 25 日,佛得角 1975 年 7 月 5 日,圣多美和普林西比 1975 年 7 月 12 日,安哥拉 1975 年 11 月 11 日,东帝汶 1975 年 11 月 28 日。有两件事说明这场争论现在有多活。一是里斯本拟建的『发现博物馆』2017 至 2018 年间被提出,招来学界的一封反对公开信,最终从未建成。二是 2024 年 4 月 24 日,共和国总统承认了殖民时代与奴隶制罪行方面的责任,并提及赔偿,政治反应严重分化。这些是带日期的事件。此后的一切 —— 谁欠谁什么、这些话该不该说出口 —— 都是这个国家自己在内部争论的事,本课程在其中不站队。"
+      },
+      {
+        "titulo": "那个不属于任何人闲聊的话题",
+        "corpo": "2024 年 12 月 31 日,葡萄牙记录到 1.543.697 名外籍居民,其中 484.596 人是巴西人:占 31,4%,遥遥领先地是最大的单一群体。关于学校里巴西口音和词汇的公开辩论有据可查,至少可以追溯到 2021 年 11 月一篇报纸文章,该文章此后被一篇同行评审文章检视过。没有的东西是:任何机构对『存在多少歧视』的度量。本课程也不给出这样的度量 —— 这恰恰是为什么这个题目对访客的闲聊是一个糟糕的选项。这里没有一句话说这个题目不能被讨论;这里说的是,一个客人带着一个观点到达,提供的正是那张桌子上没人需要的那样东西。"
+      },
+      {
+        "titulo": "那些轻的话题,而且几乎所有话题都是轻的",
+        "corpo": "一座城对另一座城,海岸对内陆,首都对其他所有地方:这些话一整天都在跑,而且大多带着感情。它们的运作方式和严肃话题是一样的。被请去下判决是热情待客,就像有人把面包递给你,并不带着必须回答的义务。Prefiro ouvir 短、能换来一声笑而不是一声叹气,而且零成本 —— 反过来,如果你附和了『某某城比某某城做菜更好』,那这次旅行剩下的日子里,你就悄悄失去了另一座城。"
+      },
+      {
+        "titulo": "那两句永远能派上用场的话",
+        "corpo": "O que é que mudou aqui nos últimos anos 把对话从『你没立场的国家级争论』搬到『本地级的争论』,而本地这一层,对面那个人是唯一在场的专家,通常也乐意被问。E onde é que se come melhor 干的事更妙:它把正在吵架的四个人,变成了正在为你规划一整周的四个人。两个都是问题,谁也没下判决,而两个都能给你比你没给出的观点更多的东西。而如果房间温度在你注意到之前就已经动了,não sabia que era um assunto sensível 能把这一秒干净地收起来 —— 一个第一次出错的客人,只要自己把它说破,就不会有人放心上。"
+      }
+    ]
+  },
+  "permissao": "你可以没有观点,并用一句短话把这一点说清楚。Não sei o suficiente para julgar 在一个国家待了一周之后不是打太极 —— 它是准确的回答,被听成的是尊重,而不是含糊。你也可以在不知情的情况下踩到某个话题:não sabia que era um assunto sensível 能干净地把那一秒收起来,而一个客人第一次的失误,只要他自己说破,没人会记在他账上。你还可以极其享受这场争论而根本不加入。听,就是那张桌子上一个完整的座位,不是一个次等的座位。",
+  "permissaoAudioKey": "pt-a04-n12",
+  "espelho": "每个国家都有那种『外人别掺和』的争论,而每个人都见过一个访客在饭桌上信心满满地替他们判决 —— 关于口音、关于边界、关于他们爷爷奶奶打过的那场战争。从里面看,那种落地是怎样的,你已经清楚得很;而这就是这一部分要求你的唯一资格。",
+  "fichasCulturais": [
+    {
+      "sinal": "你在一天之内看到同一个词的两种不同写法 —— 一份菜单上、一块店招上、同一书架上的两本书里 —— 而桌上有人对『哪一个才是正确的』有强烈的看法。",
+      "suaLeitura": "其中一个一定是错,而『乐于助人』就意味着指出是哪一个。",
+      "oQueEAli": "两种同时在流通,是因为一份 1990 年签署、2009 年在国内法秩序里生效、2011 和 2012 年分别推到学校和国家机关的协定 —— 而它一直被挑战,包括 2019 年一份签名超过两万份的公民倡议。分歧是真的、是内部的,也是老的。",
+      "oQueVoceFaz": "只读意义,谁的写法都不要改。如果有人问你偏好哪一种,说 não sei o suficiente para julgar,然后用 e o que é que acha 把这句话递回去。",
+      "oQueMelhora": "你拿到一场确实有趣的争论里有趣的那一半,而不必用整顿饭剩下的时间去守一个十秒前才拿到的立场。",
+      "ondeNaoVale": "这不是把这个题目当成不可触碰的理由,也不是在说『提到它会让人不悦』—— 人们自己经常主动提起,而且提得挺高兴。你婉拒的是判决,不是话题。签名人数的数字来自媒体报道而不是议会正式记录,所以这里也是以『报道过的数字』复述。",
+      "evidencia": "FATO",
+      "audioKeys": [
+        "pt-a04-n02",
+        "pt-a04-n03",
+        "pt-a04-n04"
+      ]
+    },
+    {
+      "sinal": "帝国话题在饭桌上被轻描淡写地带出来,然后房间里等一拍,看你会怎么处理。",
+      "suaLeitura": "你觉得自己在被考,或在被指责,应该要么代表某个地方道歉,要么替某个人辩护。",
+      "oQueEAli": "这是一场有明确日期的活议题。战争 1961 到 1974,六场独立发生在 1974-1975 年间,里斯本一座拟建博物馆在一封学界公开信之后被放弃,2024 年 4 月总统承认了那个时代罪行方面的责任,政治反应严重分化。这是一个国家在客人面前公开跟自己争吵。",
+      "oQueVoceFaz": "问,而不是评。如果温度动了,先说 não sabia que era um assunto sensível,再用 o que é que mudou aqui nos últimos anos 把这个夜晚搬到『对面那个人是专家』的那一块地面上。",
+      "oQueMelhora": "你在饭桌上仍然是一个人,而不是变成某个国家的代表;你通常还会学到指南书永远不会告诉你的东西。",
+      "ondeNaoVale": "这不是在说这个题目被禁,也不是在说人人都对它紧绷 —— 有很多人会公开地、长时间地谈论它。这里也不站队:这里记录的仅仅是,这个辩论存在、已经两极化,仅此而已。",
+      "evidencia": "FATO",
+      "audioKeys": [
+        "pt-a04-n06",
+        "pt-a04-n07",
+        "pt-a04-n08",
+        "pt-a04-n09"
+      ]
+    }
+  ]
+}

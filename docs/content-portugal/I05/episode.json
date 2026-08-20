@@ -1,0 +1,395 @@
+{
+  "id": "i05",
+  "nivel": "intermediario",
+  "numero": 23,
+  "parte": "I05",
+  "slot": "I05",
+  "titulo": "咖啡还没上，先向你抛来的五个问题",
+  "subtitulo": "没人叫你的名字，也没人说他们在问谁——所以你得自己听出这问题是问你的",
+  "cena": "早上十点半，阿尔法玛一家pastelaria的大理石柜台前：一张空凳子，你的杯子正在准备中，旁边那个人已经开口了。",
+  "moldura": "ganha",
+  "frasePiso": "五个问题、四个你早已握在手里的答案、一个你反问回去。这叫聊天，不叫问卷。",
+  "decisao": "你是留在柜台再来一杯，还是把自己那杯端到桌边——以及让「留下」变得轻松的四句话。",
+  "moldes": [],
+  "fatosDatados": [
+    {
+      "id": "pt-i05-tratamento",
+      "afirmacao": "在欧洲葡语里，单数的 você 只在某些地区和某些社会变体中可以接受，在大多数场合都不可接受，尤其是当社会地位或年龄有差异时。在最接近规范的变体里几乎不可接受，通常被感觉为粗鲁，至少是不礼貌。可教的系统是第三人称，配合一个称呼——o senhor、a senhora、Dona Maria、o doutor——或者配合零代词，正是这个零代词让人避开因不当使用 você 带来的误解。复数的 vocês 完全没有这些问题。",
+      "fonte": "Isabel Margarida Duarte, «Formas de tratamento em português: entre léxico e discurso», Matraga 18(28), 2011, pp. 84-101 (Repositório Aberto da U. Porto, PDF verificado, citações verbatim).",
+      "ano": 2011,
+      "revisarAte": "2029-08-05",
+      "evidencia": "FATO",
+      "risco": "baixo",
+      "audioKeys": [
+        "pt-i05-n02",
+        "pt-i05-n03"
+      ]
+    },
+    {
+      "id": "pt-i05-ingles",
+      "afirmacao": "在葡萄牙，41%的人说自己能用英语进行对话，欧盟平均值为47%，比2012年的27%大幅上升——是欧盟内涨幅最大的国家之一。同时，25至64岁的葡萄牙成年人中30.1%完全不会任何外语。英语在里斯本、波尔图和游客集中的阿尔加维非常普及，在全国范围内却远非人人都会。",
+      "fonte": "Eurobarómetro Especial 540, «Europeans and their Languages» (trabalho de campo set.–out. 2023, publicado 2024) + Eurostat, Adult Education Survey 2022.",
+      "ano": 2024,
+      "revisarAte": "2029-08-05",
+      "evidencia": "FATO",
+      "risco": "baixo",
+      "audioKeys": [
+        "pt-i05-n05"
+      ]
+    },
+    {
+      "id": "pt-i05-falsos-amigos",
+      "afirmacao": "已在一本欧洲规范的葡语词典中核实：esquisito 是奇怪或令人不快的；oficina 是工作室或汽车修理厂；borracha 是橡胶或橡皮擦；presunto 是腌制的猪腿；polvo 是章鱼；rato 是啮齿动物；brincar 是玩耍；cena 是舞台或电影里的一场；largo 是宽的。在葡萄牙，apelido 是姓氏。除西班牙以外，欧盟国家中很少有人能懂到足以跟得上西班牙语新闻广播的程度，葡萄牙以13%居首。",
+      "fonte": "Priberam, norma europeia (verbetes verificados verbatim) + Special Eurobarometer 386, «Europeans and their Languages», Comissão Europeia, 2012, p. 30. ⚠ O lado ESPANHOL não foi verificado: dle.rae.es devolveu 403 em todas as tentativas. O curso apresenta o sentido português como facto e nunca cita dicionário espanhol.",
+      "ano": 2012,
+      "revisarAte": "2029-08-05",
+      "evidencia": "FATO",
+      "risco": "medio",
+      "audioKeys": [
+        "pt-i05-n06",
+        "pt-i05-n07"
+      ]
+    },
+    {
+      "id": "pt-i05-brasil",
+      "afirmacao": "截至2024年12月31日，葡萄牙的外国居民共有1,543,697人，其中484,596人为巴西人——占31.4%，是遥遥领先的最大群体。1990年正字法协议在国内法上自2009年5月13日起适用，2011-12学年起在学校强制执行，2012年1月1日起在国家层面强制执行；该协议至今仍有争议，2019年一份要求暂停执行的公民立法倡议征集到超过两万个签名。",
+      "fonte": "AIMA, «Relatório de Migrações e Asilo 2024» (2025) + RCM n.º 8/2011 e Acordo Ortográfico de 16/12/1990. ⚠ A dimensão de eventual discriminação por sotaque brasileiro NÃO está quantificada por fonte institucional e não entra no curso. O registo parlamentar primário da iniciativa de 2019 não foi verificado.",
+      "ano": 2024,
+      "revisarAte": "2028-08-05",
+      "evidencia": "FATO",
+      "risco": "medio",
+      "audioKeys": [
+        "pt-i05-n08"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "pt-i05-n01",
+      "gesto": 1,
+      "bloco": "aquecimento",
+      "tom": "ganha",
+      "pt": "十点半，一张空凳子，旁边那个人已经开口了。五个问题要来了，答案你都握着。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "pt-i05-n02",
+      "bloco": "molde",
+      "tom": "ganha",
+      "pt": "每一个都不带任何称呼来的。De onde é? 不是含糊——它是礼貌，它指的就是你。"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_pt_m",
+      "audioKey": "pt-i05-r01",
+      "es": "Bom dia. De onde é? É a primeira vez em Portugal?",
+      "pinyin": "bong DEE-a. d'ONJ eh? eh a pree-MAY-ra vaiz ain poor-too-GAL",
+      "pt": "早上好。您是哪里人？第一次来葡萄牙吗？",
+      "tts": "Bom dia. De onde é? É a primeira vez em Portugal?",
+      "receptivo": true,
+      "acao": "两个问题，两个都没点名。没有称呼过来时，就是问你——直接回答，别去东张西望。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "pt-i05-n03",
+      "bloco": "corpo",
+      "tom": "ganha",
+      "pt": "用同样的方式回答：不用代词、第一人称、短。Sou de Manchester 就够了。"
+    },
+    {
+      "consulta": [
+        "simpatia/puxar-conversa",
+        "chegar/tu-usted"
+      ],
+      "tipo": "responde",
+      "voz": "target_pt_f",
+      "tom": "ganha",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "pt-i05-p01",
+      "promptPt": "他问你家在哪里。告诉他城市，不是国家，用三个字。现在请说。",
+      "audioKey": "pt-i05-t01",
+      "es": "Sou de Manchester.",
+      "pinyin": "soh d' MAN-chess-t'r",
+      "pt": "我是曼彻斯特人。",
+      "tts": "Sou de Manchester."
+    },
+    {
+      "consulta": [
+        "simpatia/puxar-conversa"
+      ],
+      "tipo": "responde",
+      "voz": "target_pt_f",
+      "tom": "ganha",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "pt-i05-p02",
+      "promptPt": "他想知道自己是在跟一个回访者说话，还是在跟一个初来者说话。告诉他是哪一种。现在请说。",
+      "audioKey": "pt-i05-t02",
+      "es": "É a primeira vez.",
+      "pinyin": "eh a pree-MAY-ra vaish",
+      "pt": "是第一次。",
+      "tts": "É a primeira vez."
+    },
+    {
+      "consulta": [
+        "simpatia/puxar-conversa",
+        "chegar/entrar"
+      ],
+      "tipo": "responde",
+      "voz": "target_pt_f",
+      "tom": "ganha",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "pt-i05-p03",
+      "promptPt": "接下来说说这趟行程有多长。告诉他你在这里待多久，「在这里」用 cá。现在请说。",
+      "audioKey": "pt-i05-t03",
+      "es": "Fico cá uma semana.",
+      "pinyin": "FEE-ku ka OO-ma s'MA-na",
+      "pt": "我在这里待一周。",
+      "tts": "Fico cá uma semana."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "pt-i05-n04",
+      "tom": "ganha",
+      "pt": "三个答案说完，杯子上来了。你要在聊天中点单，不是用点单取代聊天。"
+    },
+    {
+      "consulta": [
+        "mesa/bebida",
+        "chegar/balcao"
+      ],
+      "tipo": "responde",
+      "voz": "target_pt_f",
+      "molde": "QUERIA",
+      "encaixe": "um chá",
+      "encaixeGloss": "一杯茶",
+      "tom": "ganha",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "pt-i05-p04",
+      "promptPt": "柜台后面的女士在等你，早上已经晚了点，喝咖啡太晚。用那个积木点单。现在请说。",
+      "audioKey": "pt-i05-t04",
+      "es": "Queria um chá, se faz favor.",
+      "pinyin": "k'REE-a oong SHA, s'fash f'VOR",
+      "pt": "麻烦，我想要一杯茶。",
+      "tts": "Queria um chá, se faz favor."
+    },
+    {
+      "consulta": [
+        "mesa/bebida",
+        "dieta/sem"
+      ],
+      "tipo": "responde",
+      "voz": "target_pt_f",
+      "molde": "SEM",
+      "encaixe": "açúcar",
+      "encaixeGloss": "糖",
+      "tom": "ganha",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "pt-i05-p05",
+      "promptPt": "碟子送上来带两小袋纸包的甜味剂，你两袋都不要。说出要挡在杯子外面的东西。现在请说。",
+      "audioKey": "pt-i05-t05",
+      "es": "Sem açúcar, se faz favor.",
+      "pinyin": "sain a-SOO-k'r, s'fash f'VOR",
+      "pt": "麻烦，不加糖。",
+      "tts": "Sem açúcar, se faz favor."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "pt-i05-n05",
+      "tom": "ganha",
+      "pt": "这里41%的人说自己能用英语聊天，30%的成年人不会任何一门外语。"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_pt_m",
+      "audioKey": "pt-i05-r02",
+      "es": "Fala bem! O tempo hoje está esquisito, não está?",
+      "pinyin": "FA-la bain! u TAIN-pu OHZH shta shk'ZEE-tu, nowng shta",
+      "pt": "您说得不错！今天天气有点怪，是不是？",
+      "tts": "Fala bem! O tempo hoje está esquisito, não está?",
+      "receptivo": true,
+      "acao": "Esquisito 是「怪」，绝不是「精妙」。他说的是天空，那就顺着天空附和，称赞就落到了地上。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "pt-i05-n06",
+      "tom": "protege",
+      "pt": "一个看起来像西班牙语的词，就是一个你还不认识的词。Oficina 是修车行，borracha 是橡皮擦。"
+    },
+    {
+      "consulta": [
+        "reparo/devagar",
+        "reparo/como-se-diz"
+      ],
+      "tipo": "responde",
+      "voz": "target_pt_f",
+      "molde": "DESCULPE",
+      "encaixe": "não percebi",
+      "encaixeGloss": "我没听懂",
+      "tom": "ganha",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "pt-i05-p06",
+      "promptPt": "他讲得快，一半话从你耳边溜过去了。在这条线索还在的时候打开修补。现在请说。",
+      "audioKey": "pt-i05-t06",
+      "es": "Desculpe, não percebi.",
+      "pinyin": "d'sh-KOOLP, nowng p'r-s'BEE",
+      "pt": "不好意思，我没听懂。",
+      "tts": "Desculpe, não percebi."
+    },
+    {
+      "consulta": [
+        "reparo/devagar"
+      ],
+      "tipo": "responde",
+      "voz": "target_pt_f",
+      "molde": "PODE",
+      "encaixe": "falar mais devagar",
+      "encaixeGloss": "讲慢一点",
+      "tom": "ganha",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "pt-i05-p07",
+      "promptPt": "话是全的，只是来得太快你分不清。请他用一半的速度再讲一次同样的话。现在请说。",
+      "audioKey": "pt-i05-t07",
+      "es": "Pode falar mais devagar, se faz favor?",
+      "pinyin": "POD f'LAR maizh d'va-GAR, s'fash f'VOR",
+      "pt": "麻烦，能讲慢一点吗？",
+      "tts": "Pode falar mais devagar, se faz favor?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "pt-i05-n07",
+      "tom": "ganha",
+      "pt": "Esquisito、presunto、polvo、rato、brincar。九个看似借来的词，在这里意思是另一回事。"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_pt_m",
+      "audioKey": "pt-i05-r03",
+      "es": "Tenho um primo no Brasil. Fala português diferente do meu.",
+      "pinyin": "TAIN-yu oong PREE-mu nu bra-ZEEL. FA-la poor-too-GAIZH dee-f'RENT du MEU",
+      "pt": "我有个表兄在巴西。他讲的葡语跟我不一样。",
+      "tts": "Tenho um primo no Brasil. Fala português diferente do meu.",
+      "receptivo": true,
+      "acao": "这是他要讲的话题，不是你要讲的。问一句关于那位表兄的事，谈话就一直温和顺畅。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "pt-i05-n08",
+      "tom": "ganha",
+      "pt": "这里最大的外国群体是巴西人，口音这件事确实会被谈起。问一个问题，不站立场。"
+    },
+    {
+      "consulta": [
+        "simpatia/puxar-conversa",
+        "chegar/tu-usted"
+      ],
+      "tipo": "responde",
+      "voz": "target_pt_f",
+      "tom": "ganha",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "pt-i05-p08",
+      "promptPt": "接了五个问题，一个都没往回丢。把它调过头来，问他这座城市是不是他的家。用礼貌的方式称呼他。现在请说。",
+      "audioKey": "pt-i05-t08",
+      "es": "E o senhor, é daqui de Lisboa?",
+      "pinyin": "i u s'NYOR, eh da-KEE d' leezh-BO-a",
+      "pt": "先生，您呢，您是里斯本本地人吗？",
+      "tts": "E o senhor, é daqui de Lisboa?"
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_pt_f",
+      "audioKey": "pt-i05-s01",
+      "es": "Desculpe, não percebi. Pode falar mais devagar, se faz favor?",
+      "pinyin": "d'sh-KOOLP, nowng p'r-s'BEE. POD f'LAR maizh d'va-GAR, s'fash f'VOR",
+      "pt": "跟着念这一对句子，让你在这个国家的任何一句话上都能争取第二次机会。",
+      "tts": "Desculpe, não percebi. Pode falar mais devagar, se faz favor?",
+      "molde": "DESCULPE"
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_en_us_f",
+      "audioKey": "pt-i05-n09",
+      "bloco": "recap",
+      "tom": "ganha",
+      "pt": "I05 完成。整个上午没人被点名，而每一个问题依然是问你的。你答了五个，反问了一个。"
+    }
+  ],
+  "aprofundar": {
+    "titulo": "柜台聊天，一句一句拆开",
+    "secoes": [
+      {
+        "titulo": "为什么没人说他们在问谁",
+        "corpo": "问题就那么光秃秃地过来：de onde é、é a primeira vez、quanto tempo fica。英语耳朵在等一个「你」，那个「你」永远不出现，于是半以为对方是在跟屋里别人说话。不是。关于葡语称谓的研究描述的正是这套系统：第三人称，配合一个称呼——o senhor、a senhora、Dona Maria——或者根本不用主语。光秃秃那一版就是有礼貌的一版，它存在的理由正是让说话人不用给对面的人贴任何标签，也能保持礼貌。",
+        "exemplos": [
+          {
+            "es": "De onde é?",
+            "pt": "您是哪里人？"
+          },
+          {
+            "es": "E o senhor, é daqui de Lisboa?",
+            "pt": "先生，您呢，您是里斯本本地人吗？"
+          }
+        ]
+      },
+      {
+        "titulo": "有一个词，请把它留在口袋里",
+        "corpo": "不要说出单数的 você。研究说得少见地直白：它只在某些地区和某些社会变体里可以接受，在大多数场合都不可接受，尤其是当年龄或地位有落差时，而在最接近规范的变体里几乎不可接受，通常被感觉为粗鲁，至少是不礼貌。你会听到它，听到没关系。说出它是本课程里唯一一个可以避免的乌龙，而修正的成本是零：在英语里会说 you 的地方，你什么都别说。复数的 vocês 是另一个词，完全没有这些毛病，你可以放心说。"
+      },
+      {
+        "titulo": "整块记下来的四个答案",
+        "corpo": "Sou de Manchester。É a primeira vez。Fico cá uma semana。Gosto muito。四句话，每句不超过四个字，加起来覆盖了这个国家几乎所有柜台聊天的开头几问。像记电话号码一样把它们当成固定物件记下，第五个问题——不管是什么——找到你的时候，你已经在对话里了，不用现场拼句子。"
+      },
+      {
+        "titulo": "柜台上的英语",
+        "corpo": "葡萄牙41%的人报告自己能用英语进行对话，欧盟平均是47%，这比2012年的27%大幅上升——是欧盟最陡的一波涨幅之一。同时，大约每十个成年人里有三个报告完全不会任何一门外语。这话老实读一下：在里斯本、波尔图和游客集中的阿尔加维，你会不断遇到英语；往内陆走两条街或者两个小时，你就不会了。用葡语开口只花你四个字，也替你把这个问题定下来了。"
+      },
+      {
+        "titulo": "那个让你翻车的西语词",
+        "corpo": "转向葡语而不是西语的实用理由，跟谁会不会不高兴一点关系都没有——没有研究或调查测过这个，现有的证据指向反方向。真正的理由是那些「长得像」的词代价高。在葡萄牙：esquisito 是奇怪或令人不快的，oficina 是工作室或修理厂，borracha 是橡胶或橡皮擦，presunto 是腌制的猪腿，polvo 是章鱼，rato 是啮齿动物，brincar 是玩耍，cena 是舞台或电影里的一场，largo 是宽的。这些是葡语的意思，已按欧洲规范核实过；它们给一个西语母语者设下的陷阱是真实的，也是重点，本课程不引用任何西语词典。"
+      },
+      {
+        "titulo": "当巴西被谈起——它会被谈起",
+        "corpo": "本国最大的外国群体是巴西人——2024年底为484,596人，占所有外国居民的31.4%——所以表亲、电视、音乐和正字法协议在寻常聊天里都会浮现。这里有一场真实的公共争论，围绕1990年的正字法协议和口音，它不是一个可以在咖啡桌上中立处理的话题。你是访客，在其中没有任何利害。问一个问题，听着，让对面那个人保留他自己的看法。本课程有意不给你带观点的词汇。"
+      }
+    ]
+  },
+  "permissao": "你有权回答一个没点名任何人的问题，因为它就是冲你来的。你有权在一周里的每一个柜台前重复使用这同样的四句话。你有权在句子从你手里滑走的那一刻就伸手去修，而不是装懂点头；你有权听到别人对你说 você，而始终不对别人说 você。",
+  "permissaoAudioKey": "pt-i05-n03",
+  "espelho": "你老家常去的那家小店里的常客也会这么做：哪里人、第一次来吗、待多久、以及一句关于天气的判断。唯一的区别是，这里的问题过来时不带称呼，在英语耳朵听来就好像是在跟别人说话。",
+  "fichasCulturais": [
+    {
+      "sinal": "一个又一个问题过来，句子里都不点名，你一直在等那个「说是问你的」词出现。",
+      "suaLeitura": "他是在自言自语，或者在跟柜台后面那位女士说话，我搭话就是插嘴。",
+      "oQueEAli": "光秃秃的第三人称就是有礼貌的形式。葡语称谓的研究把这套系统描述为：第三人称加一个称呼——o senhor、a senhora、Dona Maria——或者零代词，零代词的存在，正是为了让说话人不用给对面的人贴标签也能保持礼貌。",
+      "oQueVoceFaz": "把一个不带称呼的问题当作是问你的，用第一人称、短句回答。如果你需要把问题指回给他，用 o senhor 或 a senhora，别去够一个代词。",
+      "oQueMelhora": "你不再错过轮次，自己的回答听起来也自动带上分寸，不需要额外做什么。",
+      "ondeNaoVale": "微妙的是单数；复数的 vocês 完全可以接受，你可以放心说。已发表的研究也记录到称谓上真实的不稳定和地区差异，唯一可得的可接受性测试样本小且局限在里斯本，所以这是一条安全的默认规则，不是全国性的法律。",
+      "evidencia": "FATO",
+      "audioKeys": [
+        "pt-i05-n02",
+        "pt-i05-n03"
+      ]
+    },
+    {
+      "sinal": "你会一点西班牙语，比英语更近，一使用之前先绷紧了神经。",
+      "suaLeitura": "这里的人不喜欢别人用西班牙语跟他们说话，用了就会让谈话变冷。",
+      "oQueEAli": "没有研究或调查支持这一点。有据可查的是：西班牙以外，葡萄牙对西班牙语的理解度是欧盟最高的，也不过13%的人能跟得上西班牙语新闻广播。真正代价高的不是别人的反应，而是那些「长得像」的词：esquisito、oficina、borracha、presunto、polvo、rato、brincar、cena、largo。",
+      "oQueVoceFaz": "用你已经会的那些葡语句子，把任何看起来像西语的词都当作你还没学过的词。卡住的时候就问，别猜：como se diz?",
+      "oQueMelhora": "你放下了一件本来在身上的民间传言，把这份力气用到了那九个真会让你付出代价的词上。",
+      "ondeNaoVale": "这些配对里，只有葡语一端在此按欧洲规范的词典核实过。西语的意思是教学文献里描述的陷阱，不是从西语词典引来的论断；也没有任何来源测过葡萄牙人对被用西班牙语搭话的反应。三个常被引用的配对被本课程剔除，因为它们完全无法核实。",
+      "evidencia": "FATO",
+      "audioKeys": [
+        "pt-i05-n06",
+        "pt-i05-n07"
+      ]
+    }
+  ]
+}

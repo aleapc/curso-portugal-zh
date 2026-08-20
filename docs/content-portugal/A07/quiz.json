@@ -1,0 +1,96 @@
+{
+  "id": "q-a07",
+  "nivel": "avancado",
+  "titulo": "小测验 — 看懂现场",
+  "subtitulo": "五道题：被点名、早点说不、以及收银台真正在问的问题",
+  "introAudioKey": "pt-a07-q-i",
+  "introPt": "一名旅行者不再找那个表示 你 的词，开始注意到本来就不该有那个词。",
+  "cenario": "一张餐桌前的漫长夜晚：两盘没人点的菜、一个关于税号的问题，以及一次告别。",
+  "dialogo": [
+    {
+      "audioKey": "pt-a07-q01",
+      "voz": "target_pt_m",
+      "es": "O senhor deseja mais alguma coisa?",
+      "pt": "这位先生还需要什么吗？",
+      "tts": "O senhor deseja mais alguma coisa?"
+    },
+    {
+      "audioKey": "pt-a07-q02",
+      "voz": "target_pt_f",
+      "es": "Então, e vocês? Ficam mais um bocado?",
+      "pt": "那么，你们呢？再多待一会儿？",
+      "tts": "Então, e vocês? Ficam mais um bocado?"
+    },
+    {
+      "audioKey": "pt-a07-q03",
+      "voz": "target_pt_m",
+      "es": "Isto é o couvert, faz favor.",
+      "pt": "这是 couvert（小前菜），请慢用。",
+      "tts": "Isto é o couvert, faz favor."
+    },
+    {
+      "audioKey": "pt-a07-q04",
+      "voz": "target_pt_f",
+      "es": "Quer fatura com contribuinte?",
+      "pt": "发票上要带税号吗？",
+      "tts": "Quer fatura com contribuinte?"
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "在最接近规范的变体里，研究对单数的 você 怎么说？",
+      "opcoes": [
+        "它是中性的礼貌形式，是最安全的选择",
+        "它几乎不可接受，通常被感觉为粗鲁，或至少不礼貌",
+        "只在密友之间使用",
+        "对年长者说话时必须使用"
+      ],
+      "correta": 1,
+      "explica": "正因为如此，本课程从不要求你说它。干净的做法是完全省略主语的第三人称——所谓零主语，被描述为让说话人正好绕开这些误会的机制。"
+    },
+    {
+      "pergunta": "那复数的 vocês 呢？",
+      "opcoes": [
+        "问题一样，还加倍",
+        "完全没这个问题，非常普通",
+        "只在北部使用",
+        "只对小孩用"
+      ],
+      "correta": 1,
+      "explica": "问题只出在单数上。对两人以上说话时，vocês 正常、亲切、安全。"
+    },
+    {
+      "pergunta": "你没点的两小盘刚刚被端上来。什么时候说不才管用？",
+      "opcoes": [
+        "结账时，帐单来了指着那一行",
+        "立刻——趁一切都没动",
+        "永远不管用——couvert 一定要付",
+        "只有菜单上没标价格时才能拒付"
+      ],
+      "correta": 1,
+      "explica": "菜单必须写明包括 couvert 在内的任何东西，如果客人未要求或被弄得无法食用，均不得收费。但吃了就是吃了。刚上桌时说一句 Pode levar, se faz favor 就把这事定了。"
+    },
+    {
+      "pergunta": "收银台的人问你发票是否要 contribuinte。他在问什么？",
+      "opcoes": [
+        "问你要不要收据",
+        "问你要不要加小费",
+        "问你要不要在发票上写一个葡萄牙税号",
+        "问你是不是刷卡付款"
+      ],
+      "correta": 2,
+      "explica": "这是葡萄牙税号，用于国家门户系统的所得税抵扣，对游客毫无用处。无论客人是否索要，每笔销售都必须开具发票。"
+    },
+    {
+      "pergunta": "关于葡萄牙的小费，可以诚实说的是什么？",
+      "opcoes": [
+        "预期在 5% 到 10% 之间",
+        "常见且传统，但从不强制；决定权始终在客人",
+        "按法律已计入账单",
+        "留任何小费都被视为无礼"
+      ],
+      "correta": 1,
+      "explica": "这是餐饮业协会自己的说法，也是有据可查的全部内容。没有关于实际行为的代表性调查，因此本课程不给百分比——流传的那些数字来自博客。"
+    }
+  ]
+}

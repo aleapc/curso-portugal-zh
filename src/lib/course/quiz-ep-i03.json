@@ -1,0 +1,96 @@
+{
+  "id": "q-i03",
+  "nivel": "intermediario",
+  "titulo": "小测验 — 今日特色",
+  "subtitulo": "黑板、词，以及本会错过的那盘菜",
+  "introAudioKey": "pt-i03-q-i",
+  "introPt": "一名旅行者在门口停下，就外面粉笔写的黑板问了两个短问题，然后吃了她根本无法想象的那道菜。",
+  "cenario": "下午一点，一家小 tasca 的门口，外面粉笔写着今日菜单，里面 11 张桌子。",
+  "dialogo": [
+    {
+      "audioKey": "pt-i03-q01",
+      "voz": "target_pt_f",
+      "es": "Boa tarde. Tem o prato do dia?",
+      "pt": "下午好。有今日特色吗？",
+      "tts": "Boa tarde. Tem o prato do dia?"
+    },
+    {
+      "audioKey": "pt-i03-q02",
+      "voz": "target_pt_m",
+      "es": "Hoje temos polvo à lagareiro e bacalhau com natas.",
+      "pt": "今天有 polvo à lagareiro（榨油师风味章鱼）和 bacalhau com natas（奶油鳕鱼）。",
+      "tts": "Hoje temos polvo à lagareiro e bacalhau com natas."
+    },
+    {
+      "audioKey": "pt-i03-q03",
+      "voz": "target_pt_f",
+      "es": "Pode recomendar um prato?",
+      "pt": "可以推荐一道菜吗？",
+      "tts": "Pode recomendar um prato?"
+    },
+    {
+      "audioKey": "pt-i03-q04",
+      "voz": "target_pt_m",
+      "es": "O polvo chegou esta manhã. Está muito bom.",
+      "pt": "章鱼是今早到的。非常好。",
+      "tts": "O polvo chegou esta manhã. Está muito bom."
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "葡萄牙的价目表必须包含什么？必须张贴在哪里？",
+      "opcoes": [
+        "只列主菜，摆在桌上",
+        "所有菜品、食品和饮料及其价格，包括 couvert，用葡萄牙语，门口和店内均需，含税",
+        "老板想放什么就放什么，屋里哪儿都行",
+        "只列饮料，放在柜台后"
+      ],
+      "correta": 1,
+      "explica": "两份官方来源都载明这项内容。进门先看价目表，就是使用一件专门为你设计的东西。这条规则通常被引用的条款编号本课程未引用，因为该条款正文无法核实。"
+    },
+    {
+      "pergunta": "葡萄牙人餐桌上说 esquisito 意思是：",
+      "opcoes": [
+        "美味",
+        "奇怪或令人不悦",
+        "昂贵",
+        "煮得恰到好处"
+      ],
+      "correta": 1,
+      "explica": "已按欧洲规范词典核实。用它做赞美，就是告诉全店食物不对劲。要说 está muito bom。"
+    },
+    {
+      "pergunta": "菜单上的 polvo 和 presunto 是：",
+      "opcoes": [
+        "粉末，和某种想当然的东西",
+        "章鱼，和一整条腌制的猪腿",
+        "两种面包",
+        "地区葡萄酒"
+      ],
+      "correta": 1,
+      "explica": "对带着西班牙语反射的读者，两者都是假朋友。这里给的葡语含义已经核实；本课程没引用任何西班牙语词典，因为调研中没有可用的西语词典可查。"
+    },
+    {
+      "pergunta": "为什么 pode recomendar um prato 比长时间盯着黑板更有价值？",
+      "opcoes": [
+        "更便宜",
+        "它带回任何印制清单里都没有的东西——今早到的什么、卖完了什么",
+        "能强制打折",
+        "因为黑板经常写错"
+      ],
+      "correta": 1,
+      "explica": "你不必听懂整个答案。听完点头就是一个决定，pode repetir 随时可用。"
+    },
+    {
+      "pergunta": "什么时候可以对 couvert 收费？",
+      "opcoes": [
+        "永远可以，因为它自己就上桌了",
+        "永远不可以",
+        "客人主动要求，或者食用/接触后再无法端给他人",
+        "只在晚餐"
+      ],
+      "correta": 2,
+      "explica": "所以整件事是个时机问题：菜落桌时说不，不是账单来时说不。你也可以请店家把它端走。"
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "id": "q-i07",
+  "nivel": "intermediario",
+  "titulo": "小测验 — 传到厨房的赞美",
+  "subtitulo": "一句话里得有一个名词；另一句话得早点说出来",
+  "introAudioKey": "pt-i07-q-i",
+  "introPt": "里斯本的一张餐桌：篮子在点单之前上桌，鱼是这周最好的，一盘菜却是冷的。",
+  "cenario": "一家小 tasca 用餐中途，桌布上的 couvert 还没被打开。",
+  "dialogo": [
+    {
+      "audioKey": "pt-i07-q01",
+      "voz": "target_pt_f",
+      "es": "O couvert não, obrigada.",
+      "pt": "不要 couvert，谢谢。",
+      "tts": "O couvert não, obrigada."
+    },
+    {
+      "audioKey": "pt-i07-q02",
+      "voz": "target_pt_m",
+      "es": "Com certeza, já levo.",
+      "pt": "当然，我马上拿走。",
+      "tts": "Com certeza, já levo."
+    },
+    {
+      "audioKey": "pt-i07-q03",
+      "voz": "target_pt_f",
+      "es": "O bacalhau estava excelente.",
+      "pt": "鳕鱼非常好。",
+      "tts": "O bacalhau estava excelente."
+    },
+    {
+      "audioKey": "pt-i07-q04",
+      "voz": "target_pt_m",
+      "es": "Ora essa! Vou dizer lá dentro.",
+      "pt": "哪里的话！我会跟里面的人说。",
+      "tts": "Ora essa! Vou dizer lá dentro."
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "什么样的赞美能一路传到厨房？",
+      "opcoes": [
+        "说得够响让后厨也听到",
+        "点名那道菜",
+        "在桌上多留点钱",
+        "出门时再说一遍"
+      ],
+      "correta": 1,
+      "explica": "没人能把 一切都很好 送进厨房门。他们能送进去的是 o bacalhau。"
+    },
+    {
+      "pergunta": "Couvert 摆在桌上你没动过。真相是什么？",
+      "opcoes": [
+        "这是店里送的，不能出现在账单上",
+        "必须在书面价目表上列出并标价；没请求或没动过的东西不能收费",
+        "按法律无论在哪吃都按人头收费",
+        "你可以吃了再拒付"
+      ],
+      "correta": 1,
+      "explica": "价目表必须以葡萄牙语，在门口和店内含税列出——凡未请求或原样退回的东西不得收费。"
+    },
+    {
+      "pergunta": "你已经吃了一半面包，然后觉得不想要。现在怎么办？",
+      "opcoes": [
+        "必须付——吃了就产生义务",
+        "还是可以退回，因为你从没点过",
+        "主菜上来后就免费",
+        "你可以自己从总额里扣掉"
+      ],
+      "correta": 0,
+      "explica": "所以趁篮子还没打开时说不最便宜。葡萄牙的一家消费者机构直白地讲：吃了不付就是滥用权利。"
+    },
+    {
+      "pergunta": "你刚说完 obrigado，一位女士回你 obrigada。这意味着：",
+      "opcoes": [
+        "她在纠正你的葡语",
+        "这个词与说话人一致，所以两个都对",
+        "她比你更正式",
+        "你下次应该改用她那种形式"
+      ],
+      "correta": 1,
+      "explica": "它只与说话人一致，与其他一切无关。学一个形式，全程使用，让另一个从耳边过就好。"
+    },
+    {
+      "pergunta": "菜是凉的。哪句话最快让它动起来？",
+      "opcoes": [
+        "为打扰对方长篇道歉",
+        "Desculpe, isto está frio。",
+        "什么都不说，就那样放着",
+        "结账时再提"
+      ],
+      "correta": 1,
+      "explica": "四个词就是一个完整、结构良好的请求。前面加的铺垫才会让它听起来像抱怨。"
+    }
+  ]
+}

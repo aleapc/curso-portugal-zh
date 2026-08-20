@@ -1,0 +1,54 @@
+{
+  "_comentario": "ZH → Portugal: guia ZH, alvo PT-PT reusado. INV-5.",
+  "_casting": "A decisão de casting mais consequente do catálogo até aqui, e ela não é estética: é o produto. A conta tinha sete vozes marcadas 'pt' e a maioria é BRASILEIRA — uma se descreve como do Rio de Janeiro, outra 'com sotaque do Sul'. Usar qualquer uma destruiria o SKU, porque a distinção PE↔PB é justamente o que este curso vende: Cruz-Ferreira (Handbook of the IPA) registra que a ressonância velarizada e a articulação lassa do português europeu «constitute the most striking characteristic distinguishing European from Brazilian accents». As quatro vozes deste config foram importadas da biblioteca compartilhada com accent=european e conferidas uma a uma. NÃO ALEGAR SOTAQUE REGIONAL: várias descrições reivindicam Lisboa ou o norte, e isso é declaração de quem publicou a voz, não fato verificado — a mesma disciplina aplicada ao turco. A01 trata de VELOCIDADE e desgaste, não de região.",
+  "_fonetica_do_par": "Inglês → português europeu, e a armadilha é a REDUÇÃO. O comprador anglófono chega achando que reconhece a escrita, e a fala não bate com ela: a fonte verbatim descreve que em fala corrida as vogais átonas «are either centralized or altogether omitted», com o exemplo que decide o curso — *desistiu* /dɨziʃˈtiu/ realizado [dzʃˈtiu], «a potentially trisyllabic word is reduced to a monosyllable with a complex onset». É por isso que ele acha que «comem as letras»: procura sílabas que não são pronunciadas. O ERRO CARO é tratar o ⟨e⟩ átono como o /e/ inglês; ele é /ɨ/, e a própria fonte avisa que chamá-lo de schwa é atalho, porque «does not correspond to the mid central quality associated with schwa». CHEGA COM: o /ʃ/, que o inglês já tem, e é o que salva a coda ⟨-s⟩ — em Portugal ela é [ʃ], sonorizando em [ʒ] antes de consoante vozeada e em [z] antes de vogal ([kual duʒ doiz ɛɾɐ u] *qual dos dois era o*). PRECISA APRENDER: os ditongos NASAIS ⟨ão, ãe, õe⟩, sem equivalente inglês; ⟨lh⟩ = /ʎ/ (*pilha*) e ⟨nh⟩ = /ɲ/ (*linha*). O ⟨R⟩ fica DECLARADAMENTE SEM AFIRMAÇÃO FORTE: a fonte primária usa /ʀ/ e não discute variação, e a literatura secundária sobre realizações uvulares não foi lida em texto bruto — o curso ensina o som que a voz produz e não faz alegação sobre distribuição geográfica. A comparação com o Brasil entra como FATO DE FONTE, nunca como juízo: a pesquisa é explícita em que a assimetria de inteligibilidade («brasileiros entendem PE pior que o inverso») não tem um único estudo com participantes humanos por trás, e por isso não entra.",
+  "guideModel": "eleven_flash_v2_5",
+  "targetModel": "eleven_multilingual_v2",
+  "roles": {
+    "guide_en_us_f": {
+      "voiceId": "0H4ruoQ81Ei2FCwjW5j1",
+      "languageCode": "zh",
+      "name": "Susan"
+    },
+    "guide_en_us_m": {
+      "voiceId": "DSyEP4HEaCKur8rFFOri",
+      "languageCode": "zh",
+      "name": "Zack"
+    },
+    "target_pt_f": {
+      "voiceId": "nJ5NFqyKb8kn9JBPmo6i",
+      "languageCode": "pt",
+      "name": "Joana"
+    },
+    "target_pt_m": {
+      "voiceId": "Fij0Q07RV232HQv4oaiV",
+      "languageCode": "pt",
+      "name": "Lourenço"
+    },
+    "ear_pt_f": {
+      "voiceId": "bBNhdwrIjl4fcVYiRbT2",
+      "languageCode": "pt",
+      "name": "Marta"
+    },
+    "ear_pt_m": {
+      "voiceId": "RlGHmE2fztwdBDat0jYf",
+      "languageCode": "pt",
+      "name": "Diogo"
+    }
+  },
+  "_ear_module": "ear_pt_f e ear_pt_m são EXCLUSIVAS de A01. Reusar a voz-modelo como voz de variação contamina o modelo — o aluno passa a ouvir o padrão como se fosse variação.",
+  "_g14": {
+    "guiaLingua": "zh",
+    "guia": [
+      "guide_en_us_f",
+      "guide_en_us_m"
+    ],
+    "alvo": [
+      "target_pt_f",
+      "target_pt_m",
+      "ear_pt_f",
+      "ear_pt_m"
+    ],
+    "alvoLingua": "pt"
+  }
+}

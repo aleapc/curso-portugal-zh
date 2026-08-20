@@ -1,0 +1,96 @@
+{
+  "id": "q-b12",
+  "nivel": "basico",
+  "titulo": "小测验 — Sem，改变整盘菜的小词",
+  "subtitulo": "一个小词、后面什么都不接，以及两个词就算完整的一份点单",
+  "introAudioKey": "pt-b12-q-i",
+  "introPt": "一名旅行者用同一个两字动作改动了四道菜。",
+  "cenario": "一家 tasca，下午一点，今日特色已经定了。",
+  "dialogo": [
+    {
+      "audioKey": "pt-b12-q01",
+      "voz": "target_pt_f",
+      "es": "Tem alguma coisa sem carne?",
+      "pt": "有什么不带肉的吗？",
+      "tts": "Tem alguma coisa sem carne?"
+    },
+    {
+      "audioKey": "pt-b12-q02",
+      "voz": "target_pt_m",
+      "es": "Temos, sim. Mas leva molho. Pode ser?",
+      "pt": "有，是的。但会带酱。可以吗？",
+      "tts": "Temos, sim. Mas leva molho. Pode ser?"
+    },
+    {
+      "audioKey": "pt-b12-q03",
+      "voz": "target_pt_f",
+      "es": "Sem molho, se faz favor. E sem gelo na água.",
+      "pt": "不要酱，请。水里也不要冰。",
+      "tts": "Sem molho, se faz favor. E sem gelo na água."
+    },
+    {
+      "audioKey": "pt-b12-q04",
+      "voz": "target_pt_m",
+      "es": "Com certeza. Com ou sem gás?",
+      "pt": "当然。带气还是不带气？",
+      "tts": "Com certeza. Com ou sem gás?"
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "Sem 后面紧跟什么？",
+      "opcoes": [
+        "冠词，然后是那样东西",
+        "光秃秃的那样东西，不带冠词",
+        "一个动词",
+        "Se faz favor"
+      ],
+      "correta": 1,
+      "explica": "Sem açúcar、sem gelo、sem cebola。这是课程里唯一一个东西光身出场的地方，所以没有 um 或 uma 要选。"
+    },
+    {
+      "pergunta": "服务员说 leva molho。刚发生了什么？",
+      "opcoes": [
+        "他在拒绝你的要求",
+        "他在厨房下手之前跟你确认一下",
+        "他在告诉你价格",
+        "他在请你把菜端走"
+      ],
+      "correta": 1,
+      "explica": "Leva 意思是 会带着来。这是厨房在确认，也是唯一一个你后开口反而能拿到你想要的东西的对话。"
+    },
+    {
+      "pergunta": "Com ou sem gás? ——在问什么？",
+      "opcoes": [
+        "要不要冰",
+        "气泡水还是普通水",
+        "大瓶还是小瓶",
+        "是否刷卡付款"
+      ],
+      "correta": 1,
+      "explica": "Com 是 sem 的镜像，他们想要的答案就是把他们那句问题的一半直接扔回去。"
+    },
+    {
+      "pergunta": "你们两个人分一道菜，账单出现了分菜费。什么时候得付？",
+      "opcoes": [
+        "永远得付——这是行业标准",
+        "只有在价目表上明列了才付",
+        "任何情况下都不用付",
+        "只有有现场音乐的餐厅才付"
+      ],
+      "correta": 1,
+      "explica": "包括分菜费和现场音乐费在内的附加费，只有在价目表上列出才可以收——价目表必须在入口和店内以葡萄牙语可读、含税呈现。"
+    },
+    {
+      "pergunta": "怎么把 queria um galão 精确变成你自己的点单？",
+      "opcoes": [
+        "学一个新句子",
+        "把两个框架首尾相接：queria um galão sem açúcar",
+        "前面加一个代词",
+        "慢慢地说两遍"
+      ],
+      "correta": 1,
+      "explica": "两半都不新。第二个框架把第一个乘以自己——这就是为什么这段旅程是由框架而不是短语搭起来的。"
+    }
+  ]
+}

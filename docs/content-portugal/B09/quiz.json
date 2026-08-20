@@ -1,0 +1,96 @@
+{
+  "id": "q-b09",
+  "nivel": "basico",
+  "titulo": "小测验 — 车票、打卡和小时",
+  "subtitulo": "决定一切的两个数字：价格和小时",
+  "introAudioKey": "pt-b09-q-i",
+  "introPt": "一名旅行者买了一张票，听了两次价格，算清楚了这个数字到底买到了什么。",
+  "cenario": "Marquês de Pombal 的售票柜台，早上八点半。",
+  "dialogo": [
+    {
+      "audioKey": "pt-b09-q01",
+      "voz": "target_pt_f",
+      "es": "Tem um bilhete diário?",
+      "pt": "有日票吗？",
+      "tts": "Tem um bilhete diário?"
+    },
+    {
+      "audioKey": "pt-b09-q02",
+      "voz": "target_pt_m",
+      "es": "São sete euros e vinte e cinco.",
+      "pt": "7 欧元 25。",
+      "tts": "São sete euros e vinte e cinco."
+    },
+    {
+      "audioKey": "pt-b09-q03",
+      "voz": "target_pt_f",
+      "es": "Pode repetir o preço, se faz favor?",
+      "pt": "可以再说一遍价格吗？",
+      "tts": "Pode repetir o preço, se faz favor?"
+    },
+    {
+      "audioKey": "pt-b09-q04",
+      "voz": "target_pt_m",
+      "es": "É um euro e noventa, com o cartão.",
+      "pt": "带卡的话是 1 欧元 90。",
+      "tts": "É um euro e noventa, com o cartão."
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "里斯本的简易票，小时从什么时候开始算？",
+      "opcoes": [
+        "买票时",
+        "第一次刷卡时——打卡才开始计时",
+        "午夜",
+        "出站时"
+      ],
+      "correta": 1,
+      "explica": "简易票在首次刷卡后一小时内可完成一趟行程。买票什么都不启动；刷卡才启动一切——所以你可以自己选时机。"
+    },
+    {
+      "pergunta": "你出地铁喝杯咖啡，想用同一张票再进去。",
+      "opcoes": [
+        "没问题，小时还没过",
+        "不行——简易票不允许两次连续进入地铁",
+        "每天可以一次",
+        "得去柜台问"
+      ],
+      "correta": 1,
+      "explica": "一小时内一趟行程，不允许两次连续进入。在闸机内换线免费；出去再进就是第二次进入。这就是日票和储值票存在的原因。"
+    },
+    {
+      "pergunta": "2026 年里斯本的数字。哪一组是对的？",
+      "opcoes": [
+        "票 1,90 · 日票 7,25 · 卡 0,50",
+        "票 1,50 · 日票 5,00 · 卡免费",
+        "票 2,50 · 日票 10,00 · 卡 1,00",
+        "所有东西统一价"
+      ],
+      "correta": 0,
+      "explica": "2026 年 1 月 1 日起生效：Carris/Metro 票 1,90，地铁储值 1,72，24 小时日票 7,25，navegante ocasional 卡 0,50。表格每年一月重写，所以记住结构，数字每次再查。"
+    },
+    {
+      "pergunta": "Zona quatro: dois euros e trinta。你在哪里？这是怎么算的？",
+      "opcoes": [
+        "里斯本，按距离算",
+        "波尔图，从你第一次刷卡的区开始按环算",
+        "波尔图，从市中心开始算",
+        "任何地方——这是全国分区系统"
+      ],
+      "correta": 1,
+      "explica": "波尔图的 Andante 从你第一次刷卡的那一区开始按环向外计费，最低 Z2，所以同一段行程按起点不同价格也不同。2026 年 Z4 是 2,30。"
+    },
+    {
+      "pergunta": "有人说快车必须订座、区域车不用。这是规则吗？",
+      "opcoes": [
+        "是的，写在运营方条款里",
+        "不是——2021 年通用条款对两者的表述一致；只有城市服务是明文的",
+        "是的，但只在夏天",
+        "不是，所有车都不用订座"
+      ],
+      "correta": 1,
+      "explica": "两者都被描述为 可能有多个等级，可能需要强制订座。只有城市服务是明文规定的：无座位预订，一等舱。人们熟悉的那种划分是商业惯例，不是文本本身——长途还是把座位订下来。"
+    }
+  ]
+}

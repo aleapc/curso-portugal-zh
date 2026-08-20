@@ -1,0 +1,405 @@
+{
+  "id": "a07",
+  "nivel": "avancado",
+  "numero": 35,
+  "parte": "A07",
+  "slot": "A07",
+  "titulo": "温度计,就在对方怎么称呼你上",
+  "subtitulo": "这里的礼貌是『少说』,不是『多说』;能奏效的『不』要在盘子落桌的那一秒说出;而收银台那句『要不要发票加税号』只不过是记账",
+  "cena": "Bairro Alto 一家 tasca,晚上九点:面包和橄榄之间,刚被放上两小盘你没点过的东西,谁也没就它们说一个字。",
+  "moldura": "ganha",
+  "frasePiso": "你永远不必替『你』挑一个词。第三人称,不带主语,这句话就已经礼貌了。",
+  "moldes": [],
+  "fatosDatados": [
+    {
+      "id": "pt-a07-tratamento",
+      "afirmacao": "在葡语欧洲变体中,单数的 você,用研究的原话说,只在某些地区、某些社会阶层的变体中可接受,在大多数情况下不可接受,尤其是只要存在社会地位或年龄上的不对称;而在最靠近规范的变体里,它被描述为几乎不被承认,通常被感觉为粗鲁的、或至少不礼貌的。真正被教授的系统是语法上的第三人称,搭配名词形式 —— o senhor、a senhora、Dona Maria、o doutor —— 或者搭配零主语;零主语让说话人得以避免因不恰当使用 você 而产生的误会。复数的 vocês 完全不引发上述问题。",
+      "fonte": "Isabel Margarida Duarte, «Formas de tratamento em português: entre léxico e discurso», Matraga 18(28), 2011, pp. 84-101 (Repositório Aberto da U. Porto, PDF verificado verbatim). Marques & Duarte, Revista da APL n.º 5 (2019), registam «grande instabilidade» e «relativa variação diatópica». ⚠️ Lopes & Mota (2019) testaram aceitabilidade em Lisboa com n=34 — amostra pequena, uma só cidade, não verificada verbatim; não é citada como número.",
+      "ano": 2011,
+      "revisarAte": "2030-08-05",
+      "evidencia": "FATO",
+      "risco": "baixo",
+      "audioKeys": [
+        "pt-a07-n02",
+        "pt-a07-n03"
+      ]
+    },
+    {
+      "id": "pt-a07-couvert",
+      "afirmacao": "价目表必须列明该店所供应的每一道菜、食物和饮料及其价格,包括 couvert(有的话)在内,并且必须载明这样一条声明:任何菜品、食物或饮料,包括 couvert 在内,只要不是顾客主动要求的,或已被顾客处理到无法再供应给他人,均不得计入账单。价目表须用葡语写就,并同时张贴在入口处和店内;价格含增值税。官方指引把 couvert 定义为价目表上标注为 couvert 的那组食物或开胃小食,依顾客要求,在正餐开始前提供,并把违规行为归类为轻度行政处罚。消费者组织的读法是:顾客不能拒付已经消费掉的东西;『无法再供应给他人』指已被食用或被处理到无法再端给他人;并且没有任何规定禁止顾客让服务员把这些东西撤走。",
+      "fonte": "ASAE, FAQ oficial «Preços em serviços de restauração» (texto bruto verificado); DGAE, «Guia para Aplicação do RJACSR», 30/10/2018 (PDF verificado); DECO PROTESTE, «Restaurantes: regras para a cobrança de entradas, gelo e copos de água», atualizado 18/6/2026. ⚠️ A norma é habitualmente atribuída ao art. 135.º do RJACSR (DL n.º 10/2015): confirmou-se na PGDL que o TÍTULO do artigo é «Lista de preços», mas o corpo não foi extraído — a numeração NÃO é citada.",
+      "ano": 2018,
+      "revisarAte": "2028-08-05",
+      "evidencia": "FATO",
+      "risco": "baixo",
+      "audioKeys": [
+        "pt-a07-n05",
+        "pt-a07-n06"
+      ]
+    },
+    {
+      "id": "pt-a07-fatura",
+      "afirmacao": "每一笔商品或服务的供应都必须开具发票,无论顾客是谁,并且 —— 用税法的原话说 —— 即便他们并未提出要求也是如此。收银台那句关于 contribuinte 的问话,指的是葡萄牙税号,它对接的是国家的 e-Fatura 门户,用于个人所得税抵扣 —— 对访客没有用处。没有这个号,交易就以最终消费者身份完成,索取发票的权利完全不受影响。",
+      "fonte": "Portal das Finanças, CIVA art. 29.º, n.º 1, al. b), verbatim: emitir fatura por cada transmissão ou prestação «independentemente da qualidade do adquirente dos bens ou destinatário dos serviços, ainda que estes não a solicitem».",
+      "ano": 2026,
+      "revisarAte": "2028-08-05",
+      "evidencia": "FATO",
+      "risco": "baixo",
+      "audioKeys": [
+        "pt-a07-n08"
+      ]
+    },
+    {
+      "id": "pt-a07-gorjeta",
+      "afirmacao": "餐饮业协会把小费描述为葡萄牙的一种常见做法,在餐饮业尤为传统,并明确说明它不是强制性的,决定权始终在顾客;协会同时表示,店家在小票上主动建议一份小费,不是好的做法。",
+      "fonte": "AHRESP, «Gorjetas — âmbito de aplicação na restauração e similares», 8/1/2025 (PDF verificado). ⚠️ NENHUMA percentagem entra: os «5% a 10%» circulam apenas em blogues e não existe inquérito representativo sobre comportamento real. O número de gorjetas declaradas em 2023 é atribuição em segunda mão e mede declaração fiscal, não comportamento — não é citado.",
+      "ano": 2025,
+      "revisarAte": "2028-08-05",
+      "evidencia": "FATO",
+      "risco": "medio",
+      "audioKeys": [
+        "pt-a07-n09"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "pt-a07-n01",
+      "gesto": 2,
+      "bloco": "aquecimento",
+      "tom": "ganha",
+      "pt": "这里大多数信号都是安静的。房间里最响的那件事,通常是对方怎么称呼你。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "pt-a07-n02",
+      "bloco": "corpo",
+      "pt": "葡萄牙的礼貌是靠『少说』搭起来的。礼貌的句子里,压根没有一个词是用来指你的。"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_pt_m",
+      "audioKey": "pt-a07-r01",
+      "es": "O senhor deseja mais alguma coisa?",
+      "pinyin": "oo s'NYOR d'ZAY-zhuh mysh al-GOO-muh KOY-zuh",
+      "pt": "👂『这位先生还需要点别的什么吗?』—— 第三人称,由一个名词形式来干这活。",
+      "tts": "O senhor deseja mais alguma coisa?",
+      "receptivo": true,
+      "acao": "回答时完全不带主语。Não, obrigado —— 女性说 obrigada —— 就已经是对的语域。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "pt-a07-n03",
+      "pt": "研究对单数的『你』说得毫不含糊:靠近标准语时,会被听成粗鲁。所以你干脆不说。"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_pt_f",
+      "audioKey": "pt-a07-r02",
+      "es": "Então, e vocês? Ficam mais um bocado?",
+      "pinyin": "'n-TOWNG, ee voh-SESH? FEE-kowng mysh oong boo-KAH-doo",
+      "pt": "👂『那你们呢?还再坐一会儿吗?』—— 复数的 vocês 平常又亲切。",
+      "tts": "Então, e vocês? Ficam mais um bocado?",
+      "receptivo": true,
+      "acao": "把复数当成正常来接住并回答。唯有单数才是你永远不去碰的那一个。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "pt-a07-n04",
+      "bloco": "cena",
+      "pt": "现在讲那些你没点的盘子。两小盘,没有说明,而这个决定有一个计时器。"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_pt_m",
+      "audioKey": "pt-a07-r03",
+      "es": "Isto é o couvert, faz favor.",
+      "pinyin": "EESH-too eh oo koo-VEHR, fash fuh-VOR",
+      "pt": "👂『这是 couvert,请慢用。』—— 这句话就是那个时刻,过了就不再来。",
+      "tts": "Isto é o couvert, faz favor.",
+      "receptivo": true,
+      "acao": "当场出声决定。面包一旦掰开,就等于消费了,而消费了就要付钱。"
+    },
+    {
+      "consulta": [
+        "mesa/agua-pao",
+        "mesa/errado"
+      ],
+      "tipo": "responde",
+      "voz": "target_pt_f",
+      "molde": "PODE",
+      "encaixe": "levar",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "pt-a07-p01",
+      "promptPt": "小盘还完好地放在桌上,大家都在盯着面包。趁没人伸手,把它们退回去。现在说。",
+      "audioKey": "pt-a07-t01",
+      "es": "Não, obrigada. Pode levar, se faz favor.",
+      "pinyin": "nowng, oh-bree-GAH-duh. PAWD l'VAR, s'fash fuh-VOR",
+      "pt": "不用了,谢谢。请撤走吧。",
+      "tts": "Não, obrigada. Pode levar, se faz favor.",
+      "tom": "ganha"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "pt-a07-n05",
+      "pt": "规则是真的,而且印在价目表上:未经要求且未动过的东西,不能计入账单。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "pt-a07-n06",
+      "pt": "但它按时间跑,不按争论跑。事前是一句话,面包没了以后就变成一场谈判。"
+    },
+    {
+      "consulta": [
+        "mesa/agua-pao",
+        "simpatia/agradecer"
+      ],
+      "tipo": "responde",
+      "voz": "target_pt_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "pt-a07-p02",
+      "promptPt": "有人端着托盘在桌边转悠,你不想再有什么被端上来。用四个词把整件事说完。现在说。",
+      "audioKey": "pt-a07-t02",
+      "es": "Está tudo bem, obrigada.",
+      "pinyin": "shTAH TOO-doo bayng, oh-bree-GAH-duh",
+      "pt": "都很好,谢谢。",
+      "tts": "Está tudo bem, obrigada."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "pt-a07-n07",
+      "bloco": "capsula",
+      "pt": "Se faz favor 和 por favor 都是对的,也都常用。这门课把两个都给你,不给它们排名。"
+    },
+    {
+      "consulta": [
+        "mesa/conta",
+        "pagar/pedir"
+      ],
+      "tipo": "responde",
+      "voz": "target_pt_f",
+      "molde": "QUERIA",
+      "encaixe": "a conta",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "pt-a07-p03",
+      "promptPt": "盘子撤走已经十分钟了,不开口就什么都不会来。开口。现在说。",
+      "audioKey": "pt-a07-t03",
+      "es": "Queria a conta, se faz favor.",
+      "pinyin": "k'REE-uh uh KON-tuh, s'fash fuh-VOR",
+      "pt": "请给我账单。",
+      "tts": "Queria a conta, se faz favor."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_pt_m",
+      "audioKey": "pt-a07-r04",
+      "es": "Quer fatura com contribuinte?",
+      "pinyin": "kehr fuh-TOO-ruh kong kong-tr'-b'-EEN-t'",
+      "pt": "👂『要发票加税号吗?』—— 是葡萄牙的税号,对接的国家门户,你用不上。",
+      "tts": "Quer fatura com contribuinte?",
+      "receptivo": true,
+      "acao": "说不要,把小票留下。无论有没有税号,发票都是你应得的。"
+    },
+    {
+      "consulta": [
+        "pagar/pedir",
+        "pagar/errado"
+      ],
+      "tipo": "responde",
+      "voz": "target_pt_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "pt-a07-p04",
+      "promptPt": "他们问了这里每一台收银机都会问的那个问题,而答案很简单:你不在那套系统里。现在说。",
+      "audioKey": "pt-a07-t04",
+      "es": "Não tenho contribuinte, obrigada.",
+      "pinyin": "nowng TAY-nyoo kong-tr'-b'-EEN-t', oh-bree-GAH-duh",
+      "pt": "我没有税号,谢谢。",
+      "tts": "Não tenho contribuinte, obrigada."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "pt-a07-n08",
+      "pt": "这里每一笔销售都要出发票,不管你有没有开口要。收银台那个问题只是记账,别的没有。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "pt-a07-n09",
+      "pt": "在这里,小费常见、传统,但从来不是欠的。决定权被描述为始终在顾客。"
+    },
+    {
+      "consulta": [
+        "simpatia/elogiar-comida",
+        "simpatia/agradecer"
+      ],
+      "tipo": "responde",
+      "voz": "target_pt_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "pt-a07-p05",
+      "promptPt": "你已经起身,老板正朝这边看。到门口之前,把对这顿饭的评价说出来。现在说。",
+      "audioKey": "pt-a07-t05",
+      "es": "Foi tudo muito bom, obrigada.",
+      "pinyin": "foy TOO-doo MOOYN-too bong, oh-bree-GAH-duh",
+      "pt": "一切都很好,谢谢。",
+      "tts": "Foi tudo muito bom, obrigada.",
+      "tom": "ganha"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "pt-a07-n10",
+      "bloco": "permissao",
+      "pt": "『离开』自成一个小小的仪式。两句话,站着说完,没有谁在纳闷发生了什么。"
+    },
+    {
+      "consulta": [
+        "simpatia/agradecer",
+        "chegar/sair"
+      ],
+      "tipo": "responde",
+      "voz": "target_pt_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "pt-a07-p06",
+      "promptPt": "整桌人乐意再坐一小时,而你不想。轻轻宣布,不带任何借口。现在说。",
+      "audioKey": "pt-a07-t06",
+      "es": "Vamos andando. Muito obrigada.",
+      "pinyin": "VUH-moosh an-DAN-doo. MOOYN-too oh-bree-GAH-duh",
+      "pt": "我们先走了。非常感谢。",
+      "tts": "Vamos andando. Muito obrigada."
+    },
+    {
+      "consulta": [
+        "simpatia/convite"
+      ],
+      "tipo": "responde",
+      "voz": "target_pt_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "pt-a07-p07",
+      "promptPt": "他们想拉你去下一家,而你今晚已经到头了。用一句能让邀请留着的话婉拒。现在说。",
+      "audioKey": "pt-a07-t07",
+      "es": "Fica para a próxima, obrigada.",
+      "pinyin": "FEE-kuh PRAH PRAW-see-muh, oh-bree-GAH-duh",
+      "pt": "留到下次吧,谢谢。",
+      "tts": "Fica para a próxima, obrigada.",
+      "tom": "ganha"
+    },
+    {
+      "consulta": [
+        "chegar/sair"
+      ],
+      "tipo": "responde",
+      "voz": "target_pt_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "pt-a07-p08",
+      "promptPt": "你要绕过四把椅子和一个端着盘子的服务员才能到门口。两个字就能让路。现在说。",
+      "audioKey": "pt-a07-t08",
+      "es": "Com licença.",
+      "pinyin": "kong lee-SEN-suh",
+      "pt": "借过。",
+      "tts": "Com licença."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_pt_f",
+      "audioKey": "pt-a07-r05",
+      "es": "Podemos tratar-nos por tu.",
+      "pinyin": "poo-DEH-moosh truh-TAR-noosh poor TOO",
+      "pt": "👂『我们可以互相用 tu 称呼。』—— 是对面递过来的邀请;这邀请由他们提,永远不由你取。",
+      "tts": "Podemos tratar-nos por tu.",
+      "receptivo": true,
+      "acao": "笑一下,继续做你原本在做的事。用没有主语的方式回答,两种称呼都不会出错。"
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_pt_f",
+      "audioKey": "pt-a07-s01",
+      "es": "Não, obrigada. Pode levar, se faz favor. Está tudo bem, obrigada. Com licença.",
+      "pinyin": "nowng, oh-bree-GAH-duh. PAWD l'VAR · shTAH TOO-doo bayng · kong lee-SEN-suh",
+      "pt": "跟读这三句 —— 婉拒、安抚、离开,里面没有一个词是用来指你的。",
+      "tts": "Não, obrigada. Pode levar, se faz favor. Está tudo bem, obrigada. Com licença.",
+      "molde": "PODE"
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_en_us_f",
+      "audioKey": "pt-a07-n11",
+      "bloco": "recap",
+      "tom": "ganha",
+      "pt": "A07 完成。没有主语,没有争论:盘子到桌就退回、税号说不要,以及一次干净的离场。"
+    }
+  ],
+  "aprofundar": {
+    "titulo": "少说、早拒、看懂收银台",
+    "secoes": [
+      {
+        "titulo": "称呼形式就是那支温度计",
+        "corpo": "葡语在这一块有一套系统,访客大多只是读它,而不去操作它。关于称呼形式的研究描述了三条路径:第三人称的名词形式 —— o senhor、a senhora、Dona Maria、o doutor;单词 você;以及零主语,一句没有主语的第三人称句。中间那条是陷阱。在最靠近规范的变体里,单数的 você 被描述为几乎不被承认,通常被感觉为粗鲁的,至少是不礼貌的;并且只要有社会地位或年龄差,大多数情况下就不可接受。而零主语则被描述为让说话人得以避免这些误会。所以你说出来的句子,里面没有一个词是用来指对面那个人的:Tem…?Pode…?Queria…。语域已经嵌在句子的骨架里了。有一个例外你会一直听到、也可以放心用:复数的 vocês 完全不引发上述问题,是普通到不能再普通的一个词。",
+        "exemplos": [
+          {
+            "es": "Está tudo bem, obrigada.",
+            "pt": "都很好,谢谢"
+          },
+          {
+            "es": "Com licença.",
+            "pt": "借过 —— 能让你穿过一整间屋子的那句"
+          }
+        ]
+      },
+      {
+        "titulo": "Couvert,以及为什么这个回答带着计时器",
+        "corpo": "小盘子不请自来不是把戏,它是一件有名字、有规则的事。价目表必须把 couvert 及其价格列进去,必须用葡语,必须同时张贴在入口和店内;并且必须载明一条声明:任何东西 —— 包括 couvert —— 只要不是顾客主动要求的、或已被顾客处理到无法再供应他人,就不得计入账单。官方指引把 couvert 定义为价目表上被标注为 couvert 的那些物品,依顾客要求、在正餐开始前提供。到了桌上,这就变成一条关于时间的规则,而不是一场争论:消费者组织的读法是,顾客不能拒付已经消费掉的东西;『无法再供应他人』指已被食用或被处理到无法再端给他人;而且没有任何规定禁止你让服务员把这些东西撤走。所以那句话就是 Pode levar, se faz favor,要在盘子还完整时说出来。开头那一句干净的话,能替你省掉结尾一整场谈判。"
+      },
+      {
+        "titulo": "关于税号的那个问题",
+        "corpo": "几乎每一台收银机都会有人问你,发票要不要加 contribuinte。听起来像销售问题,其实是记账。税法要求每一笔商品或服务的供应都必须开发票,无论顾客是谁,并明确规定即便他们没有要求也是如此。对方问你要的这个号,是葡萄牙的税号,对接的是一个国家门户,发票汇集到那里以便个人所得税抵扣;访客用不上。说 Não tenho contribuinte, obrigado —— 女性说 obrigada —— 这笔交易就以最终消费者的身份完成,你索取发票的权利完全不受影响。"
+      },
+      {
+        "titulo": "关于小费,按来源的原话来说",
+        "corpo": "餐饮业协会把小费描述为葡萄牙的一种常见做法,在餐饮业尤为传统;明确表示这不是强制性的,决定权始终在顾客;并补充说,店家在小票上主动建议一份小费,它并不认为是好的做法。诚实能说的就这么多。没有关于人们实际给多少的代表性调查,而网上流传的百分比背后没有来源,所以本课程不给你一个数字。玩得开心就往上凑个整;不要为了没人向你要的那份计算而演给自己看。"
+      },
+      {
+        "titulo": "离场:一份两句话的工作",
+        "corpo": "Vamos andando 是宣布『我们要动身了』的标准说法 —— 字面意思是『我们正走着』—— 它不带道歉,也不需要道歉。Fica para a próxima 是本地的『改天再说』,比拒绝暖,因为它把邀请留着。Com licença 能让你穿过一整间屋子,或者绕过任何端着盘子的人。你会注意到这三句话里没有一句包含用来指对面那个人的词,而这就是这一部分的整个道理,用三句话总结完毕。"
+      }
+    ]
+  },
+  "permissao": "你可以在没动之前就把食物退回去,用一句朴素的话不带任何解释就把这事做完 —— 价目表本身就写着:未经要求且未动过的东西不能计入账单,而服务员这句话已经听过上千遍了。你也可以永远不产出一个用来称呼对方的词。这不是你葡语的漏洞:第三人称加零主语在这里就是礼貌形式,而你靠『省掉一个东西』就免费得到它。",
+  "espelho": "想想在家的一位访客在一家没人这么做的店里直呼你的名字,注意你的感受:不是不悦,而是脑子里对『他是谁』做了一次小小的重新计算。同一件仪器,反着跑一次就是这样 —— 而在这里,只要把那个词省掉,它就直接被关掉了。",
+  "fichasCulturais": [
+    {
+      "sinal": "两小盘和一篮面包被端上来,没人点过,也没人就它们说一个字。",
+      "suaLeitura": "要么这是店家请客,要么现在拒绝会让厨房难堪。",
+      "oQueEAli": "这是 couvert,一件有名字的商品,必须连价格一起列在价目表上。价目表还必须载明这条声明:任何东西,包括 couvert,只要不是顾客主动要求的、或已被顾客处理到无法再供应他人,就不得计入账单。消费者组织的读法是:消费了就是消费了 —— 但没有任何规定禁止你请店家把这些东西撤走。",
+      "oQueVoceFaz": "在前十秒钟、东西还完整时做决定:Pode levar, se faz favor。如果你想要,那就开心地吃,并料到它会出现在账单上。",
+      "oQueMelhora": "你永远不会有这场对话的尴尬版本,而那个版本发生在面包已经没了以后。",
+      "ondeNaoVale": "这里没有允许『先吃完再拒付』—— 同一份来源明确说明:『消费』就是决定性的分界。而人们通常引用来支持这一规则的那个法条编号我们没能核实,所以内容站得住脚,引用则不站得住:在饭桌上不要引用法条编号。",
+      "evidencia": "FATO",
+      "audioKeys": [
+        "pt-a07-n05",
+        "pt-a07-n06"
+      ]
+    },
+    {
+      "sinal": "有人用 o senhor 或 a senhora 称呼你,晚上后来又切换到一种更随意得多的说法。",
+      "suaLeitura": "正式那一版是距离,而切换是一次晋升,你现在应该对等地回敬。",
+      "oQueEAli": "那些名词性的第三人称形式是一套系统里的标准路径之一,而另一条干净的路径就是根本不带主语。研究把最靠近规范的变体里的单数 você 描述为几乎不被承认,通常被感觉为粗鲁的、或至少不礼貌的,在有年龄或地位差的大多数情况下不可接受。切换到 tu 是一份邀请,而这份邀请由他们提出。",
+      "oQueVoceFaz": "继续产出没有主语的句子 —— Tem…?Pode…?Queria… —— 不管他们用什么来称呼你。用一个微笑接受那种更暖的语域,而不要靠模仿去接;跟一个以上的人说话时,vocês 尽管放开用。",
+      "oQueMelhora": "你靠『省一个词』而不是『挑一个词』就免费拿到整套礼貌语域,并且你从不做那个唯一会付出代价的选择。",
+      "ondeNaoVale": "文献本身就记载这里存在很大的不稳定性和真实的地区变异,现有的可接受性测试样本很小,而且只集中在里斯本。把它当成一个安全的默认值,而不是一条法律;并要注意,它们完全不适用于复数。",
+      "evidencia": "FATO",
+      "audioKeys": [
+        "pt-a07-n02",
+        "pt-a07-n03"
+      ]
+    }
+  ]
+}

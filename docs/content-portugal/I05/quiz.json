@@ -1,0 +1,96 @@
+{
+  "id": "q-i05",
+  "nivel": "intermediario",
+  "titulo": "小测验 — 咖啡还没上，五个问题先到了",
+  "subtitulo": "谁都没点名，每一个问题都是关于你的",
+  "introAudioKey": "pt-i05-q-i",
+  "introPt": "柜台前空着一个凳子，旁边那位男士在杯子还没落桌时就已经有几个问题。",
+  "cenario": "Alfama 的一家 pastelaria，上午十点半。",
+  "dialogo": [
+    {
+      "audioKey": "pt-i05-q01",
+      "voz": "target_pt_m",
+      "es": "Bom dia. De onde é? É a primeira vez em Portugal?",
+      "pt": "早上好。您从哪里来？是第一次来葡萄牙吗？",
+      "tts": "Bom dia. De onde é? É a primeira vez em Portugal?"
+    },
+    {
+      "audioKey": "pt-i05-q02",
+      "voz": "target_pt_f",
+      "es": "Sou de Manchester. É a primeira vez. Fico cá uma semana.",
+      "pt": "我来自曼彻斯特。第一次。这次待一周。",
+      "tts": "Sou de Manchester. É a primeira vez. Fico cá uma semana."
+    },
+    {
+      "audioKey": "pt-i05-q03",
+      "voz": "target_pt_m",
+      "es": "Fala bem! O tempo hoje está esquisito, não está?",
+      "pt": "说得不错！今天的天气怪怪的，不是吗？",
+      "tts": "Fala bem! O tempo hoje está esquisito, não está?"
+    },
+    {
+      "audioKey": "pt-i05-q04",
+      "voz": "target_pt_f",
+      "es": "Desculpe, não percebi. Pode falar mais devagar, se faz favor?",
+      "pt": "抱歉，我没跟上。可以慢一点说吗？",
+      "tts": "Desculpe, não percebi. Pode falar mais devagar, se faz favor?"
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "De onde é? 里没点名任何人。是在问谁？",
+      "opcoes": [
+        "柜台后面的女士",
+        "没有特定对象——他在自言自语",
+        "问你。光身的第三人称就是礼貌称呼",
+        "谁想回答都可以"
+      ],
+      "correta": 2,
+      "explica": "可教学的系统是第三人称加一个称谓形式——o senhor、a senhora——或完全不带主语。光身版本存在的意义是：说话人可以礼貌地开口，同时不给对面的人贴标签。"
+    },
+    {
+      "pergunta": "在这里，哪一个词你绝对不该以单数形式说出？",
+      "opcoes": [
+        "vocês",
+        "você",
+        "o senhor",
+        "a senhora"
+      ],
+      "correta": 1,
+      "explica": "研究把单数 você 描述为在最接近规范的变体里几乎不可接受，通常被感觉粗鲁或至少不礼貌。复数 vocês 完全没有这个问题，可以随便说。"
+    },
+    {
+      "pergunta": "O tempo hoje está esquisito。他在说什么？",
+      "opcoes": [
+        "天气美妙",
+        "天气奇怪",
+        "天气温暖",
+        "天气 昂贵"
+      ],
+      "correta": 1,
+      "explica": "葡萄牙的 esquisito 意思是奇怪或令人不悦。它是九个让西语使用者在这里付出代价的形似词之一——oficina、borracha、presunto、polvo、rato、brincar、cena、largo 也在其中。"
+    },
+    {
+      "pergunta": "在旅游中心之外，你能指望多少英语？",
+      "opcoes": [
+        "所有人都会——葡萄牙排名很高",
+        "几乎没人会",
+        "约十分之四说能进行对话，约十分之三的成年人没有第二语言",
+        "只有 30 岁以下"
+      ],
+      "correta": 2,
+      "explica": "41% 报告能用英语进行对话，欧盟平均 47%，从 2012 年的 27% 上升；30.1% 的成年人报告完全没有外语能力。在里斯本、波尔图和游客集中的阿尔加维非常普遍；远非全国普及。"
+    },
+    {
+      "pergunta": "他提到在巴西的表亲、说话多么不同。你的动作是？",
+      "opcoes": [
+        "解释哪种才是 正确 的",
+        "说 1990 年的拼写协议是错误",
+        "问他关于表亲的事，让他保留自己的看法",
+        "把话题换到西班牙"
+      ],
+      "correta": 2,
+      "explica": "这里有关于 1990 年拼写协议和口音的一场真实公共争论，客人在其中毫无利害。本课程有意不给你任何 观点词汇——问、听、留在对话里。"
+    }
+  ]
+}

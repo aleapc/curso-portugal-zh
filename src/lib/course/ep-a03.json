@@ -1,0 +1,411 @@
+{
+  "id": "a03",
+  "nivel": "avancado",
+  "numero": 31,
+  "parte": "A03",
+  "slot": "A03",
+  "titulo": "一台机器、一个日期、一种声音",
+  "subtitulo": "三样属于他们、你在第一个下午就能碰上、又不需要你去下任何判断的东西 —— 那台能替你付账单的自助机、那些被拿走又还回来的假日,以及这门课整门都在为它服务的这个口音",
+  "cena": "里斯本一个柜台前,下午五点:你刚用葡语说完一句话,那位原本已经在切换成英语的服务员改主意了。",
+  "moldura": "ganha",
+  "frasePiso": "一句话 —— 你正在学的是葡萄牙的葡语 —— 能替你换来的下午,比你能对风景说出的任何赞美都长。",
+  "moldes": [],
+  "fatosDatados": [
+    {
+      "id": "pt-a03-multibanco",
+      "afirmacao": "Multibanco 在结构上跟旅客习惯的那种『每家银行各自为政』的自助机网络不一样:它是几乎整个银行业共享的单一银行间网络,而不是由每家银行分别经营互相竞争的网络,这就是为什么同一台终端能结算水电账单、给手机充值、办理社保付款。这个网络于 1985 年 9 月 2 日以九台机器开通;运营方称目前全国约有一万三千台终端,可执行九十多种不同的操作,MB WAY 有六百五十万用户。就使用情况而言,欧洲央行的 SPACE 2024 研究报告称欧元区销售点交易中现金占 52%(2022 年为 59%),而葡萄牙是 2022 至 2024 年之间降幅最大的国家之一。",
+      "fonte": "multibanco.pt / SIBS, 2026 (⚠️ a fonte destes números é o PRÓPRIO OPERADOR, não um regulador — entram como alegação datada, nunca como auditoria); lançamento em 02.09.1985 com 9 equipamentos; BCE, «SPACE 2024» (PDF, verbatim: 52% das transações no ponto de venda na área do euro, 59% em 2022). ⚠️ Os valores ESPECÍFICOS de Portugal no SPACE estão em gráficos não extraíveis e NÃO foram verificados — por isso o curso cita a área do euro e a direção da queda, nunca uma percentagem portuguesa.",
+      "ano": 2026,
+      "revisarAte": "2027-08-05",
+      "evidencia": "FATO",
+      "risco": "medio",
+      "audioKeys": [
+        "pt-a03-n02",
+        "pt-a03-n03",
+        "pt-a03-n04"
+      ]
+    },
+    {
+      "id": "pt-a03-feriados",
+      "afirmacao": "根据《劳动法典》(Lei n.º 7/2009)第 234 条第 1 款,共有十三个法定公共假日:1 月 1 日、耶稣受难日、复活节主日、4 月 25 日、5 月 1 日、圣体节、6 月 10 日、8 月 15 日、10 月 5 日、11 月 1 日,以及 12 月 1 日、8 日、25 日。其中四个被 Lei n.º 23/2012 取消,自 2013 年起生效,并由 2016 年 4 月 1 日的 Lei n.º 8/2016 恢复。12 月 1 日纪念 1640 年的独立复辟,那一年终结了 1580 至 1640 年的伊比利亚合并;4 月 25 日纪念 1974 年。",
+      "fonte": "Código do Trabalho, art. 234.º, n.º 1 (Lei n.º 7/2009); supressão pela Lei n.º 23/2012 (efeitos em 2013); reposição pela Lei n.º 8/2016, de 1 de abril; Restauração da Independência em 01.12.1640, fim da União Ibérica 1580–1640",
+      "ano": 2016,
+      "revisarAte": "2030-08-05",
+      "evidencia": "FATO",
+      "risco": "baixo",
+      "audioKeys": [
+        "pt-a03-n05",
+        "pt-a03-n06"
+      ]
+    },
+    {
+      "id": "pt-a03-som",
+      "afirmacao": "这里教的这个口音不是任何东西的『轻一点』或『重一点』的版本。国际语音协会手册记载,欧洲葡语的软腭化共鸣、松弛的发音方式,加上特定的韵律模式,『构成了区分葡语欧洲口音与巴西口音最鲜明的特征』,而巴西一侧的描述也同意『这两种现象在巴西葡语中远没有这么极端』。任何来源都不支持关于『谁听得懂谁』的说法:那个被反复引用的可懂性不对称,背后并没有以真人听众为参与者的研究,那些流传的数字来自商业教学网站。",
+      "fonte": "Madalena Cruz-Ferreira, «Portuguese (European)», Handbook of the IPA (IPA/Cambridge UP, 1999; = JIPA 25, 1995), verbatim; Barbosa & Albano, «Brazilian Portuguese», JIPA 34/2 (2004), verbatim. ⚠️ A assimetria de inteligibilidade PE↔PB é item 1 da lista «O que NÃO entra no curso»: nenhum estudo com participantes humanos.",
+      "ano": 1999,
+      "revisarAte": "2030-08-05",
+      "evidencia": "FATO",
+      "risco": "baixo",
+      "audioKeys": [
+        "pt-a03-n07",
+        "pt-a03-n08",
+        "pt-a03-n09"
+      ]
+    },
+    {
+      "id": "pt-a03-vizinho",
+      "afirmacao": "跟邻国之间的规模差是被度量过的,而所谓的『敏感之处』并没有。2024 年葡萄牙接待了 2900 万非居民入境(INE),而西班牙接待了 9380 万国际游客(INE España, FRONTUR)—— 两套统计方法并不相同,所以这只是一个数量级对比,不是精确的比率。与此相对,没有任何研究或调查在衡量『被跟西班牙相比』是否会让谁不悦,而唯一现有的一份工具指向另一个方向:在皇家埃尔卡诺研究所的第 8 次《西班牙形象晴雨表》(2018)里,葡萄牙是对西班牙形象评价最好的国家之一。两国分别是主权国家,而独立复辟的日期是 1640 年 12 月 1 日。",
+      "fonte": "INE (Portugal), 29,0 M de chegadas de não residentes em 2024; INE España, FRONTUR, 93,8 M de turistas internacionais em 2024 — ⚠️ metodologias NÃO idênticas; Real Instituto Elcano, 8.º Barómetro da Imagem de Espanha (2018). ⚠️ Item 17 da lista «O que NÃO entra no curso»: não existe qualquer estudo sobre suscetibilidade à comparação com Espanha — o curso nomeia a ausência em vez de a preencher.",
+      "ano": 2024,
+      "revisarAte": "2027-08-05",
+      "evidencia": "FATO",
+      "risco": "medio",
+      "audioKeys": [
+        "pt-a03-n10",
+        "pt-a03-n11"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "pt-a03-n01",
+      "gesto": 1,
+      "bloco": "aquecimento",
+      "tom": "ganha",
+      "pt": "没人会问你觉得这个国家怎么样。他们会在暗处看你有没有注意到任何东西。"
+    },
+    {
+      "consulta": [
+        "reparo/ingles",
+        "simpatia/puxar-conversa"
+      ],
+      "tipo": "responde",
+      "voz": "target_pt_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "pt-a03-p01",
+      "promptPt": "服务员在你一开口的瞬间就切成了英语。告诉他你来这里是要练什么的。现在说。",
+      "audioKey": "pt-a03-t01",
+      "es": "Estou a aprender português de Portugal.",
+      "pinyin": "shTOH uh uh-pr'n-DEHR poor-too-GESH d' poor-too-GAL",
+      "pt": "我正在学葡萄牙的葡语。",
+      "tts": "Estou a aprender português de Portugal.",
+      "tom": "ganha"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_pt_m",
+      "audioKey": "pt-a03-r01",
+      "es": "Português de Portugal, então? Muito bem. Vamos a isso.",
+      "pinyin": "poor-too-GESH d' poor-too-GAL, 'n-TOWNG? MOOY-too BENG. VAH-moosh uh EE-soo",
+      "pt": "👂『葡萄牙的葡语,是吗?非常好。那我们就来。』—— 英语退场,而且不会再回来。",
+      "tts": "Português de Portugal, então? Muito bem. Vamos a isso.",
+      "receptivo": true,
+      "acao": "你刚刚买下了这场对话的『难度加强版』。慢慢来,别再为速度道歉。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "pt-a03-n02",
+      "bloco": "corpo",
+      "pt": "从墙上那台机器开始讲。一个网络,几乎所有银行共用,从 1985 年一直运行到现在。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "pt-a03-n03",
+      "pt": "它能付水费、给手机充值、办社保。全国大约一万三千台。"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_pt_f",
+      "audioKey": "pt-a03-r02",
+      "es": "Aqui no multibanco paga a água, a luz e os impostos.",
+      "pinyin": "uh-KEE noo mool-tee-BANG-koo PAH-guh uh AH-gwuh, uh LOOSH ee ooz eeng-POSH-toosh",
+      "pt": "👂『在这里的 multibanco 上就能付水费、电费和税。』—— 一面墙,一份菜单,全部搞定。",
+      "tts": "Aqui no multibanco paga a água, a luz e os impostos.",
+      "receptivo": true,
+      "acao": "把整份菜单看一遍,不要只找取现按钮。买票、充话费也都在里头。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "pt-a03-n04",
+      "pt": "这些数字来自运营方本身,不是来自监管机构 —— 属于一份有日期的声明,不是一次审计。"
+    },
+    {
+      "consulta": [
+        "pagar/dinheiro"
+      ],
+      "tipo": "responde",
+      "voz": "target_pt_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "pt-a03-p02",
+      "promptPt": "墙上的屏幕给你十几个你完全没料到会出现在一台『墙洞』里的选项。问一句你面前到底是个什么。现在说。",
+      "audioKey": "pt-a03-t02",
+      "es": "Isto também paga contas?",
+      "pinyin": "EESH-too tang-BENG PAH-guh KON-tush",
+      "pt": "这个也能付账单吗?",
+      "tts": "Isto também paga contas?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "pt-a03-n05",
+      "bloco": "corpo",
+      "pt": "第二,日历。2013 年拿走了四个公共假日,2016 年又还了回来。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "pt-a03-n06",
+      "pt": "现在有十三个是强制性的。12 月 1 日纪念 1640 年,那一年伊比利亚合并结束。"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_pt_m",
+      "audioKey": "pt-a03-r03",
+      "es": "Tiraram-nos quatro feriados e depois devolveram-nos.",
+      "pinyin": "tee-RAH-rowng-noosh KWAH-troo f'ree-AH-doosh ee d'POYSH d'vol-VEH-rowng-noosh",
+      "pt": "👂『他们从我们身上拿走了四个假日,后来又还了回来。』—— 两件事都写在法条上。",
+      "tts": "Tiraram-nos quatro feriados e depois devolveram-nos.",
+      "receptivo": true,
+      "acao": "记下日期,别去碰它背后的政治。与其问『谁有理』,不如问『这一天要做什么』。"
+    },
+    {
+      "consulta": [
+        "simpatia/puxar-conversa"
+      ],
+      "tipo": "responde",
+      "voz": "target_pt_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "pt-a03-p03",
+      "promptPt": "半条街都关着,而事先没人跟你说过。问报刊亭的大叔今天是什么日子。现在说。",
+      "audioKey": "pt-a03-t03",
+      "es": "O que é que se comemora hoje?",
+      "pinyin": "oo k'EH k' s' koo-m'MOH-ruh OH-zh'",
+      "pt": "今天是在纪念什么?",
+      "tts": "O que é que se comemora hoje?"
+    },
+    {
+      "consulta": [
+        "simpatia/puxar-conversa",
+        "simpatia/elogiar-lugar"
+      ],
+      "tipo": "responde",
+      "voz": "target_pt_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "pt-a03-p04",
+      "promptPt": "邻桌有人问你认识这座城市多久了。老实说,然后把话头递过去。现在说。",
+      "audioKey": "pt-a03-t04",
+      "es": "É a primeira vez que venho cá.",
+      "pinyin": "EH uh pree-MAY-ruh vesh k' VEH-nyoo KAH",
+      "pt": "这是我第一次来这里。",
+      "tts": "É a primeira vez que venho cá."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "pt-a03-n07",
+      "bloco": "capsula",
+      "pt": "第三,声音。你在学的这个,不是任何东西的『轻一点』版本,而把这话说出口,是零成本的。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "pt-a03-n08",
+      "pt": "语音学手册指出:共鸣和松弛的发音方式,是把两个口音区分开来最主要的东西。"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_pt_f",
+      "audioKey": "pt-a03-r04",
+      "es": "Está a apanhar o sotaque de cá.",
+      "pinyin": "shTAH uh uh-puh-NYAR oo soo-TAH-k' d' KAH",
+      "pt": "👂『你在把这里的口音学过来了。』—— 说话人是当赞美说的,也真的是赞美。",
+      "tts": "Está a apanhar o sotaque de cá.",
+      "receptivo": true,
+      "acao": "不要往低了说。说声谢谢,然后继续像刚才那样把元音压紧。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "pt-a03-n09",
+      "pt": "没人衡量过的是:哪一边跟得上哪一边。没有真人听众参与的研究,所以这门课也不下任何判断。"
+    },
+    {
+      "consulta": [
+        "reparo/devagar",
+        "simpatia/puxar-conversa"
+      ],
+      "tipo": "responde",
+      "voz": "target_pt_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "pt-a03-p05",
+      "promptPt": "他们问你一周下来耳朵适应得怎么样。说实话 —— 而这实话本身就已经是好听的话了。现在说。",
+      "audioKey": "pt-a03-t05",
+      "es": "Estou a habituar-me ao som.",
+      "pinyin": "shTOH uh uh-bee-TWAR-m' ow SONG",
+      "pt": "我正在习惯这个声音。",
+      "tts": "Estou a habituar-me ao som."
+    },
+    {
+      "consulta": [
+        "compras/balcao",
+        "simpatia/puxar-conversa"
+      ],
+      "tipo": "responde",
+      "voz": "target_pt_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "pt-a03-p06",
+      "promptPt": "你手里拿着一样在别处从没见过的东西,柜台后的女士正看着你看着它。现在说。",
+      "audioKey": "pt-a03-t06",
+      "es": "Isto é só de cá?",
+      "pinyin": "EESH-too EH saw d' KAH",
+      "pt": "这东西是只有这里才有的吗?",
+      "tts": "Isto é só de cá?",
+      "tom": "ganha"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "pt-a03-n10",
+      "bloco": "permissao",
+      "pt": "关于隔壁那位邻居:别人告诉你的那个『敏感之处』,其实从来没有人真正测量过。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "pt-a03-n11",
+      "pt": "被测量过的是规模。2024 年这边 2900 万入境,那边 9400 万。"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_pt_m",
+      "audioKey": "pt-a03-r05",
+      "es": "Já foi a Espanha? É já ali, mas a comida é outra.",
+      "pinyin": "zhah FOY uh 'sh-PAH-nyuh? EH zhah uh-LEE, mush uh koo-MEE-duh EH OH-truh",
+      "pt": "👂『你去过西班牙没?就在旁边,不过吃的东西是另一回事。』—— 这是关于菜单的注解,不是挑衅。",
+      "tts": "Já foi a Espanha? É já ali, mas a comida é outra.",
+      "receptivo": true,
+      "acao": "别附和、别排名、别辩护。问一句『这里该吃什么』,这句话就变成了一份推荐。"
+    },
+    {
+      "consulta": [
+        "simpatia/puxar-conversa"
+      ],
+      "tipo": "responde",
+      "voz": "target_pt_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "pt-a03-p07",
+      "promptPt": "他刚告诉了你一件任何指南都没写的关于这座城的事。用那句最朴素、能让他继续说下去的话回。现在说。",
+      "audioKey": "pt-a03-t07",
+      "es": "Não sabia disso.",
+      "pinyin": "nowng suh-BEE-uh DEE-soo",
+      "pt": "我以前不知道这个。",
+      "tts": "Não sabia disso."
+    },
+    {
+      "consulta": [
+        "simpatia/elogiar-lugar",
+        "simpatia/agradecer"
+      ],
+      "tipo": "responde",
+      "voz": "target_pt_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "pt-a03-p08",
+      "promptPt": "你要离开柜台,而这一次你是真心的。在到门口之前把它说出来。现在说。",
+      "audioKey": "pt-a03-t08",
+      "es": "Gostei muito daqui.",
+      "pinyin": "goosh-TAY MOOY-too duh-KEE",
+      "pt": "我非常喜欢这里。",
+      "tts": "Gostei muito daqui.",
+      "tom": "ganha"
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_pt_f",
+      "audioKey": "pt-a03-s01",
+      "es": "Estou a aprender português de Portugal. Isto é só de cá? Gostei muito daqui.",
+      "pinyin": "shTOH uh uh-pr'n-DEHR poor-too-GESH d' poor-too-GAL · EESH-too EH saw d' KAH · goosh-TAY MOOY-too duh-KEE",
+      "pt": "跟读这三句 —— 它们打开一个下午,而不是关上一个。",
+      "tts": "Estou a aprender português de Portugal. Isto é só de cá? Gostei muito daqui."
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_en_us_f",
+      "audioKey": "pt-a03-n12",
+      "bloco": "recap",
+      "tom": "ganha",
+      "pt": "A03 完成。一台共享的机器、一份被争论过的日历,以及一个不属于任何人方言的口音。"
+    }
+  ],
+  "aprofundar": {
+    "titulo": "三样属于他们的东西,和一个可以留在家里不带来的信念",
+    "secoes": [
+      {
+        "titulo": "墙上那台机器,以及它跟你那种为什么不一样",
+        "corpo": "Multibanco 不是某种品牌的自助机,它是几乎整个银行业共享的单一银行间网络 —— 一整套铺开的网,而不是各家银行各自竞争经营的多套网。这就是结构上的区别,也就是为什么一台终端能结算水电、给手机充值、卖票、办社保付款,同一块屏幕后面挂着九十多种不同操作。这个网络于 1985 年 9 月 2 日以九台机器开通;运营方称今天全国约有一万三千台终端,MB WAY 应用有六百五十万用户。这些数字请照它们本来的样子读:它们来自运营方本身,不是来自监管机构,所以是一份有日期的声明,不是一次审计。就现金的更宽层面,欧洲央行 SPACE 2024 研究把欧元区销售点交易中的现金比例定在 52%(2022 年为 59%),而葡萄牙是这个时段跌得最猛的国家之一 —— 葡萄牙本身的具体数字被收在无法抽取的图表里,所以这里不作任何比这更精细的判断。",
+        "exemplos": [
+          {
+            "es": "Isto também paga contas?",
+            "pt": "这个也能付账单吗?"
+          },
+          {
+            "es": "Isto é só de cá?",
+            "pt": "这东西是只有这里才有的吗?"
+          }
+        ]
+      },
+      {
+        "titulo": "一份内嵌了争论的日历",
+        "corpo": "《劳动法典》第 234 条规定十三个公共假日为强制性的。其中四个在 2012 年被删除、2013 年生效,又由 2016 年 4 月 1 日的一部法律恢复 —— 一个国家从自己的日历上拿走几天,然后再补回来,这几乎是你能拿到的一份最好读的『国家自述』。其中两个日期承载最大的故事:4 月 25 日是 1974 年,12 月 1 日纪念 1640 年的独立复辟,那一年终结了从 1580 年开始的伊比利亚合并。如果你发现街道关闭、事先又没人告诉你,真正有用的问题不是『那场争论是什么』,而是『这一天到底要做什么』:o que é que se comemora hoje。这个问题会被高兴地、长长地作答,通常还会附带一份推荐。"
+      },
+      {
+        "titulo": "那种声音,以及能改变一个下午的那一句话",
+        "corpo": "你在学的这个口音,在参考文献里有一份『描述』,而不是一份『名声』。国际语音协会手册把软腭化的共鸣和松弛的发音方式,加上特定的韵律模式,列为区分葡语欧洲口音与巴西口音最鲜明的东西;巴西一侧的描述与之一致,并补充说这两种现象在那边远没有这么极端。那是关于两个语音系统的事实,这门课就说到这里。这里不下任何关于『谁听得懂谁』的判断 —— 大家都在重复的那个『可懂性不对称』,背后并没有真人听众参与的研究,那些流传的百分数来自商业教学网站。estou a aprender português de Portugal 这一句话不是在打嘴仗:它是在告诉对面的人,你正在尝试的是两件事里的哪一件,而它常常当场把这场对话的『英语那一半』结束掉。"
+      },
+      {
+        "titulo": "那位邻居,以及那个可以留在家里的信念",
+        "corpo": "英语世界的访客常常带着这样一个信念到达 —— 跟西班牙相比是一处伤口 —— 而这个信念背后没有任何东西撑着。没有研究或调查在衡量这件事是否会让谁不悦,关于伊比利亚语言态度的文献几乎不存在,而唯一现成的一件工具指向另一个方向:皇家埃尔卡诺研究所 2018 年的第 8 次《西班牙形象晴雨表》里,葡萄牙是对西班牙形象评价最好的国家之一。可度量的是规模。2024 年葡萄牙记录了 2900 万非居民入境,西班牙是 9380 万国际游客,两套方法并不相同,所以这只是一个数量级,不是精确的比率。两国都是分别的主权国家,自 1640 年 12 月 1 日起就是。这些里面没有哪一条给你一个需要守住的立场,也没有哪一条需要你去守。"
+      },
+      {
+        "titulo": "什么话不该从你嘴里出来,以及这为什么不是过于拘谨",
+        "corpo": "跟巴西的关系、殖民过去,以及 1990 年的正字法协定,都是有据可查、牵扯真金白银的活议题,而访客在其中任何一件里都没有立场。这门课记录这些辩论存在、不在任何一场里站队,也不给你任何『观点式词汇』让你在其中开火 —— 不是因为这些题目被禁,而是因为一个星期二才到达的人交出的判决,对桌上任何一个人来说都不值分文。好奇心是另一回事,它在哪儿都受欢迎:não sabia disso 和 o que é que se comemora hoje 都是完整的贡献。"
+      }
+    ]
+  },
+  "permissao": "你可以被普通的基础设施打动,并说出来。没人指望访客对一个国家有观点,而不请自来地给出观点,是把这一部分做错的唯一真实方式 —— 能替你换来一个下午的,是注意到某一件具体的事,然后就着它去问。你也可以对隔壁的邻居、对旧帝国、对你在学的这门语言的拼写没有任何一种看法。Não sabia disso 是一句完整、也受欢迎的话,它比你事先准备好的任何立场都更能引出后续。",
+  "permissaoAudioKey": "pt-a03-n10",
+  "espelho": "想想你希望一个到你自己国家旅行的人注意到什么:多半不是明信片上的那座纪念碑,而是某样安静地运转着、他们没预料到的东西 —— 一台机器、一个习惯、一个有原因的假期。然后再想想:一个来了三天的陌生人告诉你你的国家其实是什么样子,那种落地感如何?这两半都在这里同时运转,而你可以选自己是哪一半。",
+  "fichasCulturais": [
+    {
+      "sinal": "你用葡语说了第一句话,对面那位原本已经用英语开口的人停下来,接下来的对话里一直保持葡语。",
+      "suaLeitura": "你以为自己给两边都添了麻烦,于是出于好心又切回英语。",
+      "oQueEAli": "被人用葡萄牙的葡语跟你说话,不是他们身上多了一个负担;访客尝试这件事其实相当少见,而这个口音本身有其被记录下来的身份 —— 参考文献指出,是它的共鸣和发音方式把它与巴西变体区分开来。",
+      "oQueVoceFaz": "留在葡语里。说 estou a aprender português de Portugal,然后放慢你自己那半的语速,而不是把对话缩短;遇到数字或人名一带而过,就请对方写下来。",
+      "oQueMelhora": "这次交流不再是一次服务交易,而是变成一场对话 —— 推荐、捷径、再来一份,都住在这里面。",
+      "ondeNaoVale": "这不是关于『谁该说什么』的规则。很多人就是单纯偏好英语,尤其是他们赶时间、或事情本身复杂的时候,把这一层照面接受下来,才是有礼貌的读法。这也完全不携带关于『谁听得懂谁的葡语』的判断 —— 没有真人听众参与的研究支持这类说法。",
+      "evidencia": "FATO",
+      "audioKeys": [
+        "pt-a03-n07",
+        "pt-a03-n08",
+        "pt-a03-n09"
+      ]
+    },
+    {
+      "sinal": "有人提到西班牙,你为一处你读过一百遍的『敏感话题』做好了心理准备。",
+      "suaLeitura": "你要么费劲地绕开这个话题,要么急急送上一句意在安抚的赞美 —— 而这两种反应都在宣告『你原本以为对方有心结』。",
+      "oQueEAli": "这份预设背后什么也没有。没有研究或调查在衡量『跟西班牙相比』是否会让谁不悦,而唯一现存的一份晴雨表把葡萄牙列在『对西班牙形象最好的国家』之列。被度量的是规模 —— 2024 年这边 2900 万入境,那边 9380 万,方法并不相同 —— 以及自 1640 年起分别的两个主权国家。",
+      "oQueVoceFaz": "把对方的这句提及当成普通提及。如果他们抛出一个比较,把其中具体的那一半 —— 食物、海岸、火车 —— 接下来,转成一个关于『这里』的提问,而不是一个关于两边任何一边的判决。",
+      "oQueMelhora": "你不再去表演一份没人要你表演的敏感,而这场对话可以就是关于午饭的,这本来也就是它要谈的东西。",
+      "ondeNaoVale": "这不是在说没有任何地方的人持有强烈观点,更不是允许你为了取乐拿两边做比较。这是一句关于证据的判断:那些民间说法没有证据,所以这门课既不教它,也不教它的反面。",
+      "evidencia": "FATO",
+      "audioKeys": [
+        "pt-a03-n10",
+        "pt-a03-n11"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "id": "q-b15",
+  "nivel": "basico",
+  "titulo": "小测验 — Quanto custa——付款之前问的那个问题",
+  "subtitulo": "卡与信用、收银最低消费、largo 这个词，以及那条其实并不存在的星期日规则",
+  "introAudioKey": "pt-b15-q-i",
+  "introPt": "星期六早晨，三个柜台：售票窗口、商店、集市摊，在东西被包起来之前先听到价格。",
+  "cenario": "先是地铁售票窗口的清晨，然后是一家商店，最后是一个卖整轮奶酪、没有标价的集市摊。",
+  "dialogo": [
+    {
+      "audioKey": "pt-b15-q01",
+      "voz": "target_pt_f",
+      "es": "Bom dia. Quanto custa o bilhete? E quanto custa o cartão?",
+      "pt": "早上好。车票多少钱？卡多少钱？",
+      "tts": "Bom dia. Quanto custa o bilhete? E quanto custa o cartão?"
+    },
+    {
+      "audioKey": "pt-b15-q02",
+      "voz": "target_pt_m",
+      "es": "O cartão são cinquenta cêntimos. Depois carrega o que quiser.",
+      "pt": "卡是 50 分。之后您想充多少充多少。",
+      "tts": "O cartão são cinquenta cêntimos. Depois carrega o que quiser."
+    },
+    {
+      "audioKey": "pt-b15-q03",
+      "voz": "target_pt_f",
+      "es": "Quanto custa isto? Aceitam cartão?",
+      "pt": "这个多少钱？收卡吗？",
+      "tts": "Quanto custa isto? Aceitam cartão?"
+    },
+    {
+      "audioKey": "pt-b15-q04",
+      "voz": "target_pt_m",
+      "es": "Só aceitamos cartão a partir de cinco euros. Mas tenho troco.",
+      "pt": "5 欧元起才收卡。但我有零钱。",
+      "tts": "Só aceitamos cartão a partir de cinco euros. Mas tenho troco."
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "为什么本课程把 quanto custa 后面的图块保持为单数？",
+      "opcoes": [
+        "商店里复数少见",
+        "因为 custa 与数目一致，quanto custam 会变成压力下的一次选择",
+        "因为法律规定价格必须按件报",
+        "因为复数形式被视为不礼貌"
+      ],
+      "correta": 1,
+      "explica": "一次问一样东西就是设计。框架保持固定，后面的东西在换——正是这一点让它在高速下也可用。"
+    },
+    {
+      "pergunta": "在里斯本，你付 0,50 € 买到的是什么？",
+      "opcoes": [
+        "一次地铁行程",
+        "可复用的卡本身——里面还没充任何行程",
+        "一张日票",
+        "出站可退的押金"
+      ],
+      "correta": 1,
+      "explica": "2026 年 navegante ocasional 卡 0,50 €，Carris/Metro 单程 1,90 €，储值单程 1,72 €，24 小时票 7,25 €。这些数字每年一月都会调整。"
+    },
+    {
+      "pergunta": "收银机上写着 5 欧元起才刷卡。这是？",
+      "opcoes": [
+        "违法，值得指出",
+        "合法，因为葡萄牙法律里没有找到接受卡的普遍义务",
+        "全欧适用的欧盟规则",
+        "只适用于餐厅的规则"
+      ],
+      "correta": 1,
+      "explica": "没找到葡萄牙有强制接受卡的规则；而 2020 年出台过一份临时特别法令才短暂强制过这件事——这本身就是没有长期义务的强有力间接证据。进门时先看收银台的告示。"
+    },
+    {
+      "pergunta": "衬衫标签上写 largo。它告诉你什么？",
+      "opcoes": [
+        "很长",
+        "很宽",
+        "西班牙语意义上的宽松",
+        "国际尺码中的大号"
+      ],
+      "correta": 1,
+      "explica": "在葡萄牙 largo 意思是 宽大。这个词对会西班牙语的人显得熟悉却指向别处——所以柜台问一句 tem outro tamanho? 比标签更有价值。"
+    },
+    {
+      "pergunta": "今天是星期日。关于营业时间可以假设什么？",
+      "opcoes": [
+        "零售全国闭店",
+        "只有购物中心开门",
+        "没有全国规则——营业时间自由，去看你要去那家的门口告示",
+        "下午两点所有东西都关"
+      ],
+      "correta": 2,
+      "explica": "1996 年的法令（2015 年更新）规定零售、服务和餐饮的营业时间自由，无需事先授权；市政仅可基于安全或生活质量加以限制。没有全国性的星期日闭店规则。"
+    }
+  ]
+}

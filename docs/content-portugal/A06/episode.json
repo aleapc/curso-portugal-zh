@@ -1,0 +1,420 @@
+{
+  "id": "a06",
+  "nivel": "avancado",
+  "numero": 34,
+  "parte": "A06",
+  "slot": "A06",
+  "titulo": "十三个日期、两个六月的夜晚、以及沙滩上那面旗",
+  "subtitulo": "国家级假日写在《劳动法典》里;市级那一个只让市政厅关门,不让商店关门;而海滩浴季从某个签字生效的日期开始",
+  "cena": "6 月 12 日,里斯本的自由大道:车道封了,人行道上的椅子正被搬出来,有人用双手捧着一株罗勒往家走。",
+  "moldura": "ganha",
+  "frasePiso": "十三个日期你查得到。其余的一切,你在一扇门那里就能搞定:amanhã é feriado?",
+  "moldes": [],
+  "fatosDatados": [
+    {
+      "id": "pt-a06-feriados",
+      "afirmacao": "葡萄牙有十三个强制性国家级假日,列于《劳动法典》(Lei n.º 7/2009)第 234 条第 1 款:1 月 1 日、耶稣受难日、复活节主日、4 月 25 日、5 月 1 日、圣体节、6 月 10 日、8 月 15 日、10 月 5 日、11 月 1 日,以及 12 月 1 日、8 日、25 日。其中四个被 Lei n.º 23/2012 取消,自 2013 年起生效,并由 2016 年 4 月 1 日的 Lei n.º 8/2016 恢复。",
+      "fonte": "Código do Trabalho (Lei n.º 7/2009), art. 234.º, n.º 1 — treze feriados obrigatórios. Supressão de quatro pela Lei n.º 23/2012 (efeitos em 2013) e reposição pela Lei n.º 8/2016, de 1 de abril.",
+      "ano": 2016,
+      "revisarAte": "2029-08-05",
+      "evidencia": "FATO",
+      "risco": "baixo",
+      "audioKeys": [
+        "pt-a06-n02"
+      ]
+    },
+    {
+      "id": "pt-a06-municipal",
+      "afirmacao": "市级假日同时按两种方式运作。《劳动法典》第 235 条规定,狂欢节星期二和市级假日可以通过集体协议或雇佣合同来加以遵守,而第 236 条第 2 款禁止另行创设 —— 所以在私营部门,它们并不是强制性的。在公共部门,Lei n.º 35/2014 第 122 条第 3 款规定,应当遵守当地的市级假日。里斯本 6 月 13 日、波尔图 6 月 24 日的实际结果是:公共服务和学校关门,而商店和购物中心通常照常开门。",
+      "fonte": "Código do Trabalho, arts. 235.º e 236.º, n.º 2; Lei n.º 35/2014 (LTFP), art. 122.º, n.º 3. ⚠️ Não foi confirmado o diploma que fixa especificamente as datas de 13 de junho (Lisboa) e 24 de junho (Porto) — o padrão descrito é o efeito prático dos dois regimes, não uma citação de norma sobre as datas.",
+      "ano": 2014,
+      "revisarAte": "2029-08-05",
+      "evidencia": "FATO",
+      "risco": "medio",
+      "audioKeys": [
+        "pt-a06-n04"
+      ]
+    },
+    {
+      "id": "pt-a06-santos",
+      "afirmacao": "在里斯本,高潮是 6 月 12 日的夜晚:各街区的 Marchas Populares 沿自由大道游行,还有 Casamentos de Santo António(圣安东尼奥集体婚礼)、各街区的 arraiais(街头庆典)、烤沙丁鱼和罗勒盆栽。在波尔图,烟花在 23 日夜到 24 日凌晨零点升起,在 Luís I 桥和 Arrábida 桥之间的河面上,Mercado do Bolhão 有 cascata,Fontainhas 和 Foz 有 arraiais。",
+      "fonte": "EGEAC, programa das Festas de Lisboa 2026 (verificado); porto.pt, programa do São João 2026 (verificado). ⚠️ Os martelinhos de plástico e os balões de ar quente são descritos pela imprensa como tradição, mas NÃO constam de programa oficial verificado; os balões são restringidos e a regra varia de ano para ano — por isso nada é afirmado sobre eles.",
+      "ano": 2026,
+      "revisarAte": "2027-06-01",
+      "evidencia": "FATO",
+      "risco": "medio",
+      "audioKeys": [
+        "pt-a06-n05",
+        "pt-a06-n06"
+      ]
+    },
+    {
+      "id": "pt-a06-domingo",
+      "afirmacao": "没有全国性的『周日必须关门』的规则。1996 年 5 月 15 日的 Decreto-Lei n.º 48/96,直至 Decreto-Lei n.º 10/2015 的多次修订,将零售、服务和餐饮的营业时间放开自由决定,无需事先许可;市议会可以以安全或生活品质为由加以限制。",
+      "fonte": "DL n.º 48/96, de 15/5, alterado até ao DL n.º 10/2015 — horário de funcionamento livre para venda ao público, serviços e restauração, sem autorização prévia; câmaras podem restringir por segurança ou qualidade de vida.",
+      "ano": 2015,
+      "revisarAte": "2029-08-05",
+      "evidencia": "FATO",
+      "risco": "baixo",
+      "audioKeys": [
+        "pt-a06-n07"
+      ]
+    },
+    {
+      "id": "pt-a06-balnear",
+      "afirmacao": "海滩浴季每年由一份联合部长令确定。2026 年,Portaria n.º 204-A/2026/1(4 月 30 日)规定阿尔布费拉自 5 月 15 日至 10 月 15 日,阿尔加维其余大多数市镇自 6 月 1 日至 9 月 30 日。旗帜规则由 Portaria n.º 311/2015 规定,由海事局在沙滩的 edital(公告)中公布:绿旗表示允许游泳,黄旗表示不允许游泳,红旗表示不允许下水,方格旗表示海滩暂无救生员看护,条纹旗则标出较安全的水域。",
+      "fonte": "Portaria n.º 204-A/2026/1, de 30 de abril (PDF do Diário da República, extraído em bruto); Portaria n.º 311/2015, via Edital de Praia da Autoridade Marítima Nacional (verificado). Os valores e datas mudam a cada época — reconfirmar todo mês de maio.",
+      "ano": 2026,
+      "revisarAte": "2027-05-01",
+      "evidencia": "FATO",
+      "risco": "medio",
+      "audioKeys": [
+        "pt-a06-n08",
+        "pt-a06-n09"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "pt-a06-n01",
+      "gesto": 2,
+      "bloco": "aquecimento",
+      "tom": "ganha",
+      "pt": "这里同时跑着两份日历。一份写在《劳动法典》里。另一份,属于六月的两个夜晚。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "pt-a06-n02",
+      "bloco": "corpo",
+      "pt": "十三个国家级假日由法律列明。其中四个 2013 年被拿走、2016 年全部还回来。"
+    },
+    {
+      "consulta": [
+        "compras/balcao"
+      ],
+      "tipo": "responde",
+      "voz": "target_pt_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "pt-a06-p01",
+      "promptPt": "街道摆出一副周日的样子,而今天是星期二。问柜台:这日子在搞什么。现在说。",
+      "audioKey": "pt-a06-t01",
+      "es": "Amanhã é feriado?",
+      "pinyin": "uh-muh-NYANG eh f'ree-AH-doo",
+      "pt": "明天是公共假日吗?",
+      "tts": "Amanhã é feriado?",
+      "tom": "ganha"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_pt_m",
+      "audioKey": "pt-a06-r01",
+      "es": "Amanhã é feriado municipal, mas as lojas abrem.",
+      "pinyin": "uh-muh-NYANG eh f'ree-AH-doo moo-nee-see-PAL, mush ush LOH-zhush AH-bring",
+      "pt": "👂『明天是市级假日,不过商店开门。』—— 两半话同时都是真的。",
+      "tts": "Amanhã é feriado municipal, mas as lojas abrem.",
+      "receptivo": true,
+      "acao": "把办公机构和学校当成关门、把商店当成开门,然后去问你真正需要的那一扇门。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "pt-a06-n03",
+      "pt": "周日在国家层面没有任何规则。商店、服务、餐厅在这里各自决定营业时间。"
+    },
+    {
+      "consulta": [
+        "compras/balcao",
+        "mesa/mesa"
+      ],
+      "tipo": "responde",
+      "voz": "target_pt_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "pt-a06-p02",
+      "promptPt": "你想周末再来一次,又不想白跑穿城。先问一句。现在说。",
+      "audioKey": "pt-a06-t02",
+      "es": "Está aberto no domingo?",
+      "pinyin": "shTAH uh-BEHR-too noo doo-MEEN-goo",
+      "pt": "周日开门吗?",
+      "tts": "Está aberto no domingo?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "pt-a06-n04",
+      "pt": "市级日期对公共服务是强制的,对私营部门则不是。整个不对称就是这一条。"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_pt_f",
+      "audioKey": "pt-a06-r02",
+      "es": "Os Correios estão fechados, mas o centro comercial está aberto.",
+      "pinyin": "oosh koo-RRAY-oosh shtowng f'SHAH-doosh, mush oo SEN-troo koo-m'r-see-AL shtah uh-BEHR-too",
+      "pt": "👂『邮局关门了,但购物中心开着。』—— 同一座城、同一天,两套体制。",
+      "tts": "Os Correios estão fechados, mas o centro comercial está aberto.",
+      "receptivo": true,
+      "acao": "把办事那类事项挪到前一天做。假日当天留给购物和吃饭。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "pt-a06-n05",
+      "bloco": "cena",
+      "pt": "然后是六月,街道换了主人。在里斯本,是 12 日的夜晚,在自由大道上。"
+    },
+    {
+      "consulta": [
+        "simpatia/puxar-conversa"
+      ],
+      "tipo": "responde",
+      "voz": "target_pt_f",
+      "molde": "A-QUE-HORAS",
+      "encaixe": "a marcha",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "pt-a06-p03",
+      "promptPt": "自由大道禁止通行,两侧的座位早早就在坐满。问一句几点开始。现在说。",
+      "audioKey": "pt-a06-t03",
+      "es": "A que horas é a marcha?",
+      "pinyin": "uh k'AW-rush eh uh MAR-shuh",
+      "pt": "游行几点开始?",
+      "tts": "A que horas é a marcha?",
+      "tom": "ganha"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_pt_m",
+      "audioKey": "pt-a06-r03",
+      "es": "As marchas descem a Avenida logo à noite.",
+      "pinyin": "ush MAR-shush d'SENG uh uh-v'NEE-duh LAW-goo ah NOYT'",
+      "pt": "👂『各支 marcha 今晚晚些时候沿自由大道下来。』—— 每个 bairro 都带自己那支游行队伍。",
+      "tts": "As marchas descem a Avenida logo à noite.",
+      "receptivo": true,
+      "acao": "先吃饭再晚点去。游行结束之后,各街区的 arraiais 还会持续很久。"
+    },
+    {
+      "consulta": [
+        "mesa/comida"
+      ],
+      "tipo": "responde",
+      "voz": "target_pt_f",
+      "molde": "QUERIA",
+      "encaixe": "uma sardinha assada",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "pt-a06-p04",
+      "promptPt": "人行道上是炭火,前面排着四个人,每个人手里都是同一样东西。点它。现在说。",
+      "audioKey": "pt-a06-t04",
+      "es": "Queria uma sardinha assada, se faz favor.",
+      "pinyin": "k'REE-uh OO-muh sar-DEE-nyuh uh-SAH-duh, s'fash fuh-VOR",
+      "pt": "请给我一条烤沙丁鱼。",
+      "tts": "Queria uma sardinha assada, se faz favor.",
+      "tom": "ganha"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "pt-a06-n06",
+      "pt": "波尔图有自己的那一夜:23 日夜到 24 日凌晨,零点的烟花在河面上放。"
+    },
+    {
+      "consulta": [
+        "simpatia/puxar-conversa"
+      ],
+      "tipo": "responde",
+      "voz": "target_pt_f",
+      "molde": "A-QUE-HORAS",
+      "encaixe": "o fogo de artifício",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "pt-a06-p05",
+      "promptPt": "人群正往河边流,你想在烟花开始前站到一个好位置。开口问。现在说。",
+      "audioKey": "pt-a06-t05",
+      "es": "A que horas é o fogo de artifício?",
+      "pinyin": "uh k'AW-rush eh oo FOH-goo d'ar-t'FEE-syoo",
+      "pt": "烟花几点放?",
+      "tts": "A que horas é o fogo de artifício?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_pt_f",
+      "audioKey": "pt-a06-r04",
+      "es": "É à meia-noite, entre as duas pontes.",
+      "pinyin": "eh ah MAY-uh-NOYT', EN-tr' ush DOO-ush PON-tsh",
+      "pt": "👂『半夜,在两座桥之间。』—— Luís I 桥和 Arrábida 桥,河面之上。",
+      "tts": "É à meia-noite, entre as duas pontes.",
+      "receptivo": true,
+      "acao": "11 点前先选好自己在河的哪一岸。烟花之后再过河,是整晚最慢的那段。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "pt-a06-n07",
+      "bloco": "capsula",
+      "pt": "这两个夜晚没有一件事在法律上要求任何一家商店关门。街道被填满,是因为人们要它满。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "pt-a06-n08",
+      "pt": "第三份日历是沙滩。海滩浴季有一个开始日期,每年都签字发布。"
+    },
+    {
+      "consulta": [
+        "simpatia/puxar-conversa"
+      ],
+      "tipo": "responde",
+      "voz": "target_pt_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "pt-a06-p06",
+      "promptPt": "五月的阿尔加维,水看着完美,可到处都没穿红黄制服的救生员。在咖啡馆问一句。现在说。",
+      "audioKey": "pt-a06-t06",
+      "es": "A época balnear já começou?",
+      "pinyin": "uh EH-poo-kuh bal-nee-AR zhah koo-m'-SOH",
+      "pt": "海滩浴季已经开始了吗?",
+      "tts": "A época balnear já começou?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_pt_m",
+      "audioKey": "pt-a06-r05",
+      "es": "Em Albufeira começa a quinze de maio. Aqui só em junho.",
+      "pinyin": "eng al-boo-FAY-ruh koo-MEH-suh uh KEENZ' d' MY-oo. uh-KEE saw eng ZHOO-nyoo",
+      "pt": "👂『阿尔布费拉是 5 月 15 日开始。我们这里要到 6 月。』—— 是按市镇一个个来的。",
+      "tts": "Em Albufeira começa a quinze de maio. Aqui só em junho.",
+      "receptivo": true,
+      "acao": "把它当成救生员的日历读,把早季游泳留给最先开季的那座城镇。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "pt-a06-n09",
+      "pt": "绿旗表示允许游泳。黄旗表示不允许。红旗表示完全不能下水。"
+    },
+    {
+      "consulta": [
+        "reparo/apontar"
+      ],
+      "tipo": "responde",
+      "voz": "target_pt_f",
+      "molde": "DESCULPE",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "pt-a06-p07",
+      "promptPt": "半个沙滩都在水里,而旗杆上挂着的那面旗,你想找人当面确认一下。在救生员站问。现在说。",
+      "audioKey": "pt-a06-t07",
+      "es": "Desculpe, hoje é bandeira amarela?",
+      "pinyin": "d'sh-KOOL-p', OH-zh' eh ban-DAY-ruh uh-muh-REH-luh",
+      "pt": "不好意思,今天是黄旗吗?",
+      "tts": "Desculpe, hoje é bandeira amarela?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_pt_f",
+      "audioKey": "pt-a06-r06",
+      "es": "Bandeira amarela: não é permitido nadar.",
+      "pinyin": "ban-DAY-ruh uh-muh-REH-luh: nowng eh p'r-m'TEE-doo nuh-DAR",
+      "pt": "👂『黄旗:不允许游泳。』—— 方格旗则意味着完全没人看护。",
+      "tts": "Bandeira amarela: não é permitido nadar.",
+      "receptivo": true,
+      "acao": "留在能站住的深度,把方格旗当作『稍后再来』的那面旗看待。"
+    },
+    {
+      "consulta": [
+        "simpatia/agradecer"
+      ],
+      "tipo": "responde",
+      "voz": "target_pt_f",
+      "molde": "OBRIGADO",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "pt-a06-p08",
+      "promptPt": "他们刚告诉了你能救回你这个夜晚的那件事。用这一夜配得上的方式收尾。现在说。",
+      "audioKey": "pt-a06-t08",
+      "es": "Muito obrigada! Bom São João.",
+      "pinyin": "MOOYN-too oh-bree-GAH-duh! bong sowng zhoo-OWNG",
+      "pt": "非常感谢!圣若昂节快乐。",
+      "tts": "Muito obrigada! Bom São João.",
+      "tom": "ganha"
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_pt_f",
+      "audioKey": "pt-a06-s01",
+      "es": "Amanhã é feriado? Está aberto no domingo? A que horas é a marcha?",
+      "pinyin": "uh-muh-NYANG eh f'ree-AH-doo · shTAH uh-BEHR-too noo doo-MEEN-goo · uh k'AW-rush eh uh MAR-shuh",
+      "pt": "跟读这三句 —— 可以搞定任何一份日历:明天、周日、几点。",
+      "tts": "Amanhã é feriado? Está aberto no domingo? A que horas é a marcha?",
+      "molde": "A-QUE-HORAS"
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_en_us_f",
+      "audioKey": "pt-a06-n10",
+      "bloco": "recap",
+      "tom": "ganha",
+      "pt": "A06 完成。十三个日期、市政厅关门商店照开、六月的两个夜晚、还有一面旗。"
+    }
+  ],
+  "aprofundar": {
+    "titulo": "十三个日期、一个只覆盖一半的假日,以及六月里的两个夜晚",
+    "secoes": [
+      {
+        "titulo": "写在纸上的那十三个",
+        "corpo": "《劳动法典》第 234 条第 1 款列明十三个强制性国家级假日:1 月 1 日、耶稣受难日、复活节主日、4 月 25 日、5 月 1 日、圣体节、6 月 10 日、8 月 15 日、10 月 5 日、11 月 1 日,以及 12 月 1 日、8 日、25 日。其中四个在 2012 年被取消、2013 年生效,又由 2016 年 4 月 1 日的一部法律恢复 —— 这一点值得知道,因为旧的指南书和旧的网站至今还印着那份短单。其中一个日期你多半已经听过:4 月 25 日,1974 年革命的日期。法典固定的只是『哪些日子是强制性的』;这些日子里具体哪家开门,依然是你面前那扇门的问题。",
+        "exemplos": [
+          {
+            "es": "Amanhã é feriado?",
+            "pt": "明天是公共假日吗?"
+          },
+          {
+            "es": "Está aberto no domingo?",
+            "pt": "周日开门吗?"
+          }
+        ]
+      },
+      {
+        "titulo": "市级假日:同一件事的两种规则",
+        "corpo": "这个是抓访客最紧的一个,因为同一个日期在街的两边表现不同。《劳动法典》规定,狂欢节星期二和市级假日可以通过集体协议或雇佣合同来遵守,并明确禁止另行创设 —— 所以在私营部门里,它们完全不是强制性的。在公共部门,规范公共雇佣的法律规定,应当遵守当地的市级假日。两条合在一起,就得到你在里斯本 6 月 13 日和波尔图 6 月 24 日实际会看到的模式:市政厅、税务局、学校、公共服务关门;商店、咖啡馆和购物中心开门,而且比平时更忙。诚实的边界是:把这两个日期固定为市级假日的具体法规,我们没有拿到,所以请把这两个日期当作大家公认的本地实践,而不是当作对法条的引用。"
+      },
+      {
+        "titulo": "周日的事没有别人管得着,只有商店自己说了算",
+        "corpo": "葡萄牙没有全国性的『周日必须关门』的规则。1996 年的一份法令,直至 2015 年的多次修订,把零售、服务和餐饮的营业时间放开自由决定,无需事先许可,并把限制权力交给市议会,后者可以以安全或生活品质为由加以限制。实际后果是:两条街之隔,同一个周日可以完全不同,唯一可靠的来源就是你面前那扇门。前一天先问一句 Está aberto no domingo,比你脑子里能带的任何通用规则都值钱。"
+      },
+      {
+        "titulo": "六月里的两个夜晚,以及真正列入官方节目单的是什么",
+        "corpo": "里斯本的顶点是 6 月 12 日的夜晚。Marchas Populares 沿自由大道走下来,每个街区带自己的那支游行队伍;还有 Casamentos de Santo António、各街区的 arraiais、人行道上炭火烤沙丁鱼,以及被双手捧回家的罗勒盆栽。波尔图的那晚是 23 日夜到 24 日凌晨,零点烟花在 Luís I 桥和 Arrábida 桥之间的河面上放,Mercado do Bolhão 有 cascata,Fontainhas 和 Foz 有 arraiais。人们会跟你提两样东西 —— 小塑料锤和热气球 —— 媒体把它们描述为传统,但并未出现在任何可查证的官方节目单上,热气球还受到限制、规则每年都变。所以对这两样,来了就来了,不要作为规划的一部分。"
+      },
+      {
+        "titulo": "沙滩上那份日历",
+        "corpo": "海滩浴季不是民间风俗:它每年由一份联合部长令确定,2026 年阿尔布费拉从 5 月 15 日到 10 月 15 日,阿尔加维其余大多数市镇从 6 月 1 日到 9 月 30 日。这些日期之外,沙滩还在,救生员不在。旗帜规则来自 2015 年的一份法令,由海事局在本地沙滩的 edital 里公布:绿,允许游泳;黄,不允许游泳;红,不允许下水;方格,海滩暂无看护;条纹旗则标出救生员认为最安全的那片水域。方格旗尤其要记熟 —— 它是访客最容易当作装饰读掉的那一面。"
+      }
+    ]
+  },
+  "permissao": "你可以随便问,在每一扇门那里、用你手里最朴素的四个词,问它开不开门;你也可以完全搞不清楚这些日期里哪个是国家级的、哪个是市级的。住在这里的人也时不时地问,恰恰是因为『邮局』和它隔壁那家商店给出的答案不一样;没人指望一个访客在飞机上把《劳动法典》背下来。",
+  "espelho": "任何一个在自己家里公共假日开车穿城,发现有一家开着门、旁边一家却已经黑着灯的人,已经知道这个形状了。唯一新的东西是,这里的『分开』被写进两部不同的法律,而一年中最好的两个夜晚,根本不算法定假日。",
+  "fichasCulturais": [
+    {
+      "sinal": "今天是市级假日,邮局关着,而马路对面的购物中心是满的。",
+      "suaLeitura": "要么有人在不该营业的日子偷偷开门,要么你把假日搞混了。",
+      "oQueEAli": "两件事同时都对。在私营部门,市级假日只有在集体协议或雇佣合同规定的情况下才被遵守,而《劳动法典》禁止另行创设。在公共部门,公共雇佣法律规定应当遵守本市的市级假日。所以公共服务和学校关门,而商业继续照常。",
+      "oQueVoceFaz": "任何官方性质的事情 —— 邮局、税务局、公共柜台 —— 挪到前一天办,假日当天留给那些无论如何都开着的事。",
+      "oQueMelhora": "你不再一整天当作报废,也不再拿着一份表格出现在一个关着的柜台前。",
+      "ondeNaoVale": "这是一种模式,不是保证:某家商家什么时候关门是他们自己的事,小镇跟里斯本、波尔图行为方式不同,而把 6 月 13 日和 6 月 24 日固定为这两个市级日期的具体法规文本,我们没有拿到。就问那扇门。",
+      "evidencia": "FATO",
+      "audioKeys": [
+        "pt-a06-n04"
+      ]
+    },
+    {
+      "sinal": "海面平静,沙滩满员,一面黄旗挂在一把空着的救生员椅上。",
+      "suaLeitura": "黄旗意味着稍微留意一下,而椅子空着是因为时间还早。",
+      "oQueEAli": "旗帜来自 2015 年的一份法令,由海事局在本地沙滩的 edital 里公布。绿:允许游泳;黄:不允许游泳;红:不允许下水;方格:海滩暂时没人看护;条纹旗则标出救生员认为最安全的那片水域。浴季本身由每年一份法令确定 —— 2026 年,阿尔布费拉从 5 月 15 日到 10 月 15 日,阿尔加维大部分其他市镇从 6 月 1 日到 9 月 30 日。",
+      "oQueVoceFaz": "下水之前先看旗杆,黄旗时留在能站住的深度,并且先确认你所在的这座城镇本季有没有开始。",
+      "oQueMelhora": "早季那一次游泳,你是靠选『最先开季的市镇』得来的,而不是靠在一个无人看护的沙滩上碰运气。",
+      "ondeNaoVale": "这里给的日期是 2026 年针对阿尔加维的那份法令,每年春天都会重签 —— 其他地区自己另有日期。颜色是全国统一的,日历不是。",
+      "evidencia": "FATO",
+      "audioKeys": [
+        "pt-a06-n08",
+        "pt-a06-n09"
+      ]
+    }
+  ]
+}

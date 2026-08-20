@@ -1,0 +1,433 @@
+{
+  "id": "b17",
+  "nivel": "basico",
+  "numero": 17,
+  "parte": "B17",
+  "titulo": "A cruz verde——大部分事都在这个柜台处理，只有一个号码要先打",
+  "subtitulo": "Procuro、onde é、pode：喉咙疼、门上贴的夜班表，以及那通决定这一夜医院要花多少钱的电话",
+  "cena": "Campo de Ourique 一扇门上方闪烁的绿十字，晚上九点半：你的喉咙从坐上电车之后一直在变糟，而你此刻站着的那扇卷帘门已经拉下来了。",
+  "moldura": "protege",
+  "frasePiso": "三个开头和一根手指就能让你在那个柜台被服务——而在你迈步之前先打的那通电话，决定了这一夜剩下的时间要花多少钱。",
+  "moldes": [],
+  "fatosDatados": [
+    {
+      "id": "pt-b17-sns24",
+      "afirmacao": "SNS 24，国家卫生服务热线，号码是 808 24 24 24：全天候提供分诊、咨询和临床分流，其中信息性和行政性服务时间为上午八点至晚上十点。在去任何地方之前先打这一通电话，理由既是临床上的、也是经济上的。葡萄牙自 2022 年 6 月 1 日起，依据第 37/2022 号法令，在几乎整个国家卫生服务里取消了使用者共付费，仅在没有事先转诊的情况下前往医院急诊时保留——而卫生行政部门自己的常见问答明确指出：由 SNS 24 或 INEM 转诊到急诊科的病人，可豁免该次急诊费用以及就诊期间进行的检查费用。",
+      "fonte": "Pesquisa §6. Linha SNS 24: 808 24 24 24, triagem e encaminhamento 24h/7d; serviços informativos das 8h às 22h. DL n.º 37/2022, de 27/5, eliminou as taxas moderadoras em quase todo o SNS a partir de 1/6/2022, mantendo-as só na urgência hospitalar SEM referenciação prévia (Governo de Portugal, 5/5/2022; ERS, FAQ atualizada 18/2/2026). Verbatim do FAQ da ACSS: «os doentes que ao acederem ao serviço de urgência referenciados pelo Centro de Contacto do Serviço Nacional de Saúde – SNS 24, e pelo INEM estão dispensados do pagamento das taxas moderadoras devidas pelo atendimento na urgência e pelos exames efetuados.» RESSALVA: sns24.gov.pt e spms.min-saude.pt devolveram 403 ou são renderizados por JavaScript — nada extraído em bruto. E NÃO ESTÁ SUSTENTADO que a triagem clínica geral do 808 24 24 24 seja prestada em inglês: a única fonte oficial em inglês é para a Linha de Aconselhamento Psicológico. Não afirmar.",
+      "ano": 2022,
+      "revisarAte": "2027-08-05",
+      "evidencia": "FATO",
+      "risco": "alto",
+      "audioKeys": [
+        "pt-b17-n05",
+        "pt-b17-n06"
+      ]
+    },
+    {
+      "id": "pt-b17-taxas",
+      "afirmacao": "凡是仍适用使用者共付费的场合——即无事先转诊的医院急诊——公布的数字为：综合急诊 18,00 欧元，内外科急诊 16,00，基础急诊 14,00，另加就诊期间做的检查费用，上限 40,00 欧元。这些数字来自一份标注「2024 年 7 月更新」的医院收费表。目前具体适用哪一栏是一种推断，应与第 64-C/2016 号部长令核对。",
+      "fonte": "Pesquisa §6. Tabela ACSS/ULS Santa Maria, «Documento Atualizado Julho 2024», extraída em bruto: urgência polivalente 18,00€, médico-cirúrgica 16,00€, básica 14,00€, «Acrescem as taxas moderadoras de MCDT realizados no decurso do atendimento até um máximo de 40,00€». CAUTELA REGISTRADA NA PESQUISA: qual coluna está em vigor é inferência; confirmar na Portaria n.º 64-C/2016.",
+      "ano": 2024,
+      "revisarAte": "2027-08-05",
+      "evidencia": "INFERENCIA",
+      "risco": "medio",
+      "audioKeys": [
+        "pt-b17-n06"
+      ]
+    },
+    {
+      "id": "pt-b17-cesd",
+      "afirmacao": "欧洲健康保险卡，以及英国脱欧后取代它的英国 GHIC，在临时停留期间可用于医学上必要的国家医疗，条件和费用与当地参保人相同——包括既有慢性病、怀孕和分娩。在葡萄牙，国家医疗指的是 SNS，而不是私立诊所，而旅游区里那些开到很晚的地方有相当多是私立的。两张卡都不覆盖私立治疗、遣返，或以获得治疗为目的的出行，也都不能替代旅行保险。",
+      "fonte": "Pesquisa §6. Comissão Europeia sobre o CESD/EHIC: cuidados de saúde ESTATAIS medicamente necessários em estadia temporária, nas mesmas condições e ao mesmo custo dos segurados locais, incluindo doença crónica preexistente, gravidez e parto; não cobre saúde privada, repatriamento nem viagem com o fim de obter tratamento; não substitui seguro de viagem. GHIC pós-Brexit é aceite em Portugal (NHSBSA e gov.uk/FCDO). RESSALVA: a data de última atualização da página gov.uk não foi obtida.",
+      "ano": 2026,
+      "revisarAte": "2027-08-05",
+      "evidencia": "FATO",
+      "risco": "alto",
+      "audioKeys": [
+        "pt-b17-n07"
+      ]
+    },
+    {
+      "id": "pt-b17-turnos",
+      "afirmacao": "葡萄牙的药房实行值班轮班制。标准营业时间以及轮班表的审批、执行、公布程序，由 2012 年 9 月 12 日的第 277/2012 号部长令规定，并经第 14/2013 号部长令以及 2026 年 5 月 7 日第 209/2026/1 号部长令修订。轮班表由行业协会拟定，由国家药物主管机构 INFARMED 批准并监督。",
+      "fonte": "Pesquisa §6. Portaria n.º 277/2012, de 12/9, título oficial «Define o horário padrão de funcionamento das farmácias de oficina, regula o procedimento de aprovação e a duração, execução, divulgação e fiscalização das escalas de turnos»; alterada pela Portaria n.º 14/2013 e pela Portaria n.º 209/2026/1, de 7/5/2026. Escalas elaboradas pelas associações do setor, aprovadas e fiscalizadas pelo INFARMED. RESSALVA: o articulado NÃO foi lido — o DRE devolveu página vazia. A prática de afixar a escala na porta decorre do próprio título («divulgação») mas não foi verificada em texto normativo — apresentar como prática habitual, nunca como obrigação legal citada.",
+      "ano": 2026,
+      "revisarAte": "2027-08-05",
+      "evidencia": "PARCIAL",
+      "risco": "medio",
+      "audioKeys": [
+        "pt-b17-n08"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "pt-b17-n01",
+      "gesto": 1,
+      "bloco": "aquecimento",
+      "pt": "一个绿十字、一个柜台、三个词。这里大多数事根本用不着到医生那儿。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "pt-b17-n02",
+      "bloco": "molde",
+      "pt": "三块积木把整个晚上撑起来：procuro 打开一场搜索，onde é 让你迈步，pode 请对方动手。"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_pt_f",
+      "audioKey": "pt-b17-t01",
+      "es": "Boa noite. Tem alguma coisa para a dor de garganta?",
+      "pinyin": "bwa NOY-te. teng al-GOO-ma KOY-za pra dor de gar-GAN-ta",
+      "pt": "晚上好。有治喉咙疼的东西吗？",
+      "tts": "Boa noite. Tem alguma coisa para a dor de garganta?"
+    },
+    {
+      "consulta": [
+        "saude/algo-para"
+      ],
+      "tipo": "responde",
+      "voz": "target_pt_f",
+      "molde": "TEM",
+      "encaixe": "alguma coisa para a dor de garganta",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "pt-b17-p01",
+      "promptPt": "你从下午起吞咽就小心翼翼，而柜台就在那里。现在开口说。",
+      "audioKey": "pt-b17-t01",
+      "es": "Boa noite. Tem alguma coisa para a dor de garganta?",
+      "pinyin": "bwa NOY-te. teng al-GOO-ma KOY-za pra dor de gar-GAN-ta",
+      "pt": "晚上好。有治喉咙疼的东西吗？",
+      "tts": "Boa noite. Tem alguma coisa para a dor de garganta?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_pt_m",
+      "audioKey": "pt-b17-r01",
+      "es": "É para adulto ou para criança?",
+      "pt": "给大人还是给小孩？",
+      "tts": "É para adulto ou para criança?",
+      "receptivo": true,
+      "acao": "他们几乎每次都会先问这一句。用一个词回答——adulto——其余就顺下来了。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "pt-b17-n03",
+      "bloco": "corpo",
+      "pt": "先指，再说。手指按在疼的地方，Dói-me aqui 就是那个柜台上一句完整的话。"
+    },
+    {
+      "consulta": [
+        "saude/algo-para",
+        "reparo/apontar"
+      ],
+      "tipo": "responde",
+      "voz": "target_pt_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "pt-b17-p02",
+      "promptPt": "你不知道那个部位的名字，也不需要知道。把手放上去，说出这四个音节。现在开口说。",
+      "audioKey": "pt-b17-t02",
+      "es": "Dói-me aqui.",
+      "pinyin": "DOY-me a-KEE",
+      "pt": "我这里疼。",
+      "tts": "Dói-me aqui."
+    },
+    {
+      "consulta": [
+        "saude/receita"
+      ],
+      "tipo": "responde",
+      "voz": "target_pt_f",
+      "molde": "SEM",
+      "encaixe": "receita",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "pt-b17-p03",
+      "promptPt": "今晚是周日，没有医生看过你，你想知道就这样还能拿到什么。现在开口说。",
+      "audioKey": "pt-b17-t03",
+      "es": "Tem alguma coisa sem receita?",
+      "pinyin": "teng al-GOO-ma KOY-za seng rre-SAY-ta",
+      "pt": "有不需要处方的东西吗？",
+      "tts": "Tem alguma coisa sem receita?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "pt-b17-n04",
+      "pt": "Sem receita——「药剂师能不能不看处方就给我」这整个问题，只用两个词就问完。"
+    },
+    {
+      "consulta": [
+        "saude/algo-para"
+      ],
+      "tipo": "responde",
+      "voz": "target_pt_f",
+      "molde": "TEM",
+      "encaixe": "uma pomada para as picadas",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "pt-b17-p04",
+      "promptPt": "八月里两个晚上开着窗睡，你两个脚踝都成了一片红点的地图。现在开口说。",
+      "audioKey": "pt-b17-t04",
+      "es": "Tem uma pomada para as picadas?",
+      "pinyin": "teng OO-ma poo-MAH-da pra ash pee-KAH-dash",
+      "pt": "有治蚊虫叮咬的药膏吗？",
+      "tts": "Tem uma pomada para as picadas?"
+    },
+    {
+      "consulta": [
+        "reparo/devagar"
+      ],
+      "tipo": "responde",
+      "voz": "target_pt_f",
+      "molde": "PODE",
+      "encaixe": "falar mais devagar",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "pt-b17-p05",
+      "promptPt": "服药说明像一长串声音过去了，你只抓到「天」这个词，别的都没听清。现在开口说。",
+      "audioKey": "pt-b17-t05",
+      "es": "Pode falar mais devagar, se faz favor?",
+      "pinyin": "POH-de fa-LAR maish de-va-GAR, se fash fa-VOR",
+      "pt": "可以说慢一点吗，谢谢？",
+      "tts": "Pode falar mais devagar, se faz favor?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_pt_m",
+      "audioKey": "pt-b17-r02",
+      "es": "Um comprimido de manhã e outro à noite, três dias.",
+      "pt": "早上一片，晚上再一片，三天。",
+      "tts": "Um comprimido de manhã e outro à noite, três dias.",
+      "receptivo": true,
+      "acao": "把数字大声复述一遍——três dias——在你离开柜台之前让他们纠正你。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "pt-b17-n08",
+      "bloco": "capsula",
+      "pt": "每个区域按轮班有一家药房开着，那张表通常贴在关着的那些药房门上。"
+    },
+    {
+      "consulta": [
+        "saude/guardia"
+      ],
+      "tipo": "responde",
+      "voz": "target_pt_f",
+      "molde": "PROCURO",
+      "encaixe": "a farmácia de serviço",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "pt-b17-p06",
+      "promptPt": "你面前的卷帘门是拉下来的，快十点了，一个人正牵着狗从你身边走过。现在开口说。",
+      "audioKey": "pt-b17-t06",
+      "es": "Procuro a farmácia de serviço.",
+      "pinyin": "proo-KOO-roo a far-MA-see-a de ser-VEE-soo",
+      "pt": "我在找值班的那家药房。",
+      "tts": "Procuro a farmácia de serviço."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_pt_m",
+      "audioKey": "pt-b17-r03",
+      "es": "Hoje é a da Rua Ferreira Borges. Está na porta, olhe ali.",
+      "pt": "今天是 Rua Ferreira Borges 那家。就贴在门上，看那儿。",
+      "tts": "Hoje é a da Rua Ferreira Borges. Está na porta, olhe ali.",
+      "receptivo": true,
+      "acao": "在走开之前把门上那张纸拍下来。街名比药房的名字重要。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "pt-b17-n10",
+      "pt": "带走的是街名，不是药房名。街名才是路人或司机能据以行动的东西。"
+    },
+    {
+      "consulta": [
+        "saude/guardia",
+        "transporte/placas"
+      ],
+      "tipo": "responde",
+      "voz": "target_pt_f",
+      "molde": "ONDE-E",
+      "encaixe": "a farmácia mais próxima",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "pt-b17-p07",
+      "promptPt": "换个早上，换个街区，最近的那家就行。现在开口说。",
+      "audioKey": "pt-b17-t07",
+      "es": "Onde é a farmácia mais próxima?",
+      "pinyin": "ON-de e a far-MA-see-a maish PRO-see-ma",
+      "pt": "最近的药房在哪里？",
+      "tts": "Onde é a farmácia mais próxima?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "pt-b17-n05",
+      "pt": "卫生热线是八〇八，二十四，二十四，二十四。临床分诊，日夜都在。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "pt-b17-n06",
+      "pt": "先打这一通。经这条线或救护服务转诊，急诊费就不适用于你。"
+    },
+    {
+      "consulta": [
+        "saude/112",
+        "apuro/112"
+      ],
+      "tipo": "responde",
+      "voz": "target_pt_f",
+      "molde": "PODE",
+      "encaixe": "chamar uma ambulância",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "pt-b17-p08",
+      "promptPt": "有人在咖啡馆门口的人行道上倒下了，服务员是最近的成年人。现在开口说。",
+      "audioKey": "pt-b17-t08",
+      "es": "Pode chamar uma ambulância?",
+      "pinyin": "POH-de sha-MAR OO-ma am-boo-LAN-see-a",
+      "pt": "可以叫一辆救护车吗？",
+      "tts": "Pode chamar uma ambulância?"
+    },
+    {
+      "consulta": [
+        "saude/112",
+        "apuro/112"
+      ],
+      "tipo": "responde",
+      "voz": "target_pt_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "pt-b17-p09",
+      "promptPt": "你自己拨了 112，对方刚接起来。四个词，然后不要挂线。现在开口说。",
+      "audioKey": "pt-b17-t09",
+      "es": "Preciso de uma ambulância.",
+      "pinyin": "pre-SEE-zoo de OO-ma am-boo-LAN-see-a",
+      "pt": "我需要一辆救护车。",
+      "tts": "Preciso de uma ambulância."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "pt-b17-n07",
+      "pt": "你的欧洲卡或英国卡买到的是国家医疗。那家挂着英文招牌、开到深夜的诊所常常是私立的。"
+    },
+    {
+      "consulta": [
+        "saude/guardia"
+      ],
+      "tipo": "responde",
+      "voz": "target_pt_f",
+      "molde": "ONDE-E",
+      "encaixe": "a urgência",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "pt-b17-p10",
+      "promptPt": "热线让你进去，你已经在医院楼里，走廊分三个方向。现在开口说。",
+      "audioKey": "pt-b17-t10",
+      "es": "Onde é a urgência?",
+      "pinyin": "ON-de e a oor-JEN-see-a",
+      "pt": "急诊科在哪里？",
+      "tts": "Onde é a urgência?"
+    },
+    {
+      "consulta": [
+        "saude/guardia",
+        "chegar/balcao"
+      ],
+      "tipo": "responde",
+      "voz": "target_pt_f",
+      "molde": "PROCURO",
+      "encaixe": "um centro de saúde",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "pt-b17-p11",
+      "promptPt": "不是紧急情况，酒店一直给你推荐一家招牌光鲜的私立机构。你想要的是国家那家。现在开口说。",
+      "audioKey": "pt-b17-t11",
+      "es": "Procuro um centro de saúde.",
+      "pinyin": "proo-KOO-roo oong SEN-troo de sa-OO-de",
+      "pt": "我在找一家国家的社区卫生中心。",
+      "tts": "Procuro um centro de saúde."
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_pt_f",
+      "audioKey": "pt-b17-s01",
+      "es": "Tem alguma coisa para a dor de garganta? Procuro a farmácia de serviço. Pode chamar uma ambulância?",
+      "pinyin": "teng al-GOO-ma KOY-za pra dor de gar-GAN-ta. proo-KOO-roo a far-MA-see-a de ser-VEE-soo. POH-de sha-MAR OO-ma am-boo-LAN-see-a",
+      "pt": "跟着影读这三个开头——从最小的麻烦到最大的。",
+      "tts": "Tem alguma coisa para a dor de garganta? Procuro a farmácia de serviço. Pode chamar uma ambulância?",
+      "molde": "PROCURO"
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_en_us_f",
+      "audioKey": "pt-b17-n09",
+      "bloco": "recap",
+      "pt": "B17 完成。Procuro、onde é、pode——以及在你迈步之前先拨的那一通电话。"
+    }
+  ],
+  "aprofundar": {
+    "titulo": "那个柜台、那张轮班表，和你先打的那个号码",
+    "secoes": [
+      {
+        "titulo": "Tem alguma coisa para——把大部分事情做完的那个开头",
+        "corpo": "葡萄牙的药房柜台既是店，也是一次咨询，而打开它的那句话就是你已经拥有的那块积木。Tem alguma coisa para，然后是那个麻烦：a dor de garganta、a dor de cabeça、as picadas、o enjoo。那样东西照例连着冠词一起来，在喉咙疼的时候你不需要就性别做任何决定。",
+        "exemplos": [
+          {
+            "es": "Tem alguma coisa para a dor de garganta?",
+            "pt": "有治喉咙疼的东西吗？"
+          },
+          {
+            "es": "Tem alguma coisa sem receita?",
+            "pt": "有不需要处方的东西吗？"
+          }
+        ]
+      },
+      {
+        "titulo": "Dói-me aqui，还有那根替语法干活的手指",
+        "corpo": "Dói-me aqui 是四个音节加一个手势，它胜过你为身体部位背下的任何单词表。把手放在疼的地方，把它说出来。如果他们需要更多，会问；问题都出自一小撮可以预期的组合：é para adulto ou para criança、há quantos dias、tem alergias。"
+      },
+      {
+        "titulo": "门上的轮班表",
+        "corpo": "这里的药房实行值班轮班制。标准营业时间以及轮班表的审批、执行、公布程序，由 2012 年一部部长令规定，2013 年及 2026 年 5 月两次修订；轮班表由行业协会拟定，由国家药物主管机构 INFARMED 批准并监督。实践中，那张纸被贴在关着的那些药房门玻璃里侧，所以「拉下的卷帘门」就是你查到「哪家开着」的地方。用那个名字问它——a farmácia de serviço——任何邻居都会知道。"
+      },
+      {
+        "titulo": "那通改变价格的电话",
+        "corpo": "葡萄牙从 2022 年 6 月起在几乎整个国家卫生服务里取消了使用者共付费。留下的例外只有一个：无事先转诊到医院急诊科。而卫生行政部门自己的指引说：由 SNS 24 热线或救护服务转诊到急诊的病人，可豁免该次急诊费用以及就诊期间做的检查费用。所以拨打 808 24 24 24 不是要忍受的官僚流程——它是分诊，是「付钱与不付钱」之间的差别。凡是仍适用费用的场合，公布的数字为就诊 14 到 18 欧元，另加检查最多 40 欧元。有一个诚实的边界：本课程不宣称一般临床线用英语接听，因为没有官方来源证实这一点。"
+      },
+      {
+        "titulo": "国家医疗，还有那家挂着英文招牌的诊所",
+        "corpo": "欧洲健康保险卡，或取代它的英国 GHIC，在临时停留期间给予你医学上必要的国家医疗，费用与当地人相同，包括你已有的慢性病。在葡萄牙这意味着 SNS：centro de saúde 和公立医院。它不意味着旅游区里那家开到午夜、窗户上挂英文招牌、桌上放着刷卡机的私立诊所。两者都存在，都合法，而只有其中之一是这张卡覆盖的——所以你坐下前有用的问题就是简单一句：这地方是不是 SNS。"
+      }
+    ]
+  },
+  "slot": "B17",
+  "permissao": "你被允许走进一家药房，没有诊断、没有那个身体部位的词、也没有处方，指着自己说五个词。那正是这个柜台的用途，接下来发生什么由药剂师决定。你也被允许为一件你不确定「算不算」的事拨 808 24 24 24——决定它算不算，正是接电话那个人的活。",
+  "permissaoAudioKey": "pt-b17-n03",
+  "espelho": "任何一个在家乡站在药房里、把某种症状描述得很差的人，早就做过这件事。唯一新的部分是：在这里那个柜台是第一站而不是最后一站，医院前面还坐着一通电话。",
+  "fichasCulturais": [
+    {
+      "sinal": "晚上十点，你面前的药房关着，玻璃里侧贴着一张打印出来的纸，上面写着日期和街名。",
+      "suaLeitura": "关了就是关了，这个街区什么都没开，剩下的选择只有医院或者等到天亮。",
+      "oQueEAli": "那张纸就是值班轮班表。药房按部长令规定的轮班运作，由行业协会拟定、INFARMED 批准和监督，所以任何时刻这个区域都有一家药房开着。关着的门正是开着的那家地址被公示的地方。",
+      "oQueVoceFaz": "读那张表或把它拍下来，用「a farmácia de serviço」这个说法问附近任何一个人。带走街名而不是药房的名字——街名才是出租车或路人能据以行动的东西。",
+      "oQueMelhora": "关着的门变成一个路标，晚上十点的一次喉咙疼也不再是考虑跑医院的理由。",
+      "ondeNaoVale": "那些部长令的正文本身无法读到——官方公报返回了空白页面——所以「把轮班表贴在门上」这项实践在这里作为通常做法呈现，而不是本课程能够引用的一项法律义务。轮班表按地方设定，所以「哪家药房、离多远」完全因市和因夜而异。",
+      "evidencia": "PARCIAL",
+      "audioKeys": [
+        "pt-b17-n08"
+      ]
+    },
+    {
+      "sinal": "旅游区附近一家诊所开到很晚，窗户上挂着英文招牌，还没有人看你，前台就先要你的卡。",
+      "suaLeitura": "这就是本地卫生系统在高效运作，你钱包里那张欧洲卡应该覆盖它。",
+      "oQueEAli": "欧洲卡，以及英国脱欧后取代它的英国 GHIC，是在医学上必要的国家医疗上按当地人待遇给你的——在葡萄牙这指的是 SNS。旅游区里那些开到很晚的地方有相当多是私立的，而私立治疗不在这两张卡覆盖的范围内。",
+      "oQueVoceFaz": "在被看之前问一下这地方是不是 SNS；如果你的情况不紧急，就拨 808 24 24 24，让热线告诉你去哪里。Procuro um centro de saúde 是那句能出声地把「国家那家」点名的话。",
+      "oQueMelhora": "你在还只是「问题」而不是「账单」的时候就搞清楚自己在哪套系统里，而你已有的慢性病也依然被覆盖。",
+      "ondeNaoVale": "这些并不是说私立医疗是差的选择——有时它是最快的一种，而旅行保险也可能会赔付它。这些卡从来就不是旅行保险的替代品，也从来不覆盖遣返。英国那份指引页面的最后更新日期无法获取，所以起飞前请再核对。",
+      "evidencia": "FATO",
+      "audioKeys": [
+        "pt-b17-n07"
+      ]
+    }
+  ]
+}

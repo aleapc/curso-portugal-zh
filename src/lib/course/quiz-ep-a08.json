@@ -1,0 +1,96 @@
+{
+  "id": "q-a08",
+  "nivel": "avancado",
+  "titulo": "小测验 — 告别，以及你带回家的那张卡",
+  "subtitulo": "五道题：十种开场白、消失的音节，还有那句让人愿意再邀请你的话",
+  "introAudioKey": "pt-a08-q-i",
+  "introPt": "一名旅行者带着一门不完整的语言、一张塞满内容的口袋卡，以及一个期待他再回来的柜台离开。",
+  "cenario": "最后一个早上的柜台：一杯咖啡、一次送别，出租车之前的二十分钟。",
+  "dialogo": [
+    {
+      "audioKey": "pt-a08-q01",
+      "voz": "target_pt_m",
+      "es": "Então, já vai embora? Volte sempre!",
+      "pt": "怎么，已经走了？随时回来！",
+      "tts": "Então, já vai embora? Volte sempre!"
+    },
+    {
+      "audioKey": "pt-a08-q02",
+      "voz": "target_pt_f",
+      "es": "Ele desistiu à última da hora.",
+      "pt": "他最后一刻放弃了。",
+      "tts": "Ele desistiu à última da hora."
+    },
+    {
+      "audioKey": "pt-a08-q03",
+      "voz": "target_pt_m",
+      "es": "Ó pá, agora já fala português!",
+      "pt": "哎呀，现在已经会说葡萄牙语了！",
+      "tts": "Ó pá, agora já fala português!"
+    },
+    {
+      "audioKey": "pt-a08-q04",
+      "voz": "target_pt_f",
+      "es": "Boa viagem! E não se esqueça de nós.",
+      "pt": "一路顺风！别忘了我们。",
+      "tts": "Boa viagem! E não se esqueça de nós."
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "口袋卡上十个开场白有什么共同点？",
+      "opcoes": [
+        "全都以问号结尾",
+        "全都不含指代听话人的那个词",
+        "中间都有一个动词",
+        "全都以 desculpe 开头"
+      ],
+      "correta": 1,
+      "explica": "Tem、Onde é、Pode、Queria、Sem、Procuro、Quanto custa、Desculpe、A que horas é、Obrigado。省略主语的第三人称就是这里的敬体，用少一个词的方式获得。"
+    },
+    {
+      "pergunta": "Desistiu 写着三个音节。为什么到你耳朵里差不多只剩一个？",
+      "opcoes": [
+        "城里人说话马虎",
+        "连贯语流中的非重读元音被中央化，或者完全省略",
+        "这个词是缩写",
+        "重音落在第一个音节"
+      ],
+      "correta": 1,
+      "explica": "来源转写为 /dɨziʃˈtiu/，实际读作 [dzʃˈtiu]——一个可能三音节的词被压缩成一个音节，前面带一串复杂辅音。你不是聋——你在找那些根本不会被发音的字母。"
+    },
+    {
+      "pergunta": "Obrigado 还是 obrigada——由谁决定？",
+      "opcoes": [
+        "看你在跟谁说话",
+        "看场合有多正式",
+        "看谁在说",
+        "看是商店还是餐厅"
+      ],
+      "correta": 2,
+      "explica": "它与说话人一致。男人一辈子说 obrigado，女人一辈子说 obrigada，不论听到什么回答。这是课程里唯一无需做任何选择的东西。"
+    },
+    {
+      "pergunta": "你离开时有人说 Volte sempre。什么能把这个套语变成真实的东西？",
+      "opcoes": [
+        "回一句 obrigado 加微笑",
+        "回一句具体的——Volto para o ano",
+        "承诺会写信",
+        "在柜台留下额外的东西"
+      ],
+      "correta": 1,
+      "explica": "套语对套语就关上门了；套语对一个季节就保持开门。用 Até à próxima 而不是最后的告别，对留在柜台后的人再加一句 Boa continuação。"
+    },
+    {
+      "pergunta": "街角那台取款机在欧洲有什么不寻常之处？",
+      "opcoes": [
+        "对任何卡都不收手续费",
+        "它是几乎覆盖整个银行业的一个共享银行间网络",
+        "它是国有的",
+        "只接受本国卡"
+      ],
+      "correta": 1,
+      "explica": "一个共享网络，而不是各家银行各自竞争——所以同一台终端能付税单、给手机充值、办社保。这些数字来自网络运营方本身，而非监管方。"
+    }
+  ]
+}

@@ -1,0 +1,405 @@
+{
+  "id": "b13",
+  "nivel": "basico",
+  "numero": 13,
+  "parte": "B13",
+  "titulo": "Tenho alergia——点单之前说，绝不要等盘子上来之后",
+  "subtitulo": "那句平铺直叙的句子、用「sem」挡下不能进的东西、口袋里的那张卡，还有在医院门口之前拨的那个号码",
+  "cena": "里斯本一家 tasca，下午一点半：桌子全满，柜台在报当日菜，拿着本子的那位已经站在你手肘边。",
+  "moldura": "protege",
+  "frasePiso": "Tenho alergia a marisco. É grave.——两句短话，在厨房还来得及处理时说出来。",
+  "moldes": [],
+  "fatosDatados": [
+    {
+      "id": "pt-b13-numeros",
+      "afirmacao": "在葡萄牙，两个号码就能覆盖一次健康问题。112 是单一的欧洲紧急号码，在当地适用于警察、消防和医疗紧急——英国外交部对葡萄牙的旅行建议明确写着「拨打 112 并要求救护车」。SNS 24，号码 808 24 24 24，是国家卫生服务的分诊、咨询和临床分流线，每天 24 小时、每周 7 天开通，信息性和行政性服务的时间为上午 8 点至晚上 10 点。诚实的边界：并未证实 808 24 24 24 上的一般临床分诊提供英语服务——目前找到的唯一官方英语来源覆盖的是 SNS 24 的心理咨询线（SPMS，2022）。",
+      "fonte": "Pesquisa §6 «Saúde e emergência». 112: número europeu único; confirmação institucional externa FCDO, Portugal travel advice — Health (gov.uk), verbatim «Dial 112 and ask for an ambulance»; a página do INEM devolveu 403 e o 112.pt não carregou, logo o encaminhamento via CODU não foi verificado em bruto. SNS 24: 808 24 24 24, triagem/aconselhamento/encaminhamento 24h/7d, serviços informativos 8h–22h; ressalva de que sns24.gov.pt e spms.min-saude.pt são JS ou devolveram 403. Item 13 da lista «O que NÃO entra»: atendimento clínico geral do SNS 24 em inglês NÃO É SUSTENTADO.",
+      "ano": 2026,
+      "revisarAte": "2027-08-05",
+      "evidencia": "FATO",
+      "risco": "medio",
+      "audioKeys": [
+        "pt-b13-n08",
+        "pt-b13-n09"
+      ]
+    },
+    {
+      "id": "pt-b13-taxa-moderadora",
+      "afirmacao": "葡萄牙在其卫生服务几乎全线取消了使用者收费。2022 年 5 月 27 日的第 37/2022 号法令自 2022 年 6 月 1 日起，在整个 SNS 几乎全线取消了 taxas moderadoras（使用者共付费），仅保留在没有事先转诊的情况下前往医院急诊。仍适用的地方，公布的收费表为：综合急诊 18,00 €、内外科急诊 16,00 €、基础急诊 14,00 €，另加就诊期间进行的检查，上限 40,00 €。而实用的规则，逐字引自 ACSS 常见问答：由 SNS 24 或 INEM 转诊到急诊科的病人，可豁免急诊费和当次就诊的检查费。",
+      "fonte": "Pesquisa §6. DL n.º 37/2022, de 27/5 (Governo de Portugal, 5/5/2022; ERS, FAQ atualizada 18/2/2026). Valores da tabela ACSS/ULS Santa Maria, «Documento Atualizado Julho 2024», extraída em bruto: urgência polivalente 18,00 €, médico-cirúrgica 16,00 €, básica 14,00 €, «Acrescem as taxas moderadoras de MCDT realizados no decurso do atendimento até um máximo de 40,00 €». ⚠ Cautela registrada na pesquisa: qual coluna está em vigor é INFERÊNCIA; confirmar na Portaria n.º 64-C/2016. Isenção verbatim do FAQ ACSS: «os doentes que ao acederem ao serviço de urgência referenciados pelo Centro de Contacto do Serviço Nacional de Saúde – SNS 24, e pelo INEM estão dispensados do pagamento das taxas moderadoras».",
+      "ano": 2024,
+      "revisarAte": "2027-08-05",
+      "evidencia": "FATO",
+      "risco": "medio",
+      "audioKeys": [
+        "pt-b13-n09"
+      ]
+    },
+    {
+      "id": "pt-b13-cesd",
+      "afirmacao": "欧洲卡——EHIC，或英国持有者的 GHIC——买到的是国家卫生服务，而且只有国家卫生服务。欧洲委员会将其描述为：在临时停留期间覆盖医学上必要的护理，条件和费用与当地参保人相同，包括既有慢性病、怀孕和分娩；它不覆盖私立医疗，不覆盖遣返，不覆盖以获得治疗为目的的出行，也不能替代旅行保险。在葡萄牙这意味着 SNS，而不是私立诊所——而旅游区里有相当多的机构是私立的。",
+      "fonte": "Pesquisa §6. Comissão Europeia sobre CESD/EHIC; NHSBSA e gov.uk (FCDO) sobre o GHIC pós-Brexit, aceite em Portugal, cobrindo urgência, doenças crónicas ou preexistentes, cuidados de rotina, maternidade, oxigénio e diálise, e não cobrindo alterações de reservas, repatriamento médico, tratamento não urgente nem privado. ⚠ A data de última atualização da página gov.uk não foi obtida. A distinção SNS × privado é marcada na pesquisa como «distinção crítica, porque muita unidade em zona turística é privada».",
+      "ano": 2026,
+      "revisarAte": "2027-08-05",
+      "evidencia": "FATO",
+      "risco": "medio",
+      "audioKeys": [
+        "pt-b13-n08"
+      ]
+    },
+    {
+      "id": "pt-b13-falso-amigo",
+      "afirmacao": "在 Priberam（欧洲标准词典）核实过的四个葡萄牙语词，在一张不能吃某样东西的桌前很重要：polvo 是章鱼；presunto 是腌制的猪腿；esquisito 意为奇怪或令人不快；rato 是啮齿动物。这些葡萄牙语义项是经过核实的。与西班牙语的对照仅作为对带着西班牙语背景到来的旅行者的风险提示呈现，因为没有西班牙语词典条目能被证实。",
+      "fonte": "Pesquisa §2, tabela verificada verbatim no Priberam (norma europeia): esquisito = estranho, desagradável; oficina = local de trabalho / reparação de veículos; borracha = elástico, apagador; presunto = perna de porco curada; polvo = molusco; rato = roedor; brincar = divertir-se; cena = palco; largo = de muita largura. ⚠ LACUNA DECLARADA: dle.rae.es devolveu HTTP 403 em todas as tentativas e NENHUM significado espanhol foi verificado no DRAE (item 2 da lista «O que NÃO entra»). Item 4 da mesma lista: a reação portuguesa a quem fala espanhol é folclore e não entra.",
+      "ano": 2026,
+      "revisarAte": "2028-08-05",
+      "evidencia": "FATO",
+      "risco": "baixo",
+      "audioKeys": [
+        "pt-b13-n06"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "pt-b13-n01",
+      "gesto": 1,
+      "bloco": "aquecimento",
+      "pt": "在点单之前说出过敏。一旦盘子落桌，就没有什么可改的了。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "pt-b13-n02",
+      "bloco": "molde",
+      "pt": "两句短话就把整件事做完：过敏是什么，然后 É grave。不道歉，也不讲长故事。"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_pt_f",
+      "audioKey": "pt-b13-t01",
+      "es": "Tenho alergia a marisco. É grave.",
+      "pinyin": "TAY-nyu a-ler-ZHEE-a a ma-RISH-ku. eh GRAH-v'",
+      "pt": "我对海鲜过敏。这很严重。",
+      "tts": "Tenho alergia a marisco. É grave."
+    },
+    {
+      "consulta": [
+        "dieta/dizer",
+        "saude/minha-alergia"
+      ],
+      "tipo": "responde",
+      "voz": "target_pt_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "pt-b13-p01",
+      "promptPt": "他翻开了本子，等着你订单的第一个词。抢在食物之前开口。现在开口说。",
+      "audioKey": "pt-b13-t01",
+      "es": "Tenho alergia a marisco. É grave.",
+      "pinyin": "TAY-nyu a-ler-ZHEE-a a ma-RISH-ku. eh GRAH-v'",
+      "pt": "我对海鲜过敏。这很严重。",
+      "tts": "Tenho alergia a marisco. É grave."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "pt-b13-n03",
+      "bloco": "corpo",
+      "pt": "葡萄牙语靠把代词省掉来保持礼貌。Tem、Pode、Queria——你根本不需要「você」。"
+    },
+    {
+      "consulta": [
+        "dieta/o-que-tem"
+      ],
+      "tipo": "responde",
+      "voz": "target_pt_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "pt-b13-p02",
+      "promptPt": "当日菜是一份饭，锅里放了什么没人告诉过你。就那口锅本身问一下。现在开口说。",
+      "audioKey": "pt-b13-t02",
+      "es": "Isto leva marisco?",
+      "pinyin": "ISH-tu LE-va ma-RISH-ku",
+      "pt": "这道菜里有海鲜吗？",
+      "tts": "Isto leva marisco?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_pt_m",
+      "audioKey": "pt-b13-r01",
+      "es": "Leva camarão e amêijoa. E foi frito no mesmo óleo.",
+      "pt": "里面有虾和蛤蜊。而且是用同一锅油炸的。",
+      "tts": "Leva camarão e amêijoa. E foi frito no mesmo óleo.",
+      "receptivo": true,
+      "acao": "别急着走，留下来听第二句。「No mesmo óleo」是关于那口锅的诚实回答，不是敷衍——也是大多数人会漏掉的那一半。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "pt-b13-n04",
+      "pt": "「Leva」是厨房用来说「里面放了什么」的词。Isto leva——这道菜带这个吗？"
+    },
+    {
+      "consulta": [
+        "dieta/sem",
+        "dieta/o-que-tem"
+      ],
+      "tipo": "responde",
+      "voz": "target_pt_f",
+      "molde": "SEM",
+      "encaixe": "leite",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "pt-b13-p03",
+      "promptPt": "在推荐甜点，柜台上每一样看起来都像是从奶制品里出来的。开口找一条绕过去的路。现在开口说。",
+      "audioKey": "pt-b13-t03",
+      "es": "Tem alguma coisa sem leite?",
+      "pinyin": "taing al-GOO-ma KOY-za saing LAY-t'",
+      "pt": "有没有什么不含牛奶的？",
+      "tts": "Tem alguma coisa sem leite?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "pt-b13-n05",
+      "pt": "Sem 是那个安全词，它收的是光秃秃的那样东西：sem leite、sem glúten、sem molho。"
+    },
+    {
+      "consulta": [
+        "dieta/acontecendo",
+        "reparo/apontar"
+      ],
+      "tipo": "responde",
+      "voz": "target_pt_f",
+      "molde": "PODE",
+      "encaixe": "perguntar na cozinha",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "pt-b13-p04",
+      "promptPt": "他不太确定，也没有装作确定。请他去问那些握着锅的人。现在开口说。",
+      "audioKey": "pt-b13-t04",
+      "es": "Pode perguntar na cozinha?",
+      "pinyin": "PO-d' per-goon-TAR na ku-ZEE-nya",
+      "pt": "可以去厨房问一下吗？",
+      "tts": "Pode perguntar na cozinha?"
+    },
+    {
+      "consulta": [
+        "dieta/sem",
+        "mesa/comida"
+      ],
+      "tipo": "responde",
+      "voz": "target_pt_f",
+      "molde": "SEM",
+      "encaixe": "molho",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "pt-b13-p05",
+      "promptPt": "鸡肉本身没问题。浇在上面的那样东西才是谁也说不清成分的部分。绕开它点。现在开口说。",
+      "audioKey": "pt-b13-t05",
+      "es": "Queria o frango sem molho, se faz favor.",
+      "pinyin": "k'-REE-a u FRAN-gu saing MO-lyu, s' fash fa-VOR",
+      "pt": "我想要那份不加酱的鸡肉，谢谢。",
+      "tts": "Queria o frango sem molho, se faz favor."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "pt-b13-n06",
+      "pt": "在这里用西班牙语的眼睛读菜单是个陷阱。Polvo 是章鱼。Presunto 是生火腿。"
+    },
+    {
+      "consulta": [
+        "dieta/cartao",
+        "reparo/escreve"
+      ],
+      "tipo": "responde",
+      "voz": "target_pt_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "pt-b13-p06",
+      "promptPt": "店里很吵，他在忙，你刚说的那句话说得太快。把不会被听错的那个版本递给他。现在开口说。",
+      "audioKey": "pt-b13-t06",
+      "es": "Tenho a alergia escrita aqui.",
+      "pinyin": "TAY-nyu a a-ler-ZHEE-a sh-KREE-ta a-KEE",
+      "pt": "我把过敏写在这里。",
+      "tts": "Tenho a alergia escrita aqui."
+    },
+    {
+      "consulta": [
+        "dieta/cartao",
+        "dieta/nao-levam-a-serio"
+      ],
+      "tipo": "responde",
+      "voz": "target_pt_f",
+      "molde": "PODE",
+      "encaixe": "mostrar isto na cozinha",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "pt-b13-p07",
+      "promptPt": "他读了你的手机，点了头。真正需要读的那个人正在门后面握着锅。现在开口说。",
+      "audioKey": "pt-b13-t07",
+      "es": "Pode mostrar isto na cozinha?",
+      "pinyin": "PO-d' mush-TRAR ISH-tu na ku-ZEE-nya",
+      "pt": "可以把这个给厨房看一下吗？",
+      "tts": "Pode mostrar isto na cozinha?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_pt_m",
+      "audioKey": "pt-b13-r02",
+      "es": "Vou perguntar na cozinha. Um momento, se faz favor.",
+      "pt": "我去厨房问一下。请稍等。",
+      "tts": "Vou perguntar na cozinha. Um momento, se faz favor.",
+      "receptivo": true,
+      "acao": "这就是那个回答在起作用。把那一会儿等过去，别为了「帮忙」而另外点一样别的。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "pt-b13-n07",
+      "pt": "带着口头版本，也带着书面版本。口袋里的那份能顶住噪音、口音和一整间忙碌的店。"
+    },
+    {
+      "consulta": [
+        "dieta/sem",
+        "mesa/agua-pao"
+      ],
+      "tipo": "responde",
+      "voz": "target_pt_f",
+      "molde": "TEM",
+      "encaixe": "pão sem glúten",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "pt-b13-p08",
+      "promptPt": "一篮子面包送到了桌上，你宁愿先问清楚，也不想在里面挑挑拣拣。现在开口说。",
+      "audioKey": "pt-b13-t08",
+      "es": "Tem pão sem glúten?",
+      "pinyin": "taing pow saing GLOO-tayn",
+      "pt": "有无麸质的面包吗？",
+      "tts": "Tem pão sem glúten?"
+    },
+    {
+      "consulta": [
+        "dieta/sem",
+        "dieta/dizer"
+      ],
+      "tipo": "responde",
+      "voz": "target_pt_f",
+      "molde": "SEM",
+      "encaixe": "amendoim",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "pt-b13-p09",
+      "promptPt": "订单正在写，你想那一个词也被复述到厨房里。把它单独说一次。现在开口说。",
+      "audioKey": "pt-b13-t09",
+      "es": "Sem amendoim, se faz favor.",
+      "pinyin": "saing a-men-DOO-ing, s' fash fa-VOR",
+      "pt": "不放花生，谢谢。",
+      "tts": "Sem amendoim, se faz favor."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "pt-b13-n08",
+      "bloco": "capsula",
+      "pt": "112 在全国任何地方都能叫到救护车。你的欧洲卡买到的是国家的护理，绝不会是私立诊所。"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_pt_f",
+      "audioKey": "pt-b13-r03",
+      "es": "Telefone para o 808 24 24 24 antes de ir à urgência.",
+      "pt": "去急诊之前，请先拨 808 24 24 24。",
+      "tts": "Telefone para o oito zero oito, vinte e quatro, vinte e quatro, vinte e quatro, antes de ir à urgência.",
+      "receptivo": true,
+      "acao": "今晚就把两个号码都存进手机：112 叫救护车，808 24 24 24 处理短于救护车的一切。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "pt-b13-n09",
+      "pt": "经那条热线或 INEM 转诊到急诊，急诊费可免。未经转诊，是 14 到 18 欧元。"
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_pt_f",
+      "audioKey": "pt-b13-s01",
+      "es": "Tenho alergia a marisco. É grave. Isto leva marisco? Sem marisco, se faz favor.",
+      "pinyin": "TAY-nyu a-ler-ZHEE-a a ma-RISH-ku. eh GRAH-v'. ISH-tu LE-va ma-RISH-ku. saing ma-RISH-ku, s' fash fa-VOR",
+      "pt": "按厨房能处理的顺序，跟着影读这三句。",
+      "tts": "Tenho alergia a marisco. É grave. Isto leva marisco? Sem marisco, se faz favor.",
+      "molde": "SEM"
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_en_us_f",
+      "audioKey": "pt-b13-n10",
+      "bloco": "recap",
+      "pt": "B13 完成。过敏先说，用 sem 挡下不能进的东西，两个号码已经躺在你的手机里。"
+    }
+  ],
+  "aprofundar": {
+    "titulo": "那句话、那个词、那张卡，还有那两个号码",
+    "secoes": [
+      {
+        "titulo": "为什么 É grave 才是承重的那一半",
+        "corpo": "过敏那句话有两部分，而说英语的本能在第二部分上失手。英语世界的人爱模糊——「我吃海鲜有点怪」「能避免我就尽量避免」——一模糊，请求就落进「偏好」那一栏，忙碌的厨房也会把它当偏好处理。É grave 只有两个音节，不加模糊，把同一个请求推进「不能」那一栏。平平地说出来。在这里简短不是失礼；简短正是厨房能据以行动的东西。",
+        "exemplos": [
+          {
+            "es": "Tenho alergia a marisco. É grave.",
+            "pt": "我对海鲜过敏。这很严重。"
+          },
+          {
+            "es": "Tenho alergia a frutos secos. É grave.",
+            "pt": "我对坚果过敏。这很严重。"
+          }
+        ]
+      },
+      {
+        "titulo": "Leva，以及那个还在继续的回答",
+        "corpo": "Isto leva…？是你用来问「这道菜里放了什么」的方式，它的有用之处在于：它问的是那口锅本身，而不是菜单上的描述。答案常常分两半送来：里面有什么，以及是怎么做的。Leva camarão e amêijoa. E foi frito no mesmo óleo。第二半才是最要紧的那一半，也是急着听的人会漏掉的那一半——因为那时字词已经熟悉了，注意力已经飘走了。"
+      },
+      {
+        "titulo": "Sem 收的是光秃秃的那样东西",
+        "corpo": "你在葡萄牙语里学的几乎每一样东西前面都焊着自己的冠词——a casa de banho、o comboio、uma farmácia——因为冠词是性别的居所，本课程不会在紧张之下要求你在 o 和 a 之间选。Sem 是那个例外。在这类一般请求里，它收的是前面什么都不带的那个名词：sem leite、sem glúten、sem molho、sem picante。一个词，无需决定。它是整个过敏工具包里最便宜的一块积木。"
+      },
+      {
+        "titulo": "那份你不应该用西班牙语的眼睛去读的菜单",
+        "corpo": "如果你带着一点西班牙语过来，菜单看起来会比它实际上更好读，而那些看起来眼熟的词里有几个并不是它们看起来的样子。在葡萄牙，欧洲标准词典核实：polvo 是章鱼。Presunto 是腌制的猪腿。Rato 是啮齿动物。Esquisito 意为奇怪或令人不快，所以拿它来夸一道菜实在不合适。Borracha 是橡皮，oficina 是工场或修车厂，largo 是宽的。把葡萄牙语这些义项当作既定事实，把它们与西班牙语的形似当作陷阱。这里没有对西班牙语或西班牙人的任何断言，也不是暗示有谁介意听到它——研究去找过那样的证据，没找到。"
+      },
+      {
+        "titulo": "那两个号码，以及使用它们的顺序",
+        "corpo": "112 是单一的欧洲紧急号码，在葡萄牙适用于警察、消防和医疗紧急。英国外交部说得很直白：拨 112，要求救护车。低于紧急级别的情况有 SNS 24，号码 808 24 24 24，是卫生服务自己的热线，24 小时进行分诊、咨询和分流。先打这一通有一个具体的后果：2022 年的一部法令在几乎整个卫生服务里取消了使用者共付费，只在无事先转诊、前往医院急诊的场合保留——而由 SNS 24 或 INEM 转诊到急诊的病人，可豁免该费以及就诊期间做的检查。若未经转诊，公布的收费表按科室类型从 14 到 18 欧元，另加检查最多 40 欧元。有一个诚实的空白：这条线上的一般临床分诊是否提供英语并未证实，所以不要指望它。"
+      },
+      {
+        "titulo": "欧洲卡到底能买到什么",
+        "corpo": "EHIC，或如果是英国签发的 GHIC，在临时停留期间覆盖医学上必要的国家医疗，费用与当地参保人相同，包括既有慢性病、怀孕和分娩。它做不到的事在实地更要紧：它不覆盖私立医疗，不覆盖遣返，也不能替代旅行保险。在葡萄牙，这个区别比听起来更锋利，因为旅游区的诊所和医院里有相当多是私立的。如果你要递卡出去，请先看清你站在哪一套系统里。"
+      }
+    ]
+  },
+  "slot": "B13",
+  "permissao": "你被允许把过敏那句话说两次，被允许在「你好」还没说完就说它，也被允许对端盘子来的人再说一次。你被允许对已经点的菜再问一个问题，也被允许把某人连同你手机一起打发到厨房去。这些都不是难办的行为，也都不需要附一句道歉——早被告知的厨房能应对，晚被告知的厨房应对不了。你还被允许比原本计划的更朴素地吃一顿。因为你能看清每一部分，就点一条烤鱼和一盘土豆，是完全体面的一顿晚餐，桌边没有人在给你的雄心打分。",
+  "permissaoAudioKey": "pt-b13-n02",
+  "espelho": "任何一个在家乡的餐厅里为了不显得难缠而把问题咽回去的人，其实已经掌握了这一部分的全部。唯一新的东西是：在这里那个问题只有四个词长，而不问的代价不是尴尬。",
+  "fichasCulturais": [
+    {
+      "sinal": "你在旅游区觉得不舒服，走进外面挂着十字标志的最近一家诊所，把欧洲健康卡递到前台。",
+      "suaLeitura": "卡是欧洲的，国家是欧洲的，所以我在哪儿出示它都覆盖。",
+      "oQueEAli": "这张卡覆盖的是国家医疗，而且只有国家医疗。在葡萄牙这就是 SNS，而旅游区里许多机构是私立的——在那里这张卡什么都买不到。葡萄牙还通过 2022 年的一部法令在几乎整个卫生服务里取消了使用者共付费，仅在无事先转诊、前往医院急诊时保留：综合急诊 18 欧元，内外科急诊 16，基础急诊 14，另加就诊期间的检查最多 40。卫生服务自己的常见问答也明确：由 SNS 24 或 INEM 转诊到急诊的病人可豁免这些费用。",
+      "oQueVoceFaz": "在你走去任何地方之前，先拨 808 24 24 24 让他们给你分流。如果是紧急情况，改拨 112 并要求救护车。到了前台，在卡从钱包拿出来之前，先确认你身处的是 SNS 单位还是私立单位。",
+      "oQueMelhora": "一通电话把一个「没标价」的下午变成一个「被分流」的下午，而正是那个分流让费用免除，而不是柜台上任何一场争论。",
+      "ondeNaoVale": "这并不是说私立医疗是陷阱——私立诊所是普通生意，有时是最快的选择；这里只想说卡在那里不付钱。收费表数据来自一份 2024 年 7 月的表格，具体在用哪一栏是推断，未在制定规章中核实。而 808 24 24 24 上的一般临床分诊是否提供英语并未证实：目前找到的唯一官方英语来源覆盖的是心理咨询线。",
+      "evidencia": "FATO",
+      "audioKeys": [
+        "pt-b13-n08",
+        "pt-b13-n09"
+      ]
+    },
+    {
+      "sinal": "你会一点西班牙语，所以你自信地扫过葡萄牙语菜单，挑出你以为认得的那些菜。",
+      "suaLeitura": "两种语言够接近，读起来基本免费；看起来一样的词就是一样的意思。",
+      "oQueEAli": "有些最眼熟的词恰恰是意思已经挪走的那些。在欧洲标准葡萄牙语词典里核实：polvo 是章鱼，presunto 是腌制的猪腿，rato 是啮齿动物，borracha 是橡皮或松紧带，oficina 是工场或车辆修理厂，largo 是宽的，brincar 是玩耍，cena 是舞台或场景，esquisito 意为奇怪或令人不快。在菜单上，在一个对海鲜过敏的人面前，光是 polvo 一个词就值这一整堂课。",
+      "oQueVoceFaz": "把菜单当作葡萄牙语读，别当作近似西班牙语读，用 Isto leva…？把菜出声地核对一遍，别靠一个眼熟的词去推理。夸菜时把 esquisito 从你的赞美里剔除。",
+      "oQueMelhora": "你不再在会付出代价的那一刻信任「相似」，那句四个词的问句把原本靠猜完成的活接过去了。",
+      "ondeNaoVale": "葡萄牙语义项是经过核实的；西班牙语一侧的对照无法在西班牙语词典中核对，所以请把这个当作对带着西班牙语过来的旅行者的警告，而不是对西班牙语的定论。这也并不是暗示在这里讲西班牙语不受欢迎——研究去找过这样的证据，没找到，而已有的证据指向另一方向。",
+      "evidencia": "FATO",
+      "audioKeys": [
+        "pt-b13-n06"
+      ]
+    }
+  ]
+}

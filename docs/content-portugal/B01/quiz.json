@@ -1,0 +1,96 @@
+{
+  "id": "q-b01",
+  "nivel": "basico",
+  "titulo": "小测验 — 那个词比看上去要短",
+  "subtitulo": "元音的挤压、词尾的嘘声、三种在鼻腔里做出的收尾，以及两个字母合成一个音",
+  "introAudioKey": "pt-b01-q-i",
+  "introPt": "一名旅行者在 pastelaria 的柜台点单，加倍点了同样的东西，然后问后面的门在哪儿。",
+  "cenario": "里斯本一家 pastelaria，早上八点，一个人在服务，你们之间隔着一盘面包。",
+  "dialogo": [
+    {
+      "audioKey": "pt-b01-q01",
+      "voz": "target_pt_f",
+      "es": "Bom dia. Um café, se faz favor.",
+      "pt": "早上好。一杯咖啡，请。",
+      "tts": "Bom dia. Um café, se faz favor."
+    },
+    {
+      "audioKey": "pt-b01-q02",
+      "voz": "target_pt_m",
+      "es": "Bom dia. Mais alguma coisa?",
+      "pt": "早上好。还要别的吗？",
+      "tts": "Bom dia. Mais alguma coisa?"
+    },
+    {
+      "audioKey": "pt-b01-q03",
+      "voz": "target_pt_f",
+      "es": "Dois pães, se faz favor. E onde é a casa de banho?",
+      "pt": "两个面包，请。洗手间在哪里？",
+      "tts": "Dois pães, se faz favor. E onde é a casa de banho?"
+    },
+    {
+      "audioKey": "pt-b01-q04",
+      "voz": "target_pt_m",
+      "es": "É ali ao fundo. Já lhe trago o resto.",
+      "pt": "就在后面那头。剩下的我马上给您拿来。",
+      "tts": "É ali ao fundo. Já lhe trago o resto."
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "你在纸上看到 desistiu，听到的却像只有一拍。发生了什么？",
+      "opcoes": [
+        "说话人在马虎",
+        "非重读元音在这里被挤压，三个音节的词可能只到一个音节",
+        "这个词在葡萄牙拼法不一样",
+        "你听成了别的词"
+      ],
+      "correta": 1,
+      "explica": "这就是这门语言被描述过的行为，而这个词正是被引用的典型例子：非重读元音被中央化或省略，剩下的只有一个音节，前面带一串辅音。"
+    },
+    {
+      "pergunta": "词尾的 s 在葡萄牙怎么发？",
+      "opcoes": [
+        "永远发 zoo 里的 z",
+        "发 shoe 里的 sh——遇到后面的元音会带声化",
+        "不发音",
+        "看你有多正式"
+      ],
+      "correta": 1,
+      "explica": "默认是嘘声，然后随后面的音变化：浊辅音前发 measure 里的音，元音前直接变成 z。英语里这三种音都有。"
+    },
+    {
+      "pergunta": "哪个手部提示配 ão、ãe 和 õe 结尾？",
+      "opcoes": [
+        "拳头在这个音节上合拢",
+        "两根手指按在鼻梁上，嘴保持张开",
+        "手掌向前推平",
+        "举起一根手指"
+      ],
+      "correta": 1,
+      "explica": "这些结尾是在鼻腔里做出的，英语里没有对应的音，所以给一个提示而不是一个对照。如果捏住鼻子这个音就没了，说明位置就对了。"
+    },
+    {
+      "pergunta": "本课程对葡萄牙的 R 主张什么？",
+      "opcoes": [
+        "北部卷舌，里斯本不卷",
+        "不主张什么——听录音模仿",
+        "跟法语的 R 处处相同",
+        "在词尾消失"
+      ],
+      "correta": 1,
+      "explica": "这里使用的参考描述没有讨论 R 在不同地方的差异，因此本课程不作任何主张。跟着声音模仿，把地图放一边。"
+    },
+    {
+      "pergunta": "你耳朵习惯了巴西葡语，这个听起来像另外一门语言。诚实的版本是什么？",
+      "opcoes": [
+        "两种口音中一种比另一种更认真",
+        "被描述为最大区别的是软腭化的共鸣、松散的发音方式和节奏",
+        "巴西人听懂这个口音远比反过来差",
+        "两者差得如此之大，其实是两门语言"
+      ],
+      "correta": 1,
+      "explica": "这是双方的描述实际说的内容。关于谁能听懂谁的那个说法，没有以真实听众为对象的研究，所以这里不提。"
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "id": "q-b02",
+  "nivel": "basico",
+  "titulo": "小测验 — 进门说 bom dia，出门说 obrigado",
+  "subtitulo": "作为入场券的问候、两个表示 请 的词，以及那个跟你保持一致的 谢谢",
+  "introAudioKey": "pt-b02-q-i",
+  "introPt": "一名旅行者向柜台问好、请对方服务、道谢，然后离开——全程没用一个主语代词。",
+  "cenario": "下午的一家小 pastelaria，店主在收银台后面，你前面有两位客人。",
+  "dialogo": [
+    {
+      "audioKey": "pt-b02-q01",
+      "voz": "target_pt_f",
+      "es": "Boa tarde. Se faz favor.",
+      "pt": "下午好。请。",
+      "tts": "Boa tarde. Se faz favor."
+    },
+    {
+      "audioKey": "pt-b02-q02",
+      "voz": "target_pt_m",
+      "es": "Boa tarde. Diga.",
+      "pt": "下午好。请讲。",
+      "tts": "Boa tarde. Diga."
+    },
+    {
+      "audioKey": "pt-b02-q03",
+      "voz": "target_pt_f",
+      "es": "Um café, por favor. Muito obrigada.",
+      "pt": "一杯咖啡，请。非常感谢。",
+      "tts": "Um café, por favor. Muito obrigada."
+    },
+    {
+      "audioKey": "pt-b02-q04",
+      "voz": "target_pt_m",
+      "es": "De nada. Até logo!",
+      "pt": "不客气。回头见！",
+      "tts": "De nada. Até logo!"
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "一位男士在向一位女士道谢。他用哪种形式？",
+      "opcoes": [
+        "Obrigada，因为他在向女性道谢",
+        "Obrigado，因为这个词与说话人保持一致",
+        "两个都行，可互换",
+        "Obrigados，因为涉及两人"
+      ],
+      "correta": 1,
+      "explica": "这个词承载的是说话人的性别，不是听话人的。每个学习者选一个形式，然后一辈子对所有人都这么说。"
+    },
+    {
+      "pergunta": "Se faz favor 和 por favor——哪个更礼貌？",
+      "opcoes": [
+        "Se faz favor；por favor 是随意的",
+        "都不是。两者都正确、都在使用，参考资料拒绝给它们分高下",
+        "Por favor；se faz favor 过时",
+        "Se faz favor 只在北部使用"
+      ],
+      "correta": 1,
+      "explica": "已发表的答复说两者都正确、通用，而所谓其中一个更正式的说法，只是没有共识的意见。哪个先想到就用哪个。"
+    },
+    {
+      "pergunta": "Boa noite 从几点开始？",
+      "opcoes": [
+        "傍晚六点整",
+        "晚上八点整",
+        "没有钟点划分——传统的分界是日落，而且很多人用午餐来划分之前两个",
+        "从午夜开始"
+      ],
+      "correta": 2,
+      "explica": "网上流传的钟点截止时间都没有出处。如果有人在你说 boa tarde 时回你 boa noite，他是按另一套习惯，不是在纠正你。"
+    },
+    {
+      "pergunta": "本课程让你怎么称呼柜台后面的人？",
+      "opcoes": [
+        "每句话都用单数的 你",
+        "完全不带主语——句子里直接把 那个人 略去",
+        "叫他/她的名字",
+        "根据年龄在两个代词之间选择"
+      ],
+      "correta": 1,
+      "explica": "关于称呼语的研究把单数代词描述为在最接近规范的变体中几乎不可接受，并把零代词称作干净的解决之道。少说一个词，恰恰是这里礼貌的关键。"
+    },
+    {
+      "pergunta": "你走进一家小店，直接说你要什么。你跳过了什么？",
+      "opcoes": [
+        "没跳过什么；问候可选",
+        "问候——它被当作交流的开门声，不是额外的礼节",
+        "一句必要的道歉",
+        "说葡萄牙语的义务"
+      ],
+      "correta": 1,
+      "explica": "从门口那一句话就完成了这件事，读音不好也没关系。在超市队伍或忙碌的通道里没人指望这个——这是小店的规矩。"
+    }
+  ]
+}

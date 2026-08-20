@@ -1,0 +1,426 @@
+{
+  "id": "i10",
+  "nivel": "intermediario",
+  "numero": 28,
+  "parte": "I10",
+  "slot": "I10",
+  "titulo": "Quanto custa——在东西端到桌上之前问",
+  "subtitulo": "couvert、刷卡最低消费额、账单，都在你还有话语权的时候拍板",
+  "cena": "晚上八点半，Bairro Alto的一家tasca：面包、奶酪和橄榄没人点就上来了，POS机上贴着一张小告示。",
+  "moldura": "ganha",
+  "decisao": "钱怎么花出去：couvert 在你没碰之前是多少钱；在点单之前先搞清这家能不能刷卡；账单在你交出去任何东西之前先看明白它写了什么。",
+  "emJogo": "dinheiro",
+  "frasePiso": "Quanto custa，加上那样东西——在你承诺之前那一拍，就是唯一算数的一拍。",
+  "moldes": [],
+  "fatosDatados": [
+    {
+      "id": "pt-i10-couvert",
+      "afirmacao": "葡萄牙餐厅的价格清单必须列出它供应的每一道菜、每一种食品和每一种饮料及其价格，包括存在时的couvert，并且必须写明：任何菜品、食品或饮料，包括couvert，如果不是顾客主动要求或被顾客让它无法再供人食用，就不得计费。清单必须用葡语书写、张贴在门口和店内，价格已含增值税。couvert 的定义是：在产品清单上被明确标为couvert、应顾客要求、在正餐开始前供应的一组食物或开胃小吃；在这些条件之外计费属于轻微行政违规。",
+      "fonte": "ASAE, FAQ oficial «Preços em serviços de restauração»; DGAE, Guia para Aplicação do RJACSR, 30/10/2018. ⚠️ A norma é habitualmente atribuída ao art. 135.º do RJACSR (DL n.º 10/2015) e a NUMERAÇÃO não foi confirmada em fonte primária — o conteúdo está verbatim nas duas fontes oficiais, o número do artigo não, e por isso não é citado.",
+      "ano": 2018,
+      "revisarAte": "2027-08-05",
+      "evidencia": "FATO",
+      "risco": "medio",
+      "audioKeys": [
+        "pt-i10-n03",
+        "pt-i10-n04"
+      ]
+    },
+    {
+      "id": "pt-i10-cartao",
+      "afirmacao": "葡萄牙没有一般性的法律义务要求接受刷卡，这就是为什么商家可以为POS机设最低消费额——只要事先公告即可。证据是否定性的但很扎实：曾经需要一个例外性、临时性的制度——2020年3月26日第10-H/2020号法令——才禁止装有POS机的商家不论金额多少地拒收刷卡，而且只到2020年6月30日为止。欧元纸币和硬币是另一回事：欧盟委员会2010/191/EU建议指出，除非双方约定其他支付方式，否则债权人不得拒收，零售业接受欧元应当是通例。",
+      "fonte": "DL n.º 10-H/2020, de 26/3 (regime excecional, vigente até 30/6/2020); Recomendação 2010/191/UE da Comissão, de 22/3/2010, via EUR-Lex. ⚠️ bportugal.pt devolveu 403 — não há confirmação institucional direta do Banco de Portugal, e a inexistência de obrigação é INFERÊNCIA a partir do carácter excecional do DL de 2020.",
+      "ano": 2020,
+      "revisarAte": "2027-08-05",
+      "evidencia": "INFERENCIA",
+      "risco": "medio",
+      "audioKeys": [
+        "pt-i10-n05"
+      ]
+    },
+    {
+      "id": "pt-i10-multibanco",
+      "afirmacao": "这里的银行终端属于一个跨行共用的网络，而不是各家银行相互竞争的多套网络，这就是为什么一台终端能处理九十多种不同业务。在整个欧元区，2024年现金仍占销售点交易的52%，比2022年的59%有所下降，葡萄牙是这一时期降幅最大的国家之一。",
+      "fonte": "Multibanco/SIBS, 2026 (⚠️ é o próprio operador da rede, não um regulador); Banco Central Europeu, SPACE 2024. ⚠️ Os valores específicos de Portugal estão em gráficos não extraíveis do PDF do BCE e NÃO foram verificados — só a queda relativa consta do texto.",
+      "ano": 2026,
+      "revisarAte": "2027-08-05",
+      "evidencia": "FATO",
+      "risco": "baixo",
+      "audioKeys": [
+        "pt-i10-n07"
+      ]
+    },
+    {
+      "id": "pt-i10-gorjeta",
+      "afirmacao": "餐饮业行业协会把小费描述为常见做法、在餐饮业里非常有传统，同时也说它在葡萄牙不是强制性的，决定权始终在顾客手上。同一机构认为：店家在小票上打上一个建议金额来暗示小费，不是良好做法。",
+      "fonte": "AHRESP, «Gorjetas — âmbito de aplicação na restauração e similares», 8/1/2025. ⚠️ NÃO existe inquérito representativo sobre comportamento real, e por isso nenhuma percentagem é afirmada neste curso: os «5% a 10%» circulam apenas em blogues.",
+      "ano": 2025,
+      "revisarAte": "2027-08-05",
+      "evidencia": "FATO",
+      "risco": "baixo",
+      "audioKeys": [
+        "pt-i10-n08"
+      ]
+    },
+    {
+      "id": "pt-i10-fatura",
+      "afirmacao": "不管你问不问，发票都是欠你的：增值税法规定，每一次商品或服务的供应都必须开具发票，与买家是谁无关，即使买家没要求也一样。收银台问你要不要写「contribuinte」，问的是一个葡萄牙税号，一个访客根本没理由拥有；没有它，发票就作为「最终消费者」开出，你拿到发票的权利丝毫不受影响。",
+      "fonte": "Portal das Finanças — CIVA, art. 29.º, n.º 1, al. b), verbatim; e-Fatura é o portal da Autoridade Tributária para dedução em IRS, de interesse nulo para quem visita.",
+      "ano": 2026,
+      "revisarAte": "2027-08-05",
+      "evidencia": "FATO",
+      "risco": "baixo",
+      "audioKeys": [
+        "pt-i10-n09"
+      ]
+    },
+    {
+      "id": "pt-i10-numerario",
+      "afirmacao": "这里的现金支付有法定上限，访客那一档是三档里最宽松的：本国个人居民2,999.99欧元，公司和采用有组织会计的纳税人999.99欧元，非葡萄牙境内居民、且非以商户身份行事的个人9,999.99欧元。",
+      "fonte": "Art. 63.º-E da LGT (DL n.º 398/98), valores conforme texto da ASAE que cita expressamente o artigo. ⚠️ NÃO verificado no dre.pt, que devolve uma aplicação JavaScript sem conteúdo.",
+      "ano": 2026,
+      "revisarAte": "2027-01-31",
+      "evidencia": "FATO",
+      "risco": "medio",
+      "audioKeys": [
+        "pt-i10-n10"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "pt-i10-n01",
+      "gesto": 3,
+      "bloco": "aquecimento",
+      "tom": "ganha",
+      "pt": "这里的钱是安静的。没什么可讨价还价的，几乎所有的事都靠早早问一句就搞定。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "pt-i10-n02",
+      "bloco": "cena",
+      "pt": "你坐下。面包、奶酪和橄榄上来了。没人问过你。那一盘有名字，也有价格。"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_pt_m",
+      "audioKey": "pt-i10-r01",
+      "es": "Boa noite. Trago o couvert?",
+      "pinyin": "BOH-uh NOY-t'. TRAH-goo oo koo-VEHR",
+      "pt": "「晚上好。要给您上couvert吗？」——这是个问题，问题就是可以回答的。",
+      "tts": "Boa noite. Trago o couvert?"
+    },
+    {
+      "consulta": [
+        "mesa/conta",
+        "compras/quanto"
+      ],
+      "tipo": "responde",
+      "voz": "target_pt_f",
+      "molde": "QUANTO-CUSTA",
+      "encaixe": "o couvert",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "pt-i10-p01",
+      "promptPt": "盘子马上就要上来了，印刷清单挂在门口，不在你手里。先问一句。现在请说。",
+      "audioKey": "pt-i10-t01",
+      "es": "Quanto custa o couvert?",
+      "pinyin": "KWAN-tu KOOSH-tuh oo koo-VEHR",
+      "pt": "couvert 多少钱？",
+      "tts": "Quanto custa o couvert?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "pt-i10-n03",
+      "bloco": "corpo",
+      "pt": "它必须写在印刷清单上，贴在门口和店内。没被要求、没被动过，就不欠这笔账。"
+    },
+    {
+      "consulta": [
+        "mesa/conta"
+      ],
+      "tipo": "responde",
+      "voz": "target_pt_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "pt-i10-p02",
+      "promptPt": "你根本不想要。趁没人掰面包之前就说出来。现在请说。",
+      "audioKey": "pt-i10-t02",
+      "es": "Pode levar o couvert, se faz favor.",
+      "pinyin": "PAWD l'VAR oo koo-VEHR, s'fash fuh-VOR",
+      "pt": "麻烦，可以把couvert端走吗。",
+      "tts": "Pode levar o couvert, se faz favor."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "pt-i10-n04",
+      "pt": "在之前，绝不是在之后。一旦被吃了或被动过，它就是你的了，会理直气壮地写进账单。"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_pt_f",
+      "audioKey": "pt-i10-r02",
+      "es": "Com certeza. Levo já.",
+      "pinyin": "kong s'r-TEH-zuh. LEH-voo zhah",
+      "pt": "👂「当然。我这就端走。」——不需要解释，也没人期待解释。",
+      "tts": "Com certeza. Levo já.",
+      "receptivo": true,
+      "acao": "点个头，继续看菜单。盘子被端走，晚上不受影响。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "pt-i10-n05",
+      "pt": "这里没有一般性的规则强制一家店收卡。POS机上设一个最低消费额，只要事先公告就是合法的。"
+    },
+    {
+      "consulta": [
+        "pagar/cartao"
+      ],
+      "tipo": "responde",
+      "voz": "target_pt_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "pt-i10-p03",
+      "promptPt": "点单之前，趁门还在你身后。两个字。现在请说。",
+      "audioKey": "pt-i10-t03",
+      "es": "Aceitam cartão?",
+      "pinyin": "uh-SAY-towng kar-TOWNG",
+      "pt": "你们收卡吗？",
+      "tts": "Aceitam cartão?",
+      "tom": "ganha"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_pt_m",
+      "audioKey": "pt-i10-r03",
+      "es": "Aceitamos, mas há um mínimo. Está ali no aviso.",
+      "pinyin": "uh-say-TAH-moosh, mush ah oong MEE-nee-moo. shTAH uh-LEE noo uh-VEE-zoo",
+      "pt": "👂「收，但有最低消费。那边告示上写着。」——那张告示就是全部答案。",
+      "tts": "Aceitamos, mas há um mínimo. Está ali no aviso.",
+      "receptivo": true,
+      "acao": "在做决定之前，先按他指的方向去看。「公告过」是条件；写在告示上的就是数。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "pt-i10-n06",
+      "bloco": "molde",
+      "pt": "Quanto custa 是你早就握在手里的那个「积木」积木，回到钱这一头，任何东西都能指。"
+    },
+    {
+      "consulta": [
+        "compras/quanto"
+      ],
+      "tipo": "responde",
+      "voz": "target_pt_f",
+      "molde": "QUANTO-CUSTA",
+      "encaixe": "isto",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "pt-i10-p04",
+      "promptPt": "Campo de Ourique 的一个市场摊位，一样东西在你手里，上面没有标签。现在请说。",
+      "audioKey": "pt-i10-t04",
+      "es": "Quanto custa isto?",
+      "pinyin": "KWAN-tu KOOSH-tuh EESH-too",
+      "pt": "这个多少钱？",
+      "tts": "Quanto custa isto?"
+    },
+    {
+      "consulta": [
+        "mesa/agua-pao"
+      ],
+      "tipo": "responde",
+      "voz": "target_pt_f",
+      "molde": "QUANTO-CUSTA",
+      "encaixe": "a água",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "pt-i10-p05",
+      "promptPt": "桌上的水瓶上来时旁边没有数字。在被打开之前问一句。现在请说。",
+      "audioKey": "pt-i10-t05",
+      "es": "Quanto custa a água?",
+      "pinyin": "KWAN-tu KOOSH-tuh uh AH-gwuh",
+      "pt": "水多少钱？",
+      "tts": "Quanto custa a água?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "pt-i10-n07",
+      "bloco": "capsula",
+      "pt": "现金在这里的柜台上依旧承担相当多的交易，而这里的终端属于一个共用的网络。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "pt-i10-n08",
+      "pt": "小费很常见，也永远不欠。行业协会自己都说决定权在顾客手上。"
+    },
+    {
+      "consulta": [
+        "pagar/pedir",
+        "mesa/conta"
+      ],
+      "tipo": "responde",
+      "voz": "target_pt_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "pt-i10-p06",
+      "promptPt": "咖啡喝完，除非有人开口，否则谁都不会送账单来。四个字。现在请说。",
+      "audioKey": "pt-i10-t06",
+      "es": "A conta, se faz favor.",
+      "pinyin": "uh KON-tuh, s'fash fuh-VOR",
+      "pt": "麻烦，买单。",
+      "tts": "A conta, se faz favor.",
+      "tom": "ganha"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_pt_f",
+      "audioKey": "pt-i10-r04",
+      "es": "Quer fatura com contribuinte?",
+      "pinyin": "kehr fuh-TOO-ruh kong kon-tree-boo-EEN-t'",
+      "pt": "👂「发票要写税号吗？」——她说的是葡萄牙的税号，你没有。",
+      "tts": "Quer fatura com contribuinte?"
+    },
+    {
+      "consulta": [
+        "pagar/pedir"
+      ],
+      "tipo": "responde",
+      "voz": "target_pt_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "pt-i10-p07",
+      "promptPt": "她的手指停在收银机上方等你。用三个字定下来。现在请说。",
+      "audioKey": "pt-i10-t07",
+      "es": "Sem contribuinte, obrigado.",
+      "pinyin": "sayng kon-tree-boo-EEN-t', oh-bree-GAH-doo",
+      "pt": "不用写税号，谢谢。（男士说；女士说 obrigada）",
+      "tts": "Sem contribuinte, obrigado."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "pt-i10-n09",
+      "pt": "无论如何，发票是欠你的。没有葡萄牙税号，就作为「最终消费者」开出来。"
+    },
+    {
+      "consulta": [
+        "pagar/rachar"
+      ],
+      "tipo": "responde",
+      "voz": "target_pt_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "pt-i10-p08",
+      "promptPt": "三个人，三张卡，一张小票放在碟子上。现在请说。",
+      "audioKey": "pt-i10-t08",
+      "es": "Pode separar a conta, se faz favor?",
+      "pinyin": "PAWD s'puh-RAR uh KON-tuh, s'fash fuh-VOR",
+      "pt": "麻烦，能把账单分开吗？",
+      "tts": "Pode separar a conta, se faz favor?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "pt-i10-n10",
+      "pt": "这里的现金有上限，访客那一档是三档里最宽的——远远超过一趟假期能花掉的。"
+    },
+    {
+      "consulta": [
+        "compras/quanto",
+        "chegar/balcao"
+      ],
+      "tipo": "responde",
+      "voz": "target_pt_f",
+      "molde": "QUANTO-CUSTA",
+      "encaixe": "o café",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "pt-i10-p09",
+      "promptPt": "阿尔法玛的一家柜台前，咖啡杯还没被拉出来。现在请说。",
+      "audioKey": "pt-i10-t09",
+      "es": "Quanto custa o café?",
+      "pinyin": "KWAN-tu KOOSH-tuh oo kuh-FEH",
+      "pt": "咖啡多少钱？",
+      "tts": "Quanto custa o café?",
+      "tom": "ganha"
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_pt_f",
+      "audioKey": "pt-i10-s01",
+      "molde": "QUANTO-CUSTA",
+      "es": "Quanto custa o couvert? Quanto custa a água? Quanto custa o café?",
+      "pinyin": "KWAN-tu KOOSH-tuh oo koo-VEHR · uh AH-gwuh · oo kuh-FEH",
+      "pt": "跟着念一个问题，把它套在一张桌子、一个摊位、一处柜台上。",
+      "tts": "Quanto custa o couvert? Quanto custa a água? Quanto custa o café?"
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_en_us_f",
+      "audioKey": "pt-i10-n11",
+      "bloco": "recap",
+      "tom": "ganha",
+      "pt": "I10 完成。价格先问、盘子原封端走，一整晚花钱不留意外。"
+    }
+  ],
+  "aprofundar": {
+    "titulo": "钱做的所有事，按它发生的顺序",
+    "secoes": [
+      {
+        "titulo": "couvert，以及决定它的那句话",
+        "corpo": "那些没人问就送来的面包、奶酪、橄榄和黄油，是有名字、也有标价的。清单必须列出这家供应的每一样及其价格，包括couvert，用葡语书写，贴在门口和店内，价格里已经含税。清单里还必须写明：任何东西——包括couvert——如果不是顾客主动要求或被顾客让它无法再供人食用，就不得计费。「无法再供人食用」是指被消费或被动过到无法再端给别人的地步，这就是为什么开口的时机是在任何人伸手之前。没人拦着你请服务生把盘子端走。",
+        "exemplos": [
+          {
+            "es": "Quanto custa o couvert?",
+            "pt": "couvert 多少钱？"
+          },
+          {
+            "es": "Pode levar o couvert, se faz favor.",
+            "pt": "麻烦，可以把couvert端走吗。"
+          }
+        ]
+      },
+      {
+        "titulo": "刷卡、现金和POS机上的那张告示",
+        "corpo": "葡萄牙在这一点上和意大利、希腊不同：没有一般性的规则强制商家收卡。最清楚的证据是2020年不得不设立一个临时的紧急制度来禁止拒收卡，而这个制度当年六月就到期了。所以在事先公告的前提下，POS机的最低消费额是合法的，进门时问一句不用付任何代价。欧元纸币是另一回事——一份欧盟建议说，除非另行约定其他支付方式，否则债权人不得拒收，零售业接受欧元应当是通例，但建议不是法规。"
+      },
+      {
+        "titulo": "为什么一台终端能做九十件事",
+        "corpo": "它的与众不同之处在结构上，而不在技术上：整个银行业几乎共用一张跨行网络，而不是各家银行有自己竞争的一套。所以同一台终端能付税单、给手机充值、也能办社保。现金在整个欧元区依然占据柜台上相当大的一部分，虽然下滑很快，葡萄牙是2022到2024年间下滑最快的国家之一。"
+      },
+      {
+        "titulo": "发票、contribuinte 和小费",
+        "corpo": "你买任何东西，都是被欠一张发票——不管你有没有要求，增值税法明文如此规定。收银台问你要不要 contribuinte，问的是一个葡萄牙税号，好让这次消费落到买家自己的税务账户；一个访客没有理由持有这个号码，说没有丝毫不影响你拿到那张纸的权利。至于小费：餐饮业行业协会把它称为常见且非常有传统的做法，也明确说它不是强制的、决定权始终在顾客手上。目前没有关于人们实际给多少的代表性调查，所以本课程不引用任何数字，其他人也不该引。"
+      }
+    ]
+  },
+  "permissao": "你有权在接受任何东西之前问它多少钱，也有权在不解释的情况下把couvert原封端走。早问一句在这里不是没礼貌——这是寻常的顺序，端盘子的那个人宁愿你问，而不是坐在那里心里默算。你也有权因为不想凑到某家的刷卡最低消费额而转身走出去；有权按你觉得合适的方式给小费，包括不给，没人会把这当作一份评语。",
+  "espelho": "任何一个在家里盯着酒吧账单研究「服务费」那一栏到底是什么的人，都完全懂这种感觉。唯一新的地方是，在这里，答案在你坐下之前就已经印在门口了。",
+  "fichasCulturais": [
+    {
+      "sinal": "你坐下大约九十秒后，一盘面包、奶酪和橄榄上来了，没人告诉你这是什么。",
+      "suaLeitura": "看起来像店家送的礼物，你就吃了，结果账单上多出一行让你惊讶。",
+      "oQueEAli": "这是couvert，是一件付费商品，必须出现在印刷价格清单上并标出价格。同一批规则说：如果顾客没有主动要求、或者把它变得无法再供人食用，就不得计费；清单要贴在门口和店内、用葡语书写、价格里已经含税。",
+      "oQueVoceFaz": "在还没人碰它的那九十秒里，问它的价钱，或者请对方把它端走。Pode levar o couvert, se faz favor 就是全部对话。",
+      "oQueMelhora": "葡萄牙账单上那一行常让人意外的东西，不再是意外，而在你还有选择时你就知道它是什么了。",
+      "ondeNaoVale": "这里没有说你可以拒付一件已经吃过的东西：消费者机构说得很明白，「消费」是关键，拒付一件已被消费的东西属于权利滥用。它也不涵盖分盘、现场音乐这类额外费用，那些只有在价格清单上写了才能收——请看清单，而不是靠这条规则。",
+      "evidencia": "FATO",
+      "audioKeys": [
+        "pt-i10-n03",
+        "pt-i10-n04"
+      ]
+    },
+    {
+      "sinal": "POS机旁边贴着一张小小的手写告示，你拿出卡时，柜台后面的人朝那张告示点了点头。",
+      "suaLeitura": "你觉得这家店在为难你，或者这肯定不合法。",
+      "oQueEAli": "葡萄牙没有一般性的法律义务要求接受刷卡。2020年不得不设立一个例外性、临时性的制度来禁止装有POS机的商家拒收卡，那个制度当年六月就到期——这是没有永久义务存在的最强证据。因此事先公告的最低消费额是合法的。",
+      "oQueVoceFaz": "在进门时问一句，别到最后再问：Aceitam cartão? 也随身带一点现金，用于那些答案是一张告示而不是「收」的柜台。",
+      "oQueMelhora": "你不再把一家只收现金的柜台当作冒犯，也不会在咖啡都喝完的那一刻才发现这件事。",
+      "ondeNaoVale": "这是从2020年制度的临时性质做出的推断，而不是葡萄牙央行的直接说明——央行的网站无法访问。这个说法也不延伸到欧元纸币和硬币，一份欧盟建议指出，除非另行约定其他支付方式，否则接受欧元应当是通例。",
+      "evidencia": "INFERENCIA",
+      "audioKeys": [
+        "pt-i10-n05"
+      ]
+    }
+  ]
+}

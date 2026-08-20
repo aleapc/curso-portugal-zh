@@ -1,0 +1,454 @@
+{
+  "id": "b15",
+  "nivel": "basico",
+  "numero": 15,
+  "parte": "B15",
+  "titulo": "Quanto custa——你在承诺之前先问的那个问题",
+  "subtitulo": "同一个积木适用于地铁售票窗口、市场摊位和商店柜台，以及标签上「largo」到底是什么意思",
+  "cena": "一个周六上午：从里斯本地铁售票窗口开始，到市场摊位上一整轮没有标价的奶酪结束。",
+  "moldura": "ganha",
+  "frasePiso": "Quanto custa，然后是那样东西——一次问一件，问的时候「转身走开」还是选项。",
+  "moldes": [
+    "QUANTO-CUSTA"
+  ],
+  "clique": {
+    "contagem": [
+      "地铁售票窗口",
+      "市场摊位",
+      "商店柜台",
+      "报刊亭"
+    ],
+    "desconto": "没人给你这四个地方分别写四句话。你保住这两个词，只换掉它们后面那样东西。",
+    "piso": "下次哪里都没写价格，你不会伸手去指、然后靠碰运气。你会用三个词发问，在承诺之前就听到那个数字。"
+  },
+  "fatosDatados": [
+    {
+      "id": "pt-b15-tarifas-lisboa",
+      "afirmacao": "里斯本 2026 年的公共交通价格，自 2026 年 1 月 1 日起生效：一张 Carris/Metro 单程票 1,90 €；用储值支付的地铁一次乘坐（zapping）1,72 €；24 小时 Carris/Metro 日票 7,25 €；navegante ocasional 卡本身 0,50 €。单程票在首次验票后一小时内有效，仅限一次乘坐，且不允许在地铁连续两次进闸。储值以 3 € 到 40 € 之间的额度充值。在波尔图，Andante 系统按从首次验票点起算的分区计费，最低为 Z2；2026 年偶发票价为 Z3 1,85 €、Z4 2,30 €、Z5 2,80 €、Z6 3,25 €、Z7 3,75 €、Z8 4,20 €、Z9 4,65 €，Z2 相较 2025 年未变。这些数字每年一月都会调整。",
+      "fonte": "Pesquisa §5. Metropolitano de Lisboa, «Tarifas 2026», carimbo ML/DCI dezembro.2025, PDF extraído em bruto, em vigor desde 1/1/2026: «Bilhete Carris/Metro 1,90»; «Viagem no Metro 1,72» (zapping); «Bilhete diário (24h) Carris/Metro 7,25»; cartão «navegante® ocasional 0,50»; validade «uma viagem durante 1h, após a primeira validação» e «Não permite duas entradas consecutivas no metro»; zapping carrega-se de 3€ a 40€. Porto: preços ocasionais 2026 publicados pela Andante/TMP (22/12/2025, efeitos 1/1/2026). ⚠ O valor do Z2 (1,40€) só apareceu em imprensa e NÃO está confirmado — por isso não é dito. Alerta editorial da pesquisa: todos os preços de transporte são de 2026 e mudam em janeiro.",
+      "ano": 2026,
+      "revisarAte": "2027-01-31",
+      "evidencia": "FATO",
+      "risco": "alto",
+      "audioKeys": [
+        "pt-b15-n09"
+      ]
+    },
+    {
+      "id": "pt-b15-cartao-e-numerario",
+      "afirmacao": "葡萄牙并没有普遍的法律义务要求接受刷卡，因此「刷卡最低 5 €」的告示只要事先公告就是合法的。证据是反证却坚实：曾经需要一部临时特别法令——2020 年 3 月 26 日第 10-H/2020 号法令——才能阻止拥有终端的商家不论金额都拒收刷卡，并且仅有效至 2020 年 6 月 30 日；如果本就存在永久性义务，那部法令便毫无必要。关于现金，欧盟委员会 2010/191/EU 号建议指出：「除非当事人已就其他支付方式达成一致，付款义务的债权人不得拒收欧元纸币和硬币」，且零售业务中接受现金「应为规则」，仅在善意情况下——例如缺零钱——才可拒收；它只是建议，而非法规。据 ASAE 公布的《一般税法》第 63.º-E 条现金支付上限：居民自然人 2.999,99 €；法人及有组织会计的纳税人 999,99 €；非以商人身份行事的非居民自然人 9.999,99 €。",
+      "fonte": "Pesquisa §7. Nenhum diploma impondo aceitação de cartão foi encontrado; DL n.º 10-H/2020, de 26/3, regime excecional e temporário até 30/6/2020 — a pesquisa conclui que «o mínimo 5€ para multibanco é lícito, desde que anunciado». ⚠ Ressalva: bportugal.pt e clientebancario.bportugal.pt estão atrás de Cloudflare e devolveram 403; não há confirmação institucional direta do Banco de Portugal. Recomendação 2010/191/UE (EUR-Lex, verbatim citado). Tetos ao numerário: art. 63.º-E da LGT (DL n.º 398/98), valores segundo a ASAE, texto bruto verificado; NÃO verificado no dre.pt.",
+      "ano": 2026,
+      "revisarAte": "2027-08-05",
+      "evidencia": "FATO",
+      "risco": "medio",
+      "audioKeys": [
+        "pt-b15-n07",
+        "pt-b15-n08"
+      ]
+    },
+    {
+      "id": "pt-b15-multibanco",
+      "afirmacao": "Multibanco 与访客习惯的自动取款机在结构上不一样：它是几乎整个银行业共用的一张银行间统一网络，而不是每家银行各自竞争的网络。运营商报告全国约有 13,000 台机器，同一台终端上有 90 多种不同操作，MB WAY 用户为 650 万。关于现金使用，欧洲中央银行 SPACE 2024 报告指出：欧元区销售点交易中的现金占比为 52%，低于 2022 年的 59%，葡萄牙则处于 2022–2024 年下降幅度最大的国家之列，降幅达 10 个百分点。",
+      "fonte": "Pesquisa §7. multibanco.pt/SIBS, 2026, verbatim — ⚠ a fonte é o próprio operador, não um regulador. O distintivo europeu é estrutural: rede interbancária única e partilhada por praticamente toda a banca. BCE, SPACE 2024, PDF verbatim: numerário em 52% das transações no ponto de venda na área do euro (59% em 2022), com Portugal entre as maiores quedas 2022–2024 (10 pontos percentuais). ⚠ Os valores específicos de Portugal estão em gráficos não extraíveis e NÃO foram verificados.",
+      "ano": 2026,
+      "revisarAte": "2028-08-05",
+      "evidencia": "FATO",
+      "risco": "medio",
+      "audioKeys": [
+        "pt-b15-n07",
+        "pt-b15-n08"
+      ]
+    },
+    {
+      "id": "pt-b15-horarios",
+      "afirmacao": "葡萄牙没有关于周日商店必须歇业的全国性规定。1996 年 5 月 15 日第 48/96 号法令，经修订至 2015 年第 10/2015 号法令，规定零售、服务和餐饮业的营业时间自由，无需事先许可；市政当局可基于安全或生活质量的理由加以限制。因此营业时间是每家店自己的决定，而不是国家的时间表。",
+      "fonte": "Pesquisa §8. DL n.º 48/96, de 15/5, alterado até ao DL n.º 10/2015: horário de funcionamento livre para venda ao público, serviços e restauração, sem autorização prévia; as câmaras podem restringir por segurança ou qualidade de vida. A pesquisa é explícita: «Não há regra nacional de encerramento ao domingo.» Relacionado, item 15 da lista «O que NÃO entra»: «Portugal fecha em agosto» é estereótipo sem suporte estatístico e NÃO entra.",
+      "ano": 2015,
+      "revisarAte": "2028-08-05",
+      "evidencia": "FATO",
+      "risco": "baixo",
+      "audioKeys": [
+        "pt-b15-n10"
+      ]
+    },
+    {
+      "id": "pt-b15-falsos-amigos-compras",
+      "afirmacao": "在欧洲标准词典里核实过的四个葡萄牙语词，在商店里很重要：largo 意为宽的，不是长的；esquisito 意为奇怪或令人不快，不是美味；borracha 是橡皮或松紧带；oficina 是工场或车辆修理厂，不是办公室。经过核实的是这些葡萄牙语义项，与西班牙语的形似仅作为对带着西班牙语到来的旅行者的风险提示呈现，因为没有西班牙语词典条目能被证实。",
+      "fonte": "Pesquisa §2, tabela verificada verbatim no Priberam (norma europeia): largo = de muita largura; esquisito = estranho, desagradável; borracha = elástico, apagador; oficina = local de trabalho / reparação de veículos. ⚠ LACUNA DECLARADA: dle.rae.es devolveu 403 e nenhum significado espanhol foi verificado (item 2 da lista «O que NÃO entra»). Item 4 da mesma lista: a reação portuguesa a quem fala espanhol é folclore e não entra.",
+      "ano": 2026,
+      "revisarAte": "2028-08-05",
+      "evidencia": "FATO",
+      "risco": "baixo",
+      "audioKeys": [
+        "pt-b15-n05",
+        "pt-b15-n06"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "pt-b15-n01",
+      "gesto": 1,
+      "bloco": "aquecimento",
+      "pt": "两个词就撑起了这里一整天的花销，它在窗口、在摊位、在收银台一样管用。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "pt-b15-n02",
+      "bloco": "molde",
+      "pt": "这就是那个积木：quanto custa，然后是那样东西。一次问一件，永远用单数。"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_pt_f",
+      "audioKey": "pt-b15-t01",
+      "es": "Quanto custa isto?",
+      "pinyin": "KWAN-tu KUSH-ta ISH-tu",
+      "pt": "这个多少钱？",
+      "tts": "Quanto custa isto?"
+    },
+    {
+      "consulta": [
+        "compras/quanto",
+        "compras/balcao"
+      ],
+      "tipo": "responde",
+      "voz": "target_pt_f",
+      "molde": "QUANTO-CUSTA",
+      "encaixe": "isto",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "pt-b15-p01",
+      "promptPt": "在市场摊位上，一整轮奶酪，没有标签，前面也没有价签。现在开口说。",
+      "audioKey": "pt-b15-t01",
+      "es": "Quanto custa isto?",
+      "pinyin": "KWAN-tu KUSH-ta ISH-tu",
+      "pt": "这个多少钱？",
+      "tts": "Quanto custa isto?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "pt-b15-n03",
+      "bloco": "corpo",
+      "pt": "那样东西是连着它的冠词一起来的。O bilhete、o cartão、a viagem——把每一个整块记下来。"
+    },
+    {
+      "consulta": [
+        "transporte/bilhete",
+        "compras/quanto"
+      ],
+      "tipo": "responde",
+      "voz": "target_pt_f",
+      "molde": "QUANTO-CUSTA",
+      "encaixe": "o bilhete",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "pt-b15-p02",
+      "promptPt": "在地铁售票窗口，自助机前排着队，你面前就是一个真人。现在开口说。",
+      "audioKey": "pt-b15-t02",
+      "es": "Quanto custa o bilhete?",
+      "pinyin": "KWAN-tu KUSH-ta u bi-LYE-t'",
+      "pt": "车票多少钱？",
+      "tts": "Quanto custa o bilhete?"
+    },
+    {
+      "consulta": [
+        "transporte/bilhete",
+        "pagar/dinheiro"
+      ],
+      "tipo": "responde",
+      "voz": "target_pt_f",
+      "molde": "QUANTO-CUSTA",
+      "encaixe": "o cartão",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "pt-b15-p03",
+      "promptPt": "还在地铁售票窗口：他们把你的乘次加载在上面的那张可复用塑料卡，是要另买的。现在开口说。",
+      "audioKey": "pt-b15-t03",
+      "es": "Quanto custa o cartão?",
+      "pinyin": "KWAN-tu KUSH-ta u kar-TOW",
+      "pt": "这张卡多少钱？",
+      "tts": "Quanto custa o cartão?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_pt_m",
+      "audioKey": "pt-b15-r01",
+      "es": "O cartão são cinquenta cêntimos. Depois carrega o que quiser.",
+      "pt": "卡是五十分。之后你想充多少就充多少。",
+      "tts": "O cartão são cinquenta cêntimos. Depois carrega o que quiser.",
+      "receptivo": true,
+      "acao": "两个价格，不是一个：先是塑料卡，然后是里面的钱。买一次塑料卡，就别再买纸质单程票了。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "pt-b15-n04",
+      "pt": "在承诺之前问，而不是到收银台再问。答案什么都不花，还会改变你的选择。"
+    },
+    {
+      "consulta": [
+        "transporte/bilhete",
+        "compras/quanto"
+      ],
+      "tipo": "responde",
+      "voz": "target_pt_f",
+      "molde": "QUANTO-CUSTA",
+      "encaixe": "a viagem",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "pt-b15-p04",
+      "promptPt": "你把钱充到塑料卡里而不是买纸票，想知道每次乘坐会从里面扣掉多少。现在开口说。",
+      "audioKey": "pt-b15-t04",
+      "es": "Quanto custa a viagem?",
+      "pinyin": "KWAN-tu KUSH-ta a vi-A-zhaing",
+      "pt": "一次乘坐多少钱？",
+      "tts": "Quanto custa a viagem?"
+    },
+    {
+      "consulta": [
+        "compras/balcao",
+        "compras/devolver"
+      ],
+      "tipo": "responde",
+      "voz": "target_pt_f",
+      "molde": "TEM",
+      "encaixe": "outro tamanho",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "pt-b15-p05",
+      "promptPt": "在商店柜台，那件衬衫哪里都合适，就是肩膀那儿不行。现在开口说。",
+      "audioKey": "pt-b15-t05",
+      "es": "Tem outro tamanho?",
+      "pinyin": "taing OH-tru ta-MA-nyu",
+      "pt": "有别的尺码吗？",
+      "tts": "Tem outro tamanho?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "pt-b15-n05",
+      "pt": "标签上的「largo」意思是宽，不是长。用西班牙语的眼睛去读，就是一件尺码穿不上直接被拎回家的原因。"
+    },
+    {
+      "consulta": [
+        "compras/balcao",
+        "compras/so-olhando"
+      ],
+      "tipo": "responde",
+      "voz": "target_pt_f",
+      "molde": "TEM",
+      "encaixe": "em azul",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "pt-b15-p06",
+      "promptPt": "还是那家店的柜台，架子上只剩下的那件是你绝不会穿上身的颜色。现在开口说。",
+      "audioKey": "pt-b15-t06",
+      "es": "Tem em azul?",
+      "pinyin": "taing aing a-ZOOL",
+      "pt": "有蓝色的吗？",
+      "tts": "Tem em azul?"
+    },
+    {
+      "consulta": [
+        "compras/balcao"
+      ],
+      "tipo": "responde",
+      "voz": "target_pt_f",
+      "molde": "QUERIA",
+      "encaixe": "provar",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "pt-b15-p07",
+      "promptPt": "店铺后面有一道帘子，没人主动请你去试，而肩膀那儿还是问题。现在开口说。",
+      "audioKey": "pt-b15-t07",
+      "es": "Queria provar, se faz favor.",
+      "pinyin": "k'-REE-a pru-VAR, s' fash fa-VOR",
+      "pt": "我想试穿一下，谢谢。",
+      "tts": "Queria provar, se faz favor."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "pt-b15-n06",
+      "pt": "「Esquisito」意思是奇怪、令人反感。它不是你用来形容一样你吃得很开心的东西的词。"
+    },
+    {
+      "consulta": [
+        "compras/so-olhando",
+        "simpatia/agradecer"
+      ],
+      "tipo": "responde",
+      "voz": "target_pt_f",
+      "molde": "OBRIGADO",
+      "encaixe": "obrigada",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "pt-b15-p08",
+      "promptPt": "她走过来想帮你，而你宁愿自己再逛一会儿。两个词，语气温和。现在开口说。",
+      "audioKey": "pt-b15-t08",
+      "es": "Não, obrigada.",
+      "pinyin": "now, o-bri-GAH-da",
+      "pt": "不用了，谢谢。",
+      "tts": "Não, obrigada."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "pt-b15-n07",
+      "bloco": "capsula",
+      "pt": "Multibanco 是几乎所有银行共用的一张网络——一万三千台机器，九十多种操作。"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_pt_m",
+      "audioKey": "pt-b15-r02",
+      "es": "Só aceitamos cartão a partir de cinco euros.",
+      "pt": "我们五欧元起才收刷卡。",
+      "tts": "Só aceitamos cartão a partir de cinco euros.",
+      "receptivo": true,
+      "acao": "这样的最低金额在这里只要事先公告就是合法的。进门时读收银台的告示，别等到最后才读。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "pt-b15-n08",
+      "pt": "现金依然平常。2024 年欧元区柜台支付里，现金占了 52%。"
+    },
+    {
+      "consulta": [
+        "pagar/dinheiro",
+        "compras/pagar"
+      ],
+      "tipo": "responde",
+      "voz": "target_pt_f",
+      "molde": "TEM",
+      "encaixe": "troco",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "pt-b15-p09",
+      "promptPt": "在报刊亭，你手里一张 50 欧元的钞票，要买的东西不到 2 欧元。在他敲进收银机之前问。现在开口说。",
+      "audioKey": "pt-b15-t09",
+      "es": "Tem troco?",
+      "pinyin": "taing TRO-ku",
+      "pt": "有零钱找吗？",
+      "tts": "Tem troco?"
+    },
+    {
+      "consulta": [
+        "compras/pagar",
+        "pagar/cartao"
+      ],
+      "tipo": "responde",
+      "voz": "target_pt_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "pt-b15-p10",
+      "promptPt": "在摊位上，奶酪还没被包起来，而你口袋里的纸币也快没了。先问清楚。现在开口说。",
+      "audioKey": "pt-b15-t10",
+      "es": "Aceitam cartão?",
+      "pinyin": "a-SAY-tow kar-TOW",
+      "pt": "收刷卡吗？",
+      "tts": "Aceitam cartão?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_pt_m",
+      "audioKey": "pt-b15-r03",
+      "es": "Ao domingo estamos abertos até às oito.",
+      "pt": "我们周日营业到八点。",
+      "tts": "Ao domingo estamos abertos até às oito.",
+      "receptivo": true,
+      "acao": "在这里没有全国性的歇业日。营业时间由每家店自己决定，所以读门口的告示，别读日历。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "pt-b15-n09",
+      "pt": "2026 年 Carris 加地铁的单程票是 1,90 欧元，日票 7,25。一月会调价。"
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_pt_f",
+      "audioKey": "pt-b15-s01",
+      "es": "Quanto custa isto? Quanto custa o bilhete? Quanto custa o cartão?",
+      "pinyin": "KWAN-tu KUSH-ta ISH-tu. KWAN-tu KUSH-ta u bi-LYE-t'. KWAN-tu KUSH-ta u kar-TOW",
+      "pt": "跟着影读同样的两个词，用在三处完全不同的柜台上。",
+      "tts": "Quanto custa isto? Quanto custa o bilhete? Quanto custa o cartão?",
+      "molde": "QUANTO-CUSTA"
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_en_us_m",
+      "audioKey": "pt-b15-n10",
+      "bloco": "recap",
+      "pt": "B15 完成。四个柜台、两个词，每一个价格都是在「转身走开」还是选项时听到的。"
+    }
+  ],
+  "aprofundar": {
+    "titulo": "两个词，一次一件",
+    "secoes": [
+      {
+        "titulo": "Quanto custa，然后是那样东西",
+        "corpo": "把 quanto custa 保住，后面放任何带价格的东西。这个开头永远不变，也从不编码你在跟谁说话，这就是它便宜的原因：在售票窗口、在摊位、在收银台，同样的两个词打开对话。里面有一条刻意的边界。所有的贴片都是单数的，因为 custa 与数目一致，quanto custam 会在压力之下把一个决定甩给你。「一次问一件」是设计，而不是留待日后填补的空缺。",
+        "exemplos": [
+          {
+            "es": "Quanto custa o bilhete?",
+            "pt": "车票多少钱？"
+          },
+          {
+            "es": "Quanto custa a viagem?",
+            "pt": "一次乘坐多少钱？"
+          }
+        ]
+      },
+      {
+        "titulo": "冠词是黏在一起来的",
+        "corpo": "葡萄牙语的名词有性别，性别就住在前面那个小词里。这门课绝不要求你在 o 和 a 之间选，因为在压力之下选择，正是它要替你去除的那种计算。所以那样东西是已经装配好过来的：o bilhete、o cartão、a viagem、a casa de banho、uma farmácia。像记电话号码那样，把每一个当成一整块记住，「它带的是哪个冠词」这个问题就永远不会出现。这样做的代价是真实的，也值得说出来：你不会从这门课把性别系统总结出来。但你第一天就能在柜台前被人听懂。"
+      },
+      {
+        "titulo": "塑料卡和里面的钱是两个价",
+        "corpo": "2026 年在里斯本，可复用的 navegante ocasional 卡是 0,50 €，乘次要另外充进去。以 Carris/Metro 单程票支付时，一次乘坐是 1,90 €；用储值支付是 1,72 €；24 小时 Carris/Metro 日票是 7,25 €。储值以 3 到 40 欧元之间的额度充值。单程票在首次验票后一小时内、限一次乘坐有效，且不允许你在地铁连续两次进闸。在波尔图，Andante 系统按你首次验票的位置算分区，最低 Z2，2026 年的偶发票价从 Z3 的 1,85 € 到 Z9 的 4,65 €。这些数字每年一月都会重新调整，所以请把它们当作一个「形状」，而不是「圣言」。"
+      },
+      {
+        "titulo": "刷卡、现金，和收银台旁那张告示",
+        "corpo": "没有找到任何葡萄牙法规要求商家必须接受刷卡，而它「不存在」的证据是间接却坚实的：2020 年需要一部临时特别法令才能阻止装了终端的商家不论金额都拒收刷卡，且仅有效到那年的六月——若本就有永久性义务，那部法令便毫无意义。实际的后果是：「刷卡最低 5 欧元」的告示只要事先公告就是合法的，这就是为什么你应当在排队之前先读收银台，而不是排完队再读。现金则相反：一份欧洲建议说，除非另有约定，债权人不得拒收欧元纸币和硬币，且零售中接受现金「应为规则」，仅在善意情况下——例如没有零钱——才可拒收。它只是一份建议，而不是法规。至于现金支付上限，对访客来说很宽裕：非以商人身份行事的非居民自然人可以现金支付高达 9.999,99 €，而居民自然人为 2.999,99 €。"
+      },
+      {
+        "titulo": "为什么那台自动取款机会主动提出替你交税",
+        "corpo": "Multibanco 不是某种自动取款机的品牌；它是几乎整个银行业共用的一张银行间统一网络，而不是每家银行各自竞争的网络。这就是为什么同一台终端会提出替你给手机充值、缴水电煤气、处理社保支付：运营商报告全国约有一万三千台机器，九十多种不同操作，MB WAY 应用有六百五十万用户。这些数字来自运营商自己，而不是监管机构，所以请松着拿。独立测得的是趋势方向：欧洲中央银行 2024 年支付研究显示，欧元区销售点交易中现金占 52%，低于 2022 年的 59%，葡萄牙则以 10 个百分点的降幅名列前茅。"
+      },
+      {
+        "titulo": "周日，以及一块标签实际上在告诉你什么",
+        "corpo": "没有全国性规定要求周日商店歇业。零售、服务和餐饮业的营业时间自 1996 年的一部法令起就是自由的，2015 年经过修订，无需事先许可，市政当局只能基于安全或生活质量的理由加以限制。所以请读你想去那家店的门，别以为存在国家的时间表。在标签上，如果你带着一点西班牙语，有一个词值得留神：在葡萄牙，largo 意为宽。不是长。Esquisito 意为奇怪或令人不快，用它来夸赞就很糟。Borracha 是橡皮或松紧带，oficina 是工场或修车厂，而不是办公室。经过核实的是这些葡萄牙语义项；那份相似正是陷阱。"
+      }
+    ]
+  },
+  "slot": "B15",
+  "permissao": "你被允许问一件东西的价格，然后什么都不买就走开。你被允许在奶酪被称重之前就问，而不是之后——那是这个答案还能改变什么的唯一一刻。你被允许对走过来想帮忙的人说 não, obrigada，然后安心地继续自己逛——在这里这是一句完整的话，没人会把它当作失礼。你被允许在排队之前先确认刷卡行不行，然后改交现金：这两件事都不是谁在给你面子。你也被允许在一个上午在四个不同的柜台说同样的两个词，不必为了显得「更有本事」而变着法说。",
+  "permissaoAudioKey": "pt-b15-n04",
+  "espelho": "任何一个在家乡把某样东西拿到收银台，仅仅是为了问它多少钱的人，早就在不知不觉间做完这一整套动作。唯一新的部分是：把它用两个从不变化的词做，并且在数字还起得了作用时就听到它。",
+  "fichasCulturais": [
+    {
+      "sinal": "你带着卡走到收银台，被告知机器五欧元起才刷。",
+      "suaLeitura": "这怎么可以。欧洲某处一定有一条规矩：装了终端的商家就必须收我的卡。",
+      "oQueEAli": "在葡萄牙并没有普遍的义务要求接受刷卡，收银台旁公告的最低金额是合法的。证据是间接却坚实的：2020 年 3 月一部临时特别法令才能阻止装了终端的商家不论金额都拒收刷卡，且仅有效到那年六月末。若本就有永久性义务，它便毫无必要。现金是同一枚硬币的另一面：一份欧洲建议说，除非另有约定，不得拒收欧元纸币和硬币，且接受现金应为规则，仅在善意情况下——例如没有零钱——才可拒收，但它只是建议，不是法规。",
+      "oQueVoceFaz": "进门时看一眼收银台，在点单之前问 aceitam cartão?，而不是之后再问；同时随身带一点零钱和一张小额纸币，应付回答「不行」的场合。",
+      "oQueMelhora": "你不再把刷卡最低金额读成「有人在钻空子」，而是在还能挑另一处柜台的那一刻就把这件事弄清楚。",
+      "ondeNaoVale": "这并不是说葡萄牙的商家不喜欢卡——Multibanco 是几乎整个银行业共用的一张网络，而现金在柜台上的份额一直在快速下降。这也是从「没有规则」推出的推论，而不是央行的表态：葡萄牙央行自己的页面无法访问，所以没有直接的机构确认。",
+      "evidencia": "FATO",
+      "audioKeys": [
+        "pt-b15-n07",
+        "pt-b15-n08"
+      ]
+    },
+    {
+      "sinal": "你会一点西班牙语，读到标签上写着「largo」，就买了那件长的。",
+      "suaLeitura": "两种语言够接近，标签基本能读，那尺码的说法也一定能对上。",
+      "oQueEAli": "在葡萄牙，欧洲标准词典核实：largo 意为宽。不是长。同一份短短的「意思挪走了」的名单在整个购物上午都会冒出来：esquisito 意为奇怪或令人不快，而不是美味；borracha 是橡皮或松紧带；oficina 是工场或车辆修理厂，而不是办公室；cena 是舞台或场景。这些都不会让葡萄牙语难读——它是让你「自信的那一半阅读」变得不可靠，这更糟。",
+      "oQueVoceFaz": "别从那个词去推理，改成到柜台去问：tem outro tamanho?、tem em azul?、queria provar, se faz favor。三个问题就覆盖了整个问题，一个也不需要你读懂标签。",
+      "oQueMelhora": "你保住了西班牙语在读街牌时给你的速度，只在会让你花钱的那一处把它放下。",
+      "ondeNaoVale": "只有葡萄牙语一侧的义项经过了核实。每对里的西班牙语一侧无法在西班牙语词典中核对，所以请把这个当作对带着西班牙语过来的旅行者的警告，而不是关于西班牙语的定论。这也绝不是暗示在这里讲西班牙语不受欢迎：研究去找过这样的证据，没找到，而已有的证据指向另一方向。",
+      "evidencia": "FATO",
+      "audioKeys": [
+        "pt-b15-n05",
+        "pt-b15-n06"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,374 @@
+{
+  "id": "b12",
+  "nivel": "basico",
+  "numero": 12,
+  "parte": "B12",
+  "titulo": "Sem——那一个改变整盘菜的小词",
+  "subtitulo": "一个小词，后面除了那样东西什么都不加，午餐就按你实际吃的样子端上来",
+  "cena": "下午一点的一家 tasca：当日菜已经定好了，咖啡柜台前排着三层人，而盘子上正好有一样你宁愿不要的东西。",
+  "moldura": "ganha",
+  "frasePiso": "Sem，加上那样东西。两个词，盘子就不再是抽奖。",
+  "moldes": [
+    "SEM"
+  ],
+  "clique": {
+    "contagem": [
+      "咖啡柜台",
+      "当日菜",
+      "冷饮柜",
+      "一点钟的那张桌子"
+    ],
+    "desconto": "你没有背下四个请求。你把同一个小词说了四次，只换掉后面那样东西。",
+    "piso": "下次盘子上端来一样你不吃的东西，你不会默默地把它推到一边。你会在锅还没开火之前就已经说出那两个词。"
+  },
+  "fatosDatados": [
+    {
+      "id": "pt-b12-extras",
+      "afirmacao": "葡萄牙餐厅账单上的附加费，只有在你坐下之前就已印好的情况下才需要支付。消费者组织2026年6月18日更新的指引指出：额外费用——两个人分一道菜、现场音乐——只有出现在价目表上时才可收取。同一份指引还解释了对任何端上桌的东西而言「无法使用」是什么意思：已被吃掉或经手到无法再上给另一位顾客。它对顾客一方也说得很直接：你不能拒绝为你消费掉的东西付钱，因为「消费」正是关键差别；拒付将构成权利滥用。但没有什么阻止你告诉服务员把那些东西端走。",
+      "fonte": "DECO PROTESTE, «Restaurantes: regras para a cobrança de entradas, gelo e copos de água», atualizado 18/6/2026 (verificado). Enquadramento: ASAE, FAQ «Preços em serviços de restauração» — a lista de preços deve conter todos os pratos, produtos alimentares e bebidas fornecidos e respetivos preços, redigida em português, junto à entrada e no interior, com IVA incluído.",
+      "ano": 2026,
+      "revisarAte": "2028-08-05",
+      "evidencia": "FATO",
+      "risco": "baixo",
+      "audioKeys": [
+        "pt-b12-n07"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "pt-b12-n01",
+      "gesto": 1,
+      "bloco": "aquecimento",
+      "pt": "一点钟，当日菜已经定了，而盘子里有一样你宁愿不遇到的东西。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "pt-b12-n02",
+      "bloco": "molde",
+      "pt": "这就是那个积木：sem，然后那样东西。中间什么都没有，没有冠词，也没有一整句话包围它。"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_pt_f",
+      "audioKey": "pt-b12-t01",
+      "es": "Sem açúcar, se faz favor.",
+      "pinyin": "saing uh-SOO-kar, s'fash fuh-VOR",
+      "pt": "不加糖，谢谢。",
+      "tts": "Sem açúcar, se faz favor."
+    },
+    {
+      "consulta": [
+        "mesa/bebida",
+        "dieta/sem"
+      ],
+      "tipo": "responde",
+      "voz": "target_pt_f",
+      "molde": "SEM",
+      "encaixe": "açúcar",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "pt-b12-p01",
+      "promptPt": "在咖啡柜台，碟子上端来一小包糖，而你二十年来都是喝不加糖的。两个词。现在开口说。",
+      "audioKey": "pt-b12-t01",
+      "es": "Sem açúcar, se faz favor.",
+      "pinyin": "saing uh-SOO-kar, s'fash fuh-VOR",
+      "pt": "不加糖，谢谢。",
+      "tts": "Sem açúcar, se faz favor."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_pt_m",
+      "audioKey": "pt-b12-r01",
+      "es": "Com certeza. Já vem.",
+      "pt": "当然。这就来。",
+      "tts": "Com certeza. Já vem."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "pt-b12-n03",
+      "bloco": "corpo",
+      "pt": "你在这里点的其他每一样东西都拖着一个冠词。这一个不。Sem 收的是光秃秃的那个词。"
+    },
+    {
+      "consulta": [
+        "mesa/bebida"
+      ],
+      "tipo": "responde",
+      "voz": "target_pt_f",
+      "molde": "SEM",
+      "encaixe": "gelo",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "pt-b12-p02",
+      "promptPt": "冷饮柜在他身后，他正伸手去拿的那只杯子里已经装了一半冰块。在他倒之前说出口。现在开口说。",
+      "audioKey": "pt-b12-t02",
+      "es": "Sem gelo, por favor.",
+      "pinyin": "saing ZHEH-loo, poor fuh-VOR",
+      "pt": "不加冰，谢谢。",
+      "tts": "Sem gelo, por favor."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_pt_f",
+      "audioKey": "pt-b12-s01",
+      "es": "Com ou sem gás?",
+      "pinyin": "kong oh saing GASH",
+      "pt": "气泡水还是普通水？",
+      "tts": "Com ou sem gás?",
+      "receptivo": true,
+      "acao": "这就是那道「水的问题」。答的时候只说他给的一半，别加其他。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "pt-b12-n04",
+      "pt": "Com 是 sem 的镜像，你在自己需要开口说它之前，早就听到过很多次了。「有」，或「没有」。"
+    },
+    {
+      "consulta": [
+        "mesa/comida",
+        "dieta/sem"
+      ],
+      "tipo": "responde",
+      "voz": "target_pt_f",
+      "molde": "SEM",
+      "encaixe": "cebola",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "pt-b12-p03",
+      "promptPt": "沙拉里有一样生的东西，你到今晚六点还会在嘴里尝到。把它挡在门外。现在开口说。",
+      "audioKey": "pt-b12-t03",
+      "es": "Sem cebola, se faz favor.",
+      "pinyin": "saing s'BOH-luh, s'fash fuh-VOR",
+      "pt": "不加洋葱，谢谢。",
+      "tts": "Sem cebola, se faz favor."
+    },
+    {
+      "consulta": [
+        "dieta/sem",
+        "mesa/comida"
+      ],
+      "tipo": "responde",
+      "voz": "target_pt_f",
+      "molde": "SEM",
+      "encaixe": "picante",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "pt-b12-p04",
+      "promptPt": "他拿着一瓶酱举在鸡肉上方，望着你等许可。你下午还长着呢。现在开口说。",
+      "audioKey": "pt-b12-t04",
+      "es": "Sem picante, se faz favor.",
+      "pinyin": "saing pee-KAN-tuh, s'fash fuh-VOR",
+      "pt": "不放辣的，谢谢。",
+      "tts": "Sem picante, se faz favor."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "pt-b12-n05",
+      "pt": "两个词就是一点钟桌上一份完整的点单。你从不需要在它周围搭一段礼貌的段落。"
+    },
+    {
+      "consulta": [
+        "dieta/o-que-tem",
+        "mesa/carta"
+      ],
+      "tipo": "responde",
+      "voz": "target_pt_f",
+      "molde": "TEM",
+      "encaixe": "alguma coisa sem carne",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "pt-b12-p05",
+      "promptPt": "整块黑板上全是鱼和猪肉，而你两样都不吃。别列举你不吃的，问问这家店能为你做点什么。现在开口说。",
+      "audioKey": "pt-b12-t05",
+      "es": "Tem alguma coisa sem carne?",
+      "pinyin": "taing al-GOO-muh KOY-zuh saing KAR-nuh",
+      "pt": "有没有什么不含肉的？",
+      "tts": "Tem alguma coisa sem carne?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_pt_m",
+      "audioKey": "pt-b12-s02",
+      "es": "Leva molho. Pode ser?",
+      "pinyin": "LEH-vuh MOH-lyoo. POD ser",
+      "pt": "这道菜带酱。可以吗？",
+      "tts": "Leva molho. Pode ser?",
+      "receptivo": true,
+      "acao": "那是下锅前的确认，不是警告。用你已经拥有的那个积木回答。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "pt-b12-n06",
+      "pt": "Leva 的意思是「带有」。当你听到 leva，门就为你留出了恰好一个词的位置。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "pt-b12-n09",
+      "pt": "没有谁在吞字。在连贯的语流里，非重读元音要么被央化，要么整个被丢掉。"
+    },
+    {
+      "consulta": [
+        "dieta/sem",
+        "mesa/comida"
+      ],
+      "tipo": "responde",
+      "voz": "target_pt_f",
+      "molde": "SEM",
+      "encaixe": "molho",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "pt-b12-p06",
+      "promptPt": "他刚问过你「这样可以吗」，而那不可以。用两个词温和地回答他。现在开口说。",
+      "audioKey": "pt-b12-t06",
+      "es": "Sem molho, se faz favor.",
+      "pinyin": "saing MOH-lyoo, s'fash fuh-VOR",
+      "pt": "不要酱，谢谢。",
+      "tts": "Sem molho, se faz favor."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "pt-b12-n07",
+      "bloco": "capsula",
+      "pt": "两个人分一道菜的附加费，只有在你坐下之前就已印在价目表上，才需要支付。"
+    },
+    {
+      "consulta": [
+        "mesa/tamanho",
+        "mesa/comida"
+      ],
+      "tipo": "responde",
+      "voz": "target_pt_f",
+      "molde": "TEM",
+      "encaixe": "meia dose",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "pt-b12-p07",
+      "promptPt": "从身边端过去的盘子都巨大无比，而你早餐吃得很晚。问问这里有没有小份的。现在开口说。",
+      "audioKey": "pt-b12-t07",
+      "es": "Tem meia dose?",
+      "pinyin": "taing MAY-uh DOH-zuh",
+      "pt": "有半份的吗？",
+      "tts": "Tem meia dose?"
+    },
+    {
+      "consulta": [
+        "mesa/bebida",
+        "dieta/sem"
+      ],
+      "tipo": "responde",
+      "voz": "target_pt_f",
+      "molde": "QUERIA",
+      "encaixe": "um galão sem açúcar",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "pt-b12-p08",
+      "promptPt": "又是早晨，又是那杯高高的加奶咖啡，这次你想一开始就照自己的方式来。一句话，两个部分。现在开口说。",
+      "audioKey": "pt-b12-t08",
+      "es": "Queria um galão sem açúcar, se faz favor.",
+      "pinyin": "k'REE-uh oong guh-LOWNG saing uh-SOO-kar, s'fash fuh-VOR",
+      "pt": "我想要一杯不加糖的 galão，谢谢。",
+      "tts": "Queria um galão sem açúcar, se faz favor."
+    },
+    {
+      "consulta": [
+        "mesa/comida",
+        "dieta/sem"
+      ],
+      "tipo": "responde",
+      "voz": "target_pt_f",
+      "molde": "QUERIA",
+      "encaixe": "a salada sem cebola",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "pt-b12-p09",
+      "promptPt": "第二天，还是这家店，服务员已经认得你了。用一句话把那份绿的东西按你的方式点了。现在开口说。",
+      "audioKey": "pt-b12-t09",
+      "es": "Queria a salada sem cebola, se faz favor.",
+      "pinyin": "k'REE-uh uh suh-LAH-duh saing s'BOH-luh, s'fash fuh-VOR",
+      "pt": "我想要那份不加洋葱的沙拉，谢谢。",
+      "tts": "Queria a salada sem cebola, se faz favor."
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_pt_f",
+      "audioKey": "pt-b12-sh1",
+      "es": "Sem açúcar. Sem gelo. Sem cebola. Sem picante.",
+      "pinyin": "saing uh-SOO-kar. saing ZHEH-loo. saing s'BOH-luh. saing pee-KAN-tuh",
+      "pt": "跟着影读四盘菜，都由同一个两字动作改变。",
+      "tts": "Sem açúcar. Sem gelo. Sem cebola. Sem picante.",
+      "molde": "SEM"
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_en_us_m",
+      "audioKey": "pt-b12-n08",
+      "bloco": "recap",
+      "pt": "B12 完成。一个小词，四盘菜，还有一杯终于喝出你家里那个味道的咖啡。"
+    }
+  ],
+  "aprofundar": {
+    "titulo": "光秃秃的那个词——以及为什么它没有冠词",
+    "secoes": [
+      {
+        "titulo": "Sem 加上那样东西",
+        "corpo": "你在葡萄牙语里点的其他每一样都焊着自己的冠词：um café、uma água、a conta。Sem 是唯一一个地方，那样东西赤裸裸地过来——sem açúcar、sem gelo、sem cebola、sem gás。没有 um、没有 a 要选，这就让它成为整门课里最便宜的一招：一个你已经认识的词，加上一个你在菜单上一指就有的词。",
+        "exemplos": [
+          {
+            "es": "Sem açúcar, se faz favor.",
+            "pt": "不加糖，谢谢。"
+          },
+          {
+            "es": "Sem gelo, por favor.",
+            "pt": "不加冰，谢谢。"
+          }
+        ]
+      },
+      {
+        "titulo": "Com 是同一个动作，只是方向相反",
+        "corpo": "Com ou sem gás 是每瓶水都会带来的那个问题，值得在你需要开口说它之前就先认出来：com 是「有」，sem 是「没有」，他们想要的答案就是把他们自己问题的一半原封奉还。你会不停地听到这对——com leite、sem leite、com gelo、sem gelo——形状永远不变。"
+      },
+      {
+        "titulo": "Leva，以及它打开的那扇门",
+        "corpo": "Leva molho、leva picante、leva cebola：这个动词的意思是「带有」，是厨房在动手之前跟你核对的方式。当你听到 leva 后面跟着一个你不想要的词，回答已经现成——sem，然后把同一个词原封甩回去。这是葡萄牙餐厅里唯一一个由你「后说话」而依然能准确得到你想要的东西的交换。"
+      },
+      {
+        "titulo": "把两个积木叠起来",
+        "corpo": "Queria um galão sem açúcar。Tem alguma coisa sem carne？这两句都不是要新学的句子：它们是你已经拥有的两块积木，首尾相接。这就是用「积木」而不是「短语」来搭建旅程的意义所在——你学的第二块会把第一块乘出去，到第三块时你已经在造没人替你写下过的句子了。"
+      },
+      {
+        "titulo": "半份、分食，以及账单上能出现什么",
+        "corpo": "在柜台问 tem meia dose 是正常的问题，问总比假设好——有些店做，有些不做。已经确定的是钱这一面：两个人分一道菜的附加费，就像现场音乐的费用一样，只有先出现在价目表上，才可以出现在你的账单上。而那张表必须挂在门口、用葡萄牙语、价格已含增值税。进门时花十秒读一下，就是全部的防身术。"
+      }
+    ]
+  },
+  "slot": "B12",
+  "permissao": "你被允许改动这盘菜。请求少放某一样，在这里是普通的要求，不是索取，也不是对厨房的冒犯，用两个词就是一种完整而礼貌的做法。你也被允许被拒绝——já vem feito，「就是那样做好的」——并接受这个答案，而这并不是你葡萄牙语的失败。",
+  "permissaoAudioKey": "pt-b12-n05",
+  "fichasCulturais": [
+    {
+      "sinal": "你们两个人只点一道菜，另一只空盘子一句话没说就送来了。",
+      "suaLeitura": "店家的礼数——或者是账单结尾才会发现的一笔费用。",
+      "oQueEAli": "两人分一道菜的费用，只有出现在价目表上才能收取，其他额外费用如现场音乐费也是一样。这张表本身必须列出该店所提供的所有东西，附含增值税的价格，用葡萄牙语书写，张贴在门口和店内。",
+      "oQueVoceFaz": "进门时读那张表，别等出门时读账单。分食的费用如果没印在那里，就无需支付；如果印在那里，你在坐下之前就已经知道了。",
+      "oQueMelhora": "这个问题从一顿好饭的结尾——它会把气氛毁掉的地方——搬到了门口——它什么都不花的地方。",
+      "ondeNaoVale": "它并不说明任何一家店是否欢迎分食，也不是让你去争吵的许可证——凡是消费掉的都要付，拒付就构成消费者组织自己所说的「权利滥用」。价目表规定旁边通常被引用的条文编号，无法在原始法律来源中被证实，所以只引规定，绝不引编号。",
+      "evidencia": "FATO",
+      "audioKeys": [
+        "pt-b12-n07"
+      ]
+    },
+    {
+      "sinal": "服务员说了一整句话，你只抓到 sem，别的都没听清，其余像一长串黏在一起的词一样过去了。",
+      "suaLeitura": "他们是故意讲得太快，或者是在吞掉菜单上明明写着的那些字母。",
+      "oQueEAli": "在连贯语流里，欧洲葡萄牙语中非重读的元音要么被央化、要么整个被丢掉，非重读位置的辅音也可能失去浊音。一个写着三个音节的词，真的可能被念成一个音节，前面挤着一串辅音。没有什么在被吞掉：那些元音在连贯语流里就是不发音的。",
+      "oQueVoceFaz": "不要在你能在纸上看到的那些音节里追着找。听那个重读的节拍和它周围的形状，把那些非重读的小元音放过——它们并不承担意义。",
+      "oQueMelhora": "你不再断定「我听不懂」，转而开始听那本来就能被听到的部分。",
+      "ondeNaoVale": "这描述的是连贯语流，不是慢速语音：请对方慢一点，元音就回来了。这是欧洲葡萄牙语音系的描述，不是与任何其他变体的比较，也不是对任何地区的断言——更不是让你把讲得慢的人当作在屈尊俯就。",
+      "evidencia": "FATO",
+      "audioKeys": [
+        "pt-b12-n09"
+      ]
+    }
+  ]
+}

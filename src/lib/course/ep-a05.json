@@ -1,0 +1,440 @@
+{
+  "id": "a05",
+  "nivel": "avancado",
+  "numero": 33,
+  "parte": "A05",
+  "slot": "A05",
+  "titulo": "六个词,以及你原本指望的那门语言",
+  "subtitulo": "英语在城市里常见,离普及远得很;西班牙语能跟上的人比任何人预期的都少;而这里的『零成本礼貌』是一句话 —— 里面根本没有一个词是用来称呼你的",
+  "cena": "一个小镇柜台前的下午两点半:你的英语换来一张礼貌的空白脸,你的西班牙语换来一张更礼貌的空白脸,身后还排着三个人。",
+  "moldura": "ganha",
+  "frasePiso": "先六个词,再提请求。耳朵不够用时,请人把它写下来,不要把音量加大。",
+  "moldes": [],
+  "fatosDatados": [
+    {
+      "id": "pt-a05-ingles",
+      "afirmacao": "葡萄牙有百分之四十一的人自称英语水平足以进行对话,对比欧盟平均的百分之四十七,而这一数字从 2012 年的百分之二十七涨上来,是欧盟内涨幅最大的国家之一。与此同时,25 至 64 岁成年人中有 30,1% 报告自己一门外语都不会。有一份把葡萄牙列在 123 个国家中第 6 位、以 612 分位居『非常高』一档的商业指数,这里不作为数字使用,因为它自己的方法论说明样本是『自我选择的、无法保证具有代表性的』,而且该测试『免费在线,任何有网络连接的人都可以参加』。诚实的读法:英语在里斯本、波尔图和以旅游业为主的阿尔加维随处可见,在国家其余部分远远谈不上普及。",
+      "fonte": "Eurobarómetro Especial 540, «Europeans and their Languages» (trabalho de campo set.–out. 2023, publicado 2024); Eurostat, Adult Education Survey 2022 (30,1%); EF EPI 2025 (Portugal 6.º/123, 612 pontos) ⚠️ com a ressalva de autosseleção retirada verbatim da própria metodologia do EF, e por isso NÃO usado como número",
+      "ano": 2024,
+      "revisarAte": "2028-08-05",
+      "evidencia": "FATO",
+      "risco": "baixo",
+      "audioKeys": [
+        "pt-a05-n02",
+        "pt-a05-n03",
+        "pt-a05-n04",
+        "pt-a05-n05"
+      ]
+    },
+    {
+      "id": "pt-a05-espanhol",
+      "afirmacao": "在葡萄牙,能听懂西班牙语的人比访客预期的少得多。特别欧洲晴雨表 386《欧洲人及其语言》(欧盟委员会,2012),第 30 页原文写道:『在欧盟除西班牙之外的任何一个国家中,能把西班牙语听懂到足以跟上广播新闻的人都很少;其中葡萄牙受访者(13%)、法国和卢森堡(各 11%)最有可能表示自己能做到』。13% 是那张表的天花板,不是地板。西班牙语直到 1991 年才进入葡萄牙学校课程,现有 91.077 名学生和约 109 万潜在使用者的记录。此外,而且要说得毫不含糊:『葡萄牙人对被人用西班牙语搭话会反应不佳』这个信念背后没有任何一份机构性来源,而已有的证据指向相反方向 —— 它是民间传说,本课程不教它。",
+      "fonte": "Special Eurobarometer 386, «Europeans and their Languages» (Comissão Europeia, 2012), p. 30, verbatim; Santos Rovira & Serrano Lucas, «El español en Portugal», Anuario del Instituto Cervantes 2023 (currículo desde 1991; 91.077 alunos; ~1,09 M de utilizadores potenciais). ⚠️ Item 4 da lista «O que NÃO entra no curso»: a reação portuguesa a quem fala espanhol é FOLCLORE de fórum, com zero fontes institucionais.",
+      "ano": 2023,
+      "revisarAte": "2028-08-05",
+      "evidencia": "FATO",
+      "risco": "medio",
+      "audioKeys": [
+        "pt-a05-n06",
+        "pt-a05-n07",
+        "pt-a05-n08",
+        "pt-a05-n09"
+      ]
+    },
+    {
+      "id": "pt-a05-tratamento",
+      "afirmacao": "这里的礼貌形式,是一个不出现的代词。Isabel Margarida Duarte 在《葡语中的称呼形式:词汇与话语之间》(Matraga 18(28), 2011)记载:『在巴西已几乎普及使用的 você,在葡语欧洲变体中造成许多问题,因为在单数上,它只在某些地区、某些社会阶层的变体中可以接受』,并且『在大多数情况下不可接受,尤其只要存在社会地位或年龄上的不对称』,以及『在最靠近规范的变体中,você 几乎不被承认,通常被感觉为粗鲁的、至少不礼貌的』。可教的系统是第三人称加名词形式 —— o senhor、a senhora、Dona Maria、o doutor —— 或者干脆用零代词,而零代词『可以避免因不恰当地使用 você 而产生的误会』。在复数上,vocês 完全可接受;有问题的只有单数。",
+      "fonte": "Isabel Margarida Duarte, «Formas de tratamento em português: entre léxico e discurso», Matraga 18(28), 2011, pp. 84-101 (Repositório Aberto da U. Porto, PDF verificado), verbatim",
+      "ano": 2011,
+      "revisarAte": "2030-08-05",
+      "evidencia": "FATO",
+      "risco": "baixo",
+      "audioKeys": [
+        "pt-a05-n12",
+        "pt-a05-n13"
+      ]
+    },
+    {
+      "id": "pt-a05-reducao",
+      "afirmacao": "听起来像『字母被吞掉』的现象,是有描述的。国际语音协会手册记载,在连贯语流中,非重读元音『要么被居中化,要么整个脱落,非重读位置上的辅音和元音也可能失去清浊』,并给出决定性例子:desistiu,音位形式 /dɨziʃˈtiu/,实际实现为 [dzʃˈtiu] —— 『一个理论上三音节的词,被压缩为一个前面挂着复杂辅音丛的单音节』。非重读的 e 是 /ɨ/,同一来源提醒,把它叫作 schwa 只是简便说法,因为它『并不对应 schwa 通常所指的中央音质』。词末的 -s 是 [ʃ],在浊辅音前浊化为 [ʒ],在元音前变为 [z];而在里斯本,peixe 中间的滑音可以脱落,读成 [peʃ]。关于 R,本课程完全不作任何地理性的判断:主要来源使用 /ʀ/,不讨论地区变异。",
+      "fonte": "Madalena Cruz-Ferreira, «Portuguese (European)», Handbook of the IPA (IPA/Cambridge UP, 1999; = JIPA 25, 1995), verbatim. ⚠️ Sobre o R: a literatura secundária (Mateus & d'Andrade 2000; Rennicke & Martins 2013) não foi lida em bruto — o repositório recusou ligação — e por isso NENHUMA alegação sobre distribuição geográfica do R entra no curso.",
+      "ano": 1999,
+      "revisarAte": "2030-08-05",
+      "evidencia": "FATO",
+      "risco": "baixo",
+      "audioKeys": [
+        "pt-a05-n14"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "pt-a05-n01",
+      "gesto": 2,
+      "bloco": "aquecimento",
+      "tom": "ganha",
+      "pt": "在这里你经常会遇到英语。这一部分不会做的,是向你保证你每次都能遇到。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "pt-a05-n02",
+      "bloco": "corpo",
+      "pt": "这里十个人里有四个说自己能撑一场英语对话,对比平均的将近五个。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "pt-a05-n03",
+      "pt": "十年前这个数字不到三个,是欧盟里涨得最猛的国家之一。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "pt-a05-n04",
+      "pt": "而十个成年人里有三个报告自己一门外语都不会。城市里常见,离普及远得很。"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_pt_m",
+      "audioKey": "pt-a05-r01",
+      "es": "Fala inglês? Um bocadinho. Muito pouco.",
+      "pinyin": "FAH-luh eeng-GLESH? oong boo-kuh-DEE-nyoo. MOOY-too POH-koo",
+      "pt": "👂『英语?会一点点。很少很少。』—— 他一口气递给了你一门语言,并顺便告诉了你它的份量。",
+      "tts": "Fala inglês? Um bocadinho. Muito pouco.",
+      "receptivo": true,
+      "acao": "把自己的句子缩短,不要把音量加大;每一个数字、每一个人名都放到纸上。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "pt-a05-n05",
+      "pt": "有一份商业指数把这个国家排在世界第六。它的样本是自愿参与测试的人。"
+    },
+    {
+      "consulta": [
+        "reparo/ingles",
+        "chegar/entrar"
+      ],
+      "tipo": "responde",
+      "voz": "target_pt_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "pt-a05-p01",
+      "promptPt": "你接下来要说的事,对你现有的葡语来说太复杂。先规规矩矩打招呼,再问。现在说。",
+      "audioKey": "pt-a05-t01",
+      "es": "Bom dia. Fala inglês?",
+      "pinyin": "bong DEE-uh. FAH-luh eeng-GLESH",
+      "pt": "早上好。您会说英语吗?",
+      "tts": "Bom dia. Fala inglês?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "pt-a05-n06",
+      "bloco": "corpo",
+      "pt": "现在讲你嘴上不说、心里其实指望着的那门语言。这里跟得上它的人,比你预期的少。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "pt-a05-n07",
+      "pt": "在 2012 年的欧盟调查里,这里有 13% 的人能用西班牙语跟上新闻。是西班牙以外最高的。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "pt-a05-n08",
+      "pt": "13% 是那张表的天花板,不是地板。西班牙语直到 1991 年才进入学校课程。"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_pt_f",
+      "audioKey": "pt-a05-r02",
+      "es": "Espanhol? Percebo pouco. Diga devagar em português.",
+      "pinyin": "'sh-puh-NYOL? p'r-SEH-boo POH-koo. DEE-guh d'vuh-GAR eng poor-too-GESH",
+      "pt": "👂『西班牙语?我懂得不多。请慢慢地用葡语说。』—— 这是信息,不是反对。",
+      "tts": "Espanhol? Percebo pouco. Diga devagar em português.",
+      "receptivo": true,
+      "acao": "按字面接住并切换。这句话里没有任何一处是不悦,任何研究也不支持把它读成不悦。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "pt-a05-n09",
+      "bloco": "permissao",
+      "pt": "而研究里也没有一句话说有人会因为被用西班牙语搭话而不悦。那个信念是民间传说,本课程不教。"
+    },
+    {
+      "consulta": [
+        "reparo/ingles",
+        "simpatia/puxar-conversa"
+      ],
+      "tipo": "responde",
+      "voz": "target_pt_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "pt-a05-p02",
+      "promptPt": "你可以退回那门你只学过一半的语言,而这一步会比你以为的更糟。选另一条路。现在说。",
+      "audioKey": "pt-a05-t02",
+      "es": "Prefiro tentar em português.",
+      "pinyin": "pr'FEE-roo teng-TAR eng poor-too-GESH",
+      "pt": "我更想试着用葡语说。",
+      "tts": "Prefiro tentar em português.",
+      "tom": "ganha"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "pt-a05-n10",
+      "bloco": "capsula",
+      "pt": "六个词几乎能撑起这里每一个柜台。Bom dia、boa tarde、boa noite、se faz favor、obrigado、desculpe。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "pt-a05-n11",
+      "pt": "其中一个词按你的性别来变:男人说 obrigado,女人说 obrigada,不管对面站着的是谁。"
+    },
+    {
+      "consulta": [
+        "chegar/balcao",
+        "reparo/ingles"
+      ],
+      "tipo": "responde",
+      "voz": "target_pt_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "pt-a05-p03",
+      "promptPt": "下午四点,你已经站错队十分钟了。先打招呼,再开口。现在说。",
+      "audioKey": "pt-a05-t03",
+      "es": "Boa tarde. Pode ajudar-me, se faz favor?",
+      "pinyin": "BOH-uh TAR-d'. PAWD uh-zhoo-DAR-m', s'fash fuh-VOR",
+      "pt": "下午好。请问您能帮我一下吗?",
+      "tts": "Boa tarde. Pode ajudar-me, se faz favor?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "pt-a05-n12",
+      "pt": "注意这里每一句礼貌用语里缺了什么。里面没有任何一个词是『你』。"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_pt_m",
+      "audioKey": "pt-a05-r03",
+      "es": "O senhor precisa de ajuda?",
+      "pinyin": "oo s'NYOR pr'SEE-zuh d' uh-ZHOO-duh",
+      "pt": "👂『这位先生需要帮忙吗?』—— 第三人称,用名词代替代词,整句话里没有一个词是『你』。",
+      "tts": "O senhor precisa de ajuda?",
+      "receptivo": true,
+      "acao": "回答时也不要用代词。Sim, se faz favor,或者 não, obrigado —— 主语就是不出现。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "pt-a05-n13",
+      "pt": "在单数上,研究把 você 定为『几乎不被承认』,常常被听成粗鲁。复数的 vocês 没有问题。"
+    },
+    {
+      "consulta": [
+        "reparo/devagar"
+      ],
+      "tipo": "responde",
+      "voz": "target_pt_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "pt-a05-p04",
+      "promptPt": "回答以全速砸过来,你一点没抓到。说破这一点,并用那个能软化它的词起头。现在说。",
+      "audioKey": "pt-a05-t04",
+      "es": "Desculpe, não percebi.",
+      "pinyin": "d'sh-KOOL-p', nowng p'rs'BEE",
+      "pt": "抱歉,我没听懂。",
+      "tts": "Desculpe, não percebi."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "pt-a05-n14",
+      "pt": "然后是耳朵。非重读元音被压紧或直接消失,所以你会去追那些根本没被说出口的音节。"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_pt_f",
+      "audioKey": "pt-a05-r04",
+      "es": "Desistiu? Já não há comboio a esta hora.",
+      "pinyin": "dzhsh-TEEOO? zhah nowng AH kong-BOY-oo uh ESH-tuh AW-ruh",
+      "pt": "👂『放弃了?这个点已经没火车了。』—— 头一个词印出来三个音节,到耳朵里变成一个。",
+      "tts": "Desistiu? Já não há comboio a esta hora.",
+      "receptivo": true,
+      "acao": "不要追拼写。抓住那个重读音节以及它两边的词,其他的放过去。"
+    },
+    {
+      "consulta": [
+        "reparo/devagar"
+      ],
+      "tipo": "responde",
+      "voz": "target_pt_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "pt-a05-p05",
+      "promptPt": "又是全速砸过来,而速度是唯一的问题。请求那样能解决它的东西。现在说。",
+      "audioKey": "pt-a05-t05",
+      "es": "Pode falar mais devagar, se faz favor?",
+      "pinyin": "PAWD fuh-LAR mysh d'vuh-GAR, s'fash fuh-VOR",
+      "pt": "请您说慢一点好吗?",
+      "tts": "Pode falar mais devagar, se faz favor?"
+    },
+    {
+      "consulta": [
+        "reparo/escreve"
+      ],
+      "tipo": "responde",
+      "voz": "target_pt_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "pt-a05-p06",
+      "promptPt": "内容是月台号加时间,而你的耳朵已经失手两次。把问题搬到纸上。现在说。",
+      "audioKey": "pt-a05-t06",
+      "es": "Pode escrever, se faz favor?",
+      "pinyin": "PAWD 'sh-kr'VEHR, s'fash fuh-VOR",
+      "pt": "请您写下来好吗?",
+      "tts": "Pode escrever, se faz favor?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_pt_m",
+      "audioKey": "pt-a05-r05",
+      "es": "Peixe? Hoje só há peixe.",
+      "pinyin": "PAYSH? OH-zh' saw ah PAYSH",
+      "pt": "👂『鱼?今天只有鱼。』—— 在里斯本,这个词中间那一段可以整个消失。",
+      "tts": "Peixe? Hoje só há peixe.",
+      "receptivo": true,
+      "acao": "照你实际听到的那个短版本模仿,不要照黑板上写着的那个长版本。"
+    },
+    {
+      "consulta": [
+        "reparo/como-se-diz"
+      ],
+      "tipo": "responde",
+      "voz": "target_pt_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "pt-a05-p07",
+      "promptPt": "你手里拿着那样东西,两门语言都想不出它的名字。指着它,问对方怎么说。现在说。",
+      "audioKey": "pt-a05-t07",
+      "es": "Como se diz isto em português?",
+      "pinyin": "KOH-moo s' DEESH EESH-too eng poor-too-GESH",
+      "pt": "这个用葡语怎么说?",
+      "tts": "Como se diz isto em português?",
+      "tom": "ganha"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_pt_f",
+      "audioKey": "pt-a05-r06",
+      "es": "Boa tarde... ou já é boa noite? Depende do sol.",
+      "pinyin": "BOH-uh TAR-d'... oh zhah EH BOH-uh NOYT'? d'PEND' doo SOL",
+      "pt": "👂『下午好…还是已经晚上好了?看太阳吧。』—— 犹豫的是她,不是你。",
+      "tts": "Boa tarde... ou já é boa noite? Depende do sol.",
+      "receptivo": true,
+      "acao": "没有一条可以让你出错的钟表规则。对方递来哪个招呼,你就照抄那个,然后继续。"
+    },
+    {
+      "consulta": [
+        "simpatia/agradecer",
+        "chegar/sair"
+      ],
+      "tipo": "responde",
+      "voz": "target_pt_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "pt-a05-p08",
+      "promptPt": "她花了四分钟服务一个两分钟的顾客,已经过了午饭时间。用那六个词里的两个把这事收起来。现在说。",
+      "audioKey": "pt-a05-t08",
+      "es": "Muito obrigado. Boa tarde.",
+      "pinyin": "MOOY-too oh-bree-GAH-doo. BOH-uh TAR-d'",
+      "pt": "非常感谢。下午好。(女性说 muito obrigada)",
+      "tts": "Muito obrigado. Boa tarde.",
+      "tom": "ganha"
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_pt_f",
+      "audioKey": "pt-a05-s01",
+      "es": "Bom dia. Desculpe, não percebi. Pode escrever, se faz favor? Muito obrigado.",
+      "pinyin": "bong DEE-uh · d'sh-KOOL-p', nowng p'rs'BEE · PAWD 'sh-kr'VEHR, s'fash fuh-VOR · MOOY-too oh-bree-GAH-doo",
+      "pt": "跟读:开场、两句修复、收尾。其他一切都在这四句之间。",
+      "tts": "Bom dia. Desculpe, não percebi. Pode escrever, se faz favor? Muito obrigado."
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_en_us_m",
+      "audioKey": "pt-a05-n15",
+      "bloco": "recap",
+      "tom": "ganha",
+      "pt": "A05 完成。六个词,两条关于数字的诚实注脚,以及一种靠『把代词拿掉』来奏效的礼貌。"
+    }
+  ],
+  "aprofundar": {
+    "titulo": "数字能说的东西、那六个词,以及那个你永远不会用的代词",
+    "secoes": [
+      {
+        "titulo": "英语:常见、涨得快,而且并未普及",
+        "corpo": "好的来源是 2023 年秋季实地调查的那份欧洲调查:葡萄牙有 41% 的人自称能用英语撑一场对话,对比欧盟平均 47%,从 2012 年的 27% 涨上来 —— 是欧盟内涨得最猛的国家之一。与此相对,2022 年的成人教育调查记载,25 至 64 岁成年人中有 30,1% 一门外语都不会。两个数字合在一起才是诚实的画面:英语在里斯本、波尔图和以旅游业为主的阿尔加维随处可见,一出这些地方就急剧下降。你也会看到有人引用一份商业指数,把这个国家排在 123 个国家中的第 6 位、位居『非常高』一档。这份指数在这里不作为数字使用,理由来自它自己的方法论:样本是自我选择的、测试免费在线、因此过度代表了年轻人、城市人口以及本来就对语言感兴趣的人。它衡量的是它的志愿者,不是一个国家。",
+        "exemplos": [
+          {
+            "es": "Bom dia. Fala inglês?",
+            "pt": "早上好,您会说英语吗?"
+          },
+          {
+            "es": "Pode escrever, se faz favor?",
+            "pt": "请您写下来好吗?"
+          }
+        ]
+      },
+      {
+        "titulo": "西班牙语,以及跟它一起流传的那个信念",
+        "corpo": "有两件事需要拆开来看,而大多数指南都把它们焊在一起。第一是一个度量。在 2012 年欧盟范围的语言调查里,第 30 页说明:在欧盟除西班牙以外的任何一个国家中,能把西班牙语听懂到足以跟上广播新闻的人都很少;其中葡萄牙受访者 —— 13% —— 是所有国家中最有可能表示能做到的。13% 是那张表的天花板,不是地板,而这也远远低于假设两种语言可以互换的访客所预期的水平。西班牙语直到 1991 年才进入葡萄牙学校课程,现有约九万一千名学生和大约 109 万潜在使用者。第二件事是一个信念 —— 认为这里的人对被人用西班牙语搭话反应不佳 —— 而它背后没有任何一份机构性来源。关于伊比利亚语言态度的文献几乎不存在,现有证据指向相反方向。所以尝试用葡语的理由不是『有人会不悦』。理由是:西班牙语被理解的程度比你以为的低,而两种语言之间那些看起来一样的假朋友,代价是最贵的。"
+      },
+      {
+        "titulo": "那六个词",
+        "corpo": "Bom dia、boa tarde、boa noite、se faz favor、obrigado 或 obrigada、desculpe。这就是整套礼貌工具,几乎能覆盖你会站的每一个柜台。obrigado 上有一条规则,而且异常仁慈:这个词跟说话人一致,所以男人说 obrigado、女人说 obrigada,对任何人,永远如此。你学一种形式,以后再不用做决定。关于 se faz favor 与 por favor 的对照,参考文献明确表示:两者都正确、都常用;por favor 是一个固定套语,有些人感觉它更中性、更不带人情;而且 —— 很重要的一点 —— 『se faz favor 更正式』的说法所依据的意见,连参考来源自己都称为非共识。两者都可以用。而 com licença 值得在这套工具里补上第七位:它是你在你和电车门之间挪开六个人时用的那一句。"
+      },
+      {
+        "titulo": "那种靠『少一个词』来奏效的礼貌",
+        "corpo": "这一部分让带着巴西葡语或西班牙语到达的人感到意外。关于葡语称呼形式的研究记载,在巴西已几乎普及使用的 você,在欧洲变体里造成真实的问题:在单数上,它只在某些地区和社会阶层的变体中可以接受,只要存在社会地位或年龄上的不对称,大多数情况下就不可接受,而在最靠近规范的变体里『几乎不被承认,通常被感觉为粗鲁的,至少不礼貌的』。能奏效的系统是第三人称,或者带上一个名词 —— o senhor、a senhora、Dona Maria、o doutor —— 或者干脆什么代词都不带,即零代词;同一份来源把它描述为『用来避免因不恰当地使用 você 而产生误会』的办法。这也是为什么本课程教你的每一句话对英语的耳朵来说都像是不完整的:tem、pode、queria、fala inglês。主语并没有丢。它的缺席就是礼貌本身。而在复数上,vocês 完全可接受,你尽管用 —— 有难度的只有单数一件事。"
+      },
+      {
+        "titulo": "耳朵不够用的时候",
+        "corpo": "没人在吞字母。在连贯语流中,非重读元音要么被居中化、要么整个脱落,而参考描述给出了一锤定音的例子:desistiu,一个印出来三个音节的词,到耳朵里变成一个前面挂着辅音丛的单音节。非重读的 e 是英语里没有的一个音,而来源提醒:把它叫作 schwa 只是教学上的简便说法,而不是描述。词末的 s 是 shoe 里的 sh,在元音前嗡地一声浊化成 z;在里斯本,peixe 这样的词甚至可以把中间整段丢掉。关于 R,这门课完全不作它在葡萄牙全境如何变异的判断 —— 主要来源不讨论,二手文献也没有读到原文。所以实际的规则,就是你的手从第一部分起就已经知道的那条:抓重音、连带它两边的词、遇到内容是数字、时间或人名时,搬到纸上。Pode escrever, se faz favor 四个词,就把这整个问题拿掉了。"
+      }
+    ]
+  },
+  "permissao": "你可以选择用糟糕的葡语,而不是用漂亮的西班牙语。这里没有一句话说有人会反对西班牙语 —— 那个信念背后没有来源 —— 但西班牙语能被理解的人比你以为的少,而那些看起来共通的词才是代价最贵的。你也可以在打完招呼之后,直接用葡语要求切到英语:bom dia, fala inglês。这个顺序就是整个诀窍,三秒就够。你还可以一直请人把话写下来。Pode escrever, se faz favor 不是耳朵的失败 —— 它把数字、时间、月台号,从那本来就会输给你耳朵的那段对话里拿走。",
+  "permissaoAudioKey": "pt-a05-n09",
+  "espelho": "任何一个在自己国家里被一位用第二语言工作的人服务过的人,都从另一侧了解这两半:对方听懂了多少,以及对方愿意开口说出的又比听懂的少多少。你现在正站在这个落差前面,这不是任何人的错 —— 而对面那个人在听到你六个词的时候,正在做的,恰好是你会做的那道算术题。",
+  "fichasCulturais": [
+    {
+      "sinal": "你在柜台上试了西班牙语,以为够近了,结果换来一张空白脸,然后对方用更慢、更温和的葡语回你一句。",
+      "suaLeitura": "你以为自己冒犯了对方,因为你读过一百遍『这里对西班牙语反应不好』。",
+      "oQueEAli": "这是一个理解问题,不是一次冒犯。在 2012 年欧盟范围的调查中,葡萄牙受访者里有 13% 表示能用西班牙语跟上广播新闻 —— 在西班牙以外的任何一个国家中都是最高的,可它仍然只有 13%。西班牙语直到 1991 年才进入学校课程。",
+      "oQueVoceFaz": "切换,而不是重复。Bom dia, fala inglês,或者 prefiro tentar em português —— 而且把两种语言之间看起来共通的每一个词都当成全新词,因为里面好几个意思完全不同。",
+      "oQueMelhora": "你不再把一个耸肩读成一记责备,而你会拿到那个答案 —— 它本来就不曾被扣着。",
+      "ondeNaoVale": "这条不携带任何『有人反对西班牙语』的判断。那种想法背后完全没有机构性来源,现有证据指向相反方向,所以这里既不教它,也不暗示它。在阿尔加维和边境城镇你也会遇到能轻松处理西班牙语的人 —— 那份调查是全国数字,不能预测柜台前具体那个人怎么样。",
+      "evidencia": "FATO",
+      "audioKeys": [
+        "pt-a05-n07",
+        "pt-a05-n08",
+        "pt-a05-n09"
+      ]
+    },
+    {
+      "sinal": "有人用 o senhor 或 a senhora 称呼你,而你听到的每一句话里,似乎都缺了那个用来称呼你的词。",
+      "suaLeitura": "你把第三人称读成疏远或冷淡,伸手去够 você 想显得亲切直接。",
+      "oQueEAli": "那份缺席本身就是礼貌。关于称呼形式的研究记载,单数的 você 只在某些地区和社会阶层的变体中可以接受,只要有年龄或地位差,大多数情况下就不可接受;在最靠近规范的变体里几乎不被承认,常常被听成粗鲁。第三人称配一个名词,或者根本不带代词,才是那套礼貌系统。",
+      "oQueVoceFaz": "你自己的句子里也把主语拿掉。Tem、pode、queria、fala inglês —— 都是完整的,都是礼貌的。如果你需要一种称呼,o senhor 和 a senhora 就够。",
+      "oQueMelhora": "你靠说得更少而听起来更有礼,并且不再产出那个恰好会被这个目的地惩罚的词。",
+      "ondeNaoVale": "对复数不适用:vocês 完全可以接受,你尽管用。这也不是对每一个说话人都成立的规则 —— 来源明确记载存在地区和社会阶层的变异,在朋友和年轻人之间你会听到很多这条规则并不覆盖的东西。这是一条关于『从一个陌生人嘴里说出来什么才安全』的规则,而你正是一个陌生人。",
+      "evidencia": "FATO",
+      "audioKeys": [
+        "pt-a05-n12",
+        "pt-a05-n13"
+      ]
+    }
+  ]
+}

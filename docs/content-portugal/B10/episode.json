@@ -1,0 +1,438 @@
+{
+  "id": "b10",
+  "nivel": "basico",
+  "numero": 10,
+  "parte": "B10",
+  "titulo": "你已经能读的那些词——以及它们在这里说的意思",
+  "subtitulo": "葡萄牙语的招牌用的正是你熟悉的字母，也正因如此你才会一扫而过",
+  "cena": "周二早晨的希亚多：一扇咖啡馆的门、一块手绘招牌、墙里的一台机器，还有四个你以为自己一定认识的词。",
+  "moldura": "ganha",
+  "frasePiso": "Procuro，再加上那样东西。你不再默默地寻找，而是有人开始为你指路。",
+  "moldes": [
+    "PROCURO"
+  ],
+  "clique": {
+    "contagem": [
+      "咖啡馆的门",
+      "墙里的机器",
+      "车站的柜台",
+      "商店的橱窗"
+    ],
+    "desconto": "没有人为这四种情形分别给你一句不同的话。一个开头就把事做完了，只有后面那样东西在变。",
+    "piso": "下次你想找什么、又完全不知道它在哪条街上时，你不会打开地图。你会用两个词，把一场搜索大声打开。"
+  },
+  "fatosDatados": [
+    {
+      "id": "pt-b10-precos",
+      "afirmacao": "葡萄牙餐饮业的价目表是受规范的，而且从外面就能读到。食品安全主管机关关于餐饮价格的官方指引说明：这份价目表必须列出该场所提供的每一道菜、每一样食品和每一款饮料，并附价格，包括存在时的餐前小食费；必须以葡萄牙语书写；并且必须张贴在场所门口和店内。所显示的价格已含增值税。贸易部2018年的行业指南重复了同样的措辞，并将违反此规定视为轻微行政违规。",
+      "fonte": "ASAE, FAQ oficial «Preços em serviços de restauração» (texto bruto verificado) + DGAE, «Guia para Aplicação do RJACSR», 30/10/2018 (PDF verificado). ⚠️ A norma é habitualmente atribuída ao art. 135.º do RJACSR (DL n.º 10/2015): o CONTEÚDO está verbatim nas duas fontes oficiais, a NUMERAÇÃO não foi confirmada na PGDL — não citar «artigo 135.º, n.º X».",
+      "ano": 2018,
+      "revisarAte": "2028-08-05",
+      "evidencia": "FATO",
+      "risco": "baixo",
+      "audioKeys": [
+        "pt-b10-n03"
+      ]
+    },
+    {
+      "id": "pt-b10-multibanco",
+      "afirmacao": "这里墙上那台机器属于一个共享网络，而不是属于某一家银行。Multibanco于1985年9月2日以九台机器起步；运营商报告目前全国约有一万三千台终端，同一台终端上有九十多种不同操作可用，其移动服务用户为六百五十万。对访客而言，结构性的一点是：它是几乎整个银行业共用的一张银行间统一网络，而不是每家银行相互竞争的各自网络——这就是为什么同一台终端能付税单、能给手机充值、也能取现。",
+      "fonte": "multibanco.pt / SIBS, 2026 (verbatim). ⚠️ A fonte é o PRÓPRIO OPERADOR, não um regulador. Uso do numerário: BCE, SPACE 2024 — 52% das transações no ponto de venda na área do euro, com Portugal entre as maiores quedas 2022–2024; os valores específicos de Portugal estão em gráficos não extraíveis e NÃO foram verificados.",
+      "ano": 2026,
+      "revisarAte": "2027-08-05",
+      "evidencia": "FATO",
+      "risco": "medio",
+      "audioKeys": [
+        "pt-b10-n05"
+      ]
+    },
+    {
+      "id": "pt-b10-horarios",
+      "afirmacao": "这里的营业时间由店家自行决定。1996年5月15日第48/96号法令，经至2015年第10/2015号法令的修订，规定零售、服务和餐饮业的营业时间自由，无需事先许可；市政当局可基于安全或生活质量的理由加以限制。国家层面并没有周日商店必须歇业的规定，所以门上写着「encerrado ao domingo」只是那家店自己的选择，仅此而已。",
+      "fonte": "DL n.º 48/96, de 15/5, alterado até ao DL n.º 10/2015 (horário de funcionamento livre; câmaras podem restringir por segurança ou qualidade de vida).",
+      "ano": 2015,
+      "revisarAte": "2028-08-05",
+      "evidencia": "FATO",
+      "risco": "baixo",
+      "audioKeys": [
+        "pt-b10-n06"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "pt-b10-n01",
+      "gesto": 1,
+      "bloco": "aquecimento",
+      "pt": "葡萄牙语用的正是你熟悉的字母。这是好消息，也正是这一部分的全部陷阱所在。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "pt-b10-n02",
+      "bloco": "molde",
+      "pt": "这就是那个积木：procuro，再加上那样东西。「我在找」——把它说出声，好让别人和你一起找。"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_pt_f",
+      "audioKey": "pt-b10-t01",
+      "es": "Procuro uma farmácia.",
+      "pinyin": "pruh-KOO-roo OO-muh far-MA-syuh",
+      "pt": "我在找一家药房。",
+      "tts": "Procuro uma farmácia."
+    },
+    {
+      "consulta": [
+        "saude/algo-para",
+        "compras/balcao"
+      ],
+      "tipo": "responde",
+      "voz": "target_pt_f",
+      "molde": "PROCURO",
+      "encaixe": "uma farmácia",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "pt-b10-p01",
+      "promptPt": "第二天早上，新鞋，你的脚后跟已经受够了。在街上拦住一个人。现在开口说。",
+      "audioKey": "pt-b10-t01",
+      "es": "Procuro uma farmácia.",
+      "pinyin": "pruh-KOO-roo OO-muh far-MA-syuh",
+      "pt": "我在找一家药房。",
+      "tts": "Procuro uma farmácia."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_pt_m",
+      "audioKey": "pt-b10-r01",
+      "es": "Há uma ali, à esquerda.",
+      "pt": "那边有一家，在左边。",
+      "tts": "Há uma ali, à esquerda."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "pt-b10-n03",
+      "bloco": "corpo",
+      "pt": "这里的咖啡馆门口按法律必须挂出完整的价目表，用葡萄牙语，而且价格里已经含了增值税。"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_pt_f",
+      "audioKey": "pt-b10-s01",
+      "es": "Oficina — reparação de automóveis.",
+      "pinyin": "oo-fee-SEE-nuh — rr'pa-ra-SOWNG d'ow-too-MOH-vaysh",
+      "pt": "Oficina——汽车维修。",
+      "tts": "Oficina, reparação de automóveis.",
+      "receptivo": true,
+      "acao": "把它读成一家有工具的修车工场，而不是一间放着电脑的办公室。"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_pt_m",
+      "audioKey": "pt-b10-s02",
+      "es": "Empurre. Puxe.",
+      "pinyin": "aing-POO-rruh. POO-shuh",
+      "pt": "推。拉。",
+      "tts": "Empurre. Puxe.",
+      "receptivo": true,
+      "acao": "让你的手听从意思，别听从字形：puxe 是「拉」。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "pt-b10-n04",
+      "pt": "Puxe 看起来像「push（推）」，意思却是「拉」。里斯本一半的门都在等着你把这个搞反。"
+    },
+    {
+      "consulta": [
+        "pagar/dinheiro",
+        "compras/pagar"
+      ],
+      "tipo": "responde",
+      "voz": "target_pt_f",
+      "molde": "PROCURO",
+      "encaixe": "um multibanco",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "pt-b10-p02",
+      "promptPt": "你的钱包里只有卡、没有现金，而下一家你想去的地方只收硬币。把搜索打开。现在开口说。",
+      "audioKey": "pt-b10-t02",
+      "es": "Procuro um multibanco.",
+      "pinyin": "pruh-KOO-roo oong mool-tee-BAN-koo",
+      "pt": "我在找一台自动取款机。",
+      "tts": "Procuro um multibanco."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "pt-b10-n05",
+      "pt": "同一张共享网络，约一万三千台终端，同一台墙里的机器能做九十多种操作。"
+    },
+    {
+      "consulta": [
+        "compras/balcao"
+      ],
+      "tipo": "responde",
+      "voz": "target_pt_f",
+      "molde": "PROCURO",
+      "encaixe": "um supermercado",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "pt-b10-p03",
+      "promptPt": "如果你今晚去买，明天的早餐只要酒店收费的三分之一。问一位路人。现在开口说。",
+      "audioKey": "pt-b10-t03",
+      "es": "Procuro um supermercado.",
+      "pinyin": "pruh-KOO-roo oong soo-per-mer-KAH-doo",
+      "pt": "我在找一家超市。",
+      "tts": "Procuro um supermercado."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_pt_f",
+      "audioKey": "pt-b10-s03",
+      "es": "Horário: 9h às 20h. Encerrado ao domingo.",
+      "pinyin": "oo-RA-ryoo: NOH-vuh ash VEEN-tuh. ain-s'RAH-doo ow doo-MEEN-goo",
+      "pt": "营业时间：9点到20点。周日休息。",
+      "tts": "Horário: das nove às vinte horas. Encerrado ao domingo.",
+      "receptivo": true,
+      "acao": "Encerrado 是「关门」。把营业时间拍下来，别指望自己记得。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "pt-b10-n06",
+      "pt": "这里的营业时间自1996年起就是自由的。国家层面没有任何规定让任何店在周日关门。"
+    },
+    {
+      "consulta": [
+        "transporte/placas",
+        "chegar/sair"
+      ],
+      "tipo": "responde",
+      "voz": "target_pt_f",
+      "molde": "PROCURO",
+      "encaixe": "o Cais do Sodré",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "pt-b10-p04",
+      "promptPt": "过河的渡轮从一个你只能勉强读出一半发音的地方出发，你的手机一小时前就没电了。现在开口说。",
+      "audioKey": "pt-b10-t04",
+      "es": "Procuro o Cais do Sodré.",
+      "pinyin": "pruh-KOO-roo oo kaysh doo soo-DREH",
+      "pt": "我在找 Cais do Sodré。",
+      "tts": "Procuro o Cais do Sodré."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "pt-b10-n07",
+      "pt": "如果你会一点西班牙语，这里橱窗上有四个词会悄悄告诉你和你以为的相反的意思。"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_pt_m",
+      "audioKey": "pt-b10-s04",
+      "es": "Presunto. Polvo. Borracha. Rato.",
+      "pinyin": "pr'ZOON-too. POL-voo. boo-RRAH-shuh. RRAH-too",
+      "pt": "生火腿。章鱼。橡皮。老鼠。",
+      "tts": "Presunto. Polvo. Borracha. Rato.",
+      "receptivo": true,
+      "acao": "每次都取葡萄牙语的意思；跟西班牙语的形似正是让你吃亏的地方。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "pt-b10-n08",
+      "pt": "Esquisito 是「怪」。Oficina 里放的是发动机。Presunto 是挂在钩子上的火腿。读葡萄牙语本身的意思，别读那个回声。"
+    },
+    {
+      "consulta": [
+        "transporte/placas"
+      ],
+      "tipo": "responde",
+      "voz": "target_pt_f",
+      "molde": "ONDE-E",
+      "encaixe": "a saída",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "pt-b10-p05",
+      "promptPt": "在Baixa-Chiado地下，三条隧道，每一个箭头都指向一个你从没听过的地名。开口问。现在说。",
+      "audioKey": "pt-b10-t05",
+      "es": "Onde é a saída?",
+      "pinyin": "ON-dyeh uh sa-EE-duh",
+      "pt": "出口在哪里？",
+      "tts": "Onde é a saída?"
+    },
+    {
+      "consulta": [
+        "transporte/bagagem"
+      ],
+      "tipo": "responde",
+      "voz": "target_pt_f",
+      "molde": "ONDE-E",
+      "encaixe": "o elevador",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "pt-b10-p06",
+      "promptPt": "你的箱子有轮子，而这座城市满是坡。楼里有一条捷径，值得开口问。现在说。",
+      "audioKey": "pt-b10-t06",
+      "es": "Onde é o elevador?",
+      "pinyin": "ON-dyeh oo ee-l'vuh-DOR",
+      "pt": "电梯在哪里？",
+      "tts": "Onde é o elevador?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_pt_f",
+      "audioKey": "pt-b10-s05",
+      "es": "Nome e apelido, se faz favor.",
+      "pinyin": "NOH-mee a-p'LEE-doo, s'fash fuh-VOR",
+      "pt": "名和姓，请。",
+      "tts": "Nome e apelido, se faz favor.",
+      "receptivo": true,
+      "acao": "在那一栏里写上你的家族姓氏——apelido 在这里不是「昵称」。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "pt-b10-n09",
+      "pt": "在任何表格上，apelido 都指你护照上的姓。这样填写，订单就对得上。"
+    },
+    {
+      "consulta": [
+        "transporte/plataforma"
+      ],
+      "tipo": "responde",
+      "voz": "target_pt_f",
+      "molde": "ONDE-E",
+      "encaixe": "a entrada",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "pt-b10-p07",
+      "promptPt": "你排的那队是走出来的人。从车站柜台那位男士那里，找到另一条入口的队。现在开口说。",
+      "audioKey": "pt-b10-t07",
+      "es": "Onde é a entrada?",
+      "pinyin": "ON-dyeh uh ain-TRAH-duh",
+      "pt": "入口在哪里？",
+      "tts": "Onde é a entrada?"
+    },
+    {
+      "consulta": [
+        "transporte/qual-trem"
+      ],
+      "tipo": "responde",
+      "voz": "target_pt_f",
+      "molde": "ONDE-E",
+      "encaixe": "a paragem",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "pt-b10-p08",
+      "promptPt": "你想坐的电车停在这条街上的某处，视野里却没有一根站牌。问那位正在锁咖啡馆门的女士。现在开口说。",
+      "audioKey": "pt-b10-t08",
+      "es": "Onde é a paragem?",
+      "pinyin": "ON-dyeh uh puh-RAH-zhaing",
+      "pt": "车站在哪里？",
+      "tts": "Onde é a paragem?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "pt-b10-n10",
+      "bloco": "capsula",
+      "pt": "这个积木不在乎你要找什么。一家药房、一台机器、一个车站、一条你还念不出口的街。"
+    },
+    {
+      "consulta": [
+        "chegar/balcao"
+      ],
+      "tipo": "responde",
+      "voz": "target_pt_f",
+      "molde": "PROCURO",
+      "encaixe": "uma oficina",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "pt-b10-p09",
+      "promptPt": "租的车爆胎了，柜台后面那位需要知道你要什么，而不是发生了什么。现在开口说。",
+      "audioKey": "pt-b10-t09",
+      "es": "Procuro uma oficina.",
+      "pinyin": "pruh-KOO-roo OO-muh oo-fee-SEE-nuh",
+      "pt": "我在找一家修车厂。",
+      "tts": "Procuro uma oficina."
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_pt_f",
+      "audioKey": "pt-b10-sh1",
+      "es": "Procuro uma farmácia. Procuro um multibanco. Procuro o Cais do Sodré.",
+      "pinyin": "pruh-KOO-roo OO-muh far-MA-syuh. pruh-KOO-roo oong mool-tee-BAN-koo. pruh-KOO-roo oo kaysh doo soo-DREH",
+      "pt": "把同一个开头，跟着影读三次完全不同的搜索。",
+      "tts": "Procuro uma farmácia. Procuro um multibanco. Procuro o Cais do Sodré.",
+      "molde": "PROCURO"
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_en_us_f",
+      "audioKey": "pt-b10-n11",
+      "bloco": "recap",
+      "pt": "B10 完成。四块招牌按它们在这里的意思读懂了，还有一个可以在任何地方打开一场搜索的开头。"
+    }
+  ],
+  "aprofundar": {
+    "titulo": "阅读一座用你自己字母书写的地方",
+    "secoes": [
+      {
+        "titulo": "Procuro 加上那样东西",
+        "corpo": "Procuro 只有一个词，永远不变，因为说它的人始终是你自己。它后面跟着你要找的东西，而那样东西已经把冠词带着一起来了：uma farmácia、um multibanco、o Cais do Sodré。你从来不需要在紧张之下决定用 um 还是 uma——这一对是整体学下来的，就像你记电话号码一样。",
+        "exemplos": [
+          {
+            "es": "Procuro uma farmácia.",
+            "pt": "我在找一家药房。"
+          },
+          {
+            "es": "Procuro um supermercado.",
+            "pt": "我在找一家超市。"
+          }
+        ]
+      },
+      {
+        "titulo": "三种开头，三件不同的活",
+        "corpo": "Onde é 问的是你已经知道存在的一处地方：onde é a saída、onde é a paragem。Tem 问的是「就这个柜台，此时此刻，有没有那样东西」。Procuro 则是当你不知道街名、不知道叫什么、甚至不确定这样的地方是否就在附近时，用来打开一场搜索的那一个——它邀请对方和你一起想，而不是让他回答是或否。"
+      },
+      {
+        "titulo": "对西班牙语撒谎的四个词",
+        "corpo": "Esquisito 意思是「怪」或「令人不快」。Oficina 是「工场」，那种有辆车架在举升机上的地方。Borracha 是「橡胶」——皮筋那种，也是把铅笔痕擦掉的那种。Presunto 是挂在钩子上的生火腿。Polvo 是章鱼，rato 是老鼠，brincar 是玩耍，largo 是宽的。上面每一个意思都是普通的葡萄牙语意思；陷阱是那种形似，而这只有在你从西班牙语的方向来、又想当然的时候才会发作。"
+      },
+      {
+        "titulo": "那扇门告诉你的比菜单还多",
+        "corpo": "餐厅或咖啡馆的价目表必须列出该场所提供的每一道菜、每一样商品和每一款饮料，附上价格，用葡萄牙语书写，并且必须在门口和店内都能被读到。价格已经含了增值税。所以在坐下之前，在咖啡馆门口慢慢地花上十秒，比事后争吵值得得多——你也正是在那里发现是否有 couvert（餐前小食费）、要多少钱。营业时间完全是另一回事：自1996年起就是自由的，无需许可，所以 encerrado ao domingo 是一家店的决定，不是国家的习惯。"
+      },
+      {
+        "titulo": "Puxe、empurre，以及表格上的那些小方框",
+        "corpo": "Puxe 是「拉」。Empurre 是「推」。对英语的眼睛而言方向是反的，而门恰恰是错了立刻会被众人看见的地方。在表格上，nome 是你的名，apelido 是你的姓——这个词在葡语世界的其他地方意思是「昵称」，但在葡萄牙，它就是护照上那一行姓氏。"
+      }
+    ]
+  },
+  "slot": "B10",
+  "permissao": "你被允许在街上慢慢地读一块招牌，任人从身边走过。那里没有人需要你看起来很流利，在门口停下来先读价目表再坐下，也正是一个仔细的本地人会做的事。而当某个词把你难倒时，procuro 加上那样东西就是一句完整的话——你并不欠任何人围绕它的那段客气话。",
+  "permissaoAudioKey": "pt-b10-n02",
+  "fichasCulturais": [
+    {
+      "sinal": "咖啡馆门口贴着一张塑封的纸，你像在家一样直直地走过去。",
+      "suaLeitura": "装饰，或是翻译得很糟的游客菜单。",
+      "oQueEAli": "那张纸是受规范的价目表。它必须列出该场所提供的每一道菜、每一样食品和每一款饮料，附上价格，包括存在时的 couvert；必须以葡萄牙语书写；必须在门口和店内都清晰可见。价格已经含了增值税。",
+      "oQueVoceFaz": "在坐下之前给它十秒钟。你要看两样：你想点的那样东西的价格，以及 couvert 这个词旁边有没有出现一个数字。",
+      "oQueMelhora": "你在还站着、还能走开的时候就知道这一桌要花多少钱。",
+      "ondeNaoVale": "它不告诉你任何东西的质量，也不保证每家店都遵守。这条规定常被附上一个条文编号来引用——那个编号没能在原始法律文本中被证实，所以内容是可靠的，但引用编号不可靠。别在服务员面前搬出条文号。",
+      "evidencia": "FATO",
+      "audioKeys": [
+        "pt-b10-n03"
+      ]
+    },
+    {
+      "sinal": "你为之专门安排了一上午的店，玻璃门上写着「encerrado ao domingo」。",
+      "suaLeitura": "这里周日一定是规定要关门的，所以这一整天算是废了。",
+      "oQueEAli": "零售、服务和餐饮业的营业时间自1996年起就是自由的，2015年经过修订，无需事先许可；市政当局可基于安全或生活质量的理由加以限制。国家层面没有周日强制歇业的规定。你看到的只是那一家店自己的决定。",
+      "oQueVoceFaz": "把每一份张贴出来的 horário 当作只属于那扇门的。拍下来，别去记它；去下一家看看，别以为整条街都关了。",
+      "oQueMelhora": "你不再围着一条根本不存在的全国性规定做安排，把下午拿回来了。",
+      "ondeNaoVale": "它不涉及公共假日——那是另一回事——也不代表任何具体街道或购物中心的实际做法。市政层面的限制存在且各地不同，所以「自由」是全国性的，「实践」是本地性的。",
+      "evidencia": "FATO",
+      "audioKeys": [
+        "pt-b10-n06"
+      ]
+    }
+  ]
+}

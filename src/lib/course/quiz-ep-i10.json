@@ -1,0 +1,96 @@
+{
+  "id": "q-i10",
+  "nivel": "intermediario",
+  "titulo": "小测验 — 钱的事，不带戏剧",
+  "subtitulo": "五道题，关于 couvert、POS 机和最后那张纸",
+  "introAudioKey": "pt-i10-q-i",
+  "introPt": "一张桌子、一盘没人点的菜、贴在读卡器上的告示，以及一张要一个你没有的号码的账单。",
+  "cenario": "一顿饭的最后二十分钟——整晚每一欧元真正的决定都在这里发生。",
+  "dialogo": [
+    {
+      "audioKey": "pt-i10-q01",
+      "voz": "target_pt_m",
+      "es": "Boa noite. Trago o couvert?",
+      "pt": "晚上好。要给您上 couvert 吗？",
+      "tts": "Boa noite. Trago o couvert?"
+    },
+    {
+      "audioKey": "pt-i10-q02",
+      "voz": "target_pt_f",
+      "es": "Aceitamos, mas há um mínimo. Está ali no aviso.",
+      "pt": "收的，但有最低金额。就在那个告示上。",
+      "tts": "Aceitamos, mas há um mínimo. Está ali no aviso."
+    },
+    {
+      "audioKey": "pt-i10-q03",
+      "voz": "target_pt_f",
+      "es": "Quer fatura com contribuinte?",
+      "pt": "发票要带税号吗？",
+      "tts": "Quer fatura com contribuinte?"
+    },
+    {
+      "audioKey": "pt-i10-q04",
+      "voz": "target_pt_m",
+      "es": "Com certeza. Levo já.",
+      "pt": "当然。我现在拿走。",
+      "tts": "Com certeza. Levo já."
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "面包、奶酪、橄榄没人点就上桌了。真正有用的开口时机？",
+      "opcoes": [
+        "账单来时，指着那一行",
+        "头几秒，趁没人碰过",
+        "永远不用——它是含在里面的",
+        "吃到一半，尝过之后"
+      ],
+      "correta": 1,
+      "explica": "规则规定：客人未请求或已弄得不可用的东西不得收费——不可用 就意味着已被消费或触碰过。第一颗橄榄之后，理据就没了。头 90 秒内说 Quanto custa o couvert，或 pode levar o couvert, se faz favor。"
+    },
+    {
+      "pergunta": "商店贴着手写告示，规定刷卡最低金额。这是什么状况？",
+      "opcoes": [
+        "违法，值得跟他们指出",
+        "合法，因为这里没有强制任何人接受卡的普遍规则",
+        "只有餐厅合法",
+        "只有超过 50 欧元才允许"
+      ],
+      "correta": 1,
+      "explica": "葡萄牙在这一点上不同于意大利和希腊。2020 年靠一份临时紧急制度才禁止拒收，六月就到期了——这就是没有永久义务最明显的迹象。事先声明的最低消费成立，所以进门前先问。"
+    },
+    {
+      "pergunta": "Quer fatura com contribuinte? 在问什么？说不会付出什么？",
+      "opcoes": [
+        "问你要不要发票——说不就没纸",
+        "问你要不要刷卡——说不就付现",
+        "问你有没有葡萄牙税号——说不不会付出任何东西",
+        "问你要不要留小费——说不算失礼"
+      ],
+      "correta": 2,
+      "explica": "Contribuinte 是葡萄牙税号，用于把这笔消费路由到买家自己的税务账户里。游客没理由持有。发票无论如何都欠你：增值税法要求即便客人不索要也必须开具。"
+    },
+    {
+      "pergunta": "这里餐厅里应该给多少小费？",
+      "opcoes": [
+        "这里有一个标准比例，人人遵守",
+        "法律已加服务费，上面不用再加",
+        "由你决定，包括不给——行业协会自己都说不强制",
+        "永远不给——会冒犯人"
+      ],
+      "correta": 2,
+      "explica": "小费在餐饮业被描述为常见且传统，同时明确说永远不强制、决定权始终在客人。没有关于人们实际留多少的代表性调查，所以你读到的任何数字都来自博客，而不是证据——这也是本课程不给任何数字的原因。"
+    },
+    {
+      "pergunta": "作为游客你以现金支付一笔较大押金。适用于你的上限是哪一个？",
+      "opcoes": [
+        "最低的一档，因为你是外国人",
+        "与葡萄牙居民相同",
+        "三档中最高的一档——为不以商人身份行事的非居民自然人所设",
+        "欧盟范围内现金无任何上限"
+      ],
+      "correta": 2,
+      "explica": "税法设了三档上限，其中最宽的一档——9,999.99 欧元——是为不在葡萄牙领土居住且不以商人身份行事的自然人所写。这远超任何一次假日花销，这就是它的实用意义。"
+    }
+  ]
+}

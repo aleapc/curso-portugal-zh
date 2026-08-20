@@ -1,0 +1,109 @@
+{
+  "id": "q-b05",
+  "nivel": "basico",
+  "titulo": "小测验 — 三个回答，剩下的由预订单说了算",
+  "subtitulo": "里斯本入境窗口，以及没人使用的那个代词",
+  "introAudioKey": "pt-b05-q-i",
+  "introPt": "三个问题、三个简短的回答，中间有一次修补。",
+  "cenario": "里斯本机场护照检查，清晨。",
+  "dialogo": [
+    {
+      "audioKey": "pt-b05-q01",
+      "voz": "target_pt_m",
+      "es": "Bom dia. O passaporte, se faz favor. Quantos dias fica?",
+      "pt": "早上好。请出示护照。您停留几天？",
+      "tts": "Bom dia. O passaporte, se faz favor. Quantos dias fica?"
+    },
+    {
+      "audioKey": "pt-b05-q02",
+      "voz": "target_pt_f",
+      "es": "Bom dia. Venho de férias. Dez dias.",
+      "pt": "早上好。我来度假。十天。",
+      "tts": "Bom dia. Venho de férias. Dez dias."
+    },
+    {
+      "audioKey": "pt-b05-q03",
+      "voz": "target_pt_m",
+      "es": "Onde vai ficar? Tem a morada?",
+      "pt": "您住哪里？有地址吗？",
+      "tts": "Onde vai ficar? Tem a morada?"
+    },
+    {
+      "audioKey": "pt-b05-q04",
+      "voz": "target_pt_f",
+      "es": "Desculpe, não percebi. Mais devagar, se faz favor.",
+      "pt": "抱歉，我没听懂。请再慢一点。",
+      "tts": "Desculpe, não percebi. Mais devagar, se faz favor."
+    },
+    {
+      "audioKey": "pt-b05-q05",
+      "voz": "target_pt_m",
+      "es": "Está bem. Boa estadia.",
+      "pt": "好的。祝您住得愉快。",
+      "tts": "Está bem. Boa estadia."
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "Quantos dias fica? 里没有 你 这个词。为什么？",
+      "opcoes": [
+        "为省时间省略了",
+        "省略代词就是这里的敬体",
+        "是地方口语的省事说法",
+        "代词跑到句尾去了"
+      ],
+      "correta": 1,
+      "explica": "省略主语的第三人称就是欧洲葡语里的礼貌称呼。少说一句反而是有礼的做法，也是最安全的做法——你从来不用去猜对方配得上哪个代词。"
+    },
+    {
+      "pergunta": "那你自己回答时，要不要把 você 加回去？",
+      "opcoes": [
+        "要，这样更完整",
+        "对官员要用",
+        "不要——单数的 você 正是要回避的",
+        "不要，用 tu"
+      ],
+      "correta": 2,
+      "explica": "单数的 você 在任何存在年龄或地位差异的场合都不可接受，在最接近规范的变体里会被感觉粗鲁。复数的 vocês 是社会含义完全不同的另一个词，完全没问题。"
+    },
+    {
+      "pergunta": "对警官、服务员或陌生人应该说哪一种？",
+      "opcoes": ["Desculpa", "Desculpe", "都行", "Desculpem"],
+      "correta": 1,
+      "explica": "Desculpe 本身就是礼貌的第三人称形式；desculpa 是熟人版。先学对的那一个，就永远不会不小心说出错的那一个。"
+    },
+    {
+      "pergunta": "你下午一点半落地，说了 bom dia，对方回你 boa tarde。发生了什么？",
+      "opcoes": [
+        "你违反了法律规定 12:00 的分界",
+        "被纠正了：14:00 以后不该用早上的问候",
+        "没什么大事——切换是传统的，很多人以午餐来划分",
+        "Boa tarde 只在日落后才开始"
+      ],
+      "correta": 2,
+      "explica": "传统的划分是从破晓到正午、从正午到日落——同一权威说明也指出：对许多人来说，午餐时间才是两者的分界。跟着对方的说法继续就是了。"
+    },
+    {
+      "pergunta": "Viajo sozinho 还是 viajo sozinha——由谁决定？",
+      "opcoes": [
+        "看你在跟谁说话",
+        "看场合有多正式",
+        "看你自己是男是女",
+        "看你会不会久留"
+      ],
+      "correta": 2,
+      "explica": "和 obrigado / obrigada 一样，它与说话人一致，不与听话人一致。学好自己那一形式，一辈子不用再决定。"
+    },
+    {
+      "pergunta": "在窗口每个回答的合适长度是多少？",
+      "opcoes": [
+        "一整句话并附上理由",
+        "一个短语，然后句号",
+        "尽你所能给出所有细节",
+        "一个词，然后等对方再问"
+      ],
+      "correta": 1,
+      "explica": "Venho de férias. Dez dias. Em Lisboa, num hotel。这里的 短 不是回避——短意味着问题被理解，其余的信息由预订单承担。"
+    }
+  ]
+}

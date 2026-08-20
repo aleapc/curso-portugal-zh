@@ -1,0 +1,423 @@
+{
+  "id": "i04",
+  "nivel": "intermediario",
+  "numero": 22,
+  "parte": "I04",
+  "slot": "I04",
+  "titulo": "晚上十点，一轮酒守住这桌",
+  "subtitulo": "眼前端上来什么，你到底点了什么，还有半夜十二点半回家的那趟车",
+  "cena": "晚上十点，Cais do Sodré 往上走两条街的一家tasca：两杯下肚，一盘奶酪和腌猪腿一言不发地端到你们中间，角落里有人在调吉他。",
+  "moldura": "ganha",
+  "frasePiso": "Queria，加上那个东西，再加 se faz favor。三段，第二轮不用你抬高嗓门就送到。",
+  "decisao": "你窝进哪家酒馆，这一桌最后花多少钱，还有决定夜晚何时结束的末班地铁。",
+  "moldes": [],
+  "fatosDatados": [
+    {
+      "id": "pt-i04-couvert",
+      "afirmacao": "葡萄牙餐饮业的价格清单必须列出该店供应的每一道菜、每一种产品和每一种饮料及其价格，包括存在时的couvert，并且必须写明：任何菜品、食品或饮料，包括couvert，如果不是顾客主动要求或被顾客让它无法再供他人食用，就不得计费。清单必须用葡语书写、张贴在门口和店内，价格已含增值税。DGAE指南把couvert定义为清单上明确标为couvert的一组食物或开胃小吃，应顾客要求，在正餐开始前供应；违反规定被划为轻微行政违规。",
+      "fonte": "ASAE, FAQ oficial «Preços em serviços de restauração» (texto bruto verificado) + DGAE, «Guia para Aplicação do RJACSR», 30/10/2018 (PDF verificado). ⚠ A numeração habitual (art. 135.º do DL n.º 10/2015) NÃO foi confirmada no articulado — a PGDL só devolveu o título do artigo. O conteúdo entra; o número não.",
+      "ano": 2018,
+      "revisarAte": "2028-08-05",
+      "evidencia": "FATO",
+      "risco": "baixo",
+      "audioKeys": [
+        "pt-i04-n03",
+        "pt-i04-n04"
+      ]
+    },
+    {
+      "id": "pt-i04-consumido",
+      "afirmacao": "一旦吃了或动过，就欠着了：「消费」正是分界，拒付一件已被消费的东西属于权利滥用。「让它无法再供人食用」是指被消费或被处理到无法再端给别人的地步。没人拦着顾客让店员把东西端走。像分盘费或现场音乐费这类额外收费，只有出现在价格清单上时才能收。",
+      "fonte": "DECO PROTESTE, «Restaurantes: regras para a cobrança de entradas, gelo e copos de água», atualizado 18/6/2026 (verificado).",
+      "ano": 2026,
+      "revisarAte": "2028-06-18",
+      "evidencia": "FATO",
+      "risco": "baixo",
+      "audioKeys": [
+        "pt-i04-n04",
+        "pt-i04-n05"
+      ]
+    },
+    {
+      "id": "pt-i04-cartao",
+      "afirmacao": "没有找到任何葡萄牙法律强制一般性收卡义务。证据是否定性的但很扎实：2020年不得不设立一个例外性、临时性的制度，禁止装有POS机的商家不论金额多少地拒收刷卡，而且只维持到当年6月30日。实际后果是：五欧元的刷卡最低消费额是合法的，只要事先公告。",
+      "fonte": "DL n.º 10-H/2020, de 26/3 (regime excecional e temporário, vigente até 30/6/2020). ⚠ Inferência de evidência negativa: bportugal.pt e clientebancario.bportugal.pt devolveram 403, sem confirmação institucional direta do Banco de Portugal.",
+      "ano": 2020,
+      "revisarAte": "2027-08-05",
+      "evidencia": "INFERENCIA",
+      "risco": "medio",
+      "audioKeys": [
+        "pt-i04-n06"
+      ]
+    },
+    {
+      "id": "pt-i04-gorjeta",
+      "afirmacao": "餐饮业行业协会把小费描述为葡萄牙的常见做法，在餐饮业里也很有传统，但它不是强制性的，决定权始终在顾客手上。同一机构认为：把某个建议金额印在小票上，是不良做法。目前没有关于实际给小费行为的代表性调查，本课程也不给出任何百分比。",
+      "fonte": "AHRESP, «Gorjetas — âmbito de aplicação na restauração e similares», 8/1/2025 (PDF verificado). ⚠ Os «5% a 10%» circulam só em blogues: ESTEREÓTIPO, recusado no roster de moldes.",
+      "ano": 2025,
+      "revisarAte": "2028-01-08",
+      "evidencia": "FATO",
+      "risco": "baixo",
+      "audioKeys": [
+        "pt-i04-n07"
+      ]
+    },
+    {
+      "id": "pt-i04-metro",
+      "afirmacao": "自2026年1月1日起里斯本现行票价：Carris/Metro车票1,90欧元；用zapping扣款乘坐一次地铁1,72欧元；24小时Carris/Metro车票7,25欧元；可重复使用的navegante ocasional卡本身0,50欧元。单次票在首次验票后一小时内有效一次乘坐，不允许连续两次进入地铁站。这些数字每年一月都会重设。",
+      "fonte": "Metropolitano de Lisboa, «Tarifas 2026», carimbo ML/DCI dezembro.2025 (PDF extraído em bruto), em vigor desde 1/1/2026.",
+      "ano": 2026,
+      "revisarAte": "2027-01-31",
+      "evidencia": "FATO",
+      "risco": "alto",
+      "audioKeys": [
+        "pt-i04-n08"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "pt-i04-n01",
+      "gesto": 1,
+      "bloco": "aquecimento",
+      "tom": "ganha",
+      "pt": "晚上十点，该点第二轮了，一盘没人点过的东西端了上来。今晚由你来决定什么留下。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "pt-i04-n02",
+      "bloco": "molde",
+      "tom": "ganha",
+      "pt": "这个「积木」积木是 queria，加上那个东西，再加 se faz favor。它替你把礼貌撑住，你不用自己扛。"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_pt_f",
+      "audioKey": "pt-i04-t01",
+      "es": "Boa noite. Queria uma cerveja, se faz favor.",
+      "pinyin": "bwa NOIT. k'REE-a OO-ma s'r-VAY-zha, s'fash f'VOR",
+      "pt": "晚上好。麻烦，我想要一杯啤酒。",
+      "tts": "Boa noite. Queria uma cerveja, se faz favor."
+    },
+    {
+      "consulta": [
+        "mesa/bebida",
+        "chegar/balcao"
+      ],
+      "tipo": "responde",
+      "voz": "target_pt_f",
+      "molde": "QUERIA",
+      "encaixe": "uma cerveja",
+      "encaixeGloss": "一杯啤酒",
+      "tom": "ganha",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "pt-i04-p01",
+      "promptPt": "你找到了想去的那家店，酒龙头就在你面前。用那个积木开口。现在请说。",
+      "audioKey": "pt-i04-t01",
+      "es": "Boa noite. Queria uma cerveja, se faz favor.",
+      "pinyin": "bwa NOIT. k'REE-a OO-ma s'r-VAY-zha, s'fash f'VOR",
+      "pt": "晚上好。麻烦，我想要一杯啤酒。",
+      "tts": "Boa noite. Queria uma cerveja, se faz favor."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_pt_m",
+      "audioKey": "pt-i04-r01",
+      "es": "Boa noite! Já vai.",
+      "pinyin": "bwa NOIT! zha VAI",
+      "pt": "晚上好！马上来。",
+      "tts": "Boa noite! Já vai.",
+      "receptivo": true,
+      "acao": "Já vai 就是完整的回答。没让你做什么，别动，等它送到。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "pt-i04-n03",
+      "bloco": "corpo",
+      "tom": "ganha",
+      "pt": "门口那张单必须列出couvert及其价格，用葡语写，价格里已经含税。"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_pt_m",
+      "audioKey": "pt-i04-r02",
+      "es": "Querem couvert? Temos queijo e presunto.",
+      "pinyin": "KEH-rain koo-VER? TAY-mush KAY-zhu i pr'ZOON-tu",
+      "pt": "要 couvert 吗？我们有奶酪和腌猪腿。",
+      "tts": "Querem couvert? Temos queijo e presunto.",
+      "receptivo": true,
+      "acao": "Presunto 就是腌猪腿，绝不是任何你以为的东西。说要，它就是你的；说不要，它就端回去。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "pt-i04-n04",
+      "tom": "protege",
+      "pt": "拍板的那句话是在之前说的，不是之后。吃了一片，它就明明白白地是你的了。"
+    },
+    {
+      "consulta": [
+        "mesa/mesa",
+        "mesa/errado"
+      ],
+      "tipo": "responde",
+      "voz": "target_pt_f",
+      "tom": "ganha",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "pt-i04-p02",
+      "promptPt": "那盘东西还在桌上没动过，你更愿意它回去。趁还能回去的时候说出来。现在请说。",
+      "audioKey": "pt-i04-t02",
+      "es": "Não pedimos, se faz favor. Pode levar.",
+      "pinyin": "nowng p'DEE-mush, s'fash f'VOR. POD l'VAR",
+      "pt": "麻烦，我们没有点这个。您可以端走。",
+      "tts": "Não pedimos, se faz favor. Pode levar."
+    },
+    {
+      "consulta": [
+        "mesa/bebida",
+        "dieta/sem"
+      ],
+      "tipo": "responde",
+      "voz": "target_pt_f",
+      "molde": "SEM",
+      "encaixe": "gelo",
+      "encaixeGloss": "冰",
+      "tom": "ganha",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "pt-i04-p03",
+      "promptPt": "你希望下一杯从头到尾都是冷的，而不是喝到第三口就被稀释了。把要挡在外面的那样东西说出来。现在请说。",
+      "audioKey": "pt-i04-t03",
+      "es": "Uma tónica sem gelo, se faz favor.",
+      "pinyin": "OO-ma TO-nee-ka sain ZHAY-lu, s'fash f'VOR",
+      "pt": "麻烦，一杯汤力水不加冰。",
+      "tts": "Uma tónica sem gelo, se faz favor."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "pt-i04-n05",
+      "tom": "ganha",
+      "pt": "现场音乐和分盘费，只有印在门口那张同一张单上时才能收。"
+    },
+    {
+      "consulta": [
+        "mesa/bebida",
+        "pagar/pedir"
+      ],
+      "tipo": "responde",
+      "voz": "target_pt_f",
+      "molde": "QUERIA",
+      "encaixe": "mais uma",
+      "encaixeGloss": "再来一杯",
+      "tom": "ganha",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "pt-i04-p04",
+      "promptPt": "吉他响起来了，桌上没人打算走。让这一轮继续下去。现在请说。",
+      "audioKey": "pt-i04-t04",
+      "es": "Queria mais uma, se faz favor.",
+      "pinyin": "k'REE-a maiz OO-ma, s'fash f'VOR",
+      "pt": "麻烦，我想再来一杯。",
+      "tts": "Queria mais uma, se faz favor."
+    },
+    {
+      "consulta": [
+        "mesa/bebida",
+        "dieta/sem"
+      ],
+      "tipo": "responde",
+      "voz": "target_pt_f",
+      "molde": "SEM",
+      "encaixe": "álcool",
+      "encaixeGloss": "酒精",
+      "tom": "ganha",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "pt-i04-p05",
+      "promptPt": "你朋友今晚要沿海开车回去，但还是想手里握一杯凉的。替她点。现在请说。",
+      "audioKey": "pt-i04-t05",
+      "es": "E uma cerveja sem álcool, se faz favor.",
+      "pinyin": "i OO-ma s'r-VAY-zha sain AL-kool, s'fash f'VOR",
+      "pt": "麻烦，再来一杯无酒精啤酒。",
+      "tts": "E uma cerveja sem álcool, se faz favor."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "pt-i04-n06",
+      "tom": "ganha",
+      "pt": "这里没有法律强制任何人收卡，所以机器上设一个五欧元的最低消费额完全合法。"
+    },
+    {
+      "consulta": [
+        "pagar/cartao",
+        "pagar/dinheiro"
+      ],
+      "tipo": "responde",
+      "voz": "target_pt_f",
+      "tom": "ganha",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "pt-i04-p06",
+      "promptPt": "在这一轮变得更长之前，先问清楚这家店希望怎么付账。在柜台问。现在请说。",
+      "audioKey": "pt-i04-t06",
+      "es": "Aceitam multibanco?",
+      "pinyin": "a-SAY-tanw mool-tee-BAN-ku",
+      "pt": "你们收银行卡吗？",
+      "tts": "Aceitam multibanco?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_pt_m",
+      "audioKey": "pt-i04-r03",
+      "es": "Aceitamos, mas o mínimo é cinco euros.",
+      "pinyin": "a-say-TA-mush, maz u MEE-nee-mu eh SEEN-ku EU-rush",
+      "pt": "收，但最低是五欧元。",
+      "tts": "Aceitamos, mas o mínimo é cinco euros.",
+      "receptivo": true,
+      "acao": "这是合法的店规，不是敷衍。要么把这一轮点到够额，要么把现金掏出来。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "pt-i04-n07",
+      "tom": "ganha",
+      "pt": "小费由你决定。没有比例，行业协会也说把建议金额印在小票上不合适。"
+    },
+    {
+      "consulta": [
+        "pagar/pedir",
+        "mesa/conta"
+      ],
+      "tipo": "responde",
+      "voz": "target_pt_f",
+      "molde": "QUERIA",
+      "encaixe": "a conta",
+      "encaixeGloss": "账单",
+      "tom": "ganha",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "pt-i04-p07",
+      "promptPt": "吉他停了，你还得赶街道底下的一趟车。问那句能结束这桌的话。现在请说。",
+      "audioKey": "pt-i04-t07",
+      "es": "Queria a conta, se faz favor.",
+      "pinyin": "k'REE-a a KON-ta, s'fash f'VOR",
+      "pt": "麻烦，买单。",
+      "tts": "Queria a conta, se faz favor."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "pt-i04-n08",
+      "tom": "ganha",
+      "pt": "在2026年，一张Carris加Metro的车票是1.90欧，一整天则是7.25欧。"
+    },
+    {
+      "consulta": [
+        "transporte/qual-trem",
+        "chegar/ultimo"
+      ],
+      "tipo": "responde",
+      "voz": "target_pt_f",
+      "molde": "A-QUE-HORAS",
+      "encaixe": "o último metro",
+      "encaixeGloss": "末班地铁",
+      "tom": "ganha",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "pt-i04-p08",
+      "promptPt": "已经是半夜十二点半，回家的那趟车马上就要收班了。问一下吧台的服务生。现在请说。",
+      "audioKey": "pt-i04-t08",
+      "es": "A que horas é o último metro?",
+      "pinyin": "a k'YO-raz eh u OOL-tee-mu MEH-tru",
+      "pt": "末班地铁几点？",
+      "tts": "A que horas é o último metro?"
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_pt_f",
+      "audioKey": "pt-i04-s01",
+      "es": "Queria uma cerveja. Queria mais uma. Queria a conta.",
+      "pinyin": "k'REE-a OO-ma s'r-VAY-zha. k'REE-a maiz OO-ma. k'REE-a a KON-ta",
+      "pt": "跟着念一个「积木」积木，从第一杯到最后一杯，撑过整个晚上。",
+      "tts": "Queria uma cerveja. Queria mais uma. Queria a conta.",
+      "molde": "QUERIA"
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_en_us_f",
+      "audioKey": "pt-i04-n09",
+      "bloco": "recap",
+      "tom": "ganha",
+      "pt": "I04 完成。Queria 让整轮酒继续下去，这一桌的花费也和你事先同意的分毫不差。"
+    }
+  ],
+  "aprofundar": {
+    "titulo": "五句话搞定一个晚上",
+    "secoes": [
+      {
+        "titulo": "Queria，为什么它谁都不需要",
+        "corpo": "Queria 是葡语里客气版的「我想要」，也是你整个晚上最安全的一句话，因为它讲的是你自己，也只是你自己。里面没有代词，跟对面那个人什么都不用一致，无论你是在跟酒龙头前十九岁的年轻人说话还是在跟店老板说话，都不会变。把 queria 加东西加 se faz favor 当成一个整体记下来，从第一杯用到买单。",
+        "exemplos": [
+          {
+            "es": "Queria uma cerveja, se faz favor.",
+            "pt": "麻烦，我想要一杯啤酒。"
+          },
+          {
+            "es": "Queria a conta, se faz favor.",
+            "pt": "麻烦，买单。"
+          }
+        ]
+      },
+      {
+        "titulo": "couvert，以及它被拍板的那一刻",
+        "corpo": "那盘没人问就送来的奶酪、橄榄或腌猪腿，就是couvert，它背后是有规矩的。价格清单必须列出它和它的价格，必须用葡语书写，必须张贴在门口和店内，还必须写明：如果顾客没主动要求或没让它无法再供人食用，就不得计费。「无法再供人食用」是指被吃了或被动过，无法再端给别一桌。所以整件事的决定就在一瞬间：任何人碰它之前。原封不动地挥手让它端回去很正常，没人会眨眼。吃了一片再来争，就是完全另一场对话；消费者权益机构说得很直接：「消费」正是那道分界。"
+      },
+      {
+        "titulo": "音乐、分盘和门口那张单",
+        "corpo": "任何额外的费用——现场音乐费、把一道菜分成两盘的费用——都只有当它印在那张价格清单上时才应付。这就是为什么要在进门时看单，而不是在出门时看：进门时它是信息，出门时它是争吵。"
+      },
+      {
+        "titulo": "刷卡、现金和那道五欧元门槛",
+        "corpo": "在这一点上葡萄牙和意大利、希腊都不一样，而这值得在这一轮酒之前就搞清楚，别等到之后。没有找到任何法律强制一般性收卡义务；2020年一度需要一个例外性紧急制度才把POS机撬开短短几个月，这就是没有永久义务存在的最强信号。所以POS机上设个最低消费额是合法的。Multibanco 本身在欧洲挺特别，它是一个跨行共用的网络，而不是各家银行竞争的多套网络，所以街角一台机器就能交税、给手机充值、也能取现。"
+      },
+      {
+        "titulo": "小费，实话实说",
+        "corpo": "餐饮业行业协会把小费描述为葡萄牙餐饮业里常见且有传统，明确说它不是强制的、决定权始终在顾客手上，并认为店家把某个建议金额印在小票上不是良好做法。目前没有关于人们实际给多少小费的代表性调查，本课程也不给出百分比。买单、看单、决定。"
+      },
+      {
+        "titulo": "用2026年的钱回家",
+        "corpo": "从2026年1月1日起，Carris/Metro车票是1.90欧元，用zapping扣款乘一次地铁是1.72欧元，24小时Carris/Metro车票是7.25欧元，可重复使用的navegante ocasional卡首次还要加0.50欧元。单次票在首次验票后一小时内有效一次乘坐，不允许连续两次进入地铁站。如果整晚要坐三段以上，日票就已经回本了。这些数字每年一月都会重设，请看机器上的显示，不要以本页为准。"
+      }
+    ]
+  },
+  "permissao": "你有权把没动过的couvert端回去，也有权留下——两种做法在这里都很平常，没有一种是「场面」。你有权在一个晚上里说六次 queria，不用变着花样让它听起来更好；有权在点单之前先问能不能刷卡，而不是之后；也有权按你觉得这一晚值多少来给小费，包括不给，因为根本没有一个标准让你觉得自己「没给够」。",
+  "permissaoAudioKey": "pt-i04-n04",
+  "espelho": "任何一个在家里挂过账的人都已经懂这一晚了：搞清楚这家店按什么收费、让这一轮继续下去、赶末班车之前结账。唯一新的地方是，在这里「搞清楚」发生在门口，是靠一张印刷清单，写进了规则里，不是靠好意。",
+  "fichasCulturais": [
+    {
+      "sinal": "一盘奶酪、橄榄和腌猪腿端到你桌上，没有人对它说一个字。",
+      "suaLeitura": "这是店家送的，或者是被人故意塞进账单里，是要坑你。",
+      "oQueEAli": "这是couvert，是受规管的。价格清单必须列出它和它的价格，用葡语书写，张贴在门口和店内，并写明：任何菜品、产品或饮料，包括couvert，如果不是顾客主动要求或被顾客让它无法再供他人食用，就不得计费。",
+      "oQueVoceFaz": "在最初十秒内做决定，趁它还没被动过。说 não pedimos, se faz favor，让它端回去；或者留下它，你在进门时已经读过清单，知道它的价钱。",
+      "oQueMelhora": "这盘东西不再变成整顿饭里一小股焦虑，而变成一次你只做一遍的「要」或「不要」。",
+      "ondeNaoVale": "一旦有人吃了或动过，它就不再免费：已被消费或已损坏的东西是欠着的，消费者权益机构说得很明确：拒付一件已被消费的东西属于权利滥用。规则里也没规定质量或分量，只规定「是否被要求」。此外，通常被引用的条款编号在法律条文里无法核实，所以本课程只讲内容，从不讲编号。",
+      "evidencia": "FATO",
+      "audioKeys": [
+        "pt-i04-n03",
+        "pt-i04-n04"
+      ]
+    },
+    {
+      "sinal": "你为一轮九欧元的酒递出银行卡，被告知最低消费五欧元，或者根本不收卡。",
+      "suaLeitura": "这不可能被允许，某处一定有一条规定被违反了。",
+      "oQueEAli": "葡萄牙没有一般性的收卡义务。2020年不得不设立一个例外性、临时性的制度，才禁止装有POS机的商家不论金额多少地拒收刷卡，而且只维持到当年六月，这就是没有永久义务存在的最清楚信号。事先公告的最低消费额是合法的。",
+      "oQueVoceFaz": "在第一轮之前就在柜台问 aceitam multibanco?，别等到最后；给靠现金活着的小店留一两张钞票。",
+      "oQueMelhora": "在你还能选择今晚在哪里过之前就搞清楚，一条店规也就不再像是在冒犯你。",
+      "ondeNaoVale": "这是从否定性证据得出的推断：没找到强制此义务的法律，但葡萄牙央行自己的页面返回403，没有直接的机构确认。欧元纸币和硬币是另一回事——根据2010年欧盟的一份建议，零售业中接受欧元应当是通例，仅在善意时才能拒收，但那只是建议，不是有约束力的法律。",
+      "evidencia": "INFERENCIA",
+      "audioKeys": [
+        "pt-i04-n06"
+      ]
+    }
+  ]
+}

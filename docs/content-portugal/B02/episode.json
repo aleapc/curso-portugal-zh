@@ -1,0 +1,437 @@
+{
+  "id": "b02",
+  "nivel": "basico",
+  "numero": 2,
+  "parte": "B02",
+  "titulo": "进门时说 bom dia,出门时说 obrigado",
+  "subtitulo": "十个词撑起整个拜访——而你说得最多的那个,与你自己一致,不是与你感谢的人一致",
+  "cena": "早上八点一家小糕点店,柜台后有两个人,以及半秒钟——那个词要么出来,要么不出来。",
+  "moldura": "ganha",
+  "frasePiso": "进门一个词,出门一个词。那家店里其他的一切都放进另外八个词里。",
+  "moldes": [
+    "OBRIGADO"
+  ],
+  "clique": {
+    "contagem": [
+      "糕点店柜台",
+      "酒店电梯",
+      "售票窗口",
+      "外面的人行道"
+    ],
+    "desconto": "没人给你面包师、电梯里的邻居、店员和看你离开的老板发不同的词。你在四个地方都说同一个,它从不为任何人弯曲。",
+    "piso": "下次有人给你东西时,你不会只是点头希望。那个词会在你决定说之前就出了你的嘴。"
+  },
+  "fatosDatados": [
+    {
+      "id": "pt-b02-horas-do-dia",
+      "afirmacao": "一天的传统划分是一个参考,不是一个规范,出处自己也这么说。Ciberdúvidas da Língua Portuguesa (ISCTE-IUL),A. Tavares Louro,2008 年 7 月 3 日,原文:「Em Portugal, é tradicional considerarmos a manhã como o período que vai da aurora ao meio-dia, e a tarde como o período que vai do meio-dia ao pôr-do-sol. E a noite, depois do pôr-do-sol, até à aurora.」同一回答立刻相对化:「Contudo, para muitas pessoas, a hora de almoço é que separa a manhã da tarde」。诚实的界限:网上流传的 boa noite 的钟表小时界限没有出处支持,这里不教。",
+      "fonte": "Ciberdúvidas da Língua Portuguesa (ISCTE-IUL), resposta de A. Tavares Louro, 3/7/2008. Verbatim conferido.",
+      "ano": 2008,
+      "revisarAte": "2030-08-05",
+      "evidencia": "FATO",
+      "risco": "baixo",
+      "audioKeys": [
+        "pt-b02-n03",
+        "pt-b02-n04"
+      ]
+    },
+    {
+      "id": "pt-b02-faz-favor",
+      "afirmacao": "两个请求词都正确,都在使用。Ciberdúvidas da Língua Portuguesa,Edite Prada,2003 年 4 月 11 日,原文:「Ambas as expressões são correctas/corretas e bastante utilizadas」;「por favor」是「uma forma fixa, talvez por isso sentida por alguns como mais neutra, mais impessoal」,而「se faz favor」的变体表示「por um lado, maior delicadeza, por outro, maior distanciamento」。出处标出自己的限制:说「se faz favor」是两者中更正式的想法建立在「opiniões (não consensuais, note-se)」之上。所以本课程两个都给,不排序。",
+      "fonte": "Ciberdúvidas da Língua Portuguesa, resposta de Edite Prada, 11/4/2003. Verbatim conferido.",
+      "ano": 2003,
+      "revisarAte": "2030-08-05",
+      "evidencia": "FATO",
+      "risco": "baixo",
+      "audioKeys": [
+        "pt-b02-n05"
+      ]
+    },
+    {
+      "id": "pt-b02-tratamento",
+      "afirmacao": "欧洲葡萄牙语中的礼貌形式是没有主语的那个。Isabel Margarida Duarte,《Formas de tratamento em português: entre léxico e discurso》,Matraga 18(28), 2011, pp. 84-101(波尔图大学开放存档),原文:在巴西普遍使用的「você」「coloca muitos problemas na variedade europeia do português, porque, no singular, só é aceitável em certas regiões e em certas variedades diastráticas」,「inaceitável na maior parte dos casos, sobretudo sempre que exista dissimetria social ou de idade」;「Nas variedades mais próximas da norma, o «você» é quase inadmissível, geralmente sentido como grosseiro ou, pelo menos, pouco cortês.」她清爽的出路是零代词,它「permite evitar os mal-entendidos decorrentes de um uso inapropriado de você」。复数 vocês 不引起这些。",
+      "fonte": "Isabel Margarida Duarte, «Formas de tratamento em português: entre léxico e discurso», Matraga 18(28), 2011, pp. 84-101. PDF do Repositório Aberto da U. Porto, verbatim conferido.",
+      "ano": 2011,
+      "revisarAte": "2030-08-05",
+      "evidencia": "FATO",
+      "risco": "baixo",
+      "audioKeys": [
+        "pt-b02-n09",
+        "pt-b02-n10"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "pt-b02-n01",
+      "gesto": 1,
+      "bloco": "aquecimento",
+      "pt": "十个词在这里撑起整个拜访,其中第一个是穿过一扇门的代价。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "pt-b02-n02",
+      "bloco": "corpo",
+      "pt": "Bom dia 走在一切前面。带着请求到达却没有问候,是不敲门就进入。"
+    },
+    {
+      "consulta": [
+        "chegar/entrar"
+      ],
+      "tipo": "responde",
+      "voz": "target_pt_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "pt-b02-p01",
+      "promptPt": "早上八点在糕点店柜台,你进去时后面两个人抬头看你。现在开口。",
+      "audioKey": "pt-b02-t01",
+      "es": "Olá, bom dia.",
+      "pinyin": "o-LÁ, bõ DEE-uh",
+      "pt": "你好,早上好。",
+      "tts": "Olá, bom dia."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "pt-b02-n03",
+      "pt": "Bom dia 保持到中午。之后是 boa tarde,天黑后是 boa noite。"
+    },
+    {
+      "consulta": [
+        "chegar/entrar"
+      ],
+      "tipo": "responde",
+      "voz": "target_pt_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "pt-b02-p02",
+      "promptPt": "那天你第二次回来,太阳已经越过天空顶部。现在开口。",
+      "audioKey": "pt-b02-t02",
+      "es": "Boa tarde.",
+      "pinyin": "BO-uh TARD",
+      "pt": "下午好。",
+      "tts": "Boa tarde."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "pt-b02-n04",
+      "pt": "那是传统划分:黎明到中午,中午到日落,然后夜晚。很多人用午餐代替。"
+    },
+    {
+      "consulta": [
+        "chegar/entrar"
+      ],
+      "tipo": "responde",
+      "voz": "target_pt_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "pt-b02-p03",
+      "promptPt": "晚上九点你踏进酒店电梯,里面已经有一个人。现在开口。",
+      "audioKey": "pt-b02-t03",
+      "es": "Boa noite.",
+      "pinyin": "BO-uh NOIT",
+      "pt": "晚上好;晚安。",
+      "tts": "Boa noite."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_pt_m",
+      "audioKey": "pt-b02-r01",
+      "receptivo": true,
+      "es": "Se faz favor. Por favor.",
+      "pinyin": "s'fash fa-VOR · pur fa-VOR",
+      "pt": "两种说「请」的方式。都正确,到处都是,没有哪个是另一个的礼貌版本。",
+      "tts": "Se faz favor. Por favor.",
+      "acao": "选你嘴巴先够到的那个,别再选了。交流中什么都不取决于它。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "pt-b02-n05",
+      "pt": "解决这个问题的参考文献拒绝给它们排序,并说人们重复的排名并无共识。"
+    },
+    {
+      "consulta": [
+        "compras/balcao"
+      ],
+      "tipo": "responde",
+      "voz": "target_pt_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "pt-b02-p04",
+      "promptPt": "你离柜台三米,还没人看到你。说这个请求词,一颗头就转过来。现在开口。",
+      "audioKey": "pt-b02-t04",
+      "es": "Se faz favor.",
+      "pinyin": "s'fash fa-VOR",
+      "pt": "请;不好意思——也是你如何获得服务的方式。",
+      "tts": "Se faz favor."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "pt-b02-n06",
+      "bloco": "molde",
+      "pt": "这是你会说得比其他任何词都多的「积木」:obrigado。它与你一致,不是与他们。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "pt-b02-n07",
+      "pt": "男人一辈子说 obrigado。女人一辈子说 obrigada。对面是谁从不改变它。"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_pt_f",
+      "audioKey": "pt-b02-t05",
+      "es": "Obrigada.",
+      "pinyin": "o-bri-GA-duh",
+      "pt": "谢谢,女性说的。",
+      "tts": "Obrigada."
+    },
+    {
+      "consulta": [
+        "simpatia/agradecer"
+      ],
+      "tipo": "responde",
+      "voz": "target_pt_f",
+      "molde": "OBRIGADO",
+      "encaixe": "obrigada",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "pt-b02-p05",
+      "promptPt": "如果你是女性,这是你此生剩下时间的形式。包裹在你手里。现在开口。",
+      "audioKey": "pt-b02-t05",
+      "es": "Obrigada.",
+      "pinyin": "o-bri-GA-duh",
+      "pt": "谢谢。",
+      "tts": "Obrigada."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_pt_m",
+      "audioKey": "pt-b02-t06",
+      "es": "Obrigado.",
+      "pinyin": "o-bri-GA-du",
+      "pt": "谢谢,男性说的。",
+      "tts": "Obrigado."
+    },
+    {
+      "consulta": [
+        "simpatia/agradecer"
+      ],
+      "tipo": "responde",
+      "voz": "target_pt_m",
+      "molde": "OBRIGADO",
+      "encaixe": "obrigado",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "pt-b02-p06",
+      "promptPt": "如果你是男性,这是你此生剩下时间的形式,无论对面是谁。现在开口。",
+      "audioKey": "pt-b02-t06",
+      "es": "Obrigado.",
+      "pinyin": "o-bri-GA-du",
+      "pt": "谢谢。",
+      "tts": "Obrigado."
+    },
+    {
+      "consulta": [
+        "simpatia/agradecer",
+        "transporte/bilhete"
+      ],
+      "tipo": "responde",
+      "voz": "target_pt_m",
+      "molde": "OBRIGADO",
+      "encaixe": "muito obrigado",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "pt-b02-p07",
+      "promptPt": "在售票窗口,店员刚在看似满员的火车上给你找了座位。加大力度。现在开口。",
+      "audioKey": "pt-b02-t07",
+      "es": "Muito obrigado.",
+      "pinyin": "MUYN-tu o-bri-GA-du",
+      "pt": "非常感谢。",
+      "tts": "Muito obrigado."
+    },
+    {
+      "consulta": [
+        "simpatia/agradecer",
+        "transporte/bilhete"
+      ],
+      "tipo": "responde",
+      "voz": "target_pt_f",
+      "molde": "OBRIGADO",
+      "encaixe": "muito obrigada",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "pt-b02-p08",
+      "promptPt": "同一个窗口,同一个帮忙,你这边的人是女性。现在开口。",
+      "audioKey": "pt-b02-t08",
+      "es": "Muito obrigada.",
+      "pinyin": "MUYN-tu o-bri-GA-duh",
+      "pt": "非常感谢。",
+      "tts": "Muito obrigada."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "pt-b02-n08",
+      "pt": "这个「积木」没有其他活动积木。它从不为你面前的人弯曲,这就是它免费的原因。"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_pt_f",
+      "audioKey": "pt-b02-r02",
+      "receptivo": true,
+      "es": "De nada. Ora essa.",
+      "pinyin": "d'NA-duh · O-ruh É-suh",
+      "pt": "「不客气」,两种。第二个更接近「不必提」。",
+      "tts": "De nada. Ora essa.",
+      "acao": "学会听两个,一个都别回答。点头结束交流,没有欠什么。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "pt-b02-n09",
+      "pt": "有一个单数「你」的词,本课程从不要求你说。礼貌的做法是把那个人省掉。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "pt-b02-n10",
+      "pt": "所以句子到达时根本没有主语。说得少,是这里让它们礼貌的方式。"
+    },
+    {
+      "consulta": [
+        "reparo/apontar"
+      ],
+      "tipo": "responde",
+      "voz": "target_pt_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "pt-b02-p09",
+      "promptPt": "电梯满员,你的楼层下一个,你和门之间有两个人。现在开口。",
+      "audioKey": "pt-b02-t09",
+      "es": "Com licença.",
+      "pinyin": "cõ li-SEN-suh",
+      "pt": "借过——需要通过时说的。",
+      "tts": "Com licença."
+    },
+    {
+      "consulta": [
+        "chegar/sair"
+      ],
+      "tipo": "responde",
+      "voz": "target_pt_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "pt-b02-p10",
+      "promptPt": "在外面的人行道上,离开店时,老板还在收银台看着。现在开口。",
+      "audioKey": "pt-b02-t10",
+      "es": "Até logo.",
+      "pinyin": "a-TÉ LO-gu",
+      "pt": "回头见。",
+      "tts": "Até logo."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_pt_m",
+      "audioKey": "pt-b02-r03",
+      "receptivo": true,
+      "es": "Olá. Bom dia. Boa tarde. Boa noite.",
+      "pinyin": "o-LÁ · bõ DEE-uh · BO-uh TARD · BO-uh NOIT",
+      "pt": "四个开场白,按一天使用的顺序。听听每个实际上说出来的有多少。",
+      "tts": "Olá. Bom dia. Boa tarde. Boa noite.",
+      "acao": "数你听到的音节与能读到的音节。它们不会匹配,那就是重点。"
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_pt_f",
+      "audioKey": "pt-b02-s01",
+      "molde": "OBRIGADO",
+      "es": "Bom dia. Se faz favor. Obrigada. Até logo.",
+      "pinyin": "bõ DEE-uh · s'fash fa-VOR · o-bri-GA-duh · a-TÉ LO-gu",
+      "pt": "跟读撑起整个拜访的四个词,按拜访使用的顺序。",
+      "tts": "Bom dia. Se faz favor. Obrigada. Até logo."
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_en_us_f",
+      "audioKey": "pt-b02-n11",
+      "bloco": "recap",
+      "pt": "B02 完成。进 bom dia,出 obrigado,中间 se faz favor,以及永远属于你的一种感谢形式。"
+    }
+  ],
+  "aprofundar": {
+    "titulo": "十个词,以及与你一致的那个",
+    "secoes": [
+      {
+        "titulo": "问候是入场的代价",
+        "corpo": "走进一家小店、面包店、药店或电梯,直接说你要什么,读起来就像不敲门就进入。修复代价是一个词和半秒钟,不管里面有两个人还是二十个,都是同一个词。中午前 bom dia,之后 boa tarde,天黑后 boa noite,任何一个上面都可以加 olá。",
+        "exemplos": [
+          {
+            "es": "Olá, bom dia.",
+            "pt": "你好,早上好——在柜台的完整开场"
+          },
+          {
+            "es": "Boa noite.",
+            "pt": "晚上九点走进电梯时说的"
+          }
+        ]
+      },
+      {
+        "titulo": "一天在哪里划分,以及在哪里不",
+        "corpo": "传统划分是黎明到中午,中午到日落,日落后是夜晚——同一参考文献给出后立刻补充说,对许多人来说是午餐把早晨和下午分开。不存在的是钟表小时。网上流传的十八点或二十点界限没有出处,所以不要把不匹配当作错误:如果有人用 boa noite 回答你的 boa tarde,他们采用另一个惯例,不是在纠正你。"
+      },
+      {
+        "titulo": "Obrigado 与说话的人一致",
+        "corpo": "这是这种语言对英语使用者来说最奇怪的小事实,也是最容易使用的,因为它删除了一个决定而不是增加一个。这个词承载说话人的性别。男人对遇到的每个人都说 obrigado;女人对遇到的每个人都说 obrigada。你学一个形式,学一次,此后一辈子使用,不看柜台对面是谁。前面加 muito 就加大力度。",
+        "exemplos": [
+          {
+            "es": "Obrigado.",
+            "pt": "谢谢,男性说的——对任何人"
+          },
+          {
+            "es": "Muito obrigada.",
+            "pt": "非常感谢,女性说的"
+          }
+        ]
+      },
+      {
+        "titulo": "两种说「请」的方式,以及它们之间没有排名",
+        "corpo": "Se faz favor 和 por favor 都正确,都大量使用。参考回答描述 por favor 是一个固定形式,因此有些人感觉更中性、更客观,而 se faz favor 的更完整变体既表示更多的细腻也表示更多的距离——然后直接说声称哪个更正式建立在没有共识的意见之上。所以本课程两个都教,不分等级。Se faz favor 有值得知道的第二个功能:朝柜台说,这就是你如何引起某人注意。"
+      },
+      {
+        "titulo": "由少说话组成的礼貌",
+        "corpo": "欧洲葡萄牙语有一个单数的「你」词,本课程从不要求你产生。已发表的关于称呼形式的研究描述它在欧洲变体中提出了实际问题——只在某些地区和社会变体中可接受,凡有年龄或地位差异的多数情况下不可接受,在最接近标准的变体中几乎不允许,一般被视为粗鲁或至少不礼貌。同一著作命名了清爽的出路:零代词。第三人称,根本没有主语,回避整个问题。这就是为什么本课程中每个请求到达时都没有人。复数 vocês 不引起这些,完全普通。"
+      },
+      {
+        "titulo": "离开房间",
+        "corpo": "Com licença 是你穿过人群时说的——电梯、过道、门口。Até logo 是从你可能再经过的店出来的普通方式。两者都不需要附加什么,都在一天的任何时间都行。"
+      }
+    ]
+  },
+  "slot": "B02",
+  "permissao": "你被允许糟糕地问候一个房间。从门口喃喃说出 bom dia 就完成了整个工作,没人在等着看你是否选对了一天的哪一半。你也被允许整个旅程说一种感谢形式,再也不去想它——这个词与你一致,所以一旦你选择了,就没什么可搞错的。",
+  "permissaoAudioKey": "pt-b02-n02",
+  "espelho": "在家里走进乡村小店的人都知道,说「早上好」的顾客与直接问问题的顾客之间的差别。这个词在两国都不花钱,它的缺席是唯一有人注意到的部分。",
+  "fichasCulturais": [
+    {
+      "sinal": "你走进一家小店,直接走向你想要的东西,房间稍微安静了。",
+      "suaLeitura": "他们把我认作游客,决定不搭理。",
+      "oQueEAli": "在小地方,问候被视为交流的开始,而不是可选的礼貌,没有问候的请求被视为打断。是一个词,是房间里每个人相同的词,只随一天的时段变化。",
+      "oQueVoceFaz": "从门口说 bom dia、boa tarde 或 boa noite,在其他任何事之前,让它发音糟糕。然后要求你来要的东西。",
+      "oQueMelhora": "交流从温暖而不是冷淡开始,柜台后的人更可能与你继续用葡萄牙语。",
+      "ondeNaoVale": "在超市排队、连锁店或繁忙的车站大堂不适用,那里没人抬头,没人期待。这是对一种常见礼貌的描述,不是一个测量的规则:这里没引用研究,跳过它的拜访也没毁了。",
+      "evidencia": "CONSENSO",
+      "audioKeys": [
+        "pt-b02-n02"
+      ]
+    },
+    {
+      "sinal": "一位女士感谢你,说 obrigada。你整天在说 obrigado,突然想知道谁错了。",
+      "suaLeitura": "两个中一个必定是正确形式,而我一周来一直用错了。",
+      "oQueEAli": "两个都正确,没有一个是另一个的变体。这个词承载说话人的性别,不是被感谢人的性别,所以你们两个同时都在正确使用自己的形式。这是本课程中唯一一次选择做完就再也不重访的项目。",
+      "oQueVoceFaz": "固定在与你匹配的形式上,对每个人使用,当帮忙是真正的帮忙时前面加 muito。",
+      "oQueMelhora": "你在词应该落下的半秒钟停止犹豫,那是唯一重要的半秒钟。",
+      "ondeNaoVale": "这是关于一个词的事实,不是任何人在管理的测试,也不是关于任何人身份的声明。柜台前没人在审计你选了哪个形式,交流两种都能存活。",
+      "evidencia": "FATO",
+      "audioKeys": [
+        "pt-b02-n07"
+      ]
+    }
+  ]
+}

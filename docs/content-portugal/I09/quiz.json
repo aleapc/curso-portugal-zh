@@ -1,0 +1,96 @@
+{
+  "id": "q-i09",
+  "nivel": "intermediario",
+  "titulo": "小测验 — 像本地人那样过的一个下午",
+  "subtitulo": "一张票、一个框架，以及杆子上的五种颜色",
+  "introAudioKey": "pt-i09-q-i",
+  "introPt": "午餐前的市场、Cais do Sodré 的售票窗口，以及一片刚换了旗帜颜色的海滩。",
+  "cenario": "空闲的周二，一半时间在城里，一半在沙滩上。",
+  "dialogo": [
+    {
+      "audioKey": "pt-i09-q01",
+      "voz": "target_pt_f",
+      "es": "Queria um bilhete diário, se faz favor.",
+      "pt": "我想要一张日票，请。",
+      "tts": "Queria um bilhete diário, se faz favor."
+    },
+    {
+      "audioKey": "pt-i09-q02",
+      "voz": "target_pt_m",
+      "es": "São sete euros e vinte e cinco. Tem cartão?",
+      "pt": "7 欧元 25。有卡吗？",
+      "tts": "São sete euros e vinte e cinco. Tem cartão?"
+    },
+    {
+      "audioKey": "pt-i09-q03",
+      "voz": "target_pt_f",
+      "es": "Hoje a bandeira está verde?",
+      "pt": "今天旗子是绿的吗？",
+      "tts": "Hoje a bandeira está verde?"
+    },
+    {
+      "audioKey": "pt-i09-q04",
+      "voz": "target_pt_m",
+      "es": "Está xadrez — o nadador-salvador saiu agora.",
+      "pt": "是棋盘格——救生员刚离开。",
+      "tts": "Está xadrez — o nadador-salvador saiu agora."
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "棋盘格旗告诉你：",
+      "opcoes": [
+        "海况",
+        "沙滩是否有人看守",
+        "潮水正在转",
+        "沙滩上有比赛"
+      ],
+      "correta": 1,
+      "explica": "它表示沙滩暂时无人看守。绿、黄、红报告水面情况；棋盘格说的是椅子上的人。"
+    },
+    {
+      "pergunta": "升着黄旗。这意味着？",
+      "opcoes": [
+        "正常游泳",
+        "不允许游泳",
+        "海滩关闭，禁止踏入沙面",
+        "没人在看水"
+      ],
+      "correta": 1,
+      "explica": "黄色表示不允许游泳。红色表示完全不允许下水；棋盘格才是 没人在看 那一面。"
+    },
+    {
+      "pergunta": "2026 年在里斯本，24 小时票从几趟起比单程划算？",
+      "opcoes": [
+        "从不——单程永远更便宜",
+        "大约从第三趟开始：7,25 € 对每趟 1,90 €",
+        "只有同时坐火车才划算",
+        "只有周末划算"
+      ],
+      "correta": 1,
+      "explica": "承载它的卡首次 0,50 €，单程从首次刷卡起一小时有效。这些数字每年一月都会调整。"
+    },
+    {
+      "pergunta": "还不知道东西在哪里时，用哪个框架？",
+      "opcoes": [
+        "Tem…?",
+        "Onde é…?",
+        "Procuro…",
+        "Quanto custa…?"
+      ],
+      "correta": 2,
+      "explica": "Tem 问这个柜台有没有；Onde é 问你知道存在的地方；Procuro 开启搜索——东西已经自带冠词。"
+    },
+    {
+      "pergunta": "6 月 13 日的里斯本。哪些会关？",
+      "opcoes": [
+        "所有——是全国假日",
+        "公共服务和学校；商店和购物中心通常照开",
+        "什么都不关；就是普通工作日",
+        "只有海滩关"
+      ],
+      "correta": 1,
+      "explica": "公共部门依法遵行市级假日；私营则取决于集体协议或合同。波尔图的日期是 24 日。"
+    }
+  ]
+}

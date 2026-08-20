@@ -1,0 +1,179 @@
+{
+  "schema": "kit-audio-pre-v1",
+  "slot": "I02",
+  "targetLocale": "pt-PT",
+  "buyerLocale": "en-US",
+  "status": "pending_generation",
+  "clips": [
+    {
+      "key": "pt-i02-n01",
+      "role": "guide_en_us_f",
+      "kind": "narration"
+    },
+    {
+      "key": "pt-i02-n02",
+      "role": "guide_en_us_m",
+      "kind": "narration"
+    },
+    {
+      "key": "pt-i02-t01",
+      "role": "target_pt_f",
+      "kind": "return"
+    },
+    {
+      "key": "pt-i02-p01",
+      "role": "guide_en_us_m",
+      "kind": "prompt"
+    },
+    {
+      "key": "pt-i02-n03",
+      "role": "guide_en_us_f",
+      "kind": "narration"
+    },
+    {
+      "key": "pt-i02-n04",
+      "role": "guide_en_us_m",
+      "kind": "narration"
+    },
+    {
+      "key": "pt-i02-p02",
+      "role": "guide_en_us_f",
+      "kind": "prompt"
+    },
+    {
+      "key": "pt-i02-t02",
+      "role": "target_pt_f",
+      "kind": "target"
+    },
+    {
+      "key": "pt-i02-n05",
+      "role": "guide_en_us_f",
+      "kind": "narration"
+    },
+    {
+      "key": "pt-i02-p03",
+      "role": "guide_en_us_m",
+      "kind": "prompt"
+    },
+    {
+      "key": "pt-i02-t03",
+      "role": "target_pt_f",
+      "kind": "target"
+    },
+    {
+      "key": "pt-i02-r01",
+      "role": "target_pt_m",
+      "kind": "return"
+    },
+    {
+      "key": "pt-i02-p04",
+      "role": "guide_en_us_f",
+      "kind": "prompt"
+    },
+    {
+      "key": "pt-i02-t04",
+      "role": "target_pt_f",
+      "kind": "target"
+    },
+    {
+      "key": "pt-i02-n06",
+      "role": "guide_en_us_m",
+      "kind": "narration"
+    },
+    {
+      "key": "pt-i02-p05",
+      "role": "guide_en_us_m",
+      "kind": "prompt"
+    },
+    {
+      "key": "pt-i02-t05",
+      "role": "target_pt_f",
+      "kind": "target"
+    },
+    {
+      "key": "pt-i02-n07",
+      "role": "guide_en_us_f",
+      "kind": "narration"
+    },
+    {
+      "key": "pt-i02-p06",
+      "role": "guide_en_us_f",
+      "kind": "prompt"
+    },
+    {
+      "key": "pt-i02-t06",
+      "role": "target_pt_f",
+      "kind": "target"
+    },
+    {
+      "key": "pt-i02-n08",
+      "role": "guide_en_us_m",
+      "kind": "narration"
+    },
+    {
+      "key": "pt-i02-p07",
+      "role": "guide_en_us_m",
+      "kind": "prompt"
+    },
+    {
+      "key": "pt-i02-t07",
+      "role": "target_pt_f",
+      "kind": "target"
+    },
+    {
+      "key": "pt-i02-r02",
+      "role": "target_pt_m",
+      "kind": "return"
+    },
+    {
+      "key": "pt-i02-n09",
+      "role": "guide_en_us_f",
+      "kind": "narration"
+    },
+    {
+      "key": "pt-i02-p08",
+      "role": "guide_en_us_f",
+      "kind": "prompt"
+    },
+    {
+      "key": "pt-i02-t08",
+      "role": "target_pt_f",
+      "kind": "target"
+    },
+    {
+      "key": "pt-i02-s01",
+      "role": "target_pt_f",
+      "kind": "shadow"
+    },
+    {
+      "key": "pt-i02-n10",
+      "role": "guide_en_us_f",
+      "kind": "recap"
+    },
+    {
+      "key": "pt-i02-q-i",
+      "role": "guide_en_us_f",
+      "kind": "quiz_intro"
+    },
+    {
+      "key": "pt-i02-q01",
+      "role": "target_pt_f",
+      "kind": "quiz"
+    },
+    {
+      "key": "pt-i02-q02",
+      "role": "target_pt_m",
+      "kind": "quiz"
+    },
+    {
+      "key": "pt-i02-q03",
+      "role": "target_pt_f",
+      "kind": "quiz"
+    },
+    {
+      "key": "pt-i02-q04",
+      "role": "target_pt_m",
+      "kind": "quiz"
+    }
+  ]
+}

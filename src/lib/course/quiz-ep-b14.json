@@ -1,0 +1,96 @@
+{
+  "id": "q-b14",
+  "nivel": "basico",
+  "titulo": "小测验 — Queria a conta——以及那盘不请自到的小前菜",
+  "subtitulo": "Couvert、开口的时机、无需劝说就会开的 fatura，以及无人能定价的小费",
+  "introAudioKey": "pt-b14-q-i",
+  "introPt": "一顿长午餐结束：前菜盘在端上来的当下就被回应、账单上的一行被问清、发票不用争论就拿到了。",
+  "cenario": "午餐结束的 tasca，桌上摆着面包和橄榄，折好的账单正走过来。",
+  "dialogo": [
+    {
+      "audioKey": "pt-b14-q01",
+      "voz": "target_pt_m",
+      "es": "Deseja couvert? Temos pão, azeitonas e queijo.",
+      "pt": "您要 couvert 吗？我们有面包、橄榄和奶酪。",
+      "tts": "Deseja couvert? Temos pão, azeitonas e queijo."
+    },
+    {
+      "audioKey": "pt-b14-q02",
+      "voz": "target_pt_f",
+      "es": "Sem couvert, se faz favor. E queria a conta.",
+      "pt": "不要 couvert，请。我想要账单。",
+      "tts": "Sem couvert, se faz favor. E queria a conta."
+    },
+    {
+      "audioKey": "pt-b14-q03",
+      "voz": "target_pt_m",
+      "es": "São vinte e três e cinquenta. Quer fatura com contribuinte?",
+      "pt": "23 欧元 50。发票上要带税号吗？",
+      "tts": "São vinte e três e cinquenta. Quer fatura com contribuinte?"
+    },
+    {
+      "audioKey": "pt-b14-q04",
+      "voz": "target_pt_f",
+      "es": "Não, obrigada. Mas queria a fatura. Pode explicar esta linha?",
+      "pt": "不用，谢谢。但我要发票。可以解释一下这一行吗？",
+      "tts": "Não, obrigada. Mas queria a fatura. Pode explicar esta linha?"
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "什么时候决定要不要 couvert 才是自由的？",
+      "opcoes": [
+        "最后，账单上看到时",
+        "被端上来时，或还摆在桌上没动的时候",
+        "只有餐厅没有价目表时",
+        "永远不能——那是坐下的固定收费"
+      ],
+      "correta": 1,
+      "explica": "客人没请求或被弄得无法食用的东西不得收费。但消费者指引同样清楚：吃了的东西不能拒付，因为 吃了 就是分界。趁它还没定下来时决定。"
+    },
+    {
+      "pergunta": "门口的价目表必须包含什么？",
+      "opcoes": [
+        "只列主菜",
+        "店里供应的所有东西及其价格，包括 couvert，用葡萄牙语，含税",
+        "价格用欧元和英语",
+        "什么都不用——价目表是自愿的"
+      ],
+      "correta": 1,
+      "explica": "权威规定：价目表列出所有菜品、食品和饮料及其价格，如有 couvert 也列出，用葡萄牙语书写，门口和店内均需张贴，含税。"
+    },
+    {
+      "pergunta": "Quer fatura com contribuinte? ——在问什么？",
+      "opcoes": [
+        "要不要收据",
+        "发票上要不要写葡萄牙税号",
+        "是否刷卡",
+        "要不要留小费"
+      ],
+      "correta": 1,
+      "explica": "Contribuinte 是葡萄牙税号，居民用于所得税抵扣。游客用不上。说不用，发票就开给 最终消费者。"
+    },
+    {
+      "pergunta": "要 fatura 是在请求一个人情吗？",
+      "opcoes": [
+        "是——增加对方工作，客气地问，接受拒绝",
+        "不是——商家对每一笔销售都必须开具，客人没要求也要开",
+        "只有付现金时",
+        "只有金额超过 50 欧元时"
+      ],
+      "correta": 1,
+      "explica": "增值税法要求对每一笔销售开具发票，不论客人是谁，ainda que estes não a solicitem（哪怕客人不索要）。递给你发票的人本来就得做这件事。"
+    },
+    {
+      "pergunta": "葡萄牙正确的小费百分比是多少？",
+      "opcoes": [
+        "5%",
+        "10%，向上凑整",
+        "15%，跟 POS 机上一样",
+        "没有有据可查的数字——习俗是真实的，金额由你定"
+      ],
+      "correta": 3,
+      "explica": "餐饮业协会把小费称为常见且传统，同时明确说不强制，决定权始终在客人。没有关于实际行为的代表性调查，网上流传的百分比都来自博客。本课程不给出任何数字。"
+    }
+  ]
+}

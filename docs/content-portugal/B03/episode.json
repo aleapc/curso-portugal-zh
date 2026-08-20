@@ -1,0 +1,423 @@
+{
+  "id": "b03",
+  "nivel": "basico",
+  "numero": 3,
+  "parte": "B03",
+  "titulo": "Desculpe,然后是你错过的那一半",
+  "subtitulo": "对任何陌生人的一个开场白——它已经是礼貌形式,你在它后面放什么决定你是得到整句重复还是你实际需要的那一块",
+  "cena": "回答全速返回,你只抓到一个词,那个人已经在看队伍里的下一个人。",
+  "moldura": "ganha",
+  "frasePiso": "Desculpe,然后是你需要的东西。一个开场白,任何陌生人都变成你可以问的人。",
+  "moldes": [
+    "DESCULPE"
+  ],
+  "clique": {
+    "contagem": [
+      "药店柜台",
+      "售票窗口",
+      "拥挤的电梯",
+      "车站外的人行道"
+    ],
+    "desconto": "没人给药剂师、店员、乘客和街上的陌生人发不同的开场白。你保持一个词,只改变后面的部分。",
+    "piso": "下次一句话从你身边过去时,你不会微笑点头。你会用同样的方式开场,请求你错过的那一半。"
+  },
+  "fatosDatados": [
+    {
+      "id": "pt-b03-ingles-eurobarometro",
+      "afirmacao": "英语在葡萄牙广泛使用,离普及还很远。特别欧洲晴雨表 540,《欧洲人及其语言》(实地调查 2023 年 9-10 月,2024 年发布):41% 的葡萄牙受访者说他们的英语好到足以进行对话,欧盟平均为 47%——从 2012 年的 27% 上升,是联盟中最大的上升之一。欧盟统计局,2022 年成人教育调查:30.1% 的 25-64 岁葡萄牙成年人根本不懂外语。诚实解读:在里斯本、波尔图和旅游区阿尔加维非常广泛,不是全国可以指望的东西。",
+      "fonte": "Eurobarómetro Especial 540, «Europeans and their Languages», campo set.-out. 2023, publicado 2024; Eurostat, Adult Education Survey 2022.",
+      "ano": 2024,
+      "revisarAte": "2029-08-05",
+      "evidencia": "FATO",
+      "risco": "baixo",
+      "audioKeys": [
+        "pt-b03-n07"
+      ]
+    },
+    {
+      "id": "pt-b03-ef-epi",
+      "afirmacao": "关于英语在葡萄牙最常引用的排名是 EF EPI 2025,把该国排在 123 中第 6 位,612 分,「非常高」级别。它带有从 EF 自己的方法学中取出的警告,应该和数字放在一起:样本「自选,不保证具有代表性」,测试「免费在线,任何有互联网连接的人都可以参加」,这过度代表了年轻、城市和对语言感兴趣的受访者。欧洲晴雨表的数字是两者中更好的证据。",
+      "fonte": "EF English Proficiency Index 2025 e a metodologia publicada pela própria EF (ressalva verbatim).",
+      "ano": 2025,
+      "revisarAte": "2027-08-05",
+      "evidencia": "FATO",
+      "risco": "medio",
+      "audioKeys": [
+        "pt-b03-n07"
+      ]
+    },
+    {
+      "id": "pt-b03-desculpe-cortes",
+      "afirmacao": "Desculpe 已经是第三人称礼貌形式;熟悉的对应是一个不同的词,desculpa。这一点重要,因为欧洲葡萄牙语实际上奖励的称呼系统是没有主语代词的那个。Isabel Margarida Duarte,Matraga 18(28),2011,原文,关于单数「você」:在最接近标准的变体中「quase inadmissível, geralmente sentido como grosseiro ou, pelo menos, pouco cortês」,零代词「permite evitar os mal-entendidos decorrentes de um uso inapropriado de você」。整块拿 desculpe 的学习者从不产生任何代价的形式。",
+      "fonte": "Isabel Margarida Duarte, «Formas de tratamento em português: entre léxico e discurso», Matraga 18(28), 2011, pp. 84-101, Repositório Aberto da U. Porto. Verbatim conferido.",
+      "ano": 2011,
+      "revisarAte": "2030-08-05",
+      "evidencia": "FATO",
+      "risco": "baixo",
+      "audioKeys": [
+        "pt-b03-n03"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "pt-b03-n01",
+      "gesto": 1,
+      "bloco": "aquecimento",
+      "pt": "那句话全速从你身边过去了。那不是交流的结束——它是有用部分的开始。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "pt-b03-n02",
+      "bloco": "molde",
+      "pt": "这是「积木」:desculpe,然后是你需要的东西。一个开场白,任何陌生人都变成你可以问的人。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "pt-b03-n03",
+      "pt": "Desculpe 已经是礼貌形式。熟悉版本是一个不同的词,你永远不需要学。"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_pt_f",
+      "audioKey": "pt-b03-t01",
+      "es": "Desculpe, não percebi.",
+      "pinyin": "dsh-KOOL-p, nowng pr-s'BEE",
+      "pt": "对不起,我没听懂。开场白,然后是变化的部分。",
+      "tts": "Desculpe, não percebi."
+    },
+    {
+      "consulta": [
+        "reparo/devagar"
+      ],
+      "tipo": "responde",
+      "voz": "target_pt_f",
+      "molde": "DESCULPE",
+      "encaixe": "não percebi",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "pt-b03-p01",
+      "promptPt": "在药店柜台,回答一长段过来,一点都没落下来。说出来。现在开口。",
+      "audioKey": "pt-b03-t01",
+      "es": "Desculpe, não percebi.",
+      "pinyin": "dsh-KOOL-p, nowng pr-s'BEE",
+      "pt": "对不起,我没听懂。",
+      "tts": "Desculpe, não percebi."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "pt-b03-n04",
+      "pt": "开场白后面来什么决定回来什么。请求全部就得到全部。"
+    },
+    {
+      "consulta": [
+        "reparo/devagar"
+      ],
+      "tipo": "responde",
+      "voz": "target_pt_f",
+      "molde": "DESCULPE",
+      "encaixe": "pode repetir",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "pt-b03-p02",
+      "promptPt": "同一柜台,这次你想要从头开始的整句,而不是其中任何一部分。现在开口。",
+      "audioKey": "pt-b03-t02",
+      "es": "Desculpe, pode repetir?",
+      "pinyin": "dsh-KOOL-p, POD r'p'TEER",
+      "pt": "对不起,能再说一遍吗?",
+      "tts": "Desculpe, pode repetir?"
+    },
+    {
+      "consulta": [
+        "reparo/devagar"
+      ],
+      "tipo": "responde",
+      "voz": "target_pt_f",
+      "molde": "DESCULPE",
+      "encaixe": "pode falar mais devagar",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "pt-b03-p03",
+      "promptPt": "它以同样的速度回来了,只是更大声。说出你实际需要的东西。现在开口。",
+      "audioKey": "pt-b03-t03",
+      "es": "Desculpe, pode falar mais devagar?",
+      "pinyin": "dsh-KOOL-p, POD fa-LAR maizh d'va-GAR",
+      "pt": "对不起,能说慢一点吗?",
+      "tts": "Desculpe, pode falar mais devagar?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_pt_m",
+      "audioKey": "pt-b03-r01",
+      "receptivo": true,
+      "es": "Claro. Com certeza.",
+      "pinyin": "KLA-ru · cõ s'r-TE-zuh",
+      "pt": "当然;肯定。两种普通的同意方式,都意味着下次尝试会更慢。",
+      "tts": "Claro. Com certeza.",
+      "acao": "听到任何一个,就停止说话,听。重复紧跟着开始。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "pt-b03-n05",
+      "pt": "三次重复都赢不过一行手写。数字、站台和价格上纸。"
+    },
+    {
+      "consulta": [
+        "reparo/escreve"
+      ],
+      "tipo": "responde",
+      "voz": "target_pt_f",
+      "molde": "DESCULPE",
+      "encaixe": "pode escrever",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "pt-b03-p04",
+      "promptPt": "售票窗口的店员刚一口气说了一个数字和一个站台。现在开口。",
+      "audioKey": "pt-b03-t04",
+      "es": "Desculpe, pode escrever?",
+      "pinyin": "dsh-KOOL-p, POD sh-kr'VER",
+      "pt": "对不起,能写下来吗?",
+      "tts": "Desculpe, pode escrever?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "pt-b03-n06",
+      "pt": "还有每个人首先想到的问题,值得问而不是假设。"
+    },
+    {
+      "consulta": [
+        "reparo/ingles"
+      ],
+      "tipo": "responde",
+      "voz": "target_pt_f",
+      "molde": "DESCULPE",
+      "encaixe": "fala inglês",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "pt-b03-p05",
+      "promptPt": "开始之前,在一个后面队伍很短的柜台。问,不要假设。现在开口。",
+      "audioKey": "pt-b03-t05",
+      "es": "Desculpe, fala inglês?",
+      "pinyin": "dsh-KOOL-p, FA-luh ing-GLESH",
+      "pt": "对不起,您会说英语吗?",
+      "tts": "Desculpe, fala inglês?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "pt-b03-n07",
+      "pt": "这里刚过四成成年人说能用英语对话。广泛,不是必然。"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_pt_f",
+      "audioKey": "pt-b03-r02",
+      "receptivo": true,
+      "es": "Falo um pouco. Diga.",
+      "pinyin": "FA-lu ũ POH-ku · DEE-guh",
+      "pt": "我说一点。请说。回答常常是带尺寸的「是」。",
+      "tts": "Falo um pouco. Diga.",
+      "acao": "不要凭那个把整个交流交出去。保持你这边简短慢速。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "pt-b03-n08",
+      "pt": "缺失的是词本身时,开场白也管用。指着问它叫什么。"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_pt_m",
+      "audioKey": "pt-b03-t06",
+      "es": "Desculpe, como se diz isto?",
+      "pinyin": "dsh-KOOL-p, KO-mu s'deez EESH-tu",
+      "pt": "对不起,这个怎么说?已经用手指着东西说的。",
+      "tts": "Desculpe, como se diz isto?"
+    },
+    {
+      "consulta": [
+        "reparo/como-se-diz"
+      ],
+      "tipo": "responde",
+      "voz": "target_pt_m",
+      "molde": "DESCULPE",
+      "encaixe": "como se diz isto",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "pt-b03-p06",
+      "promptPt": "在市场,手指着一个你这辈子从没见过的橙色东西。现在开口。",
+      "audioKey": "pt-b03-t06",
+      "es": "Desculpe, como se diz isto?",
+      "pinyin": "dsh-KOOL-p, KO-mu s'deez EESH-tu",
+      "pt": "对不起,这个怎么说?",
+      "tts": "Desculpe, como se diz isto?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "pt-b03-n09",
+      "pt": "你需要一双手而不是一个词时,同一开场白也承载。"
+    },
+    {
+      "consulta": [
+        "reparo/apontar"
+      ],
+      "tipo": "responde",
+      "voz": "target_pt_f",
+      "molde": "DESCULPE",
+      "encaixe": "pode ajudar-me",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "pt-b03-p07",
+      "promptPt": "你的箱子卡在拥挤电梯的门上,还没人主动帮忙。现在开口。",
+      "audioKey": "pt-b03-t07",
+      "es": "Desculpe, pode ajudar-me?",
+      "pinyin": "dsh-KOOL-p, POD a-ju-DAR-m",
+      "pt": "对不起,能帮我一下吗?",
+      "tts": "Desculpe, pode ajudar-me?"
+    },
+    {
+      "consulta": [
+        "transporte/placas"
+      ],
+      "tipo": "responde",
+      "voz": "target_pt_f",
+      "molde": "DESCULPE",
+      "encaixe": "onde é a saída",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "pt-b03-p08",
+      "promptPt": "地下,三条走廊,墙上的箭头相互矛盾。现在开口。",
+      "audioKey": "pt-b03-t08",
+      "es": "Desculpe, onde é a saída?",
+      "pinyin": "dsh-KOOL-p, OND eh a sa-EE-da",
+      "pt": "对不起,出口在哪里?",
+      "tts": "Desculpe, onde é a saída?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_pt_m",
+      "audioKey": "pt-b03-r03",
+      "receptivo": true,
+      "es": "É por ali. Ao fundo, à direita.",
+      "pinyin": "eh pur a-LEE · aw FOON-du, ah d'RAY-ta",
+      "pt": "在那边。里面,右边。回答通常以言语和手臂一起到达。",
+      "tts": "É por ali. Ao fundo, à direita.",
+      "acao": "看手,不看词。手臂一次给你整个答案,永不太快。"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "pt-b03-n10",
+      "bloco": "capsula",
+      "pt": "还有一件事。说开场白,然后停半拍,让那个人转向你。"
+    },
+    {
+      "consulta": [
+        "simpatia/agradecer"
+      ],
+      "tipo": "responde",
+      "voz": "target_pt_m",
+      "molde": "OBRIGADO",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "pt-b03-p09",
+      "promptPt": "他们十秒就解决了,在车站外的人行道上,你上路了。现在开口。",
+      "audioKey": "pt-b03-t09",
+      "es": "Muito obrigado.",
+      "pinyin": "MUYN-tu o-bri-GA-du",
+      "pt": "非常感谢。",
+      "tts": "Muito obrigado."
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_pt_f",
+      "audioKey": "pt-b03-s01",
+      "molde": "DESCULPE",
+      "es": "Desculpe, não percebi. Desculpe, pode escrever? Desculpe, onde é a saída?",
+      "pinyin": "dsh-KOOL-p nowng pr-s'BEE · dsh-KOOL-p POD sh-kr'VER · dsh-KOOL-p OND eh a sa-EE-da",
+      "pt": "跟读同一开场白穿过三个完全不同的问题,保持后面的停顿。",
+      "tts": "Desculpe, não percebi. Desculpe, pode escrever? Desculpe, onde é a saída?"
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_en_us_f",
+      "audioKey": "pt-b03-n11",
+      "bloco": "recap",
+      "pt": "B03 完成。一个开场白,之后:我没听懂、再说一遍、慢一点、写下来,或者出口在哪里。"
+    }
+  ],
+  "aprofundar": {
+    "titulo": "一个开场白,以及后面放的五样东西",
+    "secoes": [
+      {
+        "titulo": "为什么是 desculpe,别无其他",
+        "corpo": "Desculpe 是第三人称形式,即礼貌形式,熟悉的对应是一个你永远不需要产生的独立词。这就是学习整块而不是规则的全部意义:你整块拿正确形式,选择从不出现。已发表的关于欧洲葡萄牙语称呼的研究直言不讳地说了搞错这个选择的代价,同样清楚清爽的出路是把人完全排除在句子之外——这正是这个开场白所做的。",
+        "exemplos": [
+          {
+            "es": "Desculpe, não percebi.",
+            "pt": "对不起,我没听懂"
+          },
+          {
+            "es": "Desculpe, pode repetir?",
+            "pt": "对不起,能再说一遍吗?"
+          }
+        ]
+      },
+      {
+        "titulo": "请求那一块,而不是整句",
+        "corpo": "Pode repetir 让你第二次得到整行,同样的速度,这在你错过整句时有用。当你只错过一个数字时,这是昂贵的选项:你听完你已经有的所有,然后数字又从你身边过去。说出你需要的更快,并不更粗鲁。Pode falar mais devagar 改变速度。Pode escrever 改变媒介。三次重复不会胜过一行手写,价格、站台、登机口号和街名是永远值得写在纸上的四样东西。",
+        "exemplos": [
+          {
+            "es": "Desculpe, pode falar mais devagar?",
+            "pt": "对不起,能说慢一点吗?"
+          },
+          {
+            "es": "Desculpe, pode escrever?",
+            "pt": "对不起,能写下来吗?"
+          }
+        ]
+      },
+      {
+        "titulo": "停顿在做一半的工作",
+        "corpo": "说开场白,然后停。那半拍让你剩下的句子变成请求而不是打断,给对方时间在内容到达前切换给你。开场白直接冲进问题会浪费这个词的大部分意义。当你自己的句子中途出错时,它也是最便宜的修复:停,再说一遍,重新开始。"
+      },
+      {
+        "titulo": "问关于英语而不是假设",
+        "corpo": "英语在这里确实广泛——刚过四成的成年人报告能用它进行对话,比十年前大大提升——但不是普及:大约三成成年人报告根本不懂外语。数字的诚实解读是它在里斯本、波尔图和旅游区阿尔加维非常广泛,离全国普及还很远。经常引用的把葡萄牙排在欧洲顶部附近的熟练度排名,按测试机构自己的承认,建立在自选的在线样本上,所以把它当作鼓励而不是保证。问只花你四个词,把假设变成信息。"
+      },
+      {
+        "titulo": "以手臂形式到达的答案",
+        "corpo": "这里的方向通常同时以简短短语和手势到达——那边,里面,右边。手势是可靠的那一半,永远不会对你太快。看手,重复关键词,如果涉及街名,那是伸手用 pode escrever 的时刻。"
+      }
+    ]
+  },
+  "slot": "B03",
+  "permissao": "你被允许打断。Desculpe 不是为存在道歉,它是这里引起某人注意的普通方式,你可以对药剂师、店员、乘客和街上的陌生人使用同一个词,不必变化让它听起来更好。你也被允许连续问三次——没人在数,给你写价格的那个人已经忘了。",
+  "permissaoAudioKey": "pt-b03-n02",
+  "espelho": "每个人都在自己的城市里站过,有陌生人在问时间前用「对不起」开场,没人因此看不起他们。这就是那个词,在一个它恰好也是礼貌形式的国家,所以它比在家里花你的更少。",
+  "fichasCulturais": [
+    {
+      "sinal": "你请求再说一遍句子,回来更大声,速度完全一样。",
+      "suaLeitura": "他们对我恼火,第三次问会更糟。",
+      "oQueEAli": "音量是关于声音最容易改变的事,速度是最难注意到自己在做的事,所以重复请求经常以更多声音而不是更多时间来回答。那个人在合作;他们只是改变了错误的变量。修复是说出你想要的那个。",
+      "oQueVoceFaz": "用开场白回去,按名字请求速度,或者如果你错过的是数字,直接跳到纸。",
+      "oQueMelhora": "你得到你缺的那一块而不是整句两遍,交流早两拍结束。",
+      "ondeNaoVale": "这描述常见反射,不是关于任何人的规则,背后没有测量。在没人等的安静店里,单纯重复往往自己就管用。",
+      "evidencia": "CONSENSO",
+      "audioKeys": [
+        "pt-b03-n04"
+      ]
+    },
+    {
+      "sinal": "你用葡萄牙语开场,回答直接用英语过来。",
+      "suaLeitura": "我的口音太差,他们一句就放弃我了。",
+      "oQueEAli": "通常是效率而不是判决。英语在游客花时间的地方广泛:刚过四成成年人报告能用它对话,比十年前的约四分之一上升。后面有队伍的人走最快可用的路。",
+      "oQueVoceFaz": "把你这边多留在葡萄牙语一轮。如果他们坚持英语,接受——你得到了你要的,下一个柜台是新的尝试。",
+      "oQueMelhora": "你停止把切换当作拒绝,当你只是继续时,相当多的交流回到葡萄牙语。",
+      "ondeNaoVale": "不要围绕它计划。大约三成成年人报告根本不懂外语,远离游客走廊和面对年长者时,切换可能不可用——这是支持开场白而不是反对它的论点。把葡萄牙排在欧洲顶部附近的熟练度排名来自自选的在线测试,按测试机构自己的说法,所以不是计划旅行的数字。",
+      "evidencia": "FATO",
+      "audioKeys": [
+        "pt-b03-n07"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,309 @@
+{
+  "versao": 1,
+  "sku": "ZH → Portugal",
+  "_regras": {
+    "vocabulario_molde": {
+      "termo": "积木",
+      "porque": "Termo canônico da linha EN, idêntico ao do EN → Itália, França, Grécia, Türkiye e México."
+    },
+    "criterio": "Um molde entra se, e só se: (1) o buraco é uma COISA DO MUNDO que o aluno escolhe sob pressão, nunca uma categoria gramatical que ele teria que calcular; (2) a peça fixa é INVARIÁVEL, ou seja, o aluno nunca conjuga, declina nem concorda nada para usá-la; (3) ela atravessa a jornada — nasce numa casa e volta em pelo menos duas outras partes.",
+    "restricao_do_destino": "O português tem GÊNERO, e o gênero mora no ARTIGO, que fica colado no buraco. «Onde é ___?» exige o/a antes do substantivo, e escolher entre eles é cálculo gramatical sob pressão — proibido pelo critério (1). A saída é a mesma que a Grécia impôs por causa do caso: O ENCAIXE ENTRA JÁ MONTADO, como bloco. As tiles não trazem «casa de banho», trazem «a casa de banho»; não trazem «metro», trazem «o metro». O aluno nunca escolhe artigo porque nunca vê um substantivo nu. Isso custa uma coisa e vale a pena: ele não generaliza o sistema de gênero, e este curso não promete que ele generalize.",
+    "o_presente_do_destino": "O português europeu dá de graça o que em cinco destinos anteriores foi recusado como molde. Duarte (Matraga 18/28, 2011) registra que «você», «no singular, só é aceitável em certas regiões e em certas variedades diastráticas», sendo «inaceitável na maior parte dos casos, sobretudo sempre que exista dissimetria social ou de idade», e que a saída limpa é o PRONOME NULO: a 3.ª pessoa sem sujeito nenhum, que «permite evitar os mal-entendidos decorrentes de um uso inapropriado de você». Ou seja: a forma cortês é dizer MENOS. «Tem?», «Pode?» e «Queria» já vêm com o registro embutido e sem pronome nenhum para o aluno errar. É o único destino do catálogo onde o molde operacional e a etiqueta são a mesma peça.",
+    "recusados": [
+      {
+        "candidato": "tu / você / o senhor",
+        "porque": "Sexta vez que o par T/V é recusado no catálogo — lei/tu na Itália, tu/vous na França, εσύ/εσείς na Grécia, sen/siz na Türkiye, e agora aqui. E aqui a recusa é mais forte que nas outras cinco, porque em Portugal a resposta correta não é escolher melhor: é NÃO DIZER PRONOME NENHUM. Duarte é explícita em que «você» é «quase inadmissível, geralmente sentido como grosseiro ou, pelo menos, pouco cortês» nas variedades próximas da norma. Um molde cujo buraco fosse o tratamento ensinaria o aluno a produzir exatamente o erro que o destino pune. Vai para A05/A07 como sinal RECEPTIVO. Nota que o curso deve dar em voz alta: «vocês» no PLURAL é perfeitamente aceitável — o problema é só o singular."
+      },
+      {
+        "candidato": "o gênero do artigo como buraco",
+        "porque": "Ver `restricao_do_destino`. Não é recusa de conveniência: é a diferença entre um método que funciona sob pressão e um que devolve uma regra para o aluno calcular no balcão."
+      },
+      {
+        "candidato": "«fica» contra «é» em pergunta de lugar",
+        "porque": "«Onde é a estação?» e «Onde fica a estação?» são ambas correntes, e a distinção é de nuance — permanência contra localização — que nem os falantes aplicam com consistência. Ensinar a escolha seria dar ao aluno uma decisão a mais sem nenhum ganho comunicativo. O curso dá UMA forma e a repete."
+      },
+      {
+        "candidato": "a percentagem de gorjeta",
+        "porque": "Recusa de CONTEÚDO, registrada aqui para não ser revertida por quem ache que falta. A AHRESP diz que a gorjeta «não é obrigatória em Portugal, cabendo sempre ao cliente a decisão», e não existe inquérito representativo sobre comportamento real. Os «5% a 10%» circulam só em blogues. O curso ensina que a conta se pede e se confere, e para aí."
+      },
+      {
+        "candidato": "«os portugueses não gostam que lhes falem espanhol»",
+        "porque": "Recusa de CONTEÚDO, e das mais importantes, porque é a crença que o comprador anglófono traz pronta. A pesquisa não achou NENHUM estudo ou sondagem que a sustente, e o que existe aponta no sentido contrário. O curso ensina português porque o falso amigo com o espanhol é caro (esquisito, oficina, borracha, presunto), não porque alguém se ofenda."
+      }
+    ]
+  },
+  "moldes": [
+    {
+      "id": "TEM",
+      "categoria": "operacional",
+      "forma": "Tem [coisa]?",
+      "encaixe": "qualquer coisa que ele precisa que exista ali",
+      "tipo": "aberto",
+      "tipoBuraco": "coisa",
+      "casa": "B06",
+      "redisparos": [
+        "B08",
+        "B11",
+        "B12",
+        "B15",
+        "B16",
+        "I03"
+      ],
+      "tiles": [
+        "comprar",
+        "comer",
+        "quarto",
+        "chegar"
+      ],
+      "exemplos": [
+        "mesa",
+        "quarto",
+        "wi-fi",
+        "troco",
+        "lugar",
+        "casa de banho"
+      ],
+      "nota": "O de maior alcance do SKU e o melhor negócio do destino: é 3.ª pessoa SEM sujeito, que é exatamente a forma cortês que a literatura descreve. O aluno aprende a pedir e aprende o registro na mesma peça, sem nunca ver um pronome. Depois de TEM, «tem?» sozinho já resolve metade do balcão."
+    },
+    {
+      "id": "ONDE-E",
+      "categoria": "operacional",
+      "forma": "Onde é [o/a lugar]?",
+      "encaixe": "qualquer lugar que ele precisa alcançar",
+      "tipo": "aberto",
+      "tipoBuraco": "lugar",
+      "casa": "B08",
+      "redisparos": [
+        "B09",
+        "B10",
+        "B17"
+      ],
+      "tiles": [
+        "chegar",
+        "transporte",
+        "cidade"
+      ],
+      "exemplos": [
+        "a casa de banho",
+        "a estação",
+        "a paragem",
+        "a saída",
+        "o elevador"
+      ],
+      "nota": "O que move os pés. O encaixe entra COM o artigo, como bloco — ver `restricao_do_destino`. A recusa de «fica» está registrada nos recusados: uma forma, repetida, vale mais que duas com nuance."
+    },
+    {
+      "id": "PODE",
+      "categoria": "operacional",
+      "forma": "Pode [ação]?",
+      "encaixe": "o que ele precisa que a outra pessoa faça",
+      "tipo": "aberto",
+      "tipoBuraco": "acao",
+      "casa": "B07",
+      "redisparos": [
+        "B09",
+        "B13",
+        "B17",
+        "I02"
+      ],
+      "tiles": [
+        "reparo",
+        "chegar",
+        "saude",
+        "conversa"
+      ],
+      "exemplos": [
+        "repetir",
+        "ajudar-me",
+        "falar mais devagar",
+        "escrever",
+        "chamar um táxi"
+      ],
+      "nota": "O molde de socorro, e o mais barato de todos: «pode» é invariável e o buraco é um infinitivo, que é a forma de dicionário — o aluno lê o verbo e o usa sem mexer. Cobre pedido de ajuda, reparo de conversa e emergência com a mesma peça."
+    },
+    {
+      "id": "QUERIA",
+      "categoria": "operacional",
+      "forma": "Queria [coisa], se faz favor.",
+      "encaixe": "o que ele quer pedir",
+      "tipo": "aberto",
+      "tipoBuraco": "coisa",
+      "casa": "B11",
+      "redisparos": [
+        "B14",
+        "B15",
+        "I01",
+        "I04"
+      ],
+      "tiles": [
+        "comer",
+        "pagar",
+        "compras"
+      ],
+      "exemplos": [
+        "um café",
+        "a conta",
+        "um bilhete",
+        "uma água",
+        "meia dose"
+      ],
+      "nota": "«Queria» é imperfeito usado como cortesia — o «would like» do português — e é invariável para o aluno porque ele só fala por si. Vem cercado dos dois lados, com «se faz favor» no fecho. Sobre «se faz favor» contra «por favor»: as duas são correntes e corretas, e a fonte avisa que a maior formalidade da primeira assenta em «opiniões (não consensuais, note-se)» — o curso dá as duas e não hierarquiza."
+    },
+    {
+      "id": "SEM",
+      "categoria": "operacional",
+      "forma": "sem [coisa]",
+      "encaixe": "o que não pode entrar no prato",
+      "tipo": "aberto",
+      "tipoBuraco": "coisa",
+      "casa": "B12",
+      "redisparos": [
+        "B13",
+        "B16",
+        "I04"
+      ],
+      "tiles": [
+        "comer",
+        "saude"
+      ],
+      "exemplos": [
+        "carne",
+        "leite",
+        "glúten",
+        "picante",
+        "açúcar"
+      ],
+      "nota": "Preposição nua, sem artigo depois nas construções genéricas — o que a torna a única peça do roster em que o encaixe entra REALMENTE nu. É também a peça de segurança do curso: restrição alimentar é onde o mal-entendido custa saúde, não dinheiro."
+    },
+    {
+      "id": "PROCURO",
+      "categoria": "operacional",
+      "forma": "Procuro [o/a coisa].",
+      "encaixe": "o que ele procura, quando não sabe onde se acha",
+      "tipo": "aberto",
+      "tipoBuraco": "coisa",
+      "casa": "B10",
+      "redisparos": [
+        "B16",
+        "B17",
+        "I09"
+      ],
+      "tiles": [
+        "compras",
+        "chegar",
+        "cidade"
+      ],
+      "exemplos": [
+        "uma farmácia",
+        "um multibanco",
+        "o Cais do Sodré",
+        "um supermercado"
+      ],
+      "nota": "Cobre o buraco entre ONDE-E e TEM: ONDE-E pergunta por um lugar conhecido, TEM por existência ali, e PROCURO abre a busca. A casa é B10 e é deliberada — é a parte de ler o lugar, e o primeiro objeto que o viajante procura em Lisboa é um multibanco, que é rede interbancária única e partilhada por praticamente toda a banca, com mais de noventa operações no mesmo terminal."
+    },
+    {
+      "id": "QUANTO-CUSTA",
+      "categoria": "operacional",
+      "forma": "Quanto custa [o/a coisa]?",
+      "encaixe": "qualquer coisa antes de se comprometer com ela",
+      "tipo": "aberto",
+      "tipoBuraco": "coisa",
+      "casa": "B15",
+      "redisparos": [
+        "B18",
+        "I10"
+      ],
+      "tiles": [
+        "pagar",
+        "compras",
+        "transporte"
+      ],
+      "exemplos": [
+        "isto",
+        "o bilhete",
+        "o quarto",
+        "a viagem"
+      ],
+      "nota": "Nasce onde o erro custa dinheiro. LIMITE DELIBERADO: as tiles são todas SINGULARES, porque «custa» concorda com o número e «quanto custam» exigiria do aluno uma decisão de concordância sob pressão. Perguntar por um item de cada vez é o desenho, não uma limitação a corrigir depois."
+    },
+    {
+      "id": "DESCULPE",
+      "categoria": "social",
+      "forma": "Desculpe, + [pedido]",
+      "encaixe": "o que ele precisa de um estranho",
+      "tipo": "aberto",
+      "tipoBuraco": "acao",
+      "casa": "B03",
+      "redisparos": [
+        "B05",
+        "B07",
+        "B08",
+        "I02"
+      ],
+      "tiles": [
+        "reparo",
+        "chegar",
+        "conversa"
+      ],
+      "exemplos": [
+        "não percebi",
+        "pode repetir",
+        "fala inglês",
+        "onde é a saída"
+      ],
+      "nota": "Abridor universal de reparo, e ele carrega um bônus de registro: «desculpe» JÁ É a 3.ª pessoa cortês — a forma familiar seria «desculpa». O aluno que aprende a peça certa nunca produz a errada, e não precisa saber que existe uma escolha."
+    },
+    {
+      "id": "A-QUE-HORAS",
+      "categoria": "operacional",
+      "forma": "A que horas é [o/a coisa]?",
+      "encaixe": "o que tem hora marcada",
+      "tipo": "aberto",
+      "tipoBuraco": "coisa",
+      "casa": "I01",
+      "redisparos": [
+        "I03",
+        "I07",
+        "A06"
+      ],
+      "tiles": [
+        "comer",
+        "transporte",
+        "cidade"
+      ],
+      "exemplos": [
+        "o pequeno-almoço",
+        "o comboio",
+        "a visita",
+        "o jantar"
+      ],
+      "nota": "Entra no intermediário porque é aí que o aluno para de sobreviver e começa a planejar. A forma fixa é «a que horas é», com o verbo já dentro — o buraco é a coisa, nunca o verbo, para o aluno não ter de escolher entre é / abre / fecha."
+    },
+    {
+      "id": "OBRIGADO",
+      "categoria": "social",
+      "forma": "Obrigado / Obrigada",
+      "encaixe": "o fecho de qualquer troca",
+      "tipo": "fechado",
+      "tipoBuraco": "acao",
+      "casa": "B02",
+      "redisparos": [
+        "B11",
+        "B14",
+        "B18",
+        "I07"
+      ],
+      "tiles": [
+        "simpatia",
+        "pagar",
+        "comer"
+      ],
+      "exemplos": [
+        "obrigado",
+        "obrigada",
+        "muito obrigado"
+      ],
+      "nota": "Molde FECHADO e o mais peculiar do catálogo inteiro, porque a escolha não é sobre o mundo nem sobre o interlocutor: OBRIGADO CONCORDA COM QUEM FALA. Um homem diz sempre «obrigado» e uma mulher diz sempre «obrigada», ouvindo o que ouvir. Cada aluno aprende UMA forma e a usa para sempre — é o único item do roster com zero decisão em tempo de execução, e é o que ele vai dizer dez vezes por dia."
+    }
+  ]
+}

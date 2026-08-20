@@ -1,0 +1,149 @@
+{
+  "schema": "kit-audio-pre-v1",
+  "slot": "A01",
+  "targetLocale": "pt-PT",
+  "buyerLocale": "en-US",
+  "status": "pending_generation",
+  "clips": [
+    {
+      "key": "pt-a01-n01",
+      "role": "guide_en_us_f",
+      "kind": "narration"
+    },
+    {
+      "key": "pt-a01-n02",
+      "role": "guide_en_us_m",
+      "kind": "narration"
+    },
+    {
+      "key": "pt-a01-t01",
+      "role": "target_pt_f",
+      "kind": "return"
+    },
+    {
+      "key": "pt-a01-e01",
+      "role": "ear_pt_m",
+      "kind": "return"
+    },
+    {
+      "key": "pt-a01-n03",
+      "role": "guide_en_us_f",
+      "kind": "narration"
+    },
+    {
+      "key": "pt-a01-n04",
+      "role": "guide_en_us_m",
+      "kind": "narration"
+    },
+    {
+      "key": "pt-a01-t02",
+      "role": "target_pt_f",
+      "kind": "return"
+    },
+    {
+      "key": "pt-a01-e02",
+      "role": "ear_pt_f",
+      "kind": "return"
+    },
+    {
+      "key": "pt-a01-n05",
+      "role": "guide_en_us_f",
+      "kind": "narration"
+    },
+    {
+      "key": "pt-a01-t03",
+      "role": "target_pt_m",
+      "kind": "return"
+    },
+    {
+      "key": "pt-a01-e03",
+      "role": "ear_pt_m",
+      "kind": "return"
+    },
+    {
+      "key": "pt-a01-n06",
+      "role": "guide_en_us_m",
+      "kind": "narration"
+    },
+    {
+      "key": "pt-a01-t04",
+      "role": "target_pt_f",
+      "kind": "return"
+    },
+    {
+      "key": "pt-a01-n07",
+      "role": "guide_en_us_f",
+      "kind": "narration"
+    },
+    {
+      "key": "pt-a01-t05",
+      "role": "target_pt_m",
+      "kind": "return"
+    },
+    {
+      "key": "pt-a01-n08",
+      "role": "guide_en_us_m",
+      "kind": "narration"
+    },
+    {
+      "key": "pt-a01-e04",
+      "role": "ear_pt_f",
+      "kind": "return"
+    },
+    {
+      "key": "pt-a01-n09",
+      "role": "guide_en_us_f",
+      "kind": "narration"
+    },
+    {
+      "key": "pt-a01-n10",
+      "role": "guide_en_us_m",
+      "kind": "narration"
+    },
+    {
+      "key": "pt-a01-e05",
+      "role": "ear_pt_m",
+      "kind": "return"
+    },
+    {
+      "key": "pt-a01-n11",
+      "role": "guide_en_us_f",
+      "kind": "narration"
+    },
+    {
+      "key": "pt-a01-e06",
+      "role": "ear_pt_f",
+      "kind": "return"
+    },
+    {
+      "key": "pt-a01-n12",
+      "role": "guide_en_us_f",
+      "kind": "recap"
+    },
+    {
+      "key": "pt-a01-q-i",
+      "role": "guide_en_us_f",
+      "kind": "quiz_intro"
+    },
+    {
+      "key": "pt-a01-q01",
+      "role": "ear_pt_m",
+      "kind": "quiz"
+    },
+    {
+      "key": "pt-a01-q02",
+      "role": "ear_pt_f",
+      "kind": "quiz"
+    },
+    {
+      "key": "pt-a01-q03",
+      "role": "ear_pt_m",
+      "kind": "quiz"
+    },
+    {
+      "key": "pt-a01-q04",
+      "role": "ear_pt_f",
+      "kind": "quiz"
+    }
+  ]
+}
